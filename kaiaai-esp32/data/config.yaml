@@ -1,0 +1,113 @@
+#
+# Board-specific assignments
+#
+ssid: Minhthuy
+pass: 68401184
+dest_ip: 192.168.88.153
+dest_port: 8888
+
+board:
+  manufacturer: makerspet.com
+  model: Mini body with ESP32-S3-DevKitC-1
+  version: v1.1
+lidar:
+  gpio:
+    tx: 17
+    rx: 16
+    pwm: 19
+    en: 15
+led:
+  system: 
+    driver:
+      type: direct
+      gpio: 6
+# RGB_BUILTIN 97, crashes setPinMode()
+# GPIO38 physical
+      invert: false
+button:
+  boot:
+    gpio: 0
+#   invert: true
+    invert: false
+# BOOT is stuck LOW when using USB serial
+monitor:
+  gpio:
+    tx: 43
+motor:
+  driver:
+    type: L298_EN
+  encoder:
+    type: AB_QUAD
+  left:
+    encoder:
+      gpio:
+        a: 11
+        b: 10
+    driver:
+      gpio:
+        ena: 42
+        # Match wiring: IN1=40, IN2=41 (same as your standalone L298 test)
+        in1: 38
+        in2: 39
+  right:
+    encoder:
+      gpio:
+        a: 13
+        b: 12
+    driver:
+      gpio:
+        enb: 37
+        in1: 40
+        in2: 41
+adc:
+  battery:
+    attenuation: 3.5
+    gpio: 7
+    voltage:
+# 12V motors, 6x AA/D/C (1.2-1.6V) batteries
+      full: 12.6
+      empty: 9.6
+#
+# Peripherals configuration
+#
+lidar:
+  #model: LDROBOT LD14P
+# model: NEATO XV11
+# model: SLAMTEC RPLIDAR A1
+ model: XIAOMI LDS02RR
+# model: YDLIDAR SCL
+# model: YDLIDAR X2
+# model: YDLIDAR X2L
+# model: YDLIDAR X3
+# model: YDLIDAR X3 PRO
+# model: 3IROBOTIX DELTA-2G
+# model: 3IROBOTIX DELTA-2A 115200
+# model: 3IROBOTIX DELTA-2A
+# model: 3IROBOTIX DELTA-2B
+# model: YDLIDAR X4 PRO
+# model: YDLIDAR X4
+  scan:
+    freq:
+      target: 5.0
+monitor:
+  baud: 115200
+base:
+  wheel:
+    track: 0.17
+    diameter: 0.065
+    accel:
+      max: 0.5
+motor:
+  rpm:
+# derated
+    max: 100
+  driver:
+    pid:
+      kp: 0.03
+      ki: 0.0
+      kd: 0.0
+      period: 0.03
+      kpm: 0
+  encoder:
+    ppr: 990
+
