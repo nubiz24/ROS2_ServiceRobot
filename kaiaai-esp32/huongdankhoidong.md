@@ -41,6 +41,11 @@ ros2 run kaiaai_telemetry telem --ros-args \
 ros2 launch kaiaai_bringup physical.launch.py
 ```
 ros2 launch kaiaai_bringup navigation.launch.py map:=$HOME/maps/map.yaml
+
+ros2 launch kaiaai_bringup monitor_robot.launch.py
+
+ros2 run kaiaai_teleop teleop_keyboard
+
 Neu dung model khac:
 
 ```bash
@@ -61,9 +66,9 @@ ros2 run kaiaai_teleop teleop_keyboard
 ## 5) Chay web dieu khien (neu can)
 
 Trong thu muc du an:
-
+/home/duong/Arduino/ROS2_ServiceRobot/kaiaai-esp32/web
 ```bash
-python3 -m http.server 8080 -d /home/duong/Arduino/kaiaai-esp32/web
+python3 -m http.server 8080 -d /home/duong/Arduino/ROS2_ServiceRobot/kaiaai-esp32/web
 ```
 ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 Mo trinh duyet:
@@ -113,3 +118,10 @@ source /opt/ros/iron/setup.bash
 colcon build --symlink-install --packages-select robot_serving_bot
 source ~/kaia_ws/install/setup.bash
 ros2 launch kaiaai_bringup cartographer.launch.py robot_model:=robot_serving_bot
+
+ros2 launch kaiaai_bringup navigation.launch.py slam:=True
+
+
+cd ~/kaia_ws
+colcon build --packages-select makerspet_mini
+source ~/kaia_ws/install/setup.bash

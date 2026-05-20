@@ -446,7 +446,7 @@
       }
     }
   </style>
-  <script src="https://cdn.jsdelivr.net/npm/roslib/build/roslib.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/roslib@1.4.1/build/roslib.min.js"></script>
 </head>
 <body>
   <main class="container">
@@ -491,6 +491,10 @@
       <p class="meta-text">
         Topic publish: <code>/cmd_vel</code>, type: <code>geometry_msgs/msg/Twist</code>
       </p>
+      <label class="meta-text" style="display:flex;align-items:center;gap:8px;margin-top:8px;">
+        <input id="teleopEnabled" type="checkbox">
+        Bật gửi <code>/cmd_vel</code> từ web (tắt khi dùng Nav2 để không chặn điều hướng)
+      </label>
     </section>
 
     <section class="card">
@@ -508,7 +512,7 @@
       <h2>Điểm đến Nav2</h2>
       <p class="nav-lead">
         Chụp vị trí robot, đặt tên và lưu. Trong danh sách bên dưới bấm <strong>Đi đến</strong> để Nav2 tự động tới điểm đó
-        (cần Nav2 + rosbridge hỗ trợ action).
+        (cần Nav2 + rosbridge ≥ 2.0 với action ROS 2). Khi điều hướng, tắt checkbox cmd_vel ở trên.
       </p>
       <div class="nav-row">
         <button id="capturePoseBtn" type="button" class="secondary">Chụp vị trí hiện tại</button>
@@ -563,9 +567,104 @@
     let cmdVelTopic = null;
     let odomTopic = null;
     let cmdVelTimer = null;
-    let navActionClient = null;
+    let navBridgeAttached = false;
     let amclTopic = null;
-    let activeNavGoal = null;
+    let activeNavGoalId = null;
+    let activeNavActionName = "/navigate_to_pose";
+    let navigationActive = false;
+
+    /** ROS 2 Nav2 goals via rosbridge send_action_goal (works with roslib 1.x + Ros socket). */
+    const Nav2ActionBridge = {
+      goals: Object.create(null),
+      _listener: null,
+
+      attach: function(rosInstance) {
+        if (!rosInstance || !rosInstance.socket) {
+          return;
+        }
+        this.detach();
+        this._ros = rosInstance;
+        this._listener = function(event) {
+          Nav2ActionBridge._onSocketMessage(event);
+        };
+        rosInstance.socket.addEventListener("message", this._listener);
+        navBridgeAttached = true;
+      },
+
+      detach: function() {
+        if (this._ros && this._ros.socket && this._listener) {
+          this._ros.socket.removeEventListener("message", this._listener);
+        }
+        this._listener = null;
+        this._ros = null;
+        this.goals = Object.create(null);
+        navBridgeAttached = false;
+      },
+
+      sendGoal: function(actionName, actionType, goalMsg, callbacks) {
+        if (!this._ros || !this._ros.socket || this._ros.socket.readyState !== 1) {
+          return null;
+        }
+        const id = "web_nav_" + Date.now();
+        this.goals[id] = callbacks || {};
+        // rosbridge zips args[] with goal fields [pose, behavior_tree] — do not wrap full goal in one list item.
+        const bridgeArgs = [goalMsg.pose, goalMsg.behavior_tree != null ? goalMsg.behavior_tree : ""];
+        this._ros.socket.send(
+          JSON.stringify({
+            op: "send_action_goal",
+            id: id,
+            action: actionName,
+            action_type: actionType,
+            args: bridgeArgs,
+            feedback: true
+          })
+        );
+        return id;
+      },
+
+      cancelGoal: function(id, actionName) {
+        if (!this._ros || !this._ros.socket || !id) {
+          return;
+        }
+        this._ros.socket.send(
+          JSON.stringify({
+            op: "cancel_action_goal",
+            id: id,
+            action: actionName
+          })
+        );
+        delete this.goals[id];
+      },
+
+      _onSocketMessage: function(event) {
+        let data;
+        try {
+          data = JSON.parse(event.data);
+        } catch (e) {
+          return;
+        }
+        const id = data.id;
+        if (!id || !Nav2ActionBridge.goals[id]) {
+          return;
+        }
+        const cbs = Nav2ActionBridge.goals[id];
+        if (data.op === "action_feedback" && cbs.feedback) {
+          cbs.feedback(data.values || data);
+        }
+        if (data.op === "action_result") {
+          if (data.result === false && cbs.failed) {
+            cbs.failed(data.values ? JSON.stringify(data.values) : "action failed");
+          } else if (cbs.result) {
+            cbs.result(data.values || data);
+          }
+          delete Nav2ActionBridge.goals[id];
+        }
+        if (data.op === "status" && data.level === "error" && cbs.failed) {
+          cbs.failed(data.msg || "rosbridge error");
+          delete Nav2ActionBridge.goals[id];
+        }
+      }
+    };
     let lastOdomSnapshot = null;
     let lastAmclSnapshot = null;
     const WAYPOINT_STORAGE_KEY = "kaia_ros2_waypoints_v1";
@@ -612,12 +711,22 @@
       targetAngularEl.textContent = targetAngular.toFixed(2);
     }
 
+    function isTeleopEnabled() {
+      const el = document.getElementById("teleopEnabled");
+      return el && el.checked;
+    }
+
     function startCmdVelLoop() {
+      if (!isTeleopEnabled() || navigationActive) {
+        return;
+      }
       if (cmdVelTimer) {
         clearInterval(cmdVelTimer);
       }
-      // Publish repeatedly like teleop so robot keeps moving smoothly.
       cmdVelTimer = setInterval(function() {
+        if (!isTeleopEnabled() || navigationActive) {
+          return;
+        }
         publishCmd(targetLinear, targetAngular);
       }, 100);
     }
@@ -787,11 +896,21 @@
     }
 
     function ensureRosConnectedForNav() {
-      if (!ros || !navActionClient) {
-        setNavStatus("Chưa kết nối ROSBridge hoặc Nav2 client chưa sẵn sàng.", "err");
+      if (!ros || !ros.isConnected || !navBridgeAttached) {
+        setNavStatus("Chưa kết nối ROSBridge (hoặc socket chưa sẵn sàng).", "err");
         return false;
       }
       return true;
+    }
+
+    function finishNavigation(statusText, kind) {
+      navigationActive = false;
+      activeNavGoalId = null;
+      stopCmdVelLoop();
+      if (isTeleopEnabled()) {
+        startCmdVelLoop();
+      }
+      setNavStatus(statusText, kind);
     }
 
     function sendNavigateToPose(wp) {
@@ -799,13 +918,16 @@
         return;
       }
 
-      if (activeNavGoal && typeof activeNavGoal.cancel === "function") {
-        try {
-          activeNavGoal.cancel();
-        } catch (e) {
-          console.warn(e);
-        }
-        activeNavGoal = null;
+      stopCmdVelLoop();
+      navigationActive = true;
+
+      const navServer =
+        document.getElementById("navActionName").value.trim() || "/navigate_to_pose";
+      activeNavActionName = navServer;
+
+      if (activeNavGoalId) {
+        Nav2ActionBridge.cancelGoal(activeNavGoalId, activeNavActionName);
+        activeNavGoalId = null;
       }
 
       const goalMsg = {
@@ -822,44 +944,85 @@
         behavior_tree: ""
       };
 
-      const goal = new ROSLIB.Goal({
-        actionClient: navActionClient,
-        goalMessage: goalMsg
-      });
-
-      activeNavGoal = goal;
-
-      goal.on("feedback", function(feedback) {
-        const dist =
-          feedback && feedback.distance_remaining !== undefined
-            ? feedback.distance_remaining
-            : null;
-        if (dist !== null && Number.isFinite(dist)) {
-          setNavStatus("Đang điều hướng… còn ~" + dist.toFixed(2) + " m", "");
+      const goalId = Nav2ActionBridge.sendGoal(
+        navServer,
+        "nav2_msgs/action/NavigateToPose",
+        goalMsg,
+        {
+          result: function(result) {
+            console.log("Nav2 result:", result);
+            finishNavigation("Điều hướng hoàn tất (Nav2).", "ok");
+          },
+          feedback: function(feedback) {
+            const dist =
+              feedback && feedback.distance_remaining !== undefined
+                ? feedback.distance_remaining
+                : null;
+            if (dist !== null && Number.isFinite(dist)) {
+              setNavStatus("Đang điều hướng… còn ~" + dist.toFixed(2) + " m", "");
+            }
+          },
+          failed: function(error) {
+            console.error("Nav2 action failed:", error);
+            finishNavigation("Nav2 từ chối goal: " + error, "err");
+          }
         }
-      });
+      );
 
-      goal.on("result", function() {
-        activeNavGoal = null;
-        setNavStatus("Đã nhận kết quả từ Nav2.", "ok");
-      });
+      if (!goalId) {
+        navigationActive = false;
+        setNavStatus(
+          "Không gửi được action (rosbridge cần hỗ trợ send_action_goal).",
+          "err"
+        );
+        return;
+      }
 
-      goal.send();
-      setNavStatus('Đã gửi «' + (wp.name || "Điểm") + '» (frame "' + wp.frame_id + '").', "");
+      activeNavGoalId = goalId;
+      setNavStatus(
+        'Đã gửi «' +
+          (wp.name || "Điểm") +
+          '» qua action ROS 2 «' +
+          navServer +
+          '» (frame "' +
+          wp.frame_id +
+          '").',
+        "ok"
+      );
     }
 
     function connect() {
+      if (typeof ROSLIB === "undefined") {
+        setConnState("Lỗi tải thư viện");
+        setNavStatus(
+          "Không tải được roslib. Chạy: python3 -m http.server 8080 -d .../web rồi mở http://localhost:8080/ros2-control.html (không mở file://).",
+          "err"
+        );
+        return;
+      }
+
       const wsUrl = document.getElementById("wsUrl").value.trim();
       if (!wsUrl) {
         setConnState("URL không hợp lệ");
         return;
       }
 
+      if (ros) {
+        try {
+          ros.close();
+        } catch (e) {
+          console.warn(e);
+        }
+      }
+      Nav2ActionBridge.detach();
+
       ros = new ROSLIB.Ros({ url: wsUrl });
 
       ros.on("connection", function() {
         setConnState("Đã kết nối");
-        startCmdVelLoop();
+        setTimeout(function() {
+          Nav2ActionBridge.attach(ros);
+        }, 0);
 
         cmdVelTopic = new ROSLIB.Topic({
           ros: ros,
@@ -884,14 +1047,6 @@
           yawEl.textContent = yaw.toFixed(3);
         });
 
-        const navServer =
-          document.getElementById("navActionName").value.trim() || "/navigate_to_pose";
-        navActionClient = new ROSLIB.ActionClient({
-          ros: ros,
-          serverName: navServer,
-          actionName: "nav2_msgs/action/NavigateToPose"
-        });
-
         amclTopic = new ROSLIB.Topic({
           ros: ros,
           name: "/amcl_pose",
@@ -900,15 +1055,23 @@
         amclTopic.subscribe(function(msg) {
           lastAmclSnapshot = msg;
         });
+
+        setNavStatus("Đã kết nối ROSBridge. Gửi goal Nav2 qua send_action_goal.", "ok");
+
+        if (isTeleopEnabled()) {
+          startCmdVelLoop();
+        }
       });
 
       ros.on("error", function(error) {
         console.error(error);
         setConnState("Lỗi kết nối");
+        setNavStatus("Lỗi WebSocket — kiểm tra rosbridge và URL.", "err");
       });
 
       ros.on("close", function() {
         setConnState("Đã ngắt");
+        Nav2ActionBridge.detach();
       });
     }
 
@@ -923,15 +1086,12 @@
       }
       lastAmclSnapshot = null;
       lastOdomSnapshot = null;
-      navActionClient = null;
-      if (activeNavGoal && typeof activeNavGoal.cancel === "function") {
-        try {
-          activeNavGoal.cancel();
-        } catch (e) {
-          console.warn(e);
-        }
+      if (activeNavGoalId) {
+        Nav2ActionBridge.cancelGoal(activeNavGoalId, activeNavActionName);
       }
-      activeNavGoal = null;
+      Nav2ActionBridge.detach();
+      activeNavGoalId = null;
+      navigationActive = false;
       stopCmdVelLoop();
       cmdVelTopic = null;
       if (ros) {
@@ -942,15 +1102,25 @@
     }
 
     function publishCmd(linearX, angularZ) {
-      if (!cmdVelTopic) {
+      if (!cmdVelTopic || navigationActive) {
         return;
       }
-      const msg = new ROSLIB.Message({
-        linear: { x: linearX, y: 0.0, z: 0.0 },
-        angular: { x: 0.0, y: 0.0, z: angularZ }
-      });
-      cmdVelTopic.publish(msg);
+      cmdVelTopic.publish(
+        new ROSLIB.Message({
+          linear: { x: linearX, y: 0.0, z: 0.0 },
+          angular: { x: 0.0, y: 0.0, z: angularZ }
+        })
+      );
     }
+
+    document.getElementById("teleopEnabled").addEventListener("change", function() {
+      if (isTeleopEnabled() && ros && ros.isConnected) {
+        startCmdVelLoop();
+      } else {
+        stopCmdVelLoop();
+        publishCmd(0, 0);
+      }
+    });
 
     document.getElementById("connectBtn").addEventListener("click", connect);
     document.getElementById("disconnectBtn").addEventListener("click", disconnect);

@@ -47,8 +47,8 @@ motor:
       gpio:
         ena: 42
         # Match wiring: IN1=40, IN2=41 (same as your standalone L298 test)
-        in1: 38
-        in2: 39
+        in1: 41
+        in2: 40
   right:
     encoder:
       gpio:
@@ -57,8 +57,8 @@ motor:
     driver:
       gpio:
         enb: 37
-        in1: 40
-        in2: 41
+        in1: 39
+        in2: 38
 adc:
   battery:
     attenuation: 3.5
@@ -96,16 +96,15 @@ base:
     track: 0.17
     diameter: 0.065
     accel:
-      max: 0.5
+      max: 1.0
 motor:
   rpm:
-# derated
     max: 100
   driver:
     pid:
-      kp: 0.03
+      kp: 0.06
       ki: 0.0
-      kd: 0.0
+      kd: 0.02
       period: 0.03
       kpm: 0
   encoder:

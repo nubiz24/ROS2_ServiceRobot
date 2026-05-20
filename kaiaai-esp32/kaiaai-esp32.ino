@@ -44,7 +44,7 @@ float ramp_target_rpm_right = 0;
 float ramp_target_rpm_left = 0;
 bool ramp_enabled = true;
 static constexpr float CMD_VEL_LINEAR_DEADBAND = 0.03f;   // m/s
-static constexpr float CMD_VEL_ANGULAR_DEADBAND = 0.15f;  // rad/s
+static constexpr float CMD_VEL_ANGULAR_DEADBAND = 0.05f;  // rad/s
 
 unsigned long stat_sum_spin_telem_period_us = 0;
 unsigned long stat_max_spin_telem_period_us = 0;

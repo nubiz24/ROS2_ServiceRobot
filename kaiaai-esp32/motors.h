@@ -323,7 +323,8 @@ void setupMotors() {
 }
 
 void setMotorSpeeds(float rpm_left, float rpm_right) {
-  static constexpr float TARGET_RPM_DEADBAND = 20.0f;
+  // Keep small to avoid stiction; 20 RPM (~0.07 m/s) blocked Nav2 approach speeds.
+  static constexpr float TARGET_RPM_DEADBAND = 5.0f;
   if (fabsf(rpm_right) < TARGET_RPM_DEADBAND)
     rpm_right = 0.f;
   if (fabsf(rpm_left) < TARGET_RPM_DEADBAND)
