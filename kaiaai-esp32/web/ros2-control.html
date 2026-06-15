@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kaia ROS2 Web Control</title>
+  <title>Điều khiển robot Kaia</title>
   <style>
     :root {
       --bg: #0b1020;
@@ -98,6 +98,12 @@
     input:focus {
       border-color: var(--primary);
       box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+    }
+
+    input[type="checkbox"] {
+      width: auto;
+      max-width: none;
+      accent-color: var(--primary);
     }
 
     button {
@@ -257,6 +263,211 @@
       border-radius: 6px;
       padding: 2px 6px;
       font-size: 0.86rem;
+    }
+
+    input[type="color"] {
+      width: 52px;
+      height: 42px;
+      padding: 4px;
+      cursor: pointer;
+    }
+
+    .floor-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .floor-header h2 {
+      margin-bottom: 0;
+    }
+
+    .floor-status {
+      color: #475569;
+      font-size: 0.86rem;
+      font-weight: 700;
+    }
+
+    .floor-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .floor-toolbar button {
+      background: #e2e8f0;
+      color: #0f172a;
+      border: 1px solid #cbd5e1;
+      padding: 9px 11px;
+    }
+
+    .floor-toolbar button:hover,
+    .floor-toolbar button.active {
+      background: #0f766e;
+      border-color: #0f766e;
+      color: #fff;
+    }
+
+    .floor-pose-line {
+      margin-left: auto;
+      color: #334155;
+      font-size: 0.88rem;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .floor-layout {
+      display: grid;
+      grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .floor-sidebar {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      padding: 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      background: #f8fafc;
+    }
+
+    .floor-sidebar .field {
+      margin-bottom: 0;
+    }
+
+    .floor-sidebar input {
+      max-width: none;
+    }
+
+    .floor-controls {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .floor-color-row {
+      display: flex;
+      align-items: end;
+      gap: 12px;
+    }
+
+    .floor-color-row .field:first-child {
+      flex: 1 1 auto;
+    }
+
+    .floor-canvas-wrap {
+      min-height: 520px;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #f8fafc;
+      position: relative;
+    }
+
+    #floorCanvas {
+      display: block;
+      width: 100%;
+      height: 520px;
+      touch-action: none;
+      cursor: crosshair;
+    }
+
+    #floorCanvas[data-tool="select"] {
+      cursor: default;
+    }
+
+    #floorCanvas[data-tool="pan"] {
+      cursor: grab;
+    }
+
+    #floorCanvas[data-tool="erase"] {
+      cursor: not-allowed;
+    }
+
+    .file-button {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      color: #fff;
+      background: var(--secondary);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.92rem;
+      overflow: hidden;
+    }
+
+    .file-button input {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .floor-object-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 8px;
+      max-height: 260px;
+      overflow: auto;
+    }
+
+    .floor-object-item {
+      display: grid;
+      grid-template-columns: 18px minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 8px;
+      padding: 8px;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      background: #fff;
+    }
+
+    .floor-object-item.selected {
+      border-color: #0f766e;
+      box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.12);
+    }
+
+    .floor-object-color {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 1px solid #cbd5e1;
+    }
+
+    .floor-object-title {
+      min-width: 0;
+      color: #0f172a;
+      font-size: 0.87rem;
+      font-weight: 700;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .floor-object-type {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    .floor-object-item button {
+      padding: 7px 9px;
+      font-size: 0.8rem;
+      background: var(--secondary);
     }
 
     .nav-card .nav-lead {
@@ -436,6 +647,20 @@
         max-width: none;
       }
 
+      .floor-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .floor-canvas-wrap,
+      #floorCanvas {
+        min-height: 420px;
+        height: 420px;
+      }
+
+      .floor-controls {
+        grid-template-columns: 1fr;
+      }
+
       .nav-row {
         flex-direction: column;
         align-items: stretch;
@@ -450,12 +675,12 @@
 </head>
 <body>
   <main class="container">
-    <h1 class="page-title">Kaia ROS2 Web Control</h1>
-    <p class="page-subtitle">Bảng điều khiển robot trực quan qua ROSBridge</p>
+    <h1 class="page-title">Điều khiển robot Kaia</h1>
+    <p class="page-subtitle">Lái robot, lưu điểm đến và quản lý sơ đồ phòng</p>
 
     <section class="card">
       <div class="field">
-        <label for="wsUrl">ROSBridge WebSocket URL</label>
+        <label for="wsUrl">Địa chỉ kết nối robot</label>
         <input id="wsUrl" type="text" value="ws://localhost:9090">
       </div>
       <div class="button-row">
@@ -469,7 +694,7 @@
     </section>
 
     <section class="card">
-      <h2>Điều khiển vận tốc (`/cmd_vel`)</h2>
+      <h2>Lái robot thủ công</h2>
       <div class="dpad">
         <button data-cmd="forward" class="forward">Tiến</button>
         <button data-cmd="left" class="left">Trái</button>
@@ -480,83 +705,140 @@
       <div class="speed-grid">
         <button data-cmd="inc-linear">Tăng tốc +</button>
         <button data-cmd="dec-linear" class="secondary">Giảm tốc -</button>
-        <button data-cmd="inc-angular">Tăng góc +</button>
-        <button data-cmd="dec-angular" class="secondary">Giảm góc -</button>
+        <button data-cmd="inc-angular">Xoay nhanh +</button>
+        <button data-cmd="dec-angular" class="secondary">Xoay chậm -</button>
       </div>
       <p class="meta-text">
-        Vận tốc mục tiêu:
-        <code>linear.x = <span id="targetLinear">0.00</span></code>
-        <code>angular.z = <span id="targetAngular">0.00</span></code>
-      </p>
-      <p class="meta-text">
-        Topic publish: <code>/cmd_vel</code>, type: <code>geometry_msgs/msg/Twist</code>
+        Tốc độ đang chọn:
+        <code>tiến/lùi = <span id="targetLinear">0.00</span></code>
+        <code>xoay = <span id="targetAngular">0.00</span></code>
       </p>
       <label class="meta-text" style="display:flex;align-items:center;gap:8px;margin-top:8px;">
         <input id="teleopEnabled" type="checkbox">
-        Bật gửi <code>/cmd_vel</code> từ web (tắt khi dùng Nav2 để không chặn điều hướng)
+        Cho phép lái thủ công từ trang này
       </label>
     </section>
 
     <section class="card">
-      <h2>Vị trí robot (`/odom`)</h2>
-      <p class="meta-text">Topic subscribe: <code>nav_msgs/msg/Odometry</code></p>
+      <h2>Theo dõi vị trí robot</h2>
       <div class="telemetry">
-        <div class="metric"><span>X</span><strong id="xVal">-</strong></div>
-        <div class="metric"><span>Y</span><strong id="yVal">-</strong></div>
-        <div class="metric"><span>Z</span><strong id="zVal">-</strong></div>
-        <div class="metric"><span>Yaw (rad)</span><strong id="yawVal">-</strong></div>
+        <div class="metric"><span>Ngang</span><strong id="xVal">-</strong></div>
+        <div class="metric"><span>Dọc</span><strong id="yVal">-</strong></div>
+        <div class="metric"><span>Độ cao</span><strong id="zVal">-</strong></div>
+        <div class="metric"><span>Hướng quay</span><strong id="yawVal">-</strong></div>
+      </div>
+    </section>
+
+    <section class="card floor-card">
+      <div class="floor-header">
+        <h2>Sơ đồ phòng</h2>
+        <span id="floorStatus" class="floor-status" aria-live="polite"></span>
+      </div>
+      <div class="floor-toolbar" role="toolbar" aria-label="Công cụ vẽ sơ đồ">
+        <button type="button" data-plan-tool="select" class="active">Chọn</button>
+        <button type="button" data-plan-tool="pan">Kéo xem</button>
+        <button type="button" data-plan-tool="wall">Tường</button>
+        <button type="button" data-plan-tool="room">Phòng</button>
+        <button type="button" data-plan-tool="zone">Vùng cấm</button>
+        <button type="button" data-plan-tool="door">Cửa</button>
+        <button type="button" data-plan-tool="label">Nhãn</button>
+        <button type="button" data-plan-tool="erase">Xóa</button>
+        <span id="floorPoseLine" class="floor-pose-line">Vị trí hiện tại: chưa xác định</span>
+      </div>
+      <div class="floor-layout">
+        <aside class="floor-sidebar">
+          <div class="field">
+            <label for="planName">Tên bản đồ</label>
+            <input id="planName" type="text" value="Mặt bằng robot" autocomplete="off">
+          </div>
+          <div class="floor-controls">
+            <div class="field">
+              <label for="gridSize">Kích thước ô (m)</label>
+              <input id="gridSize" type="number" min="0.05" step="0.05" value="0.5">
+            </div>
+            <div class="field">
+              <label for="planScale">Độ phóng to</label>
+              <input id="planScale" type="number" min="20" max="180" step="5" value="70">
+            </div>
+          </div>
+          <div class="floor-color-row">
+            <div class="field">
+              <label for="elementName">Tên khu vực</label>
+              <input id="elementName" type="text" placeholder="Ví dụ: phòng bếp" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="elementColor">Màu</label>
+              <input id="elementColor" type="color" value="#2563eb">
+            </div>
+          </div>
+          <div class="button-row">
+            <button id="savePlanBtn" type="button">Lưu bản đồ</button>
+            <button id="fitPlanBtn" type="button" class="secondary">Canh vừa</button>
+          </div>
+          <div class="button-row">
+            <button id="exportPlanBtn" type="button" class="secondary">Tải bản đồ</button>
+            <label class="file-button" for="importPlanInput">
+              Mở bản đồ
+              <input id="importPlanInput" type="file" accept="application/json">
+            </label>
+            <button id="clearPlanBtn" type="button" class="secondary">Xóa bản đồ</button>
+          </div>
+          <h3 class="nav-subheading">Khu vực đã vẽ</h3>
+          <ul id="floorObjectList" class="floor-object-list"></ul>
+        </aside>
+        <div class="floor-canvas-wrap">
+          <canvas id="floorCanvas" data-tool="select" aria-label="Khu vực vẽ sơ đồ phòng"></canvas>
+        </div>
       </div>
     </section>
 
     <section class="card nav-card">
-      <h2>Điểm đến Nav2</h2>
+      <h2>Điểm đến của robot</h2>
       <p class="nav-lead">
-        Chụp vị trí robot, đặt tên và lưu. Trong danh sách bên dưới bấm <strong>Đi đến</strong> để Nav2 tự động tới điểm đó
-        (cần Nav2 + rosbridge ≥ 2.0 với action ROS 2). Khi điều hướng, tắt checkbox cmd_vel ở trên.
+        Đưa robot tới một vị trí, đặt tên rồi lưu lại. Sau đó có thể bấm <strong>Đi đến</strong>
+        trong danh sách hoặc bấm điểm trên sơ đồ để robot tự chạy tới.
       </p>
       <div class="nav-row">
-        <button id="capturePoseBtn" type="button" class="secondary">Chụp vị trí hiện tại</button>
+        <button id="capturePoseBtn" type="button" class="secondary">Lấy vị trí robot</button>
         <div class="field">
-          <label for="wpName">Tên điểm</label>
+          <label for="wpName">Tên nơi đến</label>
           <input id="wpName" type="text" placeholder="Ví dụ: bàn phụ 1" autocomplete="off">
         </div>
-        <button id="saveWaypointBtn" type="button">Lưu điểm</button>
+        <button id="saveWaypointBtn" type="button">Lưu nơi đến</button>
       </div>
       <div class="goal-grid">
         <div class="field">
-          <label for="goalX">X (m)</label>
+          <label for="goalX">Vị trí ngang</label>
           <input id="goalX" type="number" step="0.001" value="0">
         </div>
         <div class="field">
-          <label for="goalY">Y (m)</label>
+          <label for="goalY">Vị trí dọc</label>
           <input id="goalY" type="number" step="0.001" value="0">
         </div>
         <div class="field">
-          <label for="goalYaw">Yaw (rad)</label>
+          <label for="goalYaw">Hướng quay</label>
           <input id="goalYaw" type="number" step="0.001" value="0">
         </div>
       </div>
       <details class="nav-advanced">
-        <summary>Tùy chỉnh action và frame_id</summary>
+        <summary>Cài đặt nâng cao</summary>
         <p class="hint">
-          Chuẩn Nav2 (BT Navigator): action server <code>/navigate_to_pose</code>,
-          kiểu <code>nav2_msgs/action/NavigateToPose</code>.
-          Nếu stack của bạn có namespace / đổi tên server, sửa ô dưới rồi <strong>ngắt kết nối và kết nối lại</strong>.
+          Chỉ cần chỉnh phần này khi hệ thống robot của bạn dùng tên nội bộ khác mặc định.
+          Sau khi sửa, hãy <strong>ngắt kết nối và kết nối lại</strong>.
         </p>
         <div class="field">
-          <label for="navActionName">Tên action</label>
+          <label for="navActionName">Đường dẫn lệnh đi đến</label>
           <input id="navActionName" type="text" value="/navigate_to_pose" autocomplete="off">
         </div>
         <div class="field">
-          <label for="goalFrameId"><code>frame_id</code> khi chụp pose</label>
+          <label for="goalFrameId">Tên vùng định vị</label>
           <input id="goalFrameId" type="text" value="map" autocomplete="off">
         </div>
         <p class="hint">
-          «Chụp vị trí» ưu tiên <code>/amcl_pose</code> và gán <code>frame_id</code> theo header (thường là <code>map</code>).
-          Chỉ có <code>/odom</code> thì đặt pose với <code>frame_id = odom</code> — Nav2 trên map thường cần AMCL hoặc chỉnh tay <code>frame_id</code>.
+          Nếu robot chạy sai vị trí sau khi lưu điểm, hãy kiểm tra phần này cùng cấu hình định vị của robot.
         </p>
       </details>
-      <h3 class="nav-subheading">Đã lưu trên trình duyệt</h3>
+      <h3 class="nav-subheading">Nơi đến đã lưu</h3>
       <ul id="waypointList" class="waypoint-list"></ul>
       <p id="navStatus" class="meta-text nav-status-line" aria-live="polite"></p>
     </section>
@@ -667,7 +949,33 @@
     };
     let lastOdomSnapshot = null;
     let lastAmclSnapshot = null;
+    let lastNavFeedbackPoseSnapshot = null;
     const WAYPOINT_STORAGE_KEY = "kaia_ros2_waypoints_v1";
+    const FLOORPLAN_STORAGE_KEY = "kaia_ros2_floorplan_v1";
+    const NAV_ARRIVAL_DISTANCE_M = 0.3;
+    const PLAN_TOOL_LABELS = {
+      select: "Chọn",
+      pan: "Pan",
+      wall: "Tường",
+      room: "Phòng",
+      zone: "Vùng cấm",
+      door: "Cửa",
+      label: "Nhãn",
+      erase: "Xóa"
+    };
+    const PLAN_TOOL_COLORS = {
+      wall: "#334155",
+      room: "#38bdf8",
+      zone: "#f97316",
+      door: "#0f766e",
+      label: "#111827"
+    };
+    const FLOORPLAN_DEFAULT = {
+      name: "Mặt bằng robot",
+      gridSize: 0.5,
+      pixelsPerMeter: 70,
+      objects: []
+    };
 
     let targetLinear = 0.0;
     let targetAngular = 0.0;
@@ -685,6 +993,33 @@
     const targetAngularEl = document.getElementById("targetAngular");
     const navStatusEl = document.getElementById("navStatus");
     const waypointListEl = document.getElementById("waypointList");
+    const floorCanvasEl = document.getElementById("floorCanvas");
+    const floorCtx = floorCanvasEl.getContext("2d");
+    const floorStatusEl = document.getElementById("floorStatus");
+    const floorPoseLineEl = document.getElementById("floorPoseLine");
+    const floorObjectListEl = document.getElementById("floorObjectList");
+    const planNameEl = document.getElementById("planName");
+    const gridSizeEl = document.getElementById("gridSize");
+    const planScaleEl = document.getElementById("planScale");
+    const elementNameEl = document.getElementById("elementName");
+    const elementColorEl = document.getElementById("elementColor");
+
+    let floorPlan = null;
+    let floorTool = "select";
+    let floorSelectedId = null;
+    let floorSelectedWaypointId = null;
+    let floorDrawing = null;
+    let floorDrag = null;
+    let floorWaypointDrag = null;
+    let floorPan = null;
+    let floorRenderQueued = false;
+    let activeNavWaypointId = null;
+    let activeNavArrivalMarked = false;
+    const floorView = {
+      zoom: 1,
+      panX: 0,
+      panY: 0
+    };
 
     function quaternionToYaw(q) {
       const sinyCosp = 2 * (q.w * q.z + q.x * q.y);
@@ -776,14 +1111,1211 @@
       localStorage.setItem(WAYPOINT_STORAGE_KEY, JSON.stringify(items));
     }
 
+    function getFloorWaypointsForRender() {
+      return loadWaypointsFromStorage().map(function(wp) {
+        if (floorWaypointDrag && floorWaypointDrag.id === wp.id && floorWaypointDrag.currentWaypoint) {
+          return floorWaypointDrag.currentWaypoint;
+        }
+        return wp;
+      });
+    }
+
+    function updateWaypointPositionInStorage(wp) {
+      const items = loadWaypointsFromStorage();
+      const next = items.map(function(item) {
+        if (item.id !== wp.id) {
+          return item;
+        }
+        return {
+          ...item,
+          x: wp.x,
+          y: wp.y,
+          yaw: wp.yaw,
+          frame_id: wp.frame_id,
+          arrived: false,
+          arrivedAt: null
+        };
+      });
+      saveWaypointsToStorage(next);
+      renderWaypointList(next);
+      return next.find(function(item) {
+        return item.id === wp.id;
+      }) || wp;
+    }
+
+    function updateWaypointArrivalState(waypointId, arrived) {
+      if (!waypointId) {
+        return null;
+      }
+      const items = loadWaypointsFromStorage();
+      let updated = null;
+      const next = items.map(function(item) {
+        if (item.id !== waypointId) {
+          return item;
+        }
+        updated = {
+          ...item,
+          arrived: Boolean(arrived),
+          arrivedAt: arrived ? new Date().toISOString() : null
+        };
+        return updated;
+      });
+      if (updated) {
+        saveWaypointsToStorage(next);
+        renderWaypointList(next);
+        updateFloorPoseLine();
+        requestFloorRender();
+      }
+      return updated;
+    }
+
+    function markWaypointArrived(wp, reasonText) {
+      const updated = updateWaypointArrivalState(wp && wp.id, true) || wp;
+      if (updated) {
+        floorSelectedWaypointId = updated.id;
+      }
+      updateFloorPoseLine();
+      setNavStatus(
+        'Robot đã tới "' +
+          ((updated && updated.name) || "Điểm") +
+          '"' +
+          (reasonText ? " (" + reasonText + ")" : "") +
+          ".",
+        "ok"
+      );
+    }
+
+    function clearWaypointArrivalState(waypointId) {
+      updateWaypointArrivalState(waypointId, false);
+    }
+
+    function unwrapNavFeedback(feedback) {
+      if (!feedback || typeof feedback !== "object") {
+        return {};
+      }
+      if (feedback.feedback && typeof feedback.feedback === "object") {
+        return feedback.feedback;
+      }
+      if (feedback.values && feedback.values.feedback && typeof feedback.values.feedback === "object") {
+        return feedback.values.feedback;
+      }
+      if (feedback.values && typeof feedback.values === "object") {
+        return feedback.values;
+      }
+      return feedback;
+    }
+
+    function getFeedbackDistance(feedback) {
+      const data = unwrapNavFeedback(feedback);
+      const candidates = [
+        data.distance_remaining,
+        data.distanceRemaining,
+        data.navigation_time && data.distance_remaining
+      ];
+      for (let i = 0; i < candidates.length; i++) {
+        const value = Number(candidates[i]);
+        if (Number.isFinite(value)) {
+          return value;
+        }
+      }
+      return null;
+    }
+
+    function updatePoseFromNavFeedback(feedback) {
+      const data = unwrapNavFeedback(feedback);
+      const poseStamped = data.current_pose || data.currentPose;
+      if (!poseStamped || !poseStamped.pose || !poseStamped.pose.position || !poseStamped.pose.orientation) {
+        return;
+      }
+      const p = poseStamped.pose.position;
+      const q = poseStamped.pose.orientation;
+      lastNavFeedbackPoseSnapshot = {
+        x: Number(p.x),
+        y: Number(p.y),
+        yaw: quaternionToYaw(q),
+        source: "NAV"
+      };
+      updateFloorPoseLine();
+      requestFloorRender();
+    }
+
+    function getLatestArrivedWaypoint() {
+      return loadWaypointsFromStorage()
+        .filter(function(wp) {
+          return wp.arrived;
+        })
+        .sort(function(a, b) {
+          return Date.parse(b.arrivedAt || 0) - Date.parse(a.arrivedAt || 0);
+        })[0] || null;
+    }
+
+    function setFloorStatus(text) {
+      floorStatusEl.textContent = text || "";
+    }
+
+    function cloneData(value) {
+      return JSON.parse(JSON.stringify(value));
+    }
+
+    function createDefaultFloorPlan() {
+      return cloneData(FLOORPLAN_DEFAULT);
+    }
+
+    function sanitizeFloorObject(raw) {
+      if (!raw || !PLAN_TOOL_LABELS[raw.type] || raw.type === "select" || raw.type === "pan" || raw.type === "erase") {
+        return null;
+      }
+      const item = {
+        id: String(raw.id || "obj_" + Date.now() + "_" + Math.random().toString(36).slice(2, 8)),
+        type: raw.type,
+        name: String(raw.name || ""),
+        color: /^#[0-9a-f]{6}$/i.test(raw.color || "") ? raw.color : (PLAN_TOOL_COLORS[raw.type] || "#2563eb")
+      };
+      if (raw.type === "label") {
+        const x = Number(raw.x);
+        const y = Number(raw.y);
+        if (!Number.isFinite(x) || !Number.isFinite(y)) return null;
+        item.x = x;
+        item.y = y;
+        item.text = String(raw.text || raw.name || "Nhãn");
+        return item;
+      }
+      if (raw.type === "room" || raw.type === "zone") {
+        const x = Number(raw.x);
+        const y = Number(raw.y);
+        const w = Math.abs(Number(raw.w));
+        const h = Math.abs(Number(raw.h));
+        if (!Number.isFinite(x) || !Number.isFinite(y) || !Number.isFinite(w) || !Number.isFinite(h)) return null;
+        item.x = x;
+        item.y = y;
+        item.w = w;
+        item.h = h;
+        return item;
+      }
+      const x = Number(raw.x);
+      const y = Number(raw.y);
+      const x2 = Number(raw.x2);
+      const y2 = Number(raw.y2);
+      if (!Number.isFinite(x) || !Number.isFinite(y) || !Number.isFinite(x2) || !Number.isFinite(y2)) return null;
+      item.x = x;
+      item.y = y;
+      item.x2 = x2;
+      item.y2 = y2;
+      return item;
+    }
+
+    function loadFloorPlanFromStorage() {
+      try {
+        const raw = localStorage.getItem(FLOORPLAN_STORAGE_KEY);
+        if (!raw) {
+          return createDefaultFloorPlan();
+        }
+        const parsed = JSON.parse(raw);
+        const source = parsed.floorPlan || parsed;
+        const next = createDefaultFloorPlan();
+        next.name = String(source.name || next.name);
+        next.gridSize = clamp(Number(source.gridSize), 0.05, 5) || next.gridSize;
+        next.pixelsPerMeter = clamp(Number(source.pixelsPerMeter), 20, 180) || next.pixelsPerMeter;
+        next.objects = Array.isArray(source.objects)
+          ? source.objects.map(sanitizeFloorObject).filter(Boolean)
+          : [];
+        return next;
+      } catch (e) {
+        console.warn(e);
+        return createDefaultFloorPlan();
+      }
+    }
+
+    function syncFloorControlsFromPlan() {
+      planNameEl.value = floorPlan.name || FLOORPLAN_DEFAULT.name;
+      gridSizeEl.value = floorPlan.gridSize;
+      planScaleEl.value = floorPlan.pixelsPerMeter;
+    }
+
+    function syncFloorPlanFromControls() {
+      floorPlan.name = planNameEl.value.trim() || FLOORPLAN_DEFAULT.name;
+      floorPlan.gridSize = clamp(Number(gridSizeEl.value), 0.05, 5) || FLOORPLAN_DEFAULT.gridSize;
+      floorPlan.pixelsPerMeter = clamp(Number(planScaleEl.value), 20, 180) || FLOORPLAN_DEFAULT.pixelsPerMeter;
+      gridSizeEl.value = floorPlan.gridSize;
+      planScaleEl.value = floorPlan.pixelsPerMeter;
+    }
+
+    function saveFloorPlanToStorage(statusText) {
+      if (!floorPlan) {
+        return;
+      }
+      syncFloorPlanFromControls();
+      const payload = {
+        version: 1,
+        updatedAt: new Date().toISOString(),
+        floorPlan: floorPlan
+      };
+      localStorage.setItem(FLOORPLAN_STORAGE_KEY, JSON.stringify(payload));
+      renderFloorObjectList();
+      requestFloorRender();
+      if (statusText) {
+        setFloorStatus(statusText);
+      }
+    }
+
+    function getFloorCanvasSize() {
+      return {
+        width: floorCanvasEl.clientWidth || 800,
+        height: floorCanvasEl.clientHeight || 520
+      };
+    }
+
+    function resizeFloorCanvas() {
+      const rect = floorCanvasEl.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      const width = Math.max(320, Math.round(rect.width * dpr));
+      const height = Math.max(360, Math.round(rect.height * dpr));
+      if (floorCanvasEl.width !== width || floorCanvasEl.height !== height) {
+        floorCanvasEl.width = width;
+        floorCanvasEl.height = height;
+      }
+      requestFloorRender();
+    }
+
+    function floorPixelsPerMeter() {
+      return (floorPlan ? floorPlan.pixelsPerMeter : FLOORPLAN_DEFAULT.pixelsPerMeter) * floorView.zoom;
+    }
+
+    function worldToCanvas(x, y) {
+      const size = getFloorCanvasSize();
+      const scale = floorPixelsPerMeter();
+      return {
+        x: size.width / 2 + floorView.panX + x * scale,
+        y: size.height / 2 + floorView.panY - y * scale
+      };
+    }
+
+    function canvasToWorld(point) {
+      const size = getFloorCanvasSize();
+      const scale = floorPixelsPerMeter();
+      return {
+        x: (point.x - size.width / 2 - floorView.panX) / scale,
+        y: -(point.y - size.height / 2 - floorView.panY) / scale
+      };
+    }
+
+    function getFloorPointer(event) {
+      const rect = floorCanvasEl.getBoundingClientRect();
+      return {
+        x: event.clientX - rect.left,
+        y: event.clientY - rect.top
+      };
+    }
+
+    function requestFloorRender() {
+      if (floorRenderQueued || !floorPlan) {
+        return;
+      }
+      floorRenderQueued = true;
+      requestAnimationFrame(function() {
+        floorRenderQueued = false;
+        renderFloorPlanCanvas();
+      });
+    }
+
+    function hexToRgba(hex, alpha) {
+      const safe = /^#[0-9a-f]{6}$/i.test(hex || "") ? hex : "#2563eb";
+      const r = parseInt(safe.slice(1, 3), 16);
+      const g = parseInt(safe.slice(3, 5), 16);
+      const b = parseInt(safe.slice(5, 7), 16);
+      return "rgba(" + r + ", " + g + ", " + b + ", " + alpha + ")";
+    }
+
+    function roundedRect(ctx, x, y, width, height, radius) {
+      if (ctx.roundRect) {
+        ctx.roundRect(x, y, width, height, radius);
+        return;
+      }
+      const r = Math.min(radius, Math.abs(width) / 2, Math.abs(height) / 2);
+      ctx.moveTo(x + r, y);
+      ctx.lineTo(x + width - r, y);
+      ctx.quadraticCurveTo(x + width, y, x + width, y + r);
+      ctx.lineTo(x + width, y + height - r);
+      ctx.quadraticCurveTo(x + width, y + height, x + width - r, y + height);
+      ctx.lineTo(x + r, y + height);
+      ctx.quadraticCurveTo(x, y + height, x, y + height - r);
+      ctx.lineTo(x, y + r);
+      ctx.quadraticCurveTo(x, y, x + r, y);
+    }
+
+    function drawTextLabel(ctx, text, x, y, color) {
+      const label = text || "";
+      if (!label) {
+        return;
+      }
+      ctx.font = "700 12px Inter, Segoe UI, Arial, sans-serif";
+      const padX = 7;
+      const width = Math.min(180, ctx.measureText(label).width + padX * 2);
+      ctx.fillStyle = "rgba(255, 255, 255, 0.92)";
+      ctx.strokeStyle = "rgba(148, 163, 184, 0.8)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      roundedRect(ctx, x - width / 2, y - 29, width, 22, 7);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = color || "#0f172a";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText(label, x, y - 18, width - padX * 2);
+    }
+
+    function drawFloorGrid(ctx, width, height) {
+      const baseGrid = Math.max(0.05, floorPlan.gridSize || FLOORPLAN_DEFAULT.gridSize);
+      const scale = floorPixelsPerMeter();
+      let step = baseGrid;
+      while (step * scale < 16) {
+        step *= 2;
+      }
+
+      const topLeft = canvasToWorld({ x: 0, y: 0 });
+      const bottomRight = canvasToWorld({ x: width, y: height });
+      const minX = Math.floor(Math.min(topLeft.x, bottomRight.x) / step) * step;
+      const maxX = Math.ceil(Math.max(topLeft.x, bottomRight.x) / step) * step;
+      const minY = Math.floor(Math.min(topLeft.y, bottomRight.y) / step) * step;
+      const maxY = Math.ceil(Math.max(topLeft.y, bottomRight.y) / step) * step;
+
+      ctx.lineWidth = 1;
+      for (let x = minX; x <= maxX + step / 2; x += step) {
+        const p = worldToCanvas(x, 0);
+        const isAxis = Math.abs(x) < step / 10;
+        const isMeter = Math.abs(x - Math.round(x)) < 0.0001;
+        ctx.strokeStyle = isAxis ? "#64748b" : (isMeter ? "#cbd5e1" : "#e2e8f0");
+        ctx.beginPath();
+        ctx.moveTo(p.x, 0);
+        ctx.lineTo(p.x, height);
+        ctx.stroke();
+      }
+
+      for (let y = minY; y <= maxY + step / 2; y += step) {
+        const p = worldToCanvas(0, y);
+        const isAxis = Math.abs(y) < step / 10;
+        const isMeter = Math.abs(y - Math.round(y)) < 0.0001;
+        ctx.strokeStyle = isAxis ? "#64748b" : (isMeter ? "#cbd5e1" : "#e2e8f0");
+        ctx.beginPath();
+        ctx.moveTo(0, p.y);
+        ctx.lineTo(width, p.y);
+        ctx.stroke();
+      }
+    }
+
+    function drawFloorObject(ctx, obj, isSelected, isDraft) {
+      ctx.save();
+      ctx.globalAlpha = isDraft ? 0.65 : 1;
+      if (obj.type === "room" || obj.type === "zone") {
+        const topLeft = worldToCanvas(obj.x, obj.y + obj.h);
+        const bottomRight = worldToCanvas(obj.x + obj.w, obj.y);
+        const width = bottomRight.x - topLeft.x;
+        const height = bottomRight.y - topLeft.y;
+        ctx.fillStyle = hexToRgba(obj.color, obj.type === "zone" ? 0.18 : 0.12);
+        ctx.strokeStyle = obj.color;
+        ctx.lineWidth = isSelected ? 3 : 2;
+        ctx.setLineDash(obj.type === "zone" ? [8, 5] : []);
+        ctx.fillRect(topLeft.x, topLeft.y, width, height);
+        ctx.strokeRect(topLeft.x, topLeft.y, width, height);
+        ctx.setLineDash([]);
+        drawTextLabel(ctx, obj.name || PLAN_TOOL_LABELS[obj.type], topLeft.x + width / 2, topLeft.y + height / 2, "#0f172a");
+      } else if (obj.type === "wall" || obj.type === "door") {
+        const p1 = worldToCanvas(obj.x, obj.y);
+        const p2 = worldToCanvas(obj.x2, obj.y2);
+        ctx.strokeStyle = obj.color;
+        ctx.lineWidth = obj.type === "wall" ? 6 : 4;
+        ctx.lineCap = "round";
+        ctx.beginPath();
+        ctx.moveTo(p1.x, p1.y);
+        ctx.lineTo(p2.x, p2.y);
+        ctx.stroke();
+        if (isSelected) {
+          ctx.strokeStyle = "#f59e0b";
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.moveTo(p1.x, p1.y);
+          ctx.lineTo(p2.x, p2.y);
+          ctx.stroke();
+        }
+        const midX = (p1.x + p2.x) / 2;
+        const midY = (p1.y + p2.y) / 2;
+        drawTextLabel(ctx, obj.name || "", midX, midY, "#0f172a");
+      } else if (obj.type === "label") {
+        const p = worldToCanvas(obj.x, obj.y);
+        drawTextLabel(ctx, obj.text || obj.name || "Nhãn", p.x, p.y + 18, obj.color);
+        if (isSelected) {
+          ctx.strokeStyle = "#f59e0b";
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, 6, 0, Math.PI * 2);
+          ctx.stroke();
+        }
+      }
+      ctx.restore();
+    }
+
+    function drawWaypointMarkers(ctx) {
+      const items = getFloorWaypointsForRender();
+      items.forEach(function(wp) {
+        if (!Number.isFinite(Number(wp.x)) || !Number.isFinite(Number(wp.y))) {
+          return;
+        }
+        const p = worldToCanvas(Number(wp.x), Number(wp.y));
+        const selected = floorSelectedWaypointId === wp.id;
+        const arrived = Boolean(wp.arrived);
+        const navigating = activeNavWaypointId === wp.id && navigationActive;
+        ctx.save();
+        ctx.fillStyle = arrived ? "#16a34a" : (selected ? "#f59e0b" : "#2563eb");
+        ctx.strokeStyle = "#fff";
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, selected ? 8 : 7, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.stroke();
+        if (navigating && !arrived) {
+          ctx.strokeStyle = "#f59e0b";
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, 12, 0, Math.PI * 2);
+          ctx.stroke();
+        }
+        ctx.fillStyle = arrived ? "#166534" : (selected ? "#7c2d12" : "#1e3a8a");
+        ctx.font = "700 12px Inter, Segoe UI, Arial, sans-serif";
+        ctx.textAlign = "left";
+        ctx.textBaseline = "middle";
+        ctx.fillText(wp.name || "Điểm", p.x + 11, p.y);
+        ctx.restore();
+      });
+    }
+
+    function getCurrentRobotPoseForPlan() {
+      if (lastAmclSnapshot && lastAmclSnapshot.pose && lastAmclSnapshot.pose.pose) {
+        const p = lastAmclSnapshot.pose.pose.position;
+        const q = lastAmclSnapshot.pose.pose.orientation;
+        return { x: p.x, y: p.y, yaw: quaternionToYaw(q), source: "AMCL" };
+      }
+      if (lastNavFeedbackPoseSnapshot) {
+        return lastNavFeedbackPoseSnapshot;
+      }
+      if (lastOdomSnapshot) {
+        return {
+          x: lastOdomSnapshot.x,
+          y: lastOdomSnapshot.y,
+          yaw: lastOdomSnapshot.yaw,
+          source: "ODOM"
+        };
+      }
+      return null;
+    }
+
+    function updateFloorPoseLine() {
+      const latestArrived = getLatestArrivedWaypoint();
+      if (!latestArrived) {
+        floorPoseLineEl.textContent = "Vị trí hiện tại: chưa xác định";
+        return;
+      }
+      floorPoseLineEl.textContent = "Vị trí hiện tại: " + (latestArrived.name || "Nơi đã lưu");
+    }
+
+    function drawRobotMarker(ctx) {
+      const pose = getCurrentRobotPoseForPlan();
+      if (!pose || !Number.isFinite(pose.x) || !Number.isFinite(pose.y)) {
+        return;
+      }
+      const p = worldToCanvas(pose.x, pose.y);
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(-pose.yaw);
+      ctx.fillStyle = "#16a34a";
+      ctx.strokeStyle = "#fff";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(15, 0);
+      ctx.lineTo(-10, -9);
+      ctx.lineTo(-5, 0);
+      ctx.lineTo(-10, 9);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+      ctx.restore();
+      drawTextLabel(ctx, "Robot", p.x, p.y + 33, "#166534");
+    }
+
+    function drawScaleBar(ctx, width, height) {
+      const scale = floorPixelsPerMeter();
+      const barMeters = scale < 35 ? 2 : 1;
+      const barPixels = barMeters * scale;
+      const x = 18;
+      const y = height - 24;
+      ctx.save();
+      ctx.strokeStyle = "#334155";
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.moveTo(x, y);
+      ctx.lineTo(x + barPixels, y);
+      ctx.stroke();
+      ctx.fillStyle = "#334155";
+      ctx.font = "700 12px Inter, Segoe UI, Arial, sans-serif";
+      ctx.textAlign = "left";
+      ctx.textBaseline = "bottom";
+      ctx.fillText(barMeters + " m", x, y - 6);
+      ctx.restore();
+    }
+
+    function renderFloorPlanCanvas() {
+      if (!floorPlan) {
+        return;
+      }
+      const dpr = window.devicePixelRatio || 1;
+      const size = getFloorCanvasSize();
+      floorCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      floorCtx.clearRect(0, 0, size.width, size.height);
+      floorCtx.fillStyle = "#f8fafc";
+      floorCtx.fillRect(0, 0, size.width, size.height);
+      drawFloorGrid(floorCtx, size.width, size.height);
+      floorPlan.objects.forEach(function(obj) {
+        drawFloorObject(floorCtx, obj, floorSelectedId === obj.id, false);
+      });
+      if (floorDrawing && floorDrawing.object) {
+        drawFloorObject(floorCtx, floorDrawing.object, true, true);
+      }
+      drawWaypointMarkers(floorCtx);
+      drawRobotMarker(floorCtx);
+      drawScaleBar(floorCtx, size.width, size.height);
+    }
+
+    function objectDisplayName(obj) {
+      if (obj.type === "label") {
+        return obj.text || obj.name || PLAN_TOOL_LABELS[obj.type];
+      }
+      return obj.name || PLAN_TOOL_LABELS[obj.type];
+    }
+
+    function renderFloorObjectList() {
+      if (!floorPlan) {
+        return;
+      }
+      floorObjectListEl.innerHTML = "";
+      if (!floorPlan.objects.length) {
+        const li = document.createElement("li");
+        li.className = "meta-text";
+        li.textContent = "Chưa có khu vực nào trong bản đồ.";
+        floorObjectListEl.appendChild(li);
+        return;
+      }
+      floorPlan.objects.forEach(function(obj) {
+        const li = document.createElement("li");
+        li.className = "floor-object-item";
+        if (floorSelectedId === obj.id) {
+          li.classList.add("selected");
+        }
+        li.addEventListener("click", function() {
+          selectFloorObject(obj.id);
+        });
+
+        const swatch = document.createElement("span");
+        swatch.className = "floor-object-color";
+        swatch.style.background = obj.color;
+
+        const title = document.createElement("span");
+        title.className = "floor-object-title";
+        title.textContent = objectDisplayName(obj);
+        const type = document.createElement("span");
+        type.className = "floor-object-type";
+        type.textContent = PLAN_TOOL_LABELS[obj.type];
+        title.appendChild(type);
+
+        const delBtn = document.createElement("button");
+        delBtn.type = "button";
+        delBtn.textContent = "Xóa";
+        delBtn.addEventListener("click", function(event) {
+          event.stopPropagation();
+          deleteFloorObject(obj.id);
+        });
+
+        li.appendChild(swatch);
+        li.appendChild(title);
+        li.appendChild(delBtn);
+        floorObjectListEl.appendChild(li);
+      });
+    }
+
+    function selectFloorObject(id) {
+      const obj = floorPlan.objects.find(function(item) {
+        return item.id === id;
+      });
+      floorSelectedId = obj ? obj.id : null;
+      floorSelectedWaypointId = null;
+      if (obj) {
+        elementNameEl.value = obj.type === "label" ? (obj.text || obj.name || "") : (obj.name || "");
+        elementColorEl.value = obj.color || PLAN_TOOL_COLORS[obj.type] || "#2563eb";
+      }
+      renderFloorObjectList();
+      requestFloorRender();
+    }
+
+    function selectWaypointOnFloor(wp) {
+      floorSelectedId = null;
+      floorSelectedWaypointId = wp.id;
+      document.getElementById("goalX").value = Number(wp.x).toFixed(4);
+      document.getElementById("goalY").value = Number(wp.y).toFixed(4);
+      document.getElementById("goalYaw").value = Number(wp.yaw || 0).toFixed(4);
+      document.getElementById("goalFrameId").value = wp.frame_id || "map";
+      document.getElementById("wpName").value = wp.name || "";
+      setNavStatus('Đã chọn "' + (wp.name || "Nơi đã lưu") + '" trên bản đồ.', "ok");
+      renderFloorObjectList();
+      requestFloorRender();
+    }
+
+    function startWaypointDrag(wp, canvasPoint, worldPoint) {
+      selectWaypointOnFloor(wp);
+      floorWaypointDrag = {
+        id: wp.id,
+        moved: false,
+        startCanvas: canvasPoint,
+        startWorld: worldPoint,
+        startWaypoint: cloneData(wp),
+        currentWaypoint: cloneData(wp)
+      };
+    }
+
+    function updateDraggedWaypoint(canvasPoint, worldPoint) {
+      if (!floorWaypointDrag) {
+        return;
+      }
+      const distancePx = Math.hypot(
+        canvasPoint.x - floorWaypointDrag.startCanvas.x,
+        canvasPoint.y - floorWaypointDrag.startCanvas.y
+      );
+      if (distancePx > 4) {
+        floorWaypointDrag.moved = true;
+      }
+      if (!floorWaypointDrag.moved) {
+        return;
+      }
+      const dx = worldPoint.x - floorWaypointDrag.startWorld.x;
+      const dy = worldPoint.y - floorWaypointDrag.startWorld.y;
+      floorWaypointDrag.currentWaypoint = {
+        ...floorWaypointDrag.startWaypoint,
+        x: Number(floorWaypointDrag.startWaypoint.x) + dx,
+        y: Number(floorWaypointDrag.startWaypoint.y) + dy
+      };
+      document.getElementById("goalX").value = floorWaypointDrag.currentWaypoint.x.toFixed(4);
+      document.getElementById("goalY").value = floorWaypointDrag.currentWaypoint.y.toFixed(4);
+    }
+
+    function finishWaypointDrag(cancelled) {
+      if (!floorWaypointDrag) {
+        return;
+      }
+      const drag = floorWaypointDrag;
+      const wp = drag.currentWaypoint || drag.startWaypoint;
+      floorWaypointDrag = null;
+
+      if (cancelled) {
+        requestFloorRender();
+        return;
+      }
+
+      if (drag.moved) {
+        const saved = updateWaypointPositionInStorage(wp);
+        selectWaypointOnFloor(saved);
+        setNavStatus('Đã cập nhật vị trí của "' + (saved.name || "Nơi đã lưu") + '" trên bản đồ.', "ok");
+        requestFloorRender();
+        return;
+      }
+
+      sendNavigateToPose(wp);
+      requestFloorRender();
+    }
+
+    function deleteFloorObject(id) {
+      floorPlan.objects = floorPlan.objects.filter(function(obj) {
+        return obj.id !== id;
+      });
+      if (floorSelectedId === id) {
+        floorSelectedId = null;
+      }
+      saveFloorPlanToStorage("Đã xóa đối tượng.");
+    }
+
+    function applySelectedObjectInputs() {
+      if (!floorSelectedId) {
+        return;
+      }
+      const obj = floorPlan.objects.find(function(item) {
+        return item.id === floorSelectedId;
+      });
+      if (!obj) {
+        return;
+      }
+      const value = elementNameEl.value.trim();
+      if (obj.type === "label") {
+        obj.text = value || "Nhãn";
+      } else {
+        obj.name = value;
+      }
+      obj.color = elementColorEl.value || obj.color;
+      saveFloorPlanToStorage("Đã cập nhật đối tượng.");
+    }
+
+    function pointLineDistance(point, obj) {
+      const ax = obj.x;
+      const ay = obj.y;
+      const bx = obj.x2;
+      const by = obj.y2;
+      const abx = bx - ax;
+      const aby = by - ay;
+      const lengthSq = abx * abx + aby * aby;
+      if (lengthSq === 0) {
+        return Math.hypot(point.x - ax, point.y - ay);
+      }
+      const t = clamp(((point.x - ax) * abx + (point.y - ay) * aby) / lengthSq, 0, 1);
+      const x = ax + abx * t;
+      const y = ay + aby * t;
+      return Math.hypot(point.x - x, point.y - y);
+    }
+
+    function isPointInsideObject(worldPoint, canvasPoint, obj) {
+      if (obj.type === "room" || obj.type === "zone") {
+        return (
+          worldPoint.x >= obj.x &&
+          worldPoint.x <= obj.x + obj.w &&
+          worldPoint.y >= obj.y &&
+          worldPoint.y <= obj.y + obj.h
+        );
+      }
+      if (obj.type === "wall" || obj.type === "door") {
+        return pointLineDistance(worldPoint, obj) <= 10 / floorPixelsPerMeter();
+      }
+      if (obj.type === "label") {
+        const p = worldToCanvas(obj.x, obj.y);
+        return Math.abs(canvasPoint.x - p.x) <= 80 && Math.abs(canvasPoint.y - p.y) <= 26;
+      }
+      return false;
+    }
+
+    function findFloorObjectAt(canvasPoint) {
+      const worldPoint = canvasToWorld(canvasPoint);
+      for (let i = floorPlan.objects.length - 1; i >= 0; i--) {
+        const obj = floorPlan.objects[i];
+        if (isPointInsideObject(worldPoint, canvasPoint, obj)) {
+          return obj;
+        }
+      }
+      return null;
+    }
+
+    function findWaypointAt(canvasPoint) {
+      const items = getFloorWaypointsForRender();
+      for (let i = items.length - 1; i >= 0; i--) {
+        const wp = items[i];
+        if (!Number.isFinite(Number(wp.x)) || !Number.isFinite(Number(wp.y))) {
+          continue;
+        }
+        const p = worldToCanvas(Number(wp.x), Number(wp.y));
+        if (Math.hypot(canvasPoint.x - p.x, canvasPoint.y - p.y) <= 13) {
+          return wp;
+        }
+      }
+      return null;
+    }
+
+    function makeFloorObject(type, startWorld, currentWorld) {
+      const color = elementColorEl.value || PLAN_TOOL_COLORS[type] || "#2563eb";
+      const name = elementNameEl.value.trim();
+      const common = {
+        id: "obj_" + Date.now().toString(36) + "_" + Math.random().toString(36).slice(2, 8),
+        type: type,
+        name: name,
+        color: color
+      };
+      if (type === "room" || type === "zone") {
+        return {
+          ...common,
+          x: Math.min(startWorld.x, currentWorld.x),
+          y: Math.min(startWorld.y, currentWorld.y),
+          w: Math.abs(currentWorld.x - startWorld.x),
+          h: Math.abs(currentWorld.y - startWorld.y)
+        };
+      }
+      if (type === "label") {
+        return {
+          ...common,
+          x: startWorld.x,
+          y: startWorld.y,
+          text: name || "Nhãn"
+        };
+      }
+      return {
+        ...common,
+        x: startWorld.x,
+        y: startWorld.y,
+        x2: currentWorld.x,
+        y2: currentWorld.y
+      };
+    }
+
+    function shouldKeepFloorObject(obj) {
+      if (!obj) {
+        return false;
+      }
+      if (obj.type === "room" || obj.type === "zone") {
+        return obj.w >= 0.05 && obj.h >= 0.05;
+      }
+      if (obj.type === "wall" || obj.type === "door") {
+        return Math.hypot(obj.x2 - obj.x, obj.y2 - obj.y) >= 0.05;
+      }
+      return true;
+    }
+
+    function updateDraggedFloorObject(worldPoint) {
+      if (!floorDrag) {
+        return;
+      }
+      const obj = floorPlan.objects.find(function(item) {
+        return item.id === floorDrag.id;
+      });
+      if (!obj) {
+        return;
+      }
+      const dx = worldPoint.x - floorDrag.startWorld.x;
+      const dy = worldPoint.y - floorDrag.startWorld.y;
+      const start = floorDrag.startObject;
+      if (obj.type === "room" || obj.type === "zone") {
+        obj.x = start.x + dx;
+        obj.y = start.y + dy;
+      } else if (obj.type === "label") {
+        obj.x = start.x + dx;
+        obj.y = start.y + dy;
+      } else {
+        obj.x = start.x + dx;
+        obj.y = start.y + dy;
+        obj.x2 = start.x2 + dx;
+        obj.y2 = start.y2 + dy;
+      }
+    }
+
+    function setFloorTool(tool) {
+      floorTool = PLAN_TOOL_LABELS[tool] ? tool : "select";
+      floorCanvasEl.dataset.tool = floorTool;
+      document.querySelectorAll("[data-plan-tool]").forEach(function(button) {
+        button.classList.toggle("active", button.getAttribute("data-plan-tool") === floorTool);
+      });
+      if (PLAN_TOOL_COLORS[floorTool]) {
+        elementColorEl.value = PLAN_TOOL_COLORS[floorTool];
+      }
+      setFloorStatus("Đang dùng: " + PLAN_TOOL_LABELS[floorTool]);
+    }
+
+    function onFloorPointerDown(event) {
+      event.preventDefault();
+      floorCanvasEl.setPointerCapture(event.pointerId);
+      const canvasPoint = getFloorPointer(event);
+      const worldPoint = canvasToWorld(canvasPoint);
+
+      if (floorTool === "pan") {
+        floorPan = {
+          startX: canvasPoint.x,
+          startY: canvasPoint.y,
+          panX: floorView.panX,
+          panY: floorView.panY
+        };
+        return;
+      }
+
+      if (floorTool === "erase") {
+        const hit = findFloorObjectAt(canvasPoint);
+        if (hit) {
+          deleteFloorObject(hit.id);
+        }
+        return;
+      }
+
+      if (floorTool === "label") {
+        const obj = makeFloorObject("label", worldPoint, worldPoint);
+        floorPlan.objects.push(obj);
+        floorSelectedId = obj.id;
+        floorSelectedWaypointId = null;
+        saveFloorPlanToStorage("Đã thêm chữ ghi chú.");
+        return;
+      }
+
+      if (floorTool === "wall" || floorTool === "door" || floorTool === "room" || floorTool === "zone") {
+        floorDrawing = {
+          type: floorTool,
+          startWorld: worldPoint,
+          object: makeFloorObject(floorTool, worldPoint, worldPoint)
+        };
+        requestFloorRender();
+        return;
+      }
+
+      const hitWaypoint = findWaypointAt(canvasPoint);
+      if (hitWaypoint) {
+        startWaypointDrag(hitWaypoint, canvasPoint, worldPoint);
+        return;
+      }
+
+      const hitObject = findFloorObjectAt(canvasPoint);
+      if (hitObject) {
+        selectFloorObject(hitObject.id);
+        floorDrag = {
+          id: hitObject.id,
+          startWorld: worldPoint,
+          startObject: cloneData(hitObject)
+        };
+        return;
+      }
+
+      floorSelectedId = null;
+      floorSelectedWaypointId = null;
+      renderFloorObjectList();
+      requestFloorRender();
+    }
+
+    function onFloorPointerMove(event) {
+      const canvasPoint = getFloorPointer(event);
+      const worldPoint = canvasToWorld(canvasPoint);
+
+      if (floorPan) {
+        floorView.panX = floorPan.panX + canvasPoint.x - floorPan.startX;
+        floorView.panY = floorPan.panY + canvasPoint.y - floorPan.startY;
+        requestFloorRender();
+        return;
+      }
+
+      if (floorDrawing) {
+        floorDrawing.object = makeFloorObject(floorDrawing.type, floorDrawing.startWorld, worldPoint);
+        requestFloorRender();
+        return;
+      }
+
+      if (floorWaypointDrag) {
+        updateDraggedWaypoint(canvasPoint, worldPoint);
+        requestFloorRender();
+        return;
+      }
+
+      if (floorDrag) {
+        updateDraggedFloorObject(worldPoint);
+        requestFloorRender();
+      }
+    }
+
+    function onFloorPointerUp(event) {
+      if (floorCanvasEl.hasPointerCapture(event.pointerId)) {
+        floorCanvasEl.releasePointerCapture(event.pointerId);
+      }
+      if (floorDrawing) {
+        const obj = floorDrawing.object;
+        if (shouldKeepFloorObject(obj)) {
+          floorPlan.objects.push(obj);
+          floorSelectedId = obj.id;
+          floorSelectedWaypointId = null;
+          saveFloorPlanToStorage("Đã thêm " + PLAN_TOOL_LABELS[obj.type].toLowerCase() + ".");
+        } else {
+          requestFloorRender();
+        }
+      }
+      if (floorDrag) {
+        saveFloorPlanToStorage("Đã cập nhật vị trí đối tượng.");
+      }
+      finishWaypointDrag(event.type === "pointercancel");
+      floorDrawing = null;
+      floorDrag = null;
+      floorPan = null;
+    }
+
+    function onFloorWheel(event) {
+      event.preventDefault();
+      const point = getFloorPointer(event);
+      const worldBefore = canvasToWorld(point);
+      const nextZoom = clamp(floorView.zoom * (event.deltaY < 0 ? 1.12 : 0.88), 0.3, 5);
+      floorView.zoom = nextZoom;
+      const canvasAfter = worldToCanvas(worldBefore.x, worldBefore.y);
+      floorView.panX += point.x - canvasAfter.x;
+      floorView.panY += point.y - canvasAfter.y;
+      requestFloorRender();
+    }
+
+    function addBounds(bounds, x, y) {
+      if (!Number.isFinite(x) || !Number.isFinite(y)) {
+        return;
+      }
+      bounds.minX = Math.min(bounds.minX, x);
+      bounds.maxX = Math.max(bounds.maxX, x);
+      bounds.minY = Math.min(bounds.minY, y);
+      bounds.maxY = Math.max(bounds.maxY, y);
+    }
+
+    function computeFloorBounds() {
+      const bounds = {
+        minX: Infinity,
+        maxX: -Infinity,
+        minY: Infinity,
+        maxY: -Infinity
+      };
+      floorPlan.objects.forEach(function(obj) {
+        if (obj.type === "room" || obj.type === "zone") {
+          addBounds(bounds, obj.x, obj.y);
+          addBounds(bounds, obj.x + obj.w, obj.y + obj.h);
+        } else if (obj.type === "label") {
+          addBounds(bounds, obj.x - 0.5, obj.y - 0.3);
+          addBounds(bounds, obj.x + 0.5, obj.y + 0.3);
+        } else {
+          addBounds(bounds, obj.x, obj.y);
+          addBounds(bounds, obj.x2, obj.y2);
+        }
+      });
+      loadWaypointsFromStorage().forEach(function(wp) {
+        addBounds(bounds, Number(wp.x), Number(wp.y));
+      });
+      const robot = getCurrentRobotPoseForPlan();
+      if (robot) {
+        addBounds(bounds, robot.x, robot.y);
+      }
+      return Number.isFinite(bounds.minX) ? bounds : null;
+    }
+
+    function fitFloorPlanToView() {
+      const bounds = computeFloorBounds();
+      if (!bounds) {
+        floorView.zoom = 1;
+        floorView.panX = 0;
+        floorView.panY = 0;
+        requestFloorRender();
+        return;
+      }
+      const size = getFloorCanvasSize();
+      const widthMeters = Math.max(1, bounds.maxX - bounds.minX);
+      const heightMeters = Math.max(1, bounds.maxY - bounds.minY);
+      const baseScale = floorPlan.pixelsPerMeter || FLOORPLAN_DEFAULT.pixelsPerMeter;
+      floorView.zoom = clamp(
+        Math.min((size.width - 80) / (widthMeters * baseScale), (size.height - 80) / (heightMeters * baseScale)),
+        0.3,
+        3
+      );
+      const centerX = (bounds.minX + bounds.maxX) / 2;
+      const centerY = (bounds.minY + bounds.maxY) / 2;
+      const scale = floorPixelsPerMeter();
+      floorView.panX = -centerX * scale;
+      floorView.panY = centerY * scale;
+      requestFloorRender();
+    }
+
+    function exportFloorPlan() {
+      saveFloorPlanToStorage();
+      const payload = {
+        version: 1,
+        exportedAt: new Date().toISOString(),
+        floorPlan: floorPlan
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = (floorPlan.name || "kaia-floorplan").replace(/[^\w.-]+/g, "_") + ".json";
+      link.click();
+      URL.revokeObjectURL(url);
+      setFloorStatus("Đã tải bản đồ xuống.");
+    }
+
+    function importFloorPlan(file) {
+      if (!file) {
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = function() {
+        try {
+          const parsed = JSON.parse(String(reader.result || "{}"));
+          const source = parsed.floorPlan || parsed;
+          const next = createDefaultFloorPlan();
+          next.name = String(source.name || file.name.replace(/\.json$/i, "") || next.name);
+          next.gridSize = clamp(Number(source.gridSize), 0.05, 5) || next.gridSize;
+          next.pixelsPerMeter = clamp(Number(source.pixelsPerMeter), 20, 180) || next.pixelsPerMeter;
+          next.objects = Array.isArray(source.objects)
+            ? source.objects.map(sanitizeFloorObject).filter(Boolean)
+            : [];
+          floorPlan = next;
+          floorSelectedId = null;
+          floorSelectedWaypointId = null;
+          syncFloorControlsFromPlan();
+          saveFloorPlanToStorage("Đã mở bản đồ.");
+          fitFloorPlanToView();
+        } catch (e) {
+          console.error(e);
+          setFloorStatus("Tệp bản đồ không hợp lệ.");
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function clearFloorPlan() {
+      if (!confirm("Xóa toàn bộ khu vực trong bản đồ hiện tại?")) {
+        return;
+      }
+      floorPlan.objects = [];
+      floorSelectedId = null;
+      floorSelectedWaypointId = null;
+      saveFloorPlanToStorage("Đã xóa bản đồ.");
+    }
+
+    function initFloorPlanner() {
+      floorPlan = loadFloorPlanFromStorage();
+      syncFloorControlsFromPlan();
+      setFloorTool("select");
+      renderFloorObjectList();
+      resizeFloorCanvas();
+
+      document.querySelectorAll("[data-plan-tool]").forEach(function(button) {
+        button.addEventListener("click", function() {
+          setFloorTool(button.getAttribute("data-plan-tool"));
+        });
+      });
+      floorCanvasEl.addEventListener("pointerdown", onFloorPointerDown);
+      floorCanvasEl.addEventListener("pointermove", onFloorPointerMove);
+      floorCanvasEl.addEventListener("pointerup", onFloorPointerUp);
+      floorCanvasEl.addEventListener("pointercancel", onFloorPointerUp);
+      floorCanvasEl.addEventListener("wheel", onFloorWheel, { passive: false });
+      window.addEventListener("resize", resizeFloorCanvas);
+
+      planNameEl.addEventListener("change", function() {
+        saveFloorPlanToStorage("Đã lưu tên bản đồ.");
+      });
+      gridSizeEl.addEventListener("change", function() {
+        saveFloorPlanToStorage("Đã cập nhật ô lưới.");
+      });
+      planScaleEl.addEventListener("change", function() {
+        saveFloorPlanToStorage("Đã cập nhật độ phóng to.");
+      });
+      elementNameEl.addEventListener("input", applySelectedObjectInputs);
+      elementColorEl.addEventListener("input", applySelectedObjectInputs);
+      document.getElementById("savePlanBtn").addEventListener("click", function() {
+        saveFloorPlanToStorage("Đã lưu bản đồ.");
+      });
+      document.getElementById("fitPlanBtn").addEventListener("click", fitFloorPlanToView);
+      document.getElementById("exportPlanBtn").addEventListener("click", exportFloorPlan);
+      document.getElementById("clearPlanBtn").addEventListener("click", clearFloorPlan);
+      document.getElementById("importPlanInput").addEventListener("change", function(event) {
+        importFloorPlan(event.target.files && event.target.files[0]);
+        event.target.value = "";
+      });
+
+      setFloorStatus("Bản đồ được lưu trên trình duyệt.");
+      updateFloorPoseLine();
+      requestFloorRender();
+    }
+
     function renderWaypointList(items) {
       waypointListEl.innerHTML = "";
       if (!items.length) {
         const li = document.createElement("li");
         li.className = "meta-text";
         li.style.marginTop = "6px";
-        li.textContent = "Chưa có điểm nào. Bấm «Chụp vị trí hiện tại», nhập tên và «Lưu điểm».";
+        li.textContent = "Chưa có nơi đến nào. Bấm «Lấy vị trí robot», nhập tên rồi «Lưu nơi đến».";
         waypointListEl.appendChild(li);
+        requestFloorRender();
         return;
       }
       items.forEach(function(wp) {
@@ -794,14 +2326,7 @@
         const meta = document.createElement("div");
         meta.className = "waypoint-meta";
         meta.textContent =
-          "frame: " +
-          wp.frame_id +
-          " · x=" +
-          Number(wp.x).toFixed(3) +
-          ", y=" +
-          Number(wp.y).toFixed(3) +
-          ", yaw=" +
-          Number(wp.yaw).toFixed(3);
+          (wp.arrived ? "Robot đang ở đây" : "Sẵn sàng để robot đi tới");
         const actions = document.createElement("div");
         actions.className = "waypoint-actions";
         const goBtn = document.createElement("button");
@@ -820,6 +2345,10 @@
           });
           saveWaypointsToStorage(next);
           renderWaypointList(next);
+          if (floorSelectedWaypointId === wp.id) {
+            floorSelectedWaypointId = null;
+          }
+          requestFloorRender();
         });
         actions.appendChild(goBtn);
         actions.appendChild(delBtn);
@@ -828,6 +2357,7 @@
         li.appendChild(actions);
         waypointListEl.appendChild(li);
       });
+      requestFloorRender();
     }
 
     function readGoalFromInputs() {
@@ -853,7 +2383,7 @@
             ? lastAmclSnapshot.header.frame_id
             : "map";
         document.getElementById("goalFrameId").value = fid;
-        setNavStatus("Đã chụp từ /amcl_pose.", "ok");
+        setNavStatus("Đã lấy vị trí hiện tại của robot.", "ok");
         return;
       }
       if (lastOdomSnapshot) {
@@ -861,24 +2391,21 @@
         document.getElementById("goalY").value = lastOdomSnapshot.y.toFixed(4);
         document.getElementById("goalYaw").value = lastOdomSnapshot.yaw.toFixed(4);
         document.getElementById("goalFrameId").value = "odom";
-        setNavStatus(
-          "Đã chụp từ /odom (frame_id = odom). Với điều hướng trên map nên có AMCL hoặc chỉnh frame trong phần tùy chỉnh.",
-          ""
-        );
+        setNavStatus("Đã lấy vị trí robot. Nếu robot đi sai chỗ, hãy kiểm tra lại hệ thống định vị.", "");
         return;
       }
-      setNavStatus("Chưa có pose: kết nối ROS và chờ /odom hoặc /amcl_pose.", "err");
+      setNavStatus("Chưa có vị trí robot. Hãy kết nối robot và chờ vài giây.", "err");
     }
 
     function persistWaypointFromInputs() {
       const goal = readGoalFromInputs();
       if (!goal) {
-        setNavStatus("X, Y, yaw không hợp lệ.", "err");
+        setNavStatus("Vị trí chưa hợp lệ.", "err");
         return;
       }
       let name = document.getElementById("wpName").value.trim();
       if (!name) {
-        name = "Điểm " + new Date().toLocaleString();
+        name = "Nơi đến " + new Date().toLocaleString();
       }
       const wp = {
         id: Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8),
@@ -892,12 +2419,13 @@
       items.push(wp);
       saveWaypointsToStorage(items);
       renderWaypointList(items);
-      setNavStatus('Đã lưu điểm "' + name + '".', "ok");
+      requestFloorRender();
+      setNavStatus('Đã lưu nơi đến "' + name + '".', "ok");
     }
 
     function ensureRosConnectedForNav() {
       if (!ros || !ros.isConnected || !navBridgeAttached) {
-        setNavStatus("Chưa kết nối ROSBridge (hoặc socket chưa sẵn sàng).", "err");
+        setNavStatus("Chưa kết nối robot.", "err");
         return false;
       }
       return true;
@@ -906,6 +2434,8 @@
     function finishNavigation(statusText, kind) {
       navigationActive = false;
       activeNavGoalId = null;
+      activeNavWaypointId = null;
+      activeNavArrivalMarked = false;
       stopCmdVelLoop();
       if (isTeleopEnabled()) {
         startCmdVelLoop();
@@ -920,6 +2450,12 @@
 
       stopCmdVelLoop();
       navigationActive = true;
+      activeNavWaypointId = wp.id || null;
+      activeNavArrivalMarked = false;
+      if (activeNavWaypointId) {
+        clearWaypointArrivalState(activeNavWaypointId);
+        floorSelectedWaypointId = activeNavWaypointId;
+      }
 
       const navServer =
         document.getElementById("navActionName").value.trim() || "/navigate_to_pose";
@@ -951,20 +2487,29 @@
         {
           result: function(result) {
             console.log("Nav2 result:", result);
-            finishNavigation("Điều hướng hoàn tất (Nav2).", "ok");
+            if (!activeNavArrivalMarked) {
+              markWaypointArrived(wp, "đã đến nơi");
+              activeNavArrivalMarked = true;
+            }
+            finishNavigation("Robot đã đến nơi.", "ok");
+            updateFloorPoseLine();
+            requestFloorRender();
           },
           feedback: function(feedback) {
-            const dist =
-              feedback && feedback.distance_remaining !== undefined
-                ? feedback.distance_remaining
-                : null;
+            updatePoseFromNavFeedback(feedback);
+            const dist = getFeedbackDistance(feedback);
             if (dist !== null && Number.isFinite(dist)) {
-              setNavStatus("Đang điều hướng… còn ~" + dist.toFixed(2) + " m", "");
+              if (dist < NAV_ARRIVAL_DISTANCE_M && !activeNavArrivalMarked) {
+                markWaypointArrived(wp, "còn " + dist.toFixed(2) + " m");
+                activeNavArrivalMarked = true;
+                return;
+              }
+              setNavStatus("Robot đang di chuyển, còn khoảng " + dist.toFixed(2) + " m.", "");
             }
           },
           failed: function(error) {
             console.error("Nav2 action failed:", error);
-            finishNavigation("Nav2 từ chối goal: " + error, "err");
+            finishNavigation("Robot chưa nhận lệnh đi đến. Vui lòng kiểm tra lại kết nối.", "err");
           }
         }
       );
@@ -972,7 +2517,7 @@
       if (!goalId) {
         navigationActive = false;
         setNavStatus(
-          "Không gửi được action (rosbridge cần hỗ trợ send_action_goal).",
+          "Chưa gửi được lệnh đi đến robot.",
           "err"
         );
         return;
@@ -980,13 +2525,9 @@
 
       activeNavGoalId = goalId;
       setNavStatus(
-        'Đã gửi «' +
+        'Robot đang đi đến "' +
           (wp.name || "Điểm") +
-          '» qua action ROS 2 «' +
-          navServer +
-          '» (frame "' +
-          wp.frame_id +
-          '").',
+          '".',
         "ok"
       );
     }
@@ -994,16 +2535,13 @@
     function connect() {
       if (typeof ROSLIB === "undefined") {
         setConnState("Lỗi tải thư viện");
-        setNavStatus(
-          "Không tải được roslib. Chạy: python3 -m http.server 8080 -d .../web rồi mở http://localhost:8080/ros2-control.html (không mở file://).",
-          "err"
-        );
+        setNavStatus("Không mở được bộ kết nối robot. Hãy mở trang này qua địa chỉ http://localhost:8080.", "err");
         return;
       }
 
       const wsUrl = document.getElementById("wsUrl").value.trim();
       if (!wsUrl) {
-        setConnState("URL không hợp lệ");
+        setConnState("Địa chỉ không hợp lệ");
         return;
       }
 
@@ -1045,6 +2583,8 @@
           yEl.textContent = pos.y.toFixed(3);
           zEl.textContent = pos.z.toFixed(3);
           yawEl.textContent = yaw.toFixed(3);
+          updateFloorPoseLine();
+          requestFloorRender();
         });
 
         amclTopic = new ROSLIB.Topic({
@@ -1054,9 +2594,11 @@
         });
         amclTopic.subscribe(function(msg) {
           lastAmclSnapshot = msg;
+          updateFloorPoseLine();
+          requestFloorRender();
         });
 
-        setNavStatus("Đã kết nối ROSBridge. Gửi goal Nav2 qua send_action_goal.", "ok");
+        setNavStatus("Đã kết nối robot.", "ok");
 
         if (isTeleopEnabled()) {
           startCmdVelLoop();
@@ -1066,7 +2608,7 @@
       ros.on("error", function(error) {
         console.error(error);
         setConnState("Lỗi kết nối");
-        setNavStatus("Lỗi WebSocket — kiểm tra rosbridge và URL.", "err");
+        setNavStatus("Không kết nối được robot. Hãy kiểm tra địa chỉ kết nối.", "err");
       });
 
       ros.on("close", function() {
@@ -1086,11 +2628,15 @@
       }
       lastAmclSnapshot = null;
       lastOdomSnapshot = null;
+      lastNavFeedbackPoseSnapshot = null;
+      updateFloorPoseLine();
       if (activeNavGoalId) {
         Nav2ActionBridge.cancelGoal(activeNavGoalId, activeNavActionName);
       }
       Nav2ActionBridge.detach();
       activeNavGoalId = null;
+      activeNavWaypointId = null;
+      activeNavArrivalMarked = false;
       navigationActive = false;
       stopCmdVelLoop();
       cmdVelTopic = null;
@@ -1167,6 +2713,10 @@
 
     // Keyboard shortcuts similar to teleop behavior.
     document.addEventListener("keydown", function(event) {
+      const activeTag = document.activeElement ? document.activeElement.tagName : "";
+      if (activeTag === "INPUT" || activeTag === "TEXTAREA" || activeTag === "SELECT") {
+        return;
+      }
       const key = event.key.toLowerCase();
       if (key === "w") targetLinear = clamp(targetLinear + LINEAR_STEP, -MAX_LINEAR, MAX_LINEAR);
       if (key === "x") targetLinear = clamp(targetLinear - LINEAR_STEP, -MAX_LINEAR, MAX_LINEAR);
@@ -1179,6 +2729,7 @@
       updateTargetView();
     });
 
+    initFloorPlanner();
     updateTargetView();
     renderWaypointList(loadWaypointsFromStorage());
   </script>
