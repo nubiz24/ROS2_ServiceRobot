@@ -121,6 +121,7 @@ ros2 launch kaiaai_bringup cartographer.launch.py robot_model:=robot_serving_bot
 
 ros2 launch kaiaai_bringup navigation.launch.py slam:=True
 
+ros2 run nav2_map_server map_saver_cli -f ~/maps/map --ros-args -p save_map_timeout:=60.0
 
 cd ~/kaia_ws
 colcon build --packages-select makerspet_mini

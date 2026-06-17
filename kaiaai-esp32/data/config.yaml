@@ -102,9 +102,9 @@ motor:
     max: 100
   driver:
     pid:
-      kp: 0.06
-      ki: 0.0
-      kd: 0.02
+      kp: 0.04
+      ki: 0.002
+      kd: 0.0
       period: 0.03
       kpm: 0
   encoder:
