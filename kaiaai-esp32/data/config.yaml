@@ -1,9 +1,9 @@
 #
 # Board-specific assignments
 #
-ssid: Minhthuy
-pass: 68401184
-dest_ip: 192.168.88.153
+ssid: Vaon Viet Nam
+pass: 88888888
+dest_ip: 192.168.10.76
 dest_port: 8888
 
 board:
