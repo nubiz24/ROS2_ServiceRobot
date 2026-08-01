@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="1" tests="3" time="0.546" timestamp="2026-08-01T02:04:40.756339" hostname="work"><testcase classname="kaiaai.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="kaiaai.test.test_flake8" name="test_flake8" time="0.293"><failure message="AssertionError: Found 193 code style errors / warnings:&#10;  ./kaiaai/config.py:16:12: E401 multiple imports on one line&#10;  ./kaiaai/config.py:23:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:27:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:28:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:31:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:33:25: E711 comparison to None should be 'if cond is None:'&#10;  ./kaiaai/config.py:35:1: E302 expected 2 blank lines, found 1&#10;  ./kaiaai/config.py:36:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:39:1: E302 expected 2 blank lines, found 1&#10;  ./kaiaai/config.py:40:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:41:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:43:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:46:1: E302 expected 2 blank lines, found 1&#10;  ./kaiaai/config.py:47:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:48:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/config.py:49:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:34:1: F811 redefinition of unused 'yaml' from line 17&#10;  ./kaiaai/util.py:39:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:49:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:50:5: E128 continuation line under-indented for visual indent&#10;  ./kaiaai/util.py:55:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:69:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:72:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:75:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:83:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:92:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:95:14: E711 comparison to None should be 'if cond is None:'&#10;  ./kaiaai/util.py:96:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:97:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:101:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:113:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:117:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:118:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:119:5: F841 local variable 'ex' is assigned to but never used&#10;  ./kaiaai/util.py:120:7: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai/util.py:120:100: E501 line too long (107 &gt; 99 characters)&#10;  ./kaiaai/util.py:121:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:125:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:129:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:130:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:152:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:153:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:164:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:166:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:176:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:177:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:190:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:203:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:206:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:212:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:213:12: F821 undefined name 'self'&#10;  ./kaiaai/util.py:213:53: F821 undefined name 'service_timeout_sec'&#10;  ./kaiaai/util.py:215:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:216:12: F821 undefined name 'self'&#10;  ./kaiaai/util.py:216:53: F821 undefined name 'service_timeout_sec'&#10;  ./kaiaai/util.py:218:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:220:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:228:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:230:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:233:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:236:7: F841 local variable 'param' is assigned to but never used&#10;  ./kaiaai/util.py:236:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:238:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:240:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:242:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:244:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:247:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:253:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:254:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:260:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:262:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:264:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:266:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:268:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:275:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:281:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:284:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:285:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:290:5: E115 expected an indented block (comment)&#10;  ./kaiaai/util.py:291:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:321:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:328:15: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:328:17: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:329:17: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:329:19: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:330:13: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:330:15: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:331:17: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:331:19: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:332:12: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:332:14: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:333:12: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:333:14: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:337:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:337:22: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:338:12: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:338:14: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:339:12: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:339:14: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:340:12: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:340:14: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:341:12: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:341:14: E251 unexpected spaces around keyword / parameter equals&#10;  ./kaiaai/util.py:348:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:348:31: E261 at least two spaces before inline comment&#10;  ./kaiaai/util.py:350:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:353:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:356:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:359:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:362:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:365:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:368:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:371:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:374:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:378:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:384:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:386:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:392:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:396:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/util.py:406:1: W293 blank line contains whitespace&#10;  ./kaiaai/util.py:423:50: W292 no newline at end of file&#10;  ./kaiaai/cli.py:19:1: E302 expected 2 blank lines, found 1&#10;  ./kaiaai/cli.py:20:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/cli.py:21:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/cli.py:22:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/cli.py:24:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/cli.py:27:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./kaiaai/cli.py:28:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:2:1: F401 'sys' imported but unused&#10;  ./kaiaai/explore/wfd.py:3:1: F401 'time' imported but unused&#10;  ./kaiaai/explore/wfd.py:4:1: F401 'enum.Enum' imported but unused&#10;  ./kaiaai/explore/wfd.py:11:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:13:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:17:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:22:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:25:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:28:1: E302 expected 2 blank lines, found 1&#10;  ./kaiaai/explore/wfd.py:29:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:36:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:37:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:38:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:39:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:41:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:42:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:44:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:45:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:48:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:49:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:52:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:57:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:58:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:58:9: E271 multiple spaces after keyword&#10;  ./kaiaai/explore/wfd.py:63:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:64:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:79:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:81:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:84:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:90:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:92:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:92:100: E501 line too long (130 &gt; 99 characters)&#10;  ./kaiaai/explore/wfd.py:95:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:98:15: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:98:100: E501 line too long (181 &gt; 99 characters)&#10;  ./kaiaai/explore/wfd.py:102:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:103:1: W293 blank line contains whitespace&#10;  ./kaiaai/explore/wfd.py:106:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:107:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:110:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:112:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:113:100: E501 line too long (121 &gt; 99 characters)&#10;  ./kaiaai/explore/wfd.py:114:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:114:100: E501 line too long (130 &gt; 99 characters)&#10;  ./kaiaai/explore/wfd.py:114:101: F821 undefined name 'getNeighbors'&#10;  ./kaiaai/explore/wfd.py:118:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:122:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:123:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:125:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:129:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:131:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:134:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:139:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:140:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:146:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:148:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:151:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:153:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:154:11: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:158:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:159:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:166:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:167:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:171:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai/explore/wfd.py:173:11: E111 indentation is not a multiple of 4&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 193 code style errors / warnings:
+E     ./kaiaai/config.py:16:12: E401 multiple imports on one line
+E     ./kaiaai/config.py:23:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:27:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:28:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:31:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:33:25: E711 comparison to None should be 'if cond is None:'
+E     ./kaiaai/config.py:35:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai/config.py:36:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:39:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai/config.py:40:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:41:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:43:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:46:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai/config.py:47:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:48:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/config.py:49:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:34:1: F811 redefinition of unused 'yaml' from line 17
+E     ./kaiaai/util.py:39:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:49:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:50:5: E128 continuation line under-indented for visual indent
+E     ./kaiaai/util.py:55:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:69:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:72:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:75:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:83:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:92:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:95:14: E711 comparison to None should be 'if cond is None:'
+E     ./kaiaai/util.py:96:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:97:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:101:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:113:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:117:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:118:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:119:5: F841 local variable 'ex' is assigned to but never used
+E     ./kaiaai/util.py:120:7: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai/util.py:120:100: E501 line too long (107 &gt; 99 characters)
+E     ./kaiaai/util.py:121:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:125:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:129:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:130:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:152:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:153:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:164:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:166:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:176:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:177:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:190:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:203:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:206:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:212:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:213:12: F821 undefined name 'self'
+E     ./kaiaai/util.py:213:53: F821 undefined name 'service_timeout_sec'
+E     ./kaiaai/util.py:215:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:216:12: F821 undefined name 'self'
+E     ./kaiaai/util.py:216:53: F821 undefined name 'service_timeout_sec'
+E     ./kaiaai/util.py:218:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:220:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:228:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:230:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:233:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:236:7: F841 local variable 'param' is assigned to but never used
+E     ./kaiaai/util.py:236:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:238:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:240:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:242:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:244:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:247:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:253:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:254:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:260:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:262:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:264:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:266:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:268:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:275:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:281:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:284:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:285:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:290:5: E115 expected an indented block (comment)
+E     ./kaiaai/util.py:291:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:321:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:328:15: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:328:17: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:329:17: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:329:19: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:330:13: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:330:15: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:331:17: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:331:19: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:332:12: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:332:14: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:333:12: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:333:14: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:337:20: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:337:22: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:338:12: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:338:14: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:339:12: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:339:14: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:340:12: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:340:14: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:341:12: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:341:14: E251 unexpected spaces around keyword / parameter equals
+E     ./kaiaai/util.py:348:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:348:31: E261 at least two spaces before inline comment
+E     ./kaiaai/util.py:350:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:353:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:356:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:359:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:362:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:365:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:368:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:371:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:374:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:378:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:384:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:386:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:392:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:396:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/util.py:406:1: W293 blank line contains whitespace
+E     ./kaiaai/util.py:423:50: W292 no newline at end of file
+E     ./kaiaai/cli.py:19:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai/cli.py:20:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/cli.py:21:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/cli.py:22:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/cli.py:24:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/cli.py:27:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./kaiaai/cli.py:28:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:2:1: F401 'sys' imported but unused
+E     ./kaiaai/explore/wfd.py:3:1: F401 'time' imported but unused
+E     ./kaiaai/explore/wfd.py:4:1: F401 'enum.Enum' imported but unused
+E     ./kaiaai/explore/wfd.py:11:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:13:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:17:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:22:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:25:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:28:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai/explore/wfd.py:29:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:36:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:37:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:38:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:39:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:41:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:42:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:44:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:45:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:48:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:49:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:52:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:57:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:58:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:58:9: E271 multiple spaces after keyword
+E     ./kaiaai/explore/wfd.py:63:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:64:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:79:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:81:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:84:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:90:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:92:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:92:100: E501 line too long (130 &gt; 99 characters)
+E     ./kaiaai/explore/wfd.py:95:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:98:15: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:98:100: E501 line too long (181 &gt; 99 characters)
+E     ./kaiaai/explore/wfd.py:102:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:103:1: W293 blank line contains whitespace
+E     ./kaiaai/explore/wfd.py:106:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:107:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:110:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:112:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:113:100: E501 line too long (121 &gt; 99 characters)
+E     ./kaiaai/explore/wfd.py:114:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:114:100: E501 line too long (130 &gt; 99 characters)
+E     ./kaiaai/explore/wfd.py:114:101: F821 undefined name 'getNeighbors'
+E     ./kaiaai/explore/wfd.py:118:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:122:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:123:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:125:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:129:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:131:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:134:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:139:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:140:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:146:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:148:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:151:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:153:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:154:11: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:158:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:159:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:166:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:167:3: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:171:7: E111 indentation is not a multiple of 4
+E     ./kaiaai/explore/wfd.py:173:11: E111 indentation is not a multiple of 4
+E   assert 1 == 0</failure></testcase><testcase classname="kaiaai.test.test_pep257" name="test_pep257" time="0.076"><failure message="AssertionError: Found code style errors / warnings&#10;assert 1 == 0">test/test_pep257.py:23: in test_pep257
+    assert rc == 0, 'Found code style errors / warnings'
+E   AssertionError: Found code style errors / warnings
+E   assert 1 == 0</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/robot_serving_bot/ament_cmake_environment_hooks/local_setup.sh

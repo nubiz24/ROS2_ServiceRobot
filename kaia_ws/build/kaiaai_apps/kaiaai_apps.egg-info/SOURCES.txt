@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+kaiaai_apps/__init__.py
+kaiaai_apps.egg-info/PKG-INFO
+kaiaai_apps.egg-info/SOURCES.txt
+kaiaai_apps.egg-info/dependency_links.txt
+kaiaai_apps.egg-info/entry_points.txt
+kaiaai_apps.egg-info/requires.txt
+kaiaai_apps.egg-info/top_level.txt
+kaiaai_apps.egg-info/zip-safe
+resource/kaiaai_apps

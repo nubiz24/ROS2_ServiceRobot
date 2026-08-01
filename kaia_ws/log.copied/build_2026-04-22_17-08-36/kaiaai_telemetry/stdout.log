@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target telem_test_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target telem[0m
+[ 50%] Built target telem_test_pub
+[100%] Built target telem
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/lib/kaiaai_telemetry/telem_test_pub
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/lib/kaiaai_telemetry/telem
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/config/telem.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/package_run_dependencies/kaiaai_telemetry
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/parent_prefix_path/kaiaai_telemetry
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/path.sh
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/path.dsv
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.bash
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.sh
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.zsh
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.dsv
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.dsv
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/packages/kaiaai_telemetry
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/cmake/kaiaai_telemetryConfig.cmake
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/cmake/kaiaai_telemetryConfig-version.cmake
+-- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.xml

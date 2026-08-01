@@ -1,0 +1,14 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--test-result-base', 'build', '--verbose']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test-result', test_result_base='build', all=False, result_files_only=False, verbose=True, delete=False, delete_yes=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7adaeee5a5f0>, verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x7adaeef0a320>, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x7adaeef0a320>>, mixin_verb=('test-result',))
+[0.144s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[0.172s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)
+[0.175s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/explore_lite/Testing/20260731-1904/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.177s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/kaiaai/package.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.177s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/kaiaai_apps/package.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.179s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/kaiaai_bringup/Testing/20260731-1904/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.183s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/kaiaai_msgs/Testing/20260731-1904/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.187s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/kaiaai_telemetry/Testing/20260731-1904/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.189s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/kaiaai_teleop/package.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.190s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/kaiaai_web/package.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.190s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/makerspet/package.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.193s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/nav2_wfd/package.xml': the root tag is neither 'testsuite' nor 'testsuites'

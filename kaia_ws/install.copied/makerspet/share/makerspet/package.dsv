@@ -1,0 +1,9 @@
+source;share/makerspet/hook/pythonpath.ps1
+source;share/makerspet/hook/pythonpath.dsv
+source;share/makerspet/hook/pythonpath.sh
+source;share/makerspet/hook/ament_prefix_path.ps1
+source;share/makerspet/hook/ament_prefix_path.dsv
+source;share/makerspet/hook/ament_prefix_path.sh
+source;../../build/makerspet/share/makerspet/hook/pythonpath_develop.ps1
+source;../../build/makerspet/share/makerspet/hook/pythonpath_develop.dsv
+source;../../build/makerspet/share/makerspet/hook/pythonpath_develop.sh

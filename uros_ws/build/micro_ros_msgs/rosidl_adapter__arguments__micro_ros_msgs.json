@@ -1,0 +1,8 @@
+{
+  "package_name": "micro_ros_msgs",
+  "non_idl_tuples": [
+    "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs:msg/Graph.msg",
+    "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs:msg/Node.msg",
+    "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs:msg/Entity.msg"
+  ]
+}

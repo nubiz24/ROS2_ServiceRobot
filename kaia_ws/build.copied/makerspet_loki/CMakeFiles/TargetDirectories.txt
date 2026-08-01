@@ -1,0 +1,9 @@
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/uninstall.dir
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/makerspet_loki_uninstall.dir
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/test.dir
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/edit_cache.dir
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/rebuild_cache.dir
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/list_install_components.dir
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/install.dir
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/install/local.dir
+/home/duong/kaia_ws/build/makerspet_loki/CMakeFiles/install/strip.dir

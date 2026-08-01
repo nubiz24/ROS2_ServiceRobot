@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+makerspet/__init__.py
+makerspet/param_client.py
+makerspet/robot.py
+makerspet.egg-info/PKG-INFO
+makerspet.egg-info/SOURCES.txt
+makerspet.egg-info/dependency_links.txt
+makerspet.egg-info/entry_points.txt
+makerspet.egg-info/requires.txt
+makerspet.egg-info/top_level.txt
+makerspet.egg-info/zip-safe
+resource/makerspet

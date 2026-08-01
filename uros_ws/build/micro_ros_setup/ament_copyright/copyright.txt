@@ -1,0 +1,11 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':
+ - /opt/ros/iron/bin/ament_copyright --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/copyright.xunit.xml
+
+CONTRIBUTING.md: <unknown>
+config/generate_lib/generic/demo_toolchain.cmake: could not find copyright notice
+scripts/yaml_filter.py: could not find copyright notice
+3 errors, checked 4 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/copyright.xunit.xml'

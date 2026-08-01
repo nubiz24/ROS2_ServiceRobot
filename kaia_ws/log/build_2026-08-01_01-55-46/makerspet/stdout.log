@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating makerspet.egg-info
+writing makerspet.egg-info/PKG-INFO
+writing dependency_links to makerspet.egg-info/dependency_links.txt
+writing entry points to makerspet.egg-info/entry_points.txt
+writing requirements to makerspet.egg-info/requires.txt
+writing top-level names to makerspet.egg-info/top_level.txt
+writing manifest file 'makerspet.egg-info/SOURCES.txt'
+reading manifest file 'makerspet.egg-info/SOURCES.txt'
+writing manifest file 'makerspet.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/lib/python3.10/site-packages/makerspet.egg-link (link to .)
+Installing param_client script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/lib/makerspet
+
+Installed /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet
+running symlink_data
+creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/ament_index
+creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/ament_index/resource_index
+creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/ament_index/resource_index/packages
+symbolically linking /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/resource/makerspet -> /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/ament_index/resource_index/packages
+symbolically linking /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/package.xml -> /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/makerspet

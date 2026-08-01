@@ -1,0 +1,286 @@
+[0.041s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo
+[0.549s] -- The C compiler identification is GNU 11.4.0
+[0.550s] -- The CXX compiler identification is GNU 11.4.0
+[0.550s] -- Detecting C compiler ABI info
+[0.550s] -- Detecting C compiler ABI info - done
+[0.550s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.551s] -- Detecting C compile features
+[0.551s] -- Detecting C compile features - done
+[0.551s] -- Detecting CXX compiler ABI info
+[0.633s] -- Detecting CXX compiler ABI info - done
+[0.633s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.633s] -- Detecting CXX compile features
+[0.633s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.967s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.071s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.145s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/iron/share/gazebo_ros_pkgs/cmake)
+[1.150s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.232s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.259s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.503s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[1.706s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.922s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.946s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.171s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.238s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.654s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[2.797s] -- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)
+[2.917s] -- Configuring done
+[2.936s] -- Generating done
+[2.943s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo
+[3.332s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo' returned '0': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo
+[3.333s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo -- -j12 -l12
+[3.524s] [ 50%] Building CXX object CMakeFiles/self_drive_gazebo.dir/src/self_drive_gazebo.cpp.o
+[18.149s] [100%] Linking CXX executable self_drive_gazebo
+[19.230s] [100%] Built target self_drive_gazebo
+[19.247s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo' returned '0': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo -- -j12 -l12
+[19.250s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo
+[19.261s] -- Install configuration: ""
+[19.261s] -- Execute custom install script
+[19.262s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/lib/kaiaai_gazebo/self_drive_gazebo
+[19.276s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//launch/self_drive_gazebo.launch.py
+[19.290s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//launch/world.launch.py
+[19.310s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/bookshelf_diffuse.jpg
+[19.324s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model-1_2.sdf
+[19.337s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model-1_3.sdf
+[19.351s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model-1_4.sdf
+[19.366s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model.config
+[19.380s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model.sdf
+[19.394s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/1.png
+[19.410s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/2.png
+[19.427s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/3.png
+[19.446s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/4.png
+[19.463s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/5.png
+[19.481s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model-1_2.sdf
+[19.499s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model-1_3.sdf
+[19.516s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model-1_4.sdf
+[19.534s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model.config
+[19.550s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model.sdf
+[19.569s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/1.png
+[19.586s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/2.png
+[19.609s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/3.png
+[19.622s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/4.png
+[19.641s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/5.png
+[19.659s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair.mtl
+[19.674s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair.obj
+[19.696s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair.png
+[19.710s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair_Diffuse.png
+[19.724s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair_Normal.png
+[19.742s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair_SpecGloss.png
+[19.760s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/model.config
+[19.774s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/model.sdf
+[19.791s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/1.png
+[19.809s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/2.png
+[19.823s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/3.png
+[19.846s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/4.png
+[19.868s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/5.png
+[19.882s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable.mtl
+[19.901s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable.obj
+[19.915s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable_Diffuse.png
+[19.930s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable_Normal.png
+[19.943s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable_SpecGloss.png
+[19.957s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/model.config
+[19.971s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/model.sdf
+[19.990s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/1.png
+[20.007s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/2.png
+[20.026s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/3.png
+[20.039s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/4.png
+[20.056s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/5.png
+[20.076s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit.mtl
+[20.090s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit.obj
+[20.103s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit.png
+[20.117s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit_Col.mtl
+[20.131s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit_Col.obj
+[20.145s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/HandbagBlack.png
+[20.159s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/model.config
+[20.173s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/model.sdf
+[20.186s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/1.png
+[20.199s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/2.png
+[20.213s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/3.png
+[20.227s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/4.png
+[20.240s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/5.png
+[20.261s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand.mtl
+[20.274s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand.obj
+[20.288s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand_Col.mtl
+[20.301s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand_Col.obj
+[20.315s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand_Diffuse.png
+[20.328s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/model.config
+[20.346s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/model.sdf
+[20.367s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/1.png
+[20.380s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/2.png
+[20.399s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/3.png
+[20.412s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/4.png
+[20.426s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/5.png
+[20.440s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit.mtl
+[20.457s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit.obj
+[20.470s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit.png
+[20.483s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit_Col.mtl
+[20.496s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit_Col.obj
+[20.511s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/Phone.png
+[20.524s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/model.config
+[20.537s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/model.sdf
+[20.550s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/1.png
+[20.563s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/2.png
+[20.576s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/3.png
+[20.590s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/4.png
+[20.603s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/5.png
+[20.616s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/meshes/MiniSofa_Diffuse.png
+[20.628s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/meshes/minisofa.mtl
+[20.641s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/meshes/minisofa.obj
+[20.653s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/model.config
+[20.666s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/model.sdf
+[20.681s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/1.png
+[20.697s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/2.png
+[20.721s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/3.png
+[20.734s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/4.png
+[20.747s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/5.png
+[20.760s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/meshes/Sofa.mtl
+[20.776s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/meshes/Sofa.obj
+[20.793s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/meshes/SofaDiffuse.png
+[20.815s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/model.config
+[20.827s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/model.sdf
+[20.840s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/1.png
+[20.852s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/2.png
+[20.873s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/3.png
+[20.893s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/4.png
+[20.906s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/5.png
+[20.920s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand.mtl
+[20.935s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand.obj
+[20.949s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand_Col.mtl
+[20.963s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand_Col.obj
+[20.981s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand_Diffuse.png
+[21.001s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/model.config
+[21.021s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/model.sdf
+[21.034s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/1.png
+[21.055s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/2.png
+[21.068s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/3.png
+[21.081s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/4.png
+[21.102s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/5.png
+[21.122s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/materials/scripts/table_lightmap.material
+[21.137s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/materials/textures/marble.png
+[21.159s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/materials/textures/table_lightmap.png
+[21.172s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/meshes/table_lightmap.dae
+[21.194s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/model-1_4.sdf
+[21.208s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/model.config
+[21.224s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/model.sdf
+[21.238s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/1.png
+[21.250s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/2.png
+[21.271s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/3.png
+[21.285s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/4.png
+[21.297s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/5.png
+[21.311s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/materials/textures/cardboard_box.png
+[21.326s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/meshes/cardboard_box.dae
+[21.340s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/model.config
+[21.353s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/model.sdf
+[21.366s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/thumbnails/0.jpg
+[21.381s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/thumbnails/1.jpg
+[21.395s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/thumbnails/2.jpg
+[21.410s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/materials/textures/texture.png
+[21.433s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/meshes/model.mtl
+[21.455s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/meshes/model.obj
+[21.473s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/metadata.pbtxt
+[21.488s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/model.config
+[21.502s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/model.sdf
+[21.516s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/0.jpg
+[21.530s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/1.jpg
+[21.544s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/2.jpg
+[21.561s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/3.jpg
+[21.575s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/4.jpg
+[21.591s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/material/script/door_08x2m.material
+[21.605s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/material/textures/door_08x2m.png
+[21.620s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/model.config
+[21.634s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/model.sdf
+[21.648s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/thumbnails/1.png
+[21.662s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/material/script/kaiaai_poster.material
+[21.676s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/material/textures/kaiaai_logo_450x460.png
+[21.691s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/model.config
+[21.704s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/model.sdf
+[21.720s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/thumbnails/1.png
+[21.734s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/material/script/makerspet_poster.material
+[21.757s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/material/textures/makerspet_logo_600x700.png
+[21.770s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/model.config
+[21.792s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/model.sdf
+[21.810s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/thumbnails/1.png
+[21.823s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate/model.config
+[21.837s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate/model.sdf
+[21.850s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate/thumbnails/1.png
+[21.864s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate_wide/model.config
+[21.879s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate_wide/model.sdf
+[21.893s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate_wide/thumbnails/1.png
+[21.908s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/materials/textures/texture.png
+[21.921s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/meshes/model.mtl
+[21.939s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/meshes/model.obj
+[21.960s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/metadata.pbtxt
+[21.974s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/model.config
+[21.989s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/model.sdf
+[22.004s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/0.jpg
+[22.020s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/1.jpg
+[22.035s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/2.jpg
+[22.049s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/3.jpg
+[22.063s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/4.jpg
+[22.078s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/red_ball_10in/model.config
+[22.092s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/red_ball_10in/model.sdf
+[22.106s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/red_ball_10in/thumbnails/1.png
+[22.121s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/material/script/room_wall_2x5m.material
+[22.136s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/material/textures/wall_texture_1404x562.jpg
+[22.151s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/model.config
+[22.166s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/model.sdf
+[22.180s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/thumbnails/1.jpg
+[22.195s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/material/script/rug_ivory_2m.material
+[22.211s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/material/textures/rug_ivory_469x588.png
+[22.231s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/model.config
+[22.254s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/model.sdf
+[22.274s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/thumbnails/1.png
+[22.288s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/materials/textures/texture.png
+[22.302s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/meshes/model.mtl
+[22.318s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/meshes/model.obj
+[22.337s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/metadata.pbtxt
+[22.358s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/model.config
+[22.372s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/model.sdf
+[22.385s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/0.jpg
+[22.399s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/1.jpg
+[22.412s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/2.jpg
+[22.426s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/3.jpg
+[22.441s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/4.jpg
+[22.455s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/material/script/tv_emissive.material
+[22.469s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/material/textures/tv_65in_maldives_909x541.jpg
+[22.482s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/model.config
+[22.496s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/model.sdf
+[22.510s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/thumbnails/1.png
+[22.525s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/material/script/window_curtains.material
+[22.539s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/material/textures/window_curtains.png
+[22.558s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/model.config
+[22.571s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/model.sdf
+[22.584s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/thumbnails/1.png
+[22.599s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/empty_world.world
+[22.615s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room.world
+[22.635s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room2.world
+[22.656s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room3.world
+[22.671s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room4.world
+[22.685s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room_gated.world
+[22.699s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//map/living_room.pgm
+[22.719s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//map/living_room.yaml
+[22.740s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/include//kaiaai_gazebo/self_drive_gazebo.hpp
+[22.757s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/lib/kaiaai_gazebo/urdf2sdf.sh
+[22.770s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/ament_index/resource_index/package_run_dependencies/kaiaai_gazebo
+[22.782s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/ament_index/resource_index/parent_prefix_path/kaiaai_gazebo
+[22.800s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/environment/ament_prefix_path.sh
+[22.813s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/environment/ament_prefix_path.dsv
+[22.825s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/environment/path.sh
+[22.837s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/environment/path.dsv
+[22.850s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/local_setup.bash
+[22.862s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/local_setup.sh
+[22.874s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/local_setup.zsh
+[22.886s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/local_setup.dsv
+[22.907s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/package.dsv
+[22.929s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/ament_index/resource_index/packages/kaiaai_gazebo
+[22.941s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.955s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.975s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/cmake/kaiaai_gazeboConfig.cmake
+[22.995s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/cmake/kaiaai_gazeboConfig-version.cmake
+[23.007s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/package.xml
+[23.032s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo' returned '0': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo

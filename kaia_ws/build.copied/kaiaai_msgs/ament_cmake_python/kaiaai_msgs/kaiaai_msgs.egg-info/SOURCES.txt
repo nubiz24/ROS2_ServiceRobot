@@ -1,0 +1,12 @@
+setup.py
+kaiaai_msgs/__init__.py
+kaiaai_msgs.egg-info/PKG-INFO
+kaiaai_msgs.egg-info/SOURCES.txt
+kaiaai_msgs.egg-info/dependency_links.txt
+kaiaai_msgs.egg-info/top_level.txt
+kaiaai_msgs/msg/__init__.py
+kaiaai_msgs/msg/_joint_pos_vel.py
+kaiaai_msgs/msg/_kaiaai_telemetry.py
+kaiaai_msgs/msg/_kaiaai_telemetry2.py
+kaiaai_msgs/msg/_online_event.py
+kaiaai_msgs/msg/_wifi_state.py

@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/src/kaiaai_bringup/script/upload_robot_description_github.sh

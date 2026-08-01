@@ -1,0 +1,17 @@
+[1.295s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_teleop': PYTHONPATH=/home/duong/kaia_ws/build/kaiaai_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/kaia_ws/build/kaiaai_teleop/build --no-deps symlink_data
+[1.751s] running develop
+[2.005s] running egg_info
+[2.005s] writing kaiaai_teleop.egg-info/PKG-INFO
+[2.005s] writing dependency_links to kaiaai_teleop.egg-info/dependency_links.txt
+[2.005s] writing entry points to kaiaai_teleop.egg-info/entry_points.txt
+[2.005s] writing requirements to kaiaai_teleop.egg-info/requires.txt
+[2.005s] writing top-level names to kaiaai_teleop.egg-info/top_level.txt
+[2.008s] reading manifest file 'kaiaai_teleop.egg-info/SOURCES.txt'
+[2.009s] writing manifest file 'kaiaai_teleop.egg-info/SOURCES.txt'
+[2.011s] running build_ext
+[2.012s] Creating /home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages/kaiaai-teleop.egg-link (link to .)
+[2.013s] Installing teleop_keyboard script to /home/duong/kaia_ws/install/kaiaai_teleop/lib/kaiaai_teleop
+[2.013s] 
+[2.014s] Installed /home/duong/kaia_ws/build/kaiaai_teleop
+[2.014s] running symlink_data
+[2.079s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_teleop' returned '0': PYTHONPATH=/home/duong/kaia_ws/build/kaiaai_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/kaia_ws/build/kaiaai_teleop/build --no-deps symlink_data

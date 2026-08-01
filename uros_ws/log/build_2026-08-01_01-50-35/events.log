@@ -1,0 +1,887 @@
+[0.000000] (-) TimerEvent: {}
+[0.001137] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001229] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001318] (drive_base_msgs) JobQueued: {'identifier': 'drive_base_msgs', 'dependencies': OrderedDict()}
+[0.001483] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs')])}
+[0.001537] (drive_base_msgs) JobStarted: {'identifier': 'drive_base_msgs'}
+[0.011822] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.022748] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'cmake'}
+[0.024490] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'build'}
+[0.025501] (drive_base_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs', '--', '-j12', '-l12'], 'cwd': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/duong'), ('CURSOR_EXTENSION_HOST_ROLE', 'user'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'vi:en'), ('USER', 'duong'), ('LC_TIME', 'vi_VN'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"vi","osLocale":"vi","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"vi","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/duong/kaia_ws/install/kaiaai_msgs/lib:/home/duong/uros_ws/install/micro_ros_agent/lib:/home/duong/uros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/duong'), ('CHROME_DESKTOP', 'cursor.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-d90574cd-3.0.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'vi_VN'), ('CURSOR_WORKSPACE_LABEL', 'ROS2_ServiceRobot'), ('MANAGERPID', '1749'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1924'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28131'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duong/uros_ws/install:/home/duong/kaia_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'duong'), ('JOURNAL_STREAM', '8:14165'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'duong'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('PATH', '/home/duong/.local/bin:/home/duong/.local/bin:/home/duong/.codex/tmp/arg0/codex-arg0uBPfhz:/home/duong/.local/bin:/opt/ros/iron/bin:/home/duong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duong/.cursor/extensions/openai.chatgpt-26.721.30844-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1898,unix/work:/tmp/.ICE-unix/1898'), ('INVOCATION_ID', '815b23471d064b21994f7980f76052d4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('VSCODE_PROCESS_TITLE', 'extension-host (user) ROS2_ServiceRobot [1-5]'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2ZC8S3'), ('CURSOR_SPAWNED_BY_EXTENSION_ID', 'openai.chatgpt'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019fb969-2d53-70e1-96f4-2af8af503259'), ('LC_MEASUREMENT', 'vi_VN'), ('CURSOR_SPAWN_CHAIN', 'openai.chatgpt'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/duong/.config/Cursor/CachedData/a80ff7dfcaa45d7750f6e30be457261379c29b00'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/duong/kaia_ws/build/nav2_wfd:/home/duong/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:/home/duong/kaia_ws/build/makerspet:/home/duong/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:/home/duong/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron'), ('VSCODE_PID', '28131')]), 'shell': False}
+[0.035057] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.035826] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.036187] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent', '--', '-j12', '-l12'], 'cwd': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/duong'), ('CURSOR_EXTENSION_HOST_ROLE', 'user'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'vi:en'), ('USER', 'duong'), ('LC_TIME', 'vi_VN'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"vi","osLocale":"vi","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"vi","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib:/home/duong/kaia_ws/install/kaiaai_msgs/lib:/home/duong/uros_ws/install/micro_ros_agent/lib:/home/duong/uros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/duong'), ('CHROME_DESKTOP', 'cursor.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-d90574cd-3.0.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'vi_VN'), ('CURSOR_WORKSPACE_LABEL', 'ROS2_ServiceRobot'), ('MANAGERPID', '1749'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1924'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28131'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duong/uros_ws/install:/home/duong/kaia_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'duong'), ('JOURNAL_STREAM', '8:14165'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'duong'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('PATH', '/home/duong/.local/bin:/home/duong/.local/bin:/home/duong/.codex/tmp/arg0/codex-arg0uBPfhz:/home/duong/.local/bin:/opt/ros/iron/bin:/home/duong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duong/.cursor/extensions/openai.chatgpt-26.721.30844-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1898,unix/work:/tmp/.ICE-unix/1898'), ('INVOCATION_ID', '815b23471d064b21994f7980f76052d4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('VSCODE_PROCESS_TITLE', 'extension-host (user) ROS2_ServiceRobot [1-5]'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2ZC8S3'), ('CURSOR_SPAWNED_BY_EXTENSION_ID', 'openai.chatgpt'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019fb969-2d53-70e1-96f4-2af8af503259'), ('LC_MEASUREMENT', 'vi_VN'), ('CURSOR_SPAWN_CHAIN', 'openai.chatgpt'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/duong/.config/Cursor/CachedData/a80ff7dfcaa45d7750f6e30be457261379c29b00'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/nav2_wfd:/home/duong/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:/home/duong/kaia_ws/build/makerspet:/home/duong/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:/home/duong/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron'), ('VSCODE_PID', '28131')]), 'shell': False}
+[0.099606] (-) TimerEvent: {}
+[0.118815] (drive_base_msgs) StdoutLine: {'line': b'[  1%] Built target drive_base_msgs__rosidl_generator_type_description\n'}
+[0.123549] (micro_ros_agent) StdoutLine: {'line': b"[  6%] Performing download step (git clone) for 'xrceagent'\n"}
+[0.131183] (drive_base_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_drive_base_msgs\n'}
+[0.147978] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_generator_c\n'}
+[0.157250] (drive_base_msgs) StdoutLine: {'line': b'[  3%] Built target drive_base_msgs__cpp\n'}
+[0.165808] (micro_ros_agent) StderrLine: {'line': b"\xc4\x90ang nh\xc3\xa2n b\xe1\xba\xa3n th\xc3\xa0nh 'xrceagent'...\n"}
+[0.169966] (drive_base_msgs) StdoutLine: {'line': b'[ 25%] Built target drive_base_msgs__rosidl_generator_c\n'}
+[0.197065] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_introspection_c\n'}
+[0.199588] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_c\n'}
+[0.199780] (-) TimerEvent: {}
+[0.200022] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.200326] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_cpp\n'}
+[0.200412] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.207431] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.217877] (drive_base_msgs) StdoutLine: {'line': b'[ 34%] Built target drive_base_msgs__rosidl_typesupport_introspection_c\n'}
+[0.221219] (drive_base_msgs) StdoutLine: {'line': b'[ 43%] Built target drive_base_msgs__rosidl_typesupport_c\n'}
+[0.222271] (drive_base_msgs) StdoutLine: {'line': b'[ 53%] Built target drive_base_msgs__rosidl_typesupport_cpp\n'}
+[0.223890] (drive_base_msgs) StdoutLine: {'line': b'[ 62%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.227547] (drive_base_msgs) StdoutLine: {'line': b'[ 71%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.235236] (drive_base_msgs) StdoutLine: {'line': b'[ 81%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.275011] (drive_base_msgs) StdoutLine: {'line': b'[ 81%] Built target drive_base_msgs\n'}
+[0.299915] (-) TimerEvent: {}
+[0.316936] (drive_base_msgs) StdoutLine: {'line': b'[ 82%] Built target drive_base_msgs__py\n'}
+[0.344642] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_generator_py\n'}
+[0.371654] (drive_base_msgs) StdoutLine: {'line': b'[ 90%] Built target drive_base_msgs__rosidl_generator_py\n'}
+[0.394880] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_c__pyext\n'}
+[0.395890] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.396434] (drive_base_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drive_base_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.400030] (-) TimerEvent: {}
+[0.416864] (drive_base_msgs) StdoutLine: {'line': b'[ 93%] Built target drive_base_msgs__rosidl_typesupport_c__pyext\n'}
+[0.417270] (drive_base_msgs) StdoutLine: {'line': b'[ 96%] Built target drive_base_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.423059] (drive_base_msgs) StdoutLine: {'line': b'[100%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.500154] (-) TimerEvent: {}
+[0.538998] (drive_base_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.541108] (drive_base_msgs) StdoutLine: {'line': b'writing drive_base_msgs.egg-info/PKG-INFO\n'}
+[0.541524] (drive_base_msgs) StdoutLine: {'line': b'writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt\n'}
+[0.541795] (drive_base_msgs) StdoutLine: {'line': b'writing top-level names to drive_base_msgs.egg-info/top_level.txt\n'}
+[0.544805] (drive_base_msgs) StdoutLine: {'line': b"reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'\n"}
+[0.545614] (drive_base_msgs) StdoutLine: {'line': b"writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'\n"}
+[0.589065] (drive_base_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_drive_base_msgs_egg\n'}
+[0.600318] (-) TimerEvent: {}
+[0.619533] (drive_base_msgs) CommandEnded: {'returncode': 0}
+[0.620803] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'install'}
+[0.641632] (drive_base_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs'], 'cwd': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/duong'), ('CURSOR_EXTENSION_HOST_ROLE', 'user'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'vi:en'), ('USER', 'duong'), ('LC_TIME', 'vi_VN'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"vi","osLocale":"vi","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"vi","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/duong/kaia_ws/install/kaiaai_msgs/lib:/home/duong/uros_ws/install/micro_ros_agent/lib:/home/duong/uros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/duong'), ('CHROME_DESKTOP', 'cursor.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-d90574cd-3.0.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'vi_VN'), ('CURSOR_WORKSPACE_LABEL', 'ROS2_ServiceRobot'), ('MANAGERPID', '1749'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1924'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28131'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duong/uros_ws/install:/home/duong/kaia_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'duong'), ('JOURNAL_STREAM', '8:14165'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'duong'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('PATH', '/home/duong/.local/bin:/home/duong/.local/bin:/home/duong/.codex/tmp/arg0/codex-arg0uBPfhz:/home/duong/.local/bin:/opt/ros/iron/bin:/home/duong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duong/.cursor/extensions/openai.chatgpt-26.721.30844-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1898,unix/work:/tmp/.ICE-unix/1898'), ('INVOCATION_ID', '815b23471d064b21994f7980f76052d4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('VSCODE_PROCESS_TITLE', 'extension-host (user) ROS2_ServiceRobot [1-5]'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2ZC8S3'), ('CURSOR_SPAWNED_BY_EXTENSION_ID', 'openai.chatgpt'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019fb969-2d53-70e1-96f4-2af8af503259'), ('LC_MEASUREMENT', 'vi_VN'), ('CURSOR_SPAWN_CHAIN', 'openai.chatgpt'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/duong/.config/Cursor/CachedData/a80ff7dfcaa45d7750f6e30be457261379c29b00'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/duong/kaia_ws/build/nav2_wfd:/home/duong/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:/home/duong/kaia_ws/build/makerspet:/home/duong/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:/home/duong/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron'), ('VSCODE_PID', '28131')]), 'shell': False}
+[0.663306] (drive_base_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.664362] (drive_base_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.664739] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs\n'}
+[0.665064] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json\n'}
+[0.665385] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json\n'}
+[0.665693] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json\n'}
+[0.666015] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json\n'}
+[0.667000] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h\n'}
+[0.667469] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h\n'}
+[0.667751] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h\n'}
+[0.668043] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h\n'}
+[0.668182] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h\n'}
+[0.668524] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h\n'}
+[0.668775] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h\n'}
+[0.668988] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h\n'}
+[0.669113] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h\n'}
+[0.669358] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h\n'}
+[0.669575] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h\n'}
+[0.669795] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h\n'}
+[0.670002] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h\n'}
+[0.670244] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h\n'}
+[0.670545] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h\n'}
+[0.670872] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.671103] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h\n'}
+[0.671356] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh\n'}
+[0.671641] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv\n'}
+[0.672523] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.672790] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h\n'}
+[0.673065] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.673397] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h\n'}
+[0.673641] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.674300] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp\n'}
+[0.674548] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp\n'}
+[0.674783] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp\n'}
+[0.675049] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp\n'}
+[0.675390] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp\n'}
+[0.675643] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp\n'}
+[0.675869] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp\n'}
+[0.676105] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp\n'}
+[0.676351] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp\n'}
+[0.676643] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp\n'}
+[0.676946] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp\n'}
+[0.677195] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp\n'}
+[0.677460] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp\n'}
+[0.677685] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp\n'}
+[0.677917] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp\n'}
+[0.678137] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp\n'}
+[0.679003] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.679260] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.679559] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.679886] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.680159] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.680643] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h\n'}
+[0.680916] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h\n'}
+[0.681219] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h\n'}
+[0.681488] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h\n'}
+[0.681709] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.682340] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.682652] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.682893] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.683152] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.683419] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh\n'}
+[0.683699] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv\n'}
+[0.684215] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.684466] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.684737] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.685036] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.686102] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/__init__.py\n'}
+[0.686473] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.686813] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.687034] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.687162] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.687423] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.687643] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.687866] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/libdrive_base_msgs__rosidl_generator_py.so\n'}
+[0.688073] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/__init__.py\n'}
+[0.688322] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_base_info.py\n'}
+[0.688579] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_base_info_s.c\n'}
+[0.688860] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_command_header.py\n'}
+[0.689143] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_command_header_s.c\n'}
+[0.689497] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_command_status.py\n'}
+[0.689716] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_command_status_s.c\n'}
+[0.689842] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_trv_command.py\n'}
+[0.690073] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_trv_command_s.c\n'}
+[0.690446] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.690895] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.691302] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.691665] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl\n'}
+[0.691958] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl\n'}
+[0.692259] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl\n'}
+[0.692562] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl\n'}
+[0.692858] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg\n'}
+[0.693147] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg\n'}
+[0.693447] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg\n'}
+[0.693755] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg\n'}
+[0.694074] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs\n'}
+[0.694407] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs\n'}
+[0.694696] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh\n'}
+[0.694994] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv\n'}
+[0.695282] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh\n'}
+[0.695591] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv\n'}
+[0.695877] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash\n'}
+[0.696227] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh\n'}
+[0.696549] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh\n'}
+[0.696839] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv\n'}
+[0.697101] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv\n'}
+[0.697366] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs\n'}
+[0.697623] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.697891] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.698230] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.698623] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.698947] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.699249] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.699523] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.699758] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake\n'}
+[0.699974] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake\n'}
+[0.700243] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml\n'}
+[0.700389] (-) TimerEvent: {}
+[0.700619] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so\n'}
+[0.701164] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.701747] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.702280] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.702783] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so\n'}
+[0.703288] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.703818] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so\n'}
+[0.781543] (drive_base_msgs) StdoutLine: {'line': b"Listing '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs'...\n"}
+[0.781823] (drive_base_msgs) StdoutLine: {'line': b"Listing '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg'...\n"}
+[0.788140] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so\n'}
+[0.788652] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake\n'}
+[0.788805] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.789463] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.789642] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.789760] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.789870] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.789976] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.790938] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.791324] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.791489] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.791597] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.791704] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.791814] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.791916] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.792015] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.792393] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.792541] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.795295] (drive_base_msgs) CommandEnded: {'returncode': 0}
+[0.800610] (-) TimerEvent: {}
+[0.845513] (drive_base_msgs) JobEnded: {'identifier': 'drive_base_msgs', 'rc': 0}
+[0.900742] (-) TimerEvent: {}
+[1.000990] (-) TimerEvent: {}
+[1.101289] (-) TimerEvent: {}
+[1.201565] (-) TimerEvent: {}
+[1.301843] (-) TimerEvent: {}
+[1.402147] (-) TimerEvent: {}
+[1.502464] (-) TimerEvent: {}
+[1.602694] (-) TimerEvent: {}
+[1.702933] (-) TimerEvent: {}
+[1.803166] (-) TimerEvent: {}
+[1.903419] (-) TimerEvent: {}
+[2.003646] (-) TimerEvent: {}
+[2.103883] (-) TimerEvent: {}
+[2.166551] (micro_ros_agent) StderrLine: {'line': b"\xc4\x90\xc3\xa3 chuy\xe1\xbb\x83n \xc4\x91\xe1\xba\xbfn nh\xc3\xa1nh m\xe1\xbb\x9bi 'ros2'\n"}
+[2.166805] (micro_ros_agent) StdoutLine: {'line': b'Nh\xc3\xa1nh \xe2\x80\x9cros2\xe2\x80\x9d c\xc3\xa0i \xc4\x91\xe1\xba\xb7t \xc4\x91\xe1\xbb\x83 theo d\xc3\xb5i nh\xc3\xa1nh m\xc3\xa1y ch\xe1\xbb\xa7 \xe2\x80\x9cros2\xe2\x80\x9d t\xe1\xbb\xab \xe2\x80\x9corigin\xe2\x80\x9d.\n'}
+[2.204001] (-) TimerEvent: {}
+[2.277544] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] Performing update step for 'xrceagent'\n"}
+[2.304121] (-) TimerEvent: {}
+[2.404363] (-) TimerEvent: {}
+[2.506297] (-) TimerEvent: {}
+[2.606556] (-) TimerEvent: {}
+[2.706856] (-) TimerEvent: {}
+[2.807143] (-) TimerEvent: {}
+[2.907687] (-) TimerEvent: {}
+[3.007982] (-) TimerEvent: {}
+[3.108302] (-) TimerEvent: {}
+[3.147141] (micro_ros_agent) StderrLine: {'line': b'HEAD hi\xe1\xbb\x87n gi\xe1\xbb\x9d t\xe1\xba\xa1i 57d0862 Release v2.4.2\n'}
+[3.208464] (-) TimerEvent: {}
+[3.241199] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] No patch step for 'xrceagent'\n"}
+[3.298380] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] Performing configure step for 'xrceagent'\n"}
+[3.308615] (-) TimerEvent: {}
+[3.314860] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[3.408773] (-) TimerEvent: {}
+[3.415092] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.429155] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.508932] (-) TimerEvent: {}
+[3.569025] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.588614] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.589290] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.590540] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.609082] (-) TimerEvent: {}
+[3.703727] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.709224] (-) TimerEvent: {}
+[3.722696] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.809335] (-) TimerEvent: {}
+[3.881971] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.902119] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.902729] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.903838] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.909531] (-) TimerEvent: {}
+[3.925694] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.009685] (-) TimerEvent: {}
+[4.069703] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.070098] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.109837] (-) TimerEvent: {}
+[4.210120] (-) TimerEvent: {}
+[4.231271] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.232861] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.254975] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.258761] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[4.260051] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[4.296938] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] Performing build step for 'xrceagent'\n"}
+[4.310288] (-) TimerEvent: {}
+[4.383915] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] Creating directories for 'uagent'\n"}
+[4.410437] (-) TimerEvent: {}
+[4.510733] (-) TimerEvent: {}
+[4.546170] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] No download step for 'uagent'\n"}
+[4.593120] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] No update step for 'uagent'\n"}
+[4.610890] (-) TimerEvent: {}
+[4.649458] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] No patch step for 'uagent'\n"}
+[4.709807] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] Performing configure step for 'uagent'\n"}
+[4.711001] (-) TimerEvent: {}
+[4.734234] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[4.741898] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[4.811138] (-) TimerEvent: {}
+[4.818260] (micro_ros_agent) StderrLine: {'line': b'CMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[4.818542] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[4.818677] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[4.818797] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[4.818913] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[4.819029] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.819165] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[4.819329] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/iron/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[4.819458] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[4.819573] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.819689] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[4.819801] (micro_ros_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[4.911284] (-) TimerEvent: {}
+[4.967901] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.980803] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.999709] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[5.001051] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[5.011432] (-) TimerEvent: {}
+[5.034790] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] Performing build step for 'uagent'\n"}
+[5.111588] (-) TimerEvent: {}
+[5.133568] (micro_ros_agent) StdoutLine: {'line': b'[  4%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\n'}
+[5.133885] (micro_ros_agent) StdoutLine: {'line': b'[  4%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\n'}
+[5.136876] (micro_ros_agent) StdoutLine: {'line': b'[  7%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\n'}
+[5.138921] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\n'}
+[5.139182] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\n'}
+[5.139336] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\n'}
+[5.144065] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\n'}
+[5.144370] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\n'}
+[5.144482] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\n'}
+[5.144583] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\n'}
+[5.150889] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\n'}
+[5.155901] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\n'}
+[5.215313] (-) TimerEvent: {}
+[5.315583] (-) TimerEvent: {}
+[5.415905] (-) TimerEvent: {}
+[5.516517] (-) TimerEvent: {}
+[5.619330] (-) TimerEvent: {}
+[5.719633] (-) TimerEvent: {}
+[5.819914] (-) TimerEvent: {}
+[5.920268] (-) TimerEvent: {}
+[6.020800] (-) TimerEvent: {}
+[6.123502] (-) TimerEvent: {}
+[6.223793] (-) TimerEvent: {}
+[6.324116] (-) TimerEvent: {}
+[6.424669] (-) TimerEvent: {}
+[6.528339] (-) TimerEvent: {}
+[6.628656] (-) TimerEvent: {}
+[6.728970] (-) TimerEvent: {}
+[6.829310] (-) TimerEvent: {}
+[6.930324] (-) TimerEvent: {}
+[7.030643] (-) TimerEvent: {}
+[7.132330] (-) TimerEvent: {}
+[7.232885] (-) TimerEvent: {}
+[7.333462] (-) TimerEvent: {}
+[7.434007] (-) TimerEvent: {}
+[7.481734] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\n'}
+[7.534176] (-) TimerEvent: {}
+[7.634478] (-) TimerEvent: {}
+[7.683770] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\n'}
+[7.734631] (-) TimerEvent: {}
+[7.750083] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\n'}
+[7.835857] (-) TimerEvent: {}
+[7.853697] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\n'}
+[7.936818] (-) TimerEvent: {}
+[8.037293] (-) TimerEvent: {}
+[8.138330] (-) TimerEvent: {}
+[8.238894] (-) TimerEvent: {}
+[8.341347] (-) TimerEvent: {}
+[8.441670] (-) TimerEvent: {}
+[8.541995] (-) TimerEvent: {}
+[8.642313] (-) TimerEvent: {}
+[8.743529] (-) TimerEvent: {}
+[8.844119] (-) TimerEvent: {}
+[8.864341] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\n'}
+[8.940336] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\n'}
+[8.944307] (-) TimerEvent: {}
+[9.044600] (-) TimerEvent: {}
+[9.144906] (-) TimerEvent: {}
+[9.245243] (-) TimerEvent: {}
+[9.347126] (-) TimerEvent: {}
+[9.447668] (-) TimerEvent: {}
+[9.547978] (-) TimerEvent: {}
+[9.650567] (-) TimerEvent: {}
+[9.750865] (-) TimerEvent: {}
+[9.777558] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\n'}
+[9.851021] (-) TimerEvent: {}
+[9.953316] (-) TimerEvent: {}
+[10.053612] (-) TimerEvent: {}
+[10.155495] (-) TimerEvent: {}
+[10.255817] (-) TimerEvent: {}
+[10.356139] (-) TimerEvent: {}
+[10.458527] (-) TimerEvent: {}
+[10.558833] (-) TimerEvent: {}
+[10.659132] (-) TimerEvent: {}
+[10.760513] (-) TimerEvent: {}
+[10.860894] (-) TimerEvent: {}
+[10.961469] (-) TimerEvent: {}
+[11.065522] (-) TimerEvent: {}
+[11.165831] (-) TimerEvent: {}
+[11.266151] (-) TimerEvent: {}
+[11.366478] (-) TimerEvent: {}
+[11.467004] (-) TimerEvent: {}
+[11.568536] (-) TimerEvent: {}
+[11.670357] (-) TimerEvent: {}
+[11.770658] (-) TimerEvent: {}
+[11.870953] (-) TimerEvent: {}
+[11.951279] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\n'}
+[11.971313] (-) TimerEvent: {}
+[12.026185] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\n'}
+[12.071552] (-) TimerEvent: {}
+[12.173538] (-) TimerEvent: {}
+[12.182150] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\n'}
+[12.273692] (-) TimerEvent: {}
+[12.375500] (-) TimerEvent: {}
+[12.475795] (-) TimerEvent: {}
+[12.577333] (-) TimerEvent: {}
+[12.618074] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\n'}
+[12.677485] (-) TimerEvent: {}
+[12.777769] (-) TimerEvent: {}
+[12.881322] (-) TimerEvent: {}
+[12.981627] (-) TimerEvent: {}
+[13.081929] (-) TimerEvent: {}
+[13.182269] (-) TimerEvent: {}
+[13.203584] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\n'}
+[13.284332] (-) TimerEvent: {}
+[13.384632] (-) TimerEvent: {}
+[13.484943] (-) TimerEvent: {}
+[13.585255] (-) TimerEvent: {}
+[13.689508] (-) TimerEvent: {}
+[13.789809] (-) TimerEvent: {}
+[13.890110] (-) TimerEvent: {}
+[13.990442] (-) TimerEvent: {}
+[14.090974] (-) TimerEvent: {}
+[14.133261] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\n'}
+[14.193323] (-) TimerEvent: {}
+[14.293617] (-) TimerEvent: {}
+[14.343993] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\n'}
+[14.393764] (-) TimerEvent: {}
+[14.496596] (-) TimerEvent: {}
+[14.596906] (-) TimerEvent: {}
+[14.697240] (-) TimerEvent: {}
+[14.798319] (-) TimerEvent: {}
+[14.898626] (-) TimerEvent: {}
+[14.983411] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\n'}
+[14.998780] (-) TimerEvent: {}
+[15.099093] (-) TimerEvent: {}
+[15.199409] (-) TimerEvent: {}
+[15.295584] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\n'}
+[15.299770] (-) TimerEvent: {}
+[15.402508] (-) TimerEvent: {}
+[15.502794] (-) TimerEvent: {}
+[15.603110] (-) TimerEvent: {}
+[15.703437] (-) TimerEvent: {}
+[15.803749] (-) TimerEvent: {}
+[15.905506] (-) TimerEvent: {}
+[16.005820] (-) TimerEvent: {}
+[16.056334] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\n'}
+[16.105977] (-) TimerEvent: {}
+[16.208330] (-) TimerEvent: {}
+[16.308642] (-) TimerEvent: {}
+[16.319711] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\n'}
+[16.408787] (-) TimerEvent: {}
+[16.511329] (-) TimerEvent: {}
+[16.611629] (-) TimerEvent: {}
+[16.711930] (-) TimerEvent: {}
+[16.812269] (-) TimerEvent: {}
+[16.912565] (-) TimerEvent: {}
+[17.013330] (-) TimerEvent: {}
+[17.114330] (-) TimerEvent: {}
+[17.214863] (-) TimerEvent: {}
+[17.318480] (-) TimerEvent: {}
+[17.418787] (-) TimerEvent: {}
+[17.519100] (-) TimerEvent: {}
+[17.619393] (-) TimerEvent: {}
+[17.719912] (-) TimerEvent: {}
+[17.821335] (-) TimerEvent: {}
+[17.921652] (-) TimerEvent: {}
+[18.021954] (-) TimerEvent: {}
+[18.124322] (-) TimerEvent: {}
+[18.224624] (-) TimerEvent: {}
+[18.320445] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\n'}
+[18.324778] (-) TimerEvent: {}
+[18.425069] (-) TimerEvent: {}
+[18.527515] (-) TimerEvent: {}
+[18.627799] (-) TimerEvent: {}
+[18.728090] (-) TimerEvent: {}
+[18.828330] (-) TimerEvent: {}
+[18.928671] (-) TimerEvent: {}
+[19.029734] (-) TimerEvent: {}
+[19.130474] (-) TimerEvent: {}
+[19.231652] (-) TimerEvent: {}
+[19.331936] (-) TimerEvent: {}
+[19.364019] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\n'}
+[19.434528] (-) TimerEvent: {}
+[19.534838] (-) TimerEvent: {}
+[19.635157] (-) TimerEvent: {}
+[19.737364] (-) TimerEvent: {}
+[19.837699] (-) TimerEvent: {}
+[19.938003] (-) TimerEvent: {}
+[20.038310] (-) TimerEvent: {}
+[20.138586] (-) TimerEvent: {}
+[20.238909] (-) TimerEvent: {}
+[20.313849] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\n'}
+[20.342222] (-) TimerEvent: {}
+[20.442508] (-) TimerEvent: {}
+[20.542817] (-) TimerEvent: {}
+[20.643128] (-) TimerEvent: {}
+[20.743459] (-) TimerEvent: {}
+[20.847839] (-) TimerEvent: {}
+[20.948153] (-) TimerEvent: {}
+[21.040269] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\n'}
+[21.048363] (-) TimerEvent: {}
+[21.152340] (-) TimerEvent: {}
+[21.186574] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\n'}
+[21.252466] (-) TimerEvent: {}
+[21.352770] (-) TimerEvent: {}
+[21.453077] (-) TimerEvent: {}
+[21.553418] (-) TimerEvent: {}
+[21.653727] (-) TimerEvent: {}
+[21.755318] (-) TimerEvent: {}
+[21.855606] (-) TimerEvent: {}
+[21.955912] (-) TimerEvent: {}
+[22.058525] (-) TimerEvent: {}
+[22.131945] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\n'}
+[22.158651] (-) TimerEvent: {}
+[22.257849] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\n'}
+[22.261345] (-) TimerEvent: {}
+[22.361608] (-) TimerEvent: {}
+[22.461909] (-) TimerEvent: {}
+[22.553339] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\n'}
+[22.562045] (-) TimerEvent: {}
+[22.665502] (-) TimerEvent: {}
+[22.765809] (-) TimerEvent: {}
+[22.866124] (-) TimerEvent: {}
+[22.966461] (-) TimerEvent: {}
+[22.989342] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\n'}
+[23.069316] (-) TimerEvent: {}
+[23.169600] (-) TimerEvent: {}
+[23.179381] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\n'}
+[23.187287] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\n'}
+[23.272316] (-) TimerEvent: {}
+[23.372605] (-) TimerEvent: {}
+[23.472905] (-) TimerEvent: {}
+[23.573246] (-) TimerEvent: {}
+[23.673539] (-) TimerEvent: {}
+[23.773849] (-) TimerEvent: {}
+[23.874162] (-) TimerEvent: {}
+[23.977327] (-) TimerEvent: {}
+[24.077614] (-) TimerEvent: {}
+[24.177917] (-) TimerEvent: {}
+[24.278236] (-) TimerEvent: {}
+[24.378522] (-) TimerEvent: {}
+[24.478882] (-) TimerEvent: {}
+[24.579232] (-) TimerEvent: {}
+[24.682328] (-) TimerEvent: {}
+[24.782643] (-) TimerEvent: {}
+[24.882950] (-) TimerEvent: {}
+[24.983253] (-) TimerEvent: {}
+[25.083555] (-) TimerEvent: {}
+[25.183852] (-) TimerEvent: {}
+[25.284380] (-) TimerEvent: {}
+[25.386102] (-) TimerEvent: {}
+[25.486466] (-) TimerEvent: {}
+[25.586809] (-) TimerEvent: {}
+[25.687153] (-) TimerEvent: {}
+[25.787468] (-) TimerEvent: {}
+[25.887758] (-) TimerEvent: {}
+[25.988306] (-) TimerEvent: {}
+[26.088571] (-) TimerEvent: {}
+[26.188841] (-) TimerEvent: {}
+[26.289118] (-) TimerEvent: {}
+[26.389397] (-) TimerEvent: {}
+[26.489653] (-) TimerEvent: {}
+[26.589905] (-) TimerEvent: {}
+[26.690159] (-) TimerEvent: {}
+[26.790427] (-) TimerEvent: {}
+[26.890686] (-) TimerEvent: {}
+[26.990973] (-) TimerEvent: {}
+[27.091290] (-) TimerEvent: {}
+[27.191592] (-) TimerEvent: {}
+[27.291897] (-) TimerEvent: {}
+[27.392232] (-) TimerEvent: {}
+[27.492538] (-) TimerEvent: {}
+[27.592831] (-) TimerEvent: {}
+[27.693103] (-) TimerEvent: {}
+[27.793404] (-) TimerEvent: {}
+[27.893694] (-) TimerEvent: {}
+[27.993981] (-) TimerEvent: {}
+[28.094282] (-) TimerEvent: {}
+[28.194572] (-) TimerEvent: {}
+[28.294849] (-) TimerEvent: {}
+[28.395144] (-) TimerEvent: {}
+[28.495448] (-) TimerEvent: {}
+[28.595758] (-) TimerEvent: {}
+[28.696020] (-) TimerEvent: {}
+[28.796294] (-) TimerEvent: {}
+[28.896574] (-) TimerEvent: {}
+[28.996867] (-) TimerEvent: {}
+[29.097194] (-) TimerEvent: {}
+[29.197493] (-) TimerEvent: {}
+[29.297758] (-) TimerEvent: {}
+[29.398032] (-) TimerEvent: {}
+[29.498309] (-) TimerEvent: {}
+[29.598590] (-) TimerEvent: {}
+[29.698872] (-) TimerEvent: {}
+[29.799145] (-) TimerEvent: {}
+[29.899484] (-) TimerEvent: {}
+[29.999733] (-) TimerEvent: {}
+[30.099968] (-) TimerEvent: {}
+[30.200170] (-) TimerEvent: {}
+[30.300393] (-) TimerEvent: {}
+[30.400605] (-) TimerEvent: {}
+[30.500820] (-) TimerEvent: {}
+[30.601025] (-) TimerEvent: {}
+[30.701238] (-) TimerEvent: {}
+[30.801443] (-) TimerEvent: {}
+[30.901649] (-) TimerEvent: {}
+[31.001891] (-) TimerEvent: {}
+[31.081759] (micro_ros_agent) StdoutLine: {'line': b'[100%] Linking CXX shared library libmicroxrcedds_agent.so\n'}
+[31.102044] (-) TimerEvent: {}
+[31.202323] (-) TimerEvent: {}
+[31.302605] (-) TimerEvent: {}
+[31.402885] (-) TimerEvent: {}
+[31.503141] (-) TimerEvent: {}
+[31.540973] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[31.595577] (micro_ros_agent) StdoutLine: {'line': b"No install step for 'uagent'\n"}
+[31.603310] (-) TimerEvent: {}
+[31.652839] (micro_ros_agent) StdoutLine: {'line': b"Completed 'uagent'\n"}
+[31.703490] (-) TimerEvent: {}
+[31.742201] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[31.797626] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] Performing install step for 'xrceagent'\n"}
+[31.803645] (-) TimerEvent: {}
+[31.903973] (-) TimerEvent: {}
+[31.911133] (micro_ros_agent) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target microxrcedds_agent\n'}
+[31.946589] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[31.979767] (micro_ros_agent) StdoutLine: {'line': b'Install the project...\n'}
+[31.998340] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[31.998907] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.2\n'}
+[32.004127] (-) TimerEvent: {}
+[32.007841] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[32.008720] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.2" to ""\n'}
+[32.009077] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[32.009544] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[32.009688] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[32.010099] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[32.010561] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[32.010698] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[32.010830] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[32.010965] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[32.011413] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[32.011690] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[32.011829] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[32.012091] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[32.012244] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[32.012675] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[32.012838] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[32.012975] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[32.013223] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[32.013645] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[32.014083] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[32.014365] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[32.014492] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[32.014586] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[32.014682] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[32.014784] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[32.014886] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[32.014989] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[32.015091] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[32.015194] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[32.015643] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[32.016030] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[32.016401] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[32.016696] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[32.016936] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[32.017074] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[32.017219] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[32.017691] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[32.017960] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[32.018348] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[32.018722] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[32.019041] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[32.019459] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[32.019766] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[32.020054] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[32.020191] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[32.020675] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[32.021148] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[32.021736] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[32.022111] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[32.022510] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[32.022876] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[32.023014] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[32.023149] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[32.023726] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[32.024079] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[32.024230] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[32.024641] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[32.024916] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[32.025051] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[32.025189] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[32.025653] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[32.025982] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[32.026244] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[32.026579] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[32.026778] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[32.026914] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[32.027045] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[32.027178] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[32.027491] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[32.027620] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[32.027743] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[32.027876] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[32.027995] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[32.028113] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[32.028252] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[32.028385] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[32.028518] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[32.028647] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[32.028767] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[32.028887] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[32.029005] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[32.029123] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[32.029262] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[32.029404] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[32.029524] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[32.029657] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[32.029779] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[32.029899] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[32.030018] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[32.030136] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[32.030281] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[32.030413] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[32.030540] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[32.030660] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[32.030781] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[32.030925] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[32.031058] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[32.031184] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[32.031371] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[32.031501] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[32.031622] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[32.031760] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[32.031884] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[32.032002] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[32.032122] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[32.032266] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[32.032412] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[32.032543] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[32.032674] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[32.032793] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[32.032913] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[32.033032] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[32.033150] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[32.033302] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[32.033429] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[32.033548] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[32.033667] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[32.033786] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[32.033904] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[32.034024] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[32.034171] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[32.034361] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[32.034489] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[32.034610] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[32.034733] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[32.034853] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[32.034973] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[32.035092] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[32.035225] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[32.035384] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[32.061594] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] Completed 'xrceagent'\n"}
+[32.104302] (-) TimerEvent: {}
+[32.121059] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[32.160168] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] Creating directories for 'micro_ros_agent'\n"}
+[32.204454] (-) TimerEvent: {}
+[32.262853] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] No download step for 'micro_ros_agent'\n"}
+[32.304592] (-) TimerEvent: {}
+[32.312058] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] No update step for 'micro_ros_agent'\n"}
+[32.379937] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] No patch step for 'micro_ros_agent'\n"}
+[32.404720] (-) TimerEvent: {}
+[32.426351] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] Performing configure step for 'micro_ros_agent'\n"}
+[32.436646] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[32.456269] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[32.504888] (-) TimerEvent: {}
+[32.605178] (-) TimerEvent: {}
+[32.705473] (-) TimerEvent: {}
+[32.746840] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[32.805618] (-) TimerEvent: {}
+[32.846291] (micro_ros_agent) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[32.906294] (-) TimerEvent: {}
+[33.006521] (-) TimerEvent: {}
+[33.090603] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[33.097511] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[33.106693] (-) TimerEvent: {}
+[33.206934] (-) TimerEvent: {}
+[33.240673] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[33.241188] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[33.307043] (-) TimerEvent: {}
+[33.377606] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[33.378393] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[33.387906] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 4.0.1 (/opt/ros/iron/share/rosidl_cmake/cmake)\n'}
+[33.391930] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[33.407154] (-) TimerEvent: {}
+[33.423037] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 3.0.2 (/opt/ros/iron/share/fastrtps_cmake_module/cmake)\n'}
+[33.438629] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 2.0.1 (/opt/ros/iron/share/rmw_dds_common/cmake)\n'}
+[33.495942] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[33.507299] (-) TimerEvent: {}
+[33.515484] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[33.526889] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[33.547632] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[33.576434] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[33.607427] (-) TimerEvent: {}
+[33.662997] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[33.666933] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[33.671727] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)\n'}
+[33.672621] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 4.0.1 (/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[33.707543] (-) TimerEvent: {}
+[33.775440] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[33.785380] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[33.788752] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent\n'}
+[33.807699] (-) TimerEvent: {}
+[33.835540] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] Performing build step for 'micro_ros_agent'\n"}
+[33.899971] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\n'}
+[33.900745] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\n'}
+[33.900956] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\n'}
+[33.901022] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\n'}
+[33.901457] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\n'}
+[33.907817] (-) TimerEvent: {}
+[34.008040] (-) TimerEvent: {}
+[34.108259] (-) TimerEvent: {}
+[34.208480] (-) TimerEvent: {}
+[34.308730] (-) TimerEvent: {}
+[34.408999] (-) TimerEvent: {}
+[34.509298] (-) TimerEvent: {}
+[34.609587] (-) TimerEvent: {}
+[34.709873] (-) TimerEvent: {}
+[34.810161] (-) TimerEvent: {}
+[34.910457] (-) TimerEvent: {}
+[35.010743] (-) TimerEvent: {}
+[35.110998] (-) TimerEvent: {}
+[35.211283] (-) TimerEvent: {}
+[35.311516] (-) TimerEvent: {}
+[35.411771] (-) TimerEvent: {}
+[35.512016] (-) TimerEvent: {}
+[35.612287] (-) TimerEvent: {}
+[35.712513] (-) TimerEvent: {}
+[35.812750] (-) TimerEvent: {}
+[35.912988] (-) TimerEvent: {}
+[36.013239] (-) TimerEvent: {}
+[36.113471] (-) TimerEvent: {}
+[36.213690] (-) TimerEvent: {}
+[36.313926] (-) TimerEvent: {}
+[36.414157] (-) TimerEvent: {}
+[36.514403] (-) TimerEvent: {}
+[36.614635] (-) TimerEvent: {}
+[36.714867] (-) TimerEvent: {}
+[36.815110] (-) TimerEvent: {}
+[36.915335] (-) TimerEvent: {}
+[37.015568] (-) TimerEvent: {}
+[37.115783] (-) TimerEvent: {}
+[37.215998] (-) TimerEvent: {}
+[37.316253] (-) TimerEvent: {}
+[37.416531] (-) TimerEvent: {}
+[37.516794] (-) TimerEvent: {}
+[37.617076] (-) TimerEvent: {}
+[37.624428] (micro_ros_agent) StdoutLine: {'line': b'[100%] Linking CXX executable micro_ros_agent\n'}
+[37.717224] (-) TimerEvent: {}
+[37.817486] (-) TimerEvent: {}
+[37.917754] (-) TimerEvent: {}
+[38.018296] (-) TimerEvent: {}
+[38.089997] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[38.118461] (-) TimerEvent: {}
+[38.142771] (micro_ros_agent) StdoutLine: {'line': b"No install step for 'micro_ros_agent'\n"}
+[38.192393] (micro_ros_agent) StdoutLine: {'line': b"Completed 'micro_ros_agent'\n"}
+[38.218609] (-) TimerEvent: {}
+[38.259032] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[38.274114] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[38.275816] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[38.276296] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent'], 'cwd': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/duong'), ('CURSOR_EXTENSION_HOST_ROLE', 'user'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'vi:en'), ('USER', 'duong'), ('LC_TIME', 'vi_VN'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"vi","osLocale":"vi","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"vi","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib:/home/duong/kaia_ws/install/kaiaai_msgs/lib:/home/duong/uros_ws/install/micro_ros_agent/lib:/home/duong/uros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/duong'), ('CHROME_DESKTOP', 'cursor.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-d90574cd-3.0.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'vi_VN'), ('CURSOR_WORKSPACE_LABEL', 'ROS2_ServiceRobot'), ('MANAGERPID', '1749'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1924'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28131'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duong/uros_ws/install:/home/duong/kaia_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'duong'), ('JOURNAL_STREAM', '8:14165'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'duong'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('PATH', '/home/duong/.local/bin:/home/duong/.local/bin:/home/duong/.codex/tmp/arg0/codex-arg0uBPfhz:/home/duong/.local/bin:/opt/ros/iron/bin:/home/duong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duong/.cursor/extensions/openai.chatgpt-26.721.30844-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1898,unix/work:/tmp/.ICE-unix/1898'), ('INVOCATION_ID', '815b23471d064b21994f7980f76052d4'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('VSCODE_PROCESS_TITLE', 'extension-host (user) ROS2_ServiceRobot [1-5]'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2ZC8S3'), ('CURSOR_SPAWNED_BY_EXTENSION_ID', 'openai.chatgpt'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019fb969-2d53-70e1-96f4-2af8af503259'), ('LC_MEASUREMENT', 'vi_VN'), ('CURSOR_SPAWN_CHAIN', 'openai.chatgpt'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/duong/.config/Cursor/CachedData/a80ff7dfcaa45d7750f6e30be457261379c29b00'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/nav2_wfd:/home/duong/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:/home/duong/kaia_ws/build/makerspet:/home/duong/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:/home/duong/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron'), ('VSCODE_PID', '28131')]), 'shell': False}
+[38.295084] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.295514] (micro_ros_agent) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[38.295788] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[38.318758] (-) TimerEvent: {}
+[38.319462] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[38.331276] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[38.353547] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[38.365017] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[38.377345] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[38.400763] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[38.412615] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[38.418900] (-) TimerEvent: {}
+[38.435761] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[38.448146] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[38.461108] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[38.474101] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[38.487568] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.504795] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[38.515281] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[38.519019] (-) TimerEvent: {}
+[38.538079] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[38.560236] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[38.571794] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[38.596443] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[38.619458] (-) TimerEvent: {}
+[38.632850] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[38.634117] (-) EventReactorShutdown: {}

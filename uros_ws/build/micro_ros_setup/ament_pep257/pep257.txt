@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':
+ - /opt/ros/iron/bin/ament_pep257 --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/pep257.xunit.xml
+
+checking ./scripts/yaml_filter.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/pep257.xunit.xml'

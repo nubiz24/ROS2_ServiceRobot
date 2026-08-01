@@ -1,0 +1,14 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore':
+ - /opt/ros/iron/bin/ament_flake8 --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite/test_results/explore_lite/flake8.xunit.xml
+
+
+1 files checked
+No problems found
+
+Checked files:
+
+* ./launch/explore.launch.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite/test_results/explore_lite/flake8.xunit.xml'

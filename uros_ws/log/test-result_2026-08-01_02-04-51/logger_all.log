@@ -1,0 +1,7 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--test-result-base', 'build', '--verbose']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test-result', test_result_base='build', all=False, result_files_only=False, verbose=True, delete=False, delete_yes=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74479db4e020>, verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x74479dc59e70>, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x74479dc59e70>>, mixin_verb=('test-result',))
+[0.118s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[0.137s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)
+[0.140s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/drive_base_msgs/Testing/20260731-1904/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.148s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/micro_ros_msgs/Testing/20260731-1904/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.150s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/micro_ros_setup/Testing/20260731-1904/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'

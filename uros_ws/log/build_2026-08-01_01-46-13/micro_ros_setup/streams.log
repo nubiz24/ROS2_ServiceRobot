@@ -1,0 +1,213 @@
+[0.022s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup
+[0.119s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.360s] -- Detecting C compiler ABI info - done
+[0.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.554s] -- Detecting CXX compile features
+[0.554s] -- Detecting CXX compile features - done
+[0.564s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.915s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.036s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.157s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.334s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.377s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.377s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.383s] -- Added test 'lint_cmake' to check CMake code style
+[1.386s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.410s] -- Added test 'xmllint' to check XML markup files
+[1.414s] -- Configuring done
+[1.420s] -- Generating done
+[1.422s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup
+[1.469s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup
+[1.471s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup -- -j12 -l12
+[1.542s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup -- -j12 -l12
+[1.563s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup
+[1.580s] -- Install configuration: ""
+[1.581s] -- Execute custom install script
+[1.582s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[1.609s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[1.625s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[1.641s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[1.657s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[1.682s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[1.706s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[1.730s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[1.745s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[1.762s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[1.778s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[1.794s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[1.811s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[1.840s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[1.863s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[1.881s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[1.898s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[1.915s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[1.932s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[1.949s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[1.966s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[1.982s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[1.999s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[2.018s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[2.036s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[2.062s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config
+[2.062s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[2.063s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host
+[2.063s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[2.063s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[2.063s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[2.064s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/generic
+[2.064s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[2.064s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[2.065s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[2.065s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[2.065s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[2.066s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[2.066s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr
+[2.066s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[2.066s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[2.068s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic
+[2.068s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[2.068s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[2.069s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[2.069s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[2.069s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[2.070s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[2.070s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[2.070s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[2.071s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[2.071s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[2.071s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/utils.sh
+[2.072s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian
+[2.072s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[2.072s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[2.072s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/generic
+[2.073s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[2.073s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[2.073s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[2.073s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[2.074s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[2.074s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[2.074s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[2.075s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android
+[2.075s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[2.075s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[2.075s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/generic
+[2.076s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[2.076s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[2.076s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[2.077s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[2.077s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[2.077s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[2.078s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[2.078s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[2.078s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib
+[2.079s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[2.079s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[2.079s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/generic
+[2.079s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[2.080s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[2.080s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[2.080s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[2.080s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[2.081s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[2.081s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[2.081s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[2.082s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra
+[2.082s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[2.082s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[2.082s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[2.083s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[2.083s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[2.083s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[2.084s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[2.084s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[2.084s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[2.085s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[2.085s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[2.085s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos
+[2.085s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[2.086s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[2.086s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[2.086s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[2.087s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[2.087s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[2.087s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[2.087s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[2.088s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[2.088s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[2.088s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[2.089s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[2.089s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[2.089s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[2.089s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[2.090s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[2.090s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[2.090s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[2.091s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[2.091s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[2.092s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[2.092s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[2.093s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[2.093s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[2.093s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[2.093s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[2.094s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[2.094s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[2.094s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[2.095s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[2.095s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[2.095s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[2.096s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[2.096s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[2.096s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[2.096s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[2.097s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[2.097s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[2.097s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[2.098s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[2.098s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[2.098s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[2.098s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[2.099s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[2.099s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[2.099s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[2.100s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[2.100s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[2.100s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[2.100s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[2.101s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[2.101s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[2.101s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[2.101s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[2.102s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[2.102s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[2.102s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[2.102s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32
+[2.102s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[2.102s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[2.103s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[2.103s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[2.103s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[2.103s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[2.104s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[2.104s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[2.104s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[2.104s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed
+[2.104s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[2.104s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[2.104s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/generic
+[2.105s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[2.105s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[2.105s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[2.105s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[2.105s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[2.105s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[2.105s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[2.105s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[2.178s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup

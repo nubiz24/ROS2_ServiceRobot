@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-56e65c063f64414cc58c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kaiaai_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_gazebo_uninstall-224d1874835c11e4eec5.json",
+					"name" : "kaiaai_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "self_drive_gazebo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-self_drive_gazebo-a2eeb3e3eaf24a18ef5c.json",
+					"name" : "self_drive_gazebo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ab9cf896c6179539c641.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo",
+		"source" : "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

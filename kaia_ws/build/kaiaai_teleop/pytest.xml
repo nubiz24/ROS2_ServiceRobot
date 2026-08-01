@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.412" timestamp="2026-08-01T02:04:41.127628" hostname="work"><testcase classname="kaiaai_teleop.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_teleop/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="kaiaai_teleop.test.test_flake8" name="test_flake8" time="0.204"><failure message="AssertionError: Found 4 code style errors / warnings:&#10;  ./kaiaai_teleop/teleop_keyboard.py:20:1: F401 're' imported but unused&#10;  ./kaiaai_teleop/teleop_keyboard.py:22:1: F401 'rclpy.parameter.Parameter' imported but unused&#10;  ./kaiaai_teleop/teleop_keyboard.py:84:5: E303 too many blank lines (2)&#10;  ./kaiaai_teleop/teleop_keyboard.py:226:1: E305 expected 2 blank lines after class or function definition, found 1&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 4 code style errors / warnings:
+E     ./kaiaai_teleop/teleop_keyboard.py:20:1: F401 're' imported but unused
+E     ./kaiaai_teleop/teleop_keyboard.py:22:1: F401 'rclpy.parameter.Parameter' imported but unused
+E     ./kaiaai_teleop/teleop_keyboard.py:84:5: E303 too many blank lines (2)
+E     ./kaiaai_teleop/teleop_keyboard.py:226:1: E305 expected 2 blank lines after class or function definition, found 1
+E   assert 1 == 0</failure></testcase><testcase classname="kaiaai_teleop.test.test_pep257" name="test_pep257" time="0.038" /></testsuite></testsuites>

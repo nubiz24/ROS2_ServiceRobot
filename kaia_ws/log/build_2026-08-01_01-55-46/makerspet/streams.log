@@ -1,0 +1,24 @@
+[1.248s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/build --no-deps symlink_data
+[1.704s] running develop
+[1.976s] running egg_info
+[1.976s] creating makerspet.egg-info
+[1.976s] writing makerspet.egg-info/PKG-INFO
+[1.976s] writing dependency_links to makerspet.egg-info/dependency_links.txt
+[1.976s] writing entry points to makerspet.egg-info/entry_points.txt
+[1.977s] writing requirements to makerspet.egg-info/requires.txt
+[1.977s] writing top-level names to makerspet.egg-info/top_level.txt
+[1.977s] writing manifest file 'makerspet.egg-info/SOURCES.txt'
+[1.979s] reading manifest file 'makerspet.egg-info/SOURCES.txt'
+[1.982s] writing manifest file 'makerspet.egg-info/SOURCES.txt'
+[1.983s] running build_ext
+[1.983s] Creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/lib/python3.10/site-packages/makerspet.egg-link (link to .)
+[1.984s] Installing param_client script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/lib/makerspet
+[1.984s] 
+[1.985s] Installed /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet
+[1.985s] running symlink_data
+[1.985s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/ament_index
+[1.985s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/ament_index/resource_index
+[1.985s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/ament_index/resource_index/packages
+[1.986s] symbolically linking /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/resource/makerspet -> /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/ament_index/resource_index/packages
+[1.986s] symbolically linking /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/package.xml -> /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/share/makerspet
+[2.161s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet' returned '0': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/build --no-deps symlink_data

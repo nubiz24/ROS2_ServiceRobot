@@ -1,0 +1,10 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/uninstall.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/auto_mapper_uninstall.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/auto_mapper.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/test.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/edit_cache.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/rebuild_cache.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/list_install_components.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/install.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/install/local.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/CMakeFiles/install/strip.dir

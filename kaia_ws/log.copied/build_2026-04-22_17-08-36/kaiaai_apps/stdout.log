@@ -1,0 +1,26 @@
+running develop
+running egg_info
+writing kaiaai_apps.egg-info/PKG-INFO
+writing dependency_links to kaiaai_apps.egg-info/dependency_links.txt
+writing entry points to kaiaai_apps.egg-info/entry_points.txt
+writing requirements to kaiaai_apps.egg-info/requires.txt
+writing top-level names to kaiaai_apps.egg-info/top_level.txt
+reading manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+writing manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages/kaiaai-apps.egg-link (link to .)
+Installing explore_wfe script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing get_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing get_map_pos script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing get_model_params script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing load_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing multi_waypoints script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing nav_params script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing nav_to_pose script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing param_client script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing param_client_old script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing save_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+Installing single_goal_nav script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+
+Installed /home/duong/kaia_ws/build/kaiaai_apps
+running symlink_data

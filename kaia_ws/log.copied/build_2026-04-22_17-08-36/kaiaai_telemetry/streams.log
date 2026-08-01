@@ -1,0 +1,28 @@
+[0.021s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_telemetry': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duong/kaia_ws/build/kaiaai_telemetry -- -j12 -l12
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target telem_test_pub[0m
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target telem[0m
+[0.156s] [ 50%] Built target telem_test_pub
+[0.159s] [100%] Built target telem
+[0.185s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_telemetry' returned '0': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duong/kaia_ws/build/kaiaai_telemetry -- -j12 -l12
+[0.188s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_telemetry': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/duong/kaia_ws/build/kaiaai_telemetry
+[0.205s] -- Install configuration: ""
+[0.206s] -- Execute custom install script
+[0.206s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/lib/kaiaai_telemetry/telem_test_pub
+[0.206s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/lib/kaiaai_telemetry/telem
+[0.207s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/config/telem.yaml
+[0.208s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/package_run_dependencies/kaiaai_telemetry
+[0.208s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/parent_prefix_path/kaiaai_telemetry
+[0.209s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/ament_prefix_path.sh
+[0.209s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/ament_prefix_path.dsv
+[0.209s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/path.sh
+[0.210s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/path.dsv
+[0.210s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.bash
+[0.210s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.sh
+[0.211s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.zsh
+[0.211s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.dsv
+[0.211s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.dsv
+[0.232s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/packages/kaiaai_telemetry
+[0.232s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/cmake/kaiaai_telemetryConfig.cmake
+[0.232s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/cmake/kaiaai_telemetryConfig-version.cmake
+[0.233s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.xml
+[0.238s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_telemetry' returned '0': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/duong/kaia_ws/build/kaiaai_telemetry

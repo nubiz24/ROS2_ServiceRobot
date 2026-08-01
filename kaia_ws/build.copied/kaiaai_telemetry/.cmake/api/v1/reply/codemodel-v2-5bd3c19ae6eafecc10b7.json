@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ff92af5621787d8ac399.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kaiaai_telemetry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_telemetry_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_telemetry_uninstall-bb01335e75927da4d08e.json",
+					"name" : "kaiaai_telemetry_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "telem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-telem-9adca0d321be8b8e347e.json",
+					"name" : "telem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "telem_test_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-telem_test_pub-8e34f4d0f5f0c66ca7e2.json",
+					"name" : "telem_test_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7e3c9756f1745fbe971f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/duong/kaia_ws/build/kaiaai_telemetry",
+		"source" : "/home/duong/kaia_ws/src/kaiaai_telemetry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

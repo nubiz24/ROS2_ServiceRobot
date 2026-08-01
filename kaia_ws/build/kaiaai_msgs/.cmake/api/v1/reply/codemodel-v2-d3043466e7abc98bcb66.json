@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-920f85400ba7f08e51b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "kaiaai_msgs__py",
+					"jsonFile" : "directory-kaiaai_msgs__py-5805360e37411b6a67c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/kaiaai_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "kaiaai_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kaiaai_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kaiaai_msgs_egg-335a6a82a319d66c3507.json",
+					"name" : "ament_cmake_python_build_kaiaai_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_kaiaai_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_kaiaai_msgs-771f467a578232a010f2.json",
+					"name" : "ament_cmake_python_symlink_kaiaai_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs-7c6d4a9ee8664d5e22ef.json",
+					"name" : "kaiaai_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__cpp-cdd10a9c3b4530281a57.json",
+					"name" : "kaiaai_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kaiaai_msgs__py::@7f498caba2cceeda98e8",
+					"jsonFile" : "target-kaiaai_msgs__py-6ca29cbaefcf75eb8330.json",
+					"name" : "kaiaai_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_generator_c-1cf368a1a2b156fc6791.json",
+					"name" : "kaiaai_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_generator_py-46abeb6b355ac30da3d9.json",
+					"name" : "kaiaai_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_generator_type_description-cc924975fdab739ffeda.json",
+					"name" : "kaiaai_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_c-621b0f2c282b9ecb24db.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_c__pyext-a5b5f2712894a723913c.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_cpp-a89fbc48e13776e36926.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_fastrtps_c-a983d41b2622411c8422.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_fastrtps_c__pyext-6da59c3e8b84acfd21a5.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_fastrtps_cpp-8a7fd7ad37fde8ad33cd.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_introspection_c-d0ec0be6711b4f9006fd.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_introspection_c__pyext-e1de5e9d38c4025bc4ed.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs__rosidl_typesupport_introspection_cpp-40555a8a44cf682e43a8.json",
+					"name" : "kaiaai_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_msgs_uninstall-3769343ff31f02312bc7.json",
+					"name" : "kaiaai_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-173da307691057b3904d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs",
+		"source" : "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

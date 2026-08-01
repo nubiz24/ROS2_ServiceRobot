@@ -1,0 +1,334 @@
+[0.164s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', '--log-base', 'log', 'build', '--base-paths', 'src', '--build-base', 'build', '--install-base', 'install', '--symlink-install']
+[0.165s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base='log', log_level=None, verb_name='build', build_base='/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build', install_base='/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x713899f05b70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x713899f05600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x713899f05600>>, mixin_verb=('build',))
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.438s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.477s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.518s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/duong/uros_ws/install
+[0.519s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/duong/kaia_ws/install
+[0.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/iron
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.593s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs', 'merge_install': False, 'path': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.594s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.595s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup', 'symlink_install': True, 'test_result_base': None}
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.596s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': True, 'test_result_base': None}
+[0.596s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.597s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.597s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs'
+[0.601s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.609s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[0.609s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs'
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.617s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[0.617s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup'
+[0.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup
+[2.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup
+[2.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup -- -j12 -l12
+[2.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup -- -j12 -l12
+[2.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup
+[2.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup' for CMake module files
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup' for CMake config files
+[2.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib'
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/bin'
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/bin'
+[2.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[2.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.827s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup' for CMake module files
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup' for CMake config files
+[2.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.832s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib'
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/bin'
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/bin'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs
+[3.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs -- -j12 -l12
+[4.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs
+[4.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs -- -j12 -l12
+[9.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs -- -j12 -l12
+[9.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs
+[11.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[11.442s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs' for CMake module files
+[11.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs
+[11.443s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs' for CMake config files
+[11.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[11.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[11.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[11.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[11.444s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib'
+[11.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[11.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[11.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[11.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[11.446s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/bin'
+[11.446s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[11.446s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[11.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[11.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[11.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[11.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[11.447s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/bin'
+[11.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[11.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[11.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[11.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[11.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[11.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[11.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[11.450s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs' for CMake module files
+[11.450s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs' for CMake config files
+[11.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[11.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[11.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[11.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[11.452s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib'
+[11.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[11.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[11.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[11.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[11.453s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/bin'
+[11.453s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[11.453s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[11.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[11.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[11.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[11.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[11.455s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/bin'
+[11.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[11.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[11.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[11.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[11.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[11.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[11.458s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[11.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[11.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent
+[11.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs -- -j12 -l12
+[11.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs
+[11.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent
+[11.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent -- -j12 -l12
+[12.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent' returned '2': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent -- -j12 -l12
+[12.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[12.238s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent' for CMake module files
+[12.238s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent' for CMake config files
+[12.238s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/bin'
+[12.239s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[12.239s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[12.239s] Level 1:colcon.colcon_core.environment:checking '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/bin'
+[12.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[12.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[12.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[12.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[12.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[12.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)

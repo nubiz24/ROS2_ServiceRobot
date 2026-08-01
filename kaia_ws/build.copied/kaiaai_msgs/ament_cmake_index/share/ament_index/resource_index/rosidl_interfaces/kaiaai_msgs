@@ -1,0 +1,10 @@
+msg/JointPosVel.idl
+msg/JointPosVel.msg
+msg/KaiaaiTelemetry.idl
+msg/KaiaaiTelemetry.msg
+msg/KaiaaiTelemetry2.idl
+msg/KaiaaiTelemetry2.msg
+msg/OnlineEvent.idl
+msg/OnlineEvent.msg
+msg/WifiState.idl
+msg/WifiState.msg

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kaiaai_msgs/msg/KaiaaiTelemetry.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module kaiaai_msgs {
+  module msg {
+    struct KaiaaiTelemetry {
+      builtin_interfaces::msg::Time stamp;
+
+      uint32 seq;
+
+      float odom_pos_x;
+
+      float odom_pos_y;
+
+      float odom_pos_yaw;
+
+      float odom_vel_x;
+
+      float odom_vel_yaw;
+
+      sequence<float> joint_pos;
+
+      sequence<float> joint_vel;
+
+      sequence<uint8> lds;
+    };
+  };
+};

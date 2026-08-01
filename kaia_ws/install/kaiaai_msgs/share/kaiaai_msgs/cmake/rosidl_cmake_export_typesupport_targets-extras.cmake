@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

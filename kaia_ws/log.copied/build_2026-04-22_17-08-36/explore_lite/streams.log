@@ -1,0 +1,88 @@
+[0.619s] Invoking command in '/home/duong/kaia_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/kaia_ws/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/kaia_ws/install/explore_lite
+[1.251s] -- BuilD for ROS2: iron
+[1.251s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.251s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.251s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.251s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.252s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.252s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.252s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.252s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.274s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.473s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[1.509s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.779s] -- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+[2.513s] -- Found tf2_geometry_msgs: 0.31.8 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[2.521s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[2.523s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.539s] -- Found nav2_msgs: 1.2.10 (/opt/ros/iron/share/nav2_msgs/cmake)
+[3.532s] -- Found map_msgs: 2.2.0 (/opt/ros/iron/share/map_msgs/cmake)
+[3.766s] -- Found visualization_msgs: 5.0.1 (/opt/ros/iron/share/visualization_msgs/cmake)
+[3.970s] -- Found nav2_costmap_2d: 1.2.10 (/opt/ros/iron/share/nav2_costmap_2d/cmake)
+[5.275s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[5.368s] -- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[5.371s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.375s] -- Looking for pthread.h
+[5.468s] -- Looking for pthread.h - found
+[5.469s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.572s] -- Found Threads: TRUE  
+[5.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.585s] -- Configured cppcheck include dirs: /home/duong/kaia_ws/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/duong/kaia_ws/src/m-explore-ros2/explore/include>
+[5.585s] -- Configured cppcheck exclude dirs and/or files: 
+[5.586s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.586s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.587s] -- Added test 'lint_cmake' to check CMake code style
+[5.588s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.590s] -- Added test 'uncrustify' to check C / C++ code style
+[5.590s] -- Configured uncrustify additional arguments: 
+[5.590s] -- Added test 'xmllint' to check XML markup files
+[5.593s] -- Configuring done
+[5.720s] -- Generating done
+[5.736s] -- Build files have been written to: /home/duong/kaia_ws/build/explore_lite
+[5.751s] Invoked command in '/home/duong/kaia_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/kaia_ws/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/kaia_ws/install/explore_lite
+[5.754s] Invoking command in '/home/duong/kaia_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/explore_lite -- -j12 -l12
+[5.839s] [ 10%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[5.839s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.841s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[5.841s] [ 40%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[5.848s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.909s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.986s] [ 60%] Built target gtest_main
+[9.785s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.881s] [ 70%] Built target gtest
+[9.915s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[11.637s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[15.207s] [ 90%] Built target test_explore
+[20.976s] [100%] [32m[1mLinking CXX executable explore[0m
+[24.422s] [100%] Built target explore
+[24.438s] Invoked command in '/home/duong/kaia_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/explore_lite -- -j12 -l12
+[24.440s] Invoking command in '/home/duong/kaia_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/explore_lite
+[24.447s] -- Install configuration: ""
+[24.448s] -- Execute custom install script
+[24.448s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/include/explore//costmap_client.h
+[24.457s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/include/explore//costmap_tools.h
+[24.468s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/include/explore//explore.h
+[24.477s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/include/explore//frontier_search.h
+[24.490s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[24.500s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[24.514s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[24.529s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/lib/explore_lite/explore
+[24.549s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[24.560s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[24.571s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[24.582s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[24.593s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[24.604s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[24.615s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[24.626s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[24.637s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[24.649s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[24.660s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/package.dsv
+[24.678s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[24.687s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.697s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[24.708s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[24.717s] -- Symlinking: /home/duong/kaia_ws/install/explore_lite/share/explore_lite/package.xml
+[24.732s] Invoked command in '/home/duong/kaia_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/explore_lite

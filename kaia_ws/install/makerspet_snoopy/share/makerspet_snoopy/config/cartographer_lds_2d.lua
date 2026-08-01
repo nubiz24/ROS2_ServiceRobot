@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_snoopy/config/cartographer_lds_2d.lua

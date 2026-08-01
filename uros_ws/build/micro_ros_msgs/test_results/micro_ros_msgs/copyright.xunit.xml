@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="micro_ros_msgs.copyright"
+  tests="2"
+  errors="0"
+  failures="1"
+  time="0.055"
+>
+  <testcase
+    name="CONTRIBUTING.md"
+    classname="micro_ros_msgs.copyright"
+  >
+      <failure message="&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="LICENSE"
+    classname="micro_ros_msgs.copyright"/>
+  <system-out>Checked files:
+* CONTRIBUTING.md
+* LICENSE</system-out>
+</testsuite>

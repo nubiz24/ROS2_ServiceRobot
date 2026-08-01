@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__traits.hpp

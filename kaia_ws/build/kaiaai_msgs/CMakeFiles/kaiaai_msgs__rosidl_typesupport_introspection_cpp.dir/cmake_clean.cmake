@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/joint_pos_vel__type_support.cpp.o"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/joint_pos_vel__type_support.cpp.o.d"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry2__type_support.cpp.o"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry2__type_support.cpp.o.d"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry__type_support.cpp.o"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry__type_support.cpp.o.d"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/online_event__type_support.cpp.o"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/online_event__type_support.cpp.o.d"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/wifi_state__type_support.cpp.o"
+  "CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/wifi_state__type_support.cpp.o.d"
+  "libkaiaai_msgs__rosidl_typesupport_introspection_cpp.pdb"
+  "libkaiaai_msgs__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/joint_pos_vel__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/joint_pos_vel__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry2__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry2__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/online_event__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/online_event__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/wifi_state__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/wifi_state__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

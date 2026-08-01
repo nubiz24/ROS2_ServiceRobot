@@ -1,0 +1,42 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':
+ - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_cpp.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs
+
+Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp' argument
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/base_info.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/command_header.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/command_status.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__builder.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__struct.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__traits.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__builder.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__struct.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__traits.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__builder.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__struct.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__traits.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__builder.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__struct.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__traits.hpp
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/trv_command.hpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_cpp.xunit.xml'

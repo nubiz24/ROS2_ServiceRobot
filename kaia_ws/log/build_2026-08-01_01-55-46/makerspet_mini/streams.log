@@ -1,0 +1,65 @@
+[0.853s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_mini -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini
+[2.005s] -- The C compiler identification is GNU 11.4.0
+[2.005s] -- The CXX compiler identification is GNU 11.4.0
+[2.005s] -- Detecting C compiler ABI info
+[2.005s] -- Detecting C compiler ABI info - done
+[2.005s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.006s] -- Detecting C compile features
+[2.006s] -- Detecting C compile features - done
+[2.006s] -- Detecting CXX compiler ABI info
+[2.006s] -- Detecting CXX compiler ABI info - done
+[2.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.006s] -- Detecting CXX compile features
+[2.006s] -- Detecting CXX compile features - done
+[2.006s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.006s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.006s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.007s] -- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+[2.482s] -- Configuring done
+[2.482s] -- Generating done
+[2.482s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini
+[2.498s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_mini -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini
+[2.499s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini -- -j12 -l12
+[2.652s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini -- -j12 -l12
+[2.652s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini
+[2.670s] -- Install configuration: ""
+[2.671s] -- Execute custom install script
+[2.671s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/cartographer.rviz
+[2.693s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/gazebo.rviz
+[2.714s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/inspect_urdf.rviz
+[2.741s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/monitor_robot.rviz
+[2.768s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/monitor_robot_old.rviz
+[2.794s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/navigation.rviz
+[2.840s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/urdf/robot.urdf.xacro
+[2.859s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/sdf/makerspet_mini/mesh/hemisphere.stl
+[2.879s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/sdf/makerspet_mini/model.config
+[2.909s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/sdf/makerspet_mini/model.sdf
+[2.939s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/README.md
+[2.966s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/cartographer_lds_2d.lua
+[2.995s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/etc/navigation_humble.yaml
+[3.023s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/etc/navigation_iron.yaml
+[3.052s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/explore_lite.yaml
+[3.079s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/kaiaai.yaml
+[3.107s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/navigation.yaml
+[3.129s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/navigation_new.yaml
+[3.149s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/navigation_pursuit.yaml
+[3.173s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/self_drive_gazebo.yaml
+[3.199s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/telem.yaml
+[3.225s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/teleop_keyboard.yaml
+[3.258s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/mesh/hemisphere.stl
+[3.283s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/ament_index/resource_index/package_run_dependencies/makerspet_mini
+[3.326s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/ament_index/resource_index/parent_prefix_path/makerspet_mini
+[3.350s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/environment/ament_prefix_path.sh
+[3.361s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/environment/ament_prefix_path.dsv
+[3.383s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/environment/path.sh
+[3.407s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/environment/path.dsv
+[3.432s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/local_setup.bash
+[3.454s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/local_setup.sh
+[3.478s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/local_setup.zsh
+[3.502s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/local_setup.dsv
+[3.528s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.dsv
+[3.560s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/ament_index/resource_index/packages/makerspet_mini
+[3.580s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/cmake/makerspet_miniConfig.cmake
+[3.605s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/cmake/makerspet_miniConfig-version.cmake
+[3.637s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.xml
+[3.666s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini

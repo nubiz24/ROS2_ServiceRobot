@@ -1,0 +1,58 @@
+[0.697s] Invoking command in '/home/duong/kaia_ws/build/makerspet_snoopy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_snoopy -- -j12 -l12
+[0.776s] Invoked command in '/home/duong/kaia_ws/build/makerspet_snoopy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_snoopy -- -j12 -l12
+[0.778s] Invoking command in '/home/duong/kaia_ws/build/makerspet_snoopy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_snoopy
+[0.797s] -- Install configuration: ""
+[0.800s] -- Execute custom install script
+[0.800s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/cartographer.rviz
+[0.800s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/gazebo.rviz
+[0.801s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/inspect_urdf.rviz
+[0.801s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/monitor_robot.rviz
+[0.801s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/navigation.rviz
+[0.801s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/urdf/README.md
+[0.801s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/urdf/robot.urdf.xacro
+[0.801s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/half_sphere.stl
+[0.802s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/head.stl
+[0.802s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere.stl
+[0.802s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_100mm.stl
+[0.803s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_150mm.stl
+[0.803s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_200mm.stl
+[0.803s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_250mm.stl
+[0.803s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_270mm.stl
+[0.804s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_300mm.stl
+[0.804s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_350mm.stl
+[0.804s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/model.config
+[0.804s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/model.sdf
+[0.805s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/README.md
+[0.806s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/cartographer_lds_2d.lua
+[0.806s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/etc/navigation_humble.yaml
+[0.806s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/etc/navigation_iron.yaml
+[0.806s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/navigation.yaml
+[0.807s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/self_drive_gazebo.yaml
+[0.807s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/telem.yaml
+[0.807s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/teleop_keyboard.yaml
+[0.808s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/half_sphere.stl
+[0.808s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/head.stl
+[0.808s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere.stl
+[0.809s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_100mm.stl
+[0.809s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_150mm.stl
+[0.809s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_200mm.stl
+[0.809s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_250mm.stl
+[0.810s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_270mm.stl
+[0.810s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_300mm.stl
+[0.810s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_350mm.stl
+[0.811s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/package_run_dependencies/makerspet_snoopy
+[0.849s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/parent_prefix_path/makerspet_snoopy
+[0.850s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/ament_prefix_path.sh
+[0.850s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/ament_prefix_path.dsv
+[0.850s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/path.sh
+[0.850s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/path.dsv
+[0.850s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.bash
+[0.850s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.sh
+[0.851s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.zsh
+[0.851s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.dsv
+[0.851s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/package.dsv
+[0.851s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/packages/makerspet_snoopy
+[0.851s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/cmake/makerspet_snoopyConfig.cmake
+[0.851s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/cmake/makerspet_snoopyConfig-version.cmake
+[0.851s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/package.xml
+[0.853s] Invoked command in '/home/duong/kaia_ws/build/makerspet_snoopy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_snoopy

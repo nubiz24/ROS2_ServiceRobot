@@ -1,0 +1,28 @@
+[2.156s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_apps': PYTHONPATH=/home/duong/kaia_ws/build/kaiaai_apps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/kaia_ws/build/kaiaai_apps/build --no-deps symlink_data
+[2.623s] running develop
+[3.043s] running egg_info
+[3.044s] writing kaiaai_apps.egg-info/PKG-INFO
+[3.044s] writing dependency_links to kaiaai_apps.egg-info/dependency_links.txt
+[3.045s] writing entry points to kaiaai_apps.egg-info/entry_points.txt
+[3.045s] writing requirements to kaiaai_apps.egg-info/requires.txt
+[3.045s] writing top-level names to kaiaai_apps.egg-info/top_level.txt
+[3.049s] reading manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+[3.050s] writing manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+[3.053s] running build_ext
+[3.053s] Creating /home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages/kaiaai-apps.egg-link (link to .)
+[3.055s] Installing explore_wfe script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.056s] Installing get_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.056s] Installing get_map_pos script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.056s] Installing get_model_params script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.056s] Installing load_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.057s] Installing multi_waypoints script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.057s] Installing nav_params script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.057s] Installing nav_to_pose script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.057s] Installing param_client script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.057s] Installing param_client_old script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.058s] Installing save_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.058s] Installing single_goal_nav script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.058s] 
+[3.058s] Installed /home/duong/kaia_ws/build/kaiaai_apps
+[3.059s] running symlink_data
+[3.327s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_apps' returned '0': PYTHONPATH=/home/duong/kaia_ws/build/kaiaai_apps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/kaia_ws/build/kaiaai_apps/build --no-deps symlink_data

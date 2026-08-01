@@ -1,0 +1,4 @@
+Invoking command in '/home/duong/kaia_ws/build/makerspet_loki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_loki -- -j12 -l12
+Invoked command in '/home/duong/kaia_ws/build/makerspet_loki' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_loki -- -j12 -l12
+Invoking command in '/home/duong/kaia_ws/build/makerspet_loki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_loki
+Invoked command in '/home/duong/kaia_ws/build/makerspet_loki' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_loki

@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore':
+ - /opt/ros/iron/bin/ament_lint_cmake --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml
+
+CMakeLists.txt:20: Mismatching spaces inside () after command [whitespace/mismatch]
+CMakeLists.txt:116: Line ends in whitespace [whitespace/eol]
+
+
+2 errors
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite/test_results/explore_lite/lint_cmake.xunit.xml'

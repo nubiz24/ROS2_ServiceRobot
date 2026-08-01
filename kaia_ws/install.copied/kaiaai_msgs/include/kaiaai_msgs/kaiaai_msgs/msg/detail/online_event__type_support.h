@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/kaiaai_msgs/rosidl_generator_c/kaiaai_msgs/msg/detail/online_event__type_support.h

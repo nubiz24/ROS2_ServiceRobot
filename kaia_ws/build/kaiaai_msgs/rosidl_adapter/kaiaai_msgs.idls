@@ -1,0 +1,5 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/KaiaaiTelemetry.idl
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/WifiState.idl
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/JointPosVel.idl
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/KaiaaiTelemetry2.idl
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/OnlineEvent.idl

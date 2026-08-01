@@ -1,0 +1,9 @@
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/uninstall.dir
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/kaiaai_bringup_uninstall.dir
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/test.dir
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/edit_cache.dir
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/rebuild_cache.dir
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/list_install_components.dir
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/install.dir
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/install/local.dir
+/home/duong/kaia_ws/build/kaiaai_bringup/CMakeFiles/install/strip.dir

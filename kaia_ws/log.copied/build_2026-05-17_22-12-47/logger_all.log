@@ -1,0 +1,393 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'makerspet_mini', 'kaiaai_telemetry']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['makerspet_mini', 'kaiaai_telemetry'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77cc9a551b10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77cc9a5515a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77cc9a5515a0>>, mixin_verb=('build',))
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.295s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/duong/kaia_ws'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_mapper' with type 'ros.ament_cmake' and name 'auto_mapper'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai' with type 'ros.ament_python' and name 'kaiaai'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_apps' with type 'ros.ament_python' and name 'kaiaai_apps'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_bringup' with type 'ros.ament_cmake' and name 'kaiaai_bringup'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_gazebo' with type 'ros.ament_cmake' and name 'kaiaai_gazebo'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_msgs' with type 'ros.ament_cmake' and name 'kaiaai_msgs'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_telemetry' with type 'ros.ament_cmake' and name 'kaiaai_telemetry'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_teleop' with type 'ros.ament_python' and name 'kaiaai_teleop'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_web' with type 'ros.ament_python' and name 'kaiaai_web'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet' with type 'ros.ament_python' and name 'makerspet'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet_fido' with type 'ros.ament_cmake' and name 'makerspet_fido'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet_loki' with type 'ros.ament_cmake' and name 'makerspet_loki'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet_mini' with type 'ros.ament_cmake' and name 'makerspet_mini'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet_snoopy' with type 'ros.ament_cmake' and name 'makerspet_snoopy'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_wfe' with type 'ros.ament_python' and name 'nav2_wfd'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_serving_bot' with type 'ros.ament_cmake' and name 'robot_serving_bot'
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.384s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'auto_mapper' in 'src/auto_mapper'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'explore_lite' in 'src/m-explore-ros2/explore'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kaiaai' in 'src/kaiaai'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kaiaai_apps' in 'src/kaiaai_apps'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kaiaai_msgs' in 'src/kaiaai_msgs'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kaiaai_teleop' in 'src/kaiaai_teleop'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kaiaai_web' in 'src/kaiaai_web'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'makerspet_fido' in 'src/makerspet_fido'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'makerspet_loki' in 'src/makerspet_loki'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'makerspet_snoopy' in 'src/makerspet_snoopy'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav2_wfd' in 'src/nav2_wfe'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_serving_bot' in 'src/robot_serving_bot'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kaiaai_gazebo' in 'src/kaiaai_gazebo'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'makerspet' in 'src/makerspet'
+[0.385s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kaiaai_bringup' in 'src/kaiaai_bringup'
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/duong/uros_ws/install
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/duong/kaia_ws/install
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/iron
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.443s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'makerspet_mini' is in: /home/duong/kaia_ws/install/makerspet_mini
+	'kaiaai_telemetry' is in: /home/duong/kaia_ws/install/kaiaai_telemetry
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding kaiaai_telemetry makerspet_mini
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.445s] DEBUG:colcon.colcon_core.verb:Building package 'makerspet_mini' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duong/kaia_ws/build/makerspet_mini', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duong/kaia_ws/install/makerspet_mini', 'merge_install': False, 'path': '/home/duong/kaia_ws/src/makerspet_mini', 'symlink_install': False, 'test_result_base': None}
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'cmake_target' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'cmake_clean_first' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'cmake_force_configure' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'ament_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.446s] DEBUG:colcon.colcon_core.verb:Building package 'kaiaai_telemetry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duong/kaia_ws/build/kaiaai_telemetry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duong/kaia_ws/install/kaiaai_telemetry', 'merge_install': False, 'path': '/home/duong/kaia_ws/src/kaiaai_telemetry', 'symlink_install': False, 'test_result_base': None}
+[0.446s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.447s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.447s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duong/kaia_ws/src/makerspet_mini' with build type 'ament_cmake'
+[0.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duong/kaia_ws/src/makerspet_mini'
+[0.451s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.458s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duong/kaia_ws/src/kaiaai_telemetry' with build type 'ament_cmake'
+[0.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duong/kaia_ws/src/kaiaai_telemetry'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/kaia_ws/build/makerspet_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_mini -- -j12 -l12
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/kaia_ws/build/kaiaai_telemetry': CMAKE_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron PYTHONPATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/nav2_wfd:/home/duong/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:/home/duong/kaia_ws/build/makerspet:/home/duong/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:/home/duong/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/duong/kaia_ws/build/kaiaai_telemetry -- -j12 -l12
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/kaia_ws/build/makerspet_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_mini -- -j12 -l12
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/kaia_ws/build/makerspet_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_mini
+[0.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makerspet_mini)
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/kaia_ws/build/makerspet_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_mini
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini' for CMake module files
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini' for CMake config files
+[0.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('makerspet_mini', 'cmake_prefix_path')
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/hook/cmake_prefix_path.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/hook/cmake_prefix_path.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/hook/cmake_prefix_path.sh'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini/bin'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini/lib/pkgconfig/makerspet_mini.pc'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini/lib/python3.10/site-packages'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini/bin'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.sh'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.bash'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.zsh'
+[0.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/kaia_ws/install/makerspet_mini/share/colcon-core/packages/makerspet_mini)
+[0.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makerspet_mini)
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini' for CMake module files
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini' for CMake config files
+[0.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('makerspet_mini', 'cmake_prefix_path')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/hook/cmake_prefix_path.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/hook/cmake_prefix_path.dsv'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/hook/cmake_prefix_path.sh'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini/bin'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini/lib/pkgconfig/makerspet_mini.pc'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini/lib/python3.10/site-packages'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/makerspet_mini/bin'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.sh'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.bash'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.zsh'
+[0.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/kaia_ws/install/makerspet_mini/share/colcon-core/packages/makerspet_mini)
+[11.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/kaia_ws/build/kaiaai_telemetry' returned '0': CMAKE_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron PYTHONPATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/nav2_wfd:/home/duong/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:/home/duong/kaia_ws/build/makerspet:/home/duong/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:/home/duong/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/duong/kaia_ws/build/kaiaai_telemetry -- -j12 -l12
+[11.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/kaia_ws/build/kaiaai_telemetry': CMAKE_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron PYTHONPATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/nav2_wfd:/home/duong/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:/home/duong/kaia_ws/build/makerspet:/home/duong/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:/home/duong/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/duong/kaia_ws/build/kaiaai_telemetry
+[11.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kaiaai_telemetry)
+[11.700s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry' for CMake module files
+[11.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/kaia_ws/build/kaiaai_telemetry' returned '0': CMAKE_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai_msgs:/home/duong/kaia_ws/install/robot_serving_bot:/home/duong/kaia_ws/install/kaiaai_bringup:/home/duong/kaia_ws/install/makerspet_snoopy:/home/duong/kaia_ws/install/makerspet_mini:/home/duong/kaia_ws/install/makerspet_loki:/home/duong/kaia_ws/install/makerspet_fido:/home/duong/kaia_ws/install/kaiaai_telemetry:/home/duong/kaia_ws/install/kaiaai_gazebo:/home/duong/kaia_ws/install/explore_lite:/home/duong/kaia_ws/install/auto_mapper:/home/duong/uros_ws/install/micro_ros_setup:/home/duong/uros_ws/install/micro_ros_agent:/home/duong/uros_ws/install/micro_ros_msgs:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron PYTHONPATH=/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/kaia_ws/build/nav2_wfd:/home/duong/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:/home/duong/kaia_ws/build/makerspet:/home/duong/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:/home/duong/kaia_ws/build/kaiaai:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:/home/duong/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/duong/kaia_ws/build/kaiaai_telemetry
+[11.702s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry' for CMake config files
+[11.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('kaiaai_telemetry', 'cmake_prefix_path')
+[11.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/hook/cmake_prefix_path.ps1'
+[11.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/hook/cmake_prefix_path.dsv'
+[11.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/hook/cmake_prefix_path.sh'
+[11.706s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/lib'
+[11.706s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/bin'
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/lib/pkgconfig/kaiaai_telemetry.pc'
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/lib/python3.10/site-packages'
+[11.708s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/bin'
+[11.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.ps1'
+[11.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.dsv'
+[11.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.sh'
+[11.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.bash'
+[11.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.zsh'
+[11.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/kaia_ws/install/kaiaai_telemetry/share/colcon-core/packages/kaiaai_telemetry)
+[11.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kaiaai_telemetry)
+[11.715s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry' for CMake module files
+[11.716s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry' for CMake config files
+[11.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('kaiaai_telemetry', 'cmake_prefix_path')
+[11.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/hook/cmake_prefix_path.ps1'
+[11.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/hook/cmake_prefix_path.dsv'
+[11.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/hook/cmake_prefix_path.sh'
+[11.720s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/lib'
+[11.721s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/bin'
+[11.721s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/lib/pkgconfig/kaiaai_telemetry.pc'
+[11.721s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/lib/python3.10/site-packages'
+[11.722s] Level 1:colcon.colcon_core.environment:checking '/home/duong/kaia_ws/install/kaiaai_telemetry/bin'
+[11.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.ps1'
+[11.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.dsv'
+[11.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.sh'
+[11.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.bash'
+[11.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.zsh'
+[11.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duong/kaia_ws/install/kaiaai_telemetry/share/colcon-core/packages/kaiaai_telemetry)
+[11.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.729s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.740s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.740s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.740s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.759s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duong/kaia_ws/install/local_setup.ps1'
+[11.762s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duong/kaia_ws/install/_local_setup_util_ps1.py'
+[11.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duong/kaia_ws/install/setup.ps1'
+[11.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duong/kaia_ws/install/local_setup.sh'
+[11.771s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duong/kaia_ws/install/_local_setup_util_sh.py'
+[11.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duong/kaia_ws/install/setup.sh'
+[11.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duong/kaia_ws/install/local_setup.bash'
+[11.778s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duong/kaia_ws/install/setup.bash'
+[11.783s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duong/kaia_ws/install/local_setup.zsh'
+[11.784s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duong/kaia_ws/install/setup.zsh'

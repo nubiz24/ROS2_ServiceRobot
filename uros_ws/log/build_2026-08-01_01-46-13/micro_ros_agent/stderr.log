@@ -1,0 +1,20 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    AMENT_CMAKE_SYMLINK_INSTALL
+
+
+Đang nhân bản thành 'xrceagent'...
+fatal: không thể truy cập 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Could not resolve host: github.com
+Đang nhân bản thành 'xrceagent'...
+fatal: không thể truy cập 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Could not resolve host: github.com
+Đang nhân bản thành 'xrceagent'...
+fatal: không thể truy cập 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Could not resolve host: github.com
+CMake Error at /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_agent/agent/tmp/xrceagent-gitclone.cmake:31 (message):
+  Failed to clone repository:
+  'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git'
+
+
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:99: agent/src/xrceagent-stamp/xrceagent-download] Lỗi 1
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Lỗi 2
+gmake: *** [Makefile:91: all] Lỗi 2

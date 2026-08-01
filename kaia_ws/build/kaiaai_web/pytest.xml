@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="1" tests="3" time="0.593" timestamp="2026-08-01T02:04:42.028575" hostname="work"><testcase classname="kaiaai_web.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="kaiaai_web.test.test_flake8" name="test_flake8" time="0.275"><failure message="AssertionError: Found 24 code style errors / warnings:&#10;  ./setup.py:15:100: E501 line too long (101 &gt; 99 characters)&#10;  ./launch/web_server.launch.py:17:1: F401 're' imported but unused&#10;  ./launch/web_server.launch.py:17:10: E401 multiple imports on one line&#10;  ./launch/web_server.launch.py:37:23: E251 unexpected spaces around keyword / parameter equals&#10;  ./launch/web_server.launch.py:37:25: E251 unexpected spaces around keyword / parameter equals&#10;  ./launch/web_server.launch.py:42:1: E302 expected 2 blank lines, found 1&#10;  ./kaiaai_web/server.py:1:1: F401 'argparse' imported but unused&#10;  ./kaiaai_web/server.py:20:1: F401 'OpenSSL.SSL' imported but unused&#10;  ./kaiaai_web/server.py:38:7: E128 continuation line under-indented for visual indent&#10;  ./kaiaai_web/server.py:38:100: E501 line too long (100 &gt; 99 characters)&#10;  ./kaiaai_web/server.py:39:7: E128 continuation line under-indented for visual indent&#10;  ./kaiaai_web/server.py:40:7: E128 continuation line under-indented for visual indent&#10;  ./kaiaai_web/server.py:41:7: E128 continuation line under-indented for visual indent&#10;  ./kaiaai_web/server.py:45:1: E302 expected 2 blank lines, found 1&#10;  ./kaiaai_web/server.py:46:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_web/server.py:47:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_web/server.py:47:9: E711 comparison to None should be 'if cond is not None:'&#10;  ./kaiaai_web/server.py:160:9: E306 expected 1 blank line before a nested definition, found 0&#10;  ./kaiaai_web/server.py:275:6: E111 indentation is not a multiple of 4&#10;  ./kaiaai_web/server.py:275:6: E117 over-indented&#10;  ./kaiaai_web/server.py:288:5: E125 continuation line with same indent as next logical line&#10;  ./kaiaai_web/server.py:289:5: E265 block comment should start with '# '&#10;  ./kaiaai_web/server.py:290:5: E265 block comment should start with '# '&#10;  ./kaiaai_web/server.py:297:24: E741 ambiguous variable name 'O'&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 24 code style errors / warnings:
+E     ./setup.py:15:100: E501 line too long (101 &gt; 99 characters)
+E     ./launch/web_server.launch.py:17:1: F401 're' imported but unused
+E     ./launch/web_server.launch.py:17:10: E401 multiple imports on one line
+E     ./launch/web_server.launch.py:37:23: E251 unexpected spaces around keyword / parameter equals
+E     ./launch/web_server.launch.py:37:25: E251 unexpected spaces around keyword / parameter equals
+E     ./launch/web_server.launch.py:42:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai_web/server.py:1:1: F401 'argparse' imported but unused
+E     ./kaiaai_web/server.py:20:1: F401 'OpenSSL.SSL' imported but unused
+E     ./kaiaai_web/server.py:38:7: E128 continuation line under-indented for visual indent
+E     ./kaiaai_web/server.py:38:100: E501 line too long (100 &gt; 99 characters)
+E     ./kaiaai_web/server.py:39:7: E128 continuation line under-indented for visual indent
+E     ./kaiaai_web/server.py:40:7: E128 continuation line under-indented for visual indent
+E     ./kaiaai_web/server.py:41:7: E128 continuation line under-indented for visual indent
+E     ./kaiaai_web/server.py:45:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai_web/server.py:46:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_web/server.py:47:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_web/server.py:47:9: E711 comparison to None should be 'if cond is not None:'
+E     ./kaiaai_web/server.py:160:9: E306 expected 1 blank line before a nested definition, found 0
+E     ./kaiaai_web/server.py:275:6: E111 indentation is not a multiple of 4
+E     ./kaiaai_web/server.py:275:6: E117 over-indented
+E     ./kaiaai_web/server.py:288:5: E125 continuation line with same indent as next logical line
+E     ./kaiaai_web/server.py:289:5: E265 block comment should start with '# '
+E     ./kaiaai_web/server.py:290:5: E265 block comment should start with '# '
+E     ./kaiaai_web/server.py:297:24: E741 ambiguous variable name 'O'
+E   assert 1 == 0</failure></testcase><testcase classname="kaiaai_web.test.test_pep257" name="test_pep257" time="0.073"><failure message="AssertionError: Found code style errors / warnings&#10;assert 1 == 0">test/test_pep257.py:23: in test_pep257
+    assert rc == 0, 'Found code style errors / warnings'
+E   AssertionError: Found code style errors / warnings
+E   assert 1 == 0</failure></testcase></testsuite></testsuites>

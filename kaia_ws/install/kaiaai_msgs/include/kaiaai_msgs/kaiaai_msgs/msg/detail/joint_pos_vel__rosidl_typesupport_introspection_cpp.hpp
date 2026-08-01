@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/joint_pos_vel__rosidl_typesupport_introspection_cpp.hpp

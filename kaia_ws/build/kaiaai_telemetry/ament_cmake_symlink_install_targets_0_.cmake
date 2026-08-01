@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry/telem_test_pub" "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry/telem" "TARGETS" "telem_test_pub" "telem" "DESTINATION" "lib/kaiaai_telemetry")

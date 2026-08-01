@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/kaiaai_msgs/rosidl_generator_cpp/kaiaai_msgs/msg/wifi_state.hpp

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kaiaai_msgs__py",
+		"source" : "/home/duong/kaia_ws/build/kaiaai_msgs/kaiaai_msgs__py"
+	}
+}

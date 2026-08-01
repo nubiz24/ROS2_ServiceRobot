@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore':
+ - /opt/ros/iron/bin/ament_pep257 --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite/test_results/explore_lite/pep257.xunit.xml
+
+checking ./launch/explore.launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite/test_results/explore_lite/pep257.xunit.xml'

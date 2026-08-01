@@ -1,0 +1,1063 @@
+[0.489s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/pytest.xml --junit-prefix=kaiaai -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.756s] =============================== warnings summary ===============================
+[1.757s] test/test_flake8.py::test_flake8
+[1.757s] test/test_flake8.py::test_flake8
+[1.757s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.757s] 
+[1.757s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.757s] ============================= test session starts ==============================
+[1.758s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.758s] cachedir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/.pytest_cache
+[1.758s] rootdir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai
+[1.758s] plugins: launch-testing-ros-0.24.2, ament-flake8-0.14.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-copyright-0.14.4, ament-lint-0.14.4, launch-testing-2.0.4, cov-3.0.0, colcon-core-0.20.1
+[1.758s] collected 3 items
+[1.758s] 
+[1.758s] test/test_copyright.py s                                                 [ 33%]
+[1.758s] test/test_flake8.py F                                                    [ 66%]
+[1.759s] test/test_pep257.py F                                                    [100%]
+[1.759s] 
+[1.759s] =================================== FAILURES ===================================
+[1.759s] _________________________________ test_flake8 __________________________________
+[1.759s] test/test_flake8.py:23: in test_flake8
+[1.760s]     assert rc == 0, \
+[1.760s] E   AssertionError: Found 193 code style errors / warnings:
+[1.760s] E     ./kaiaai/config.py:16:12: E401 multiple imports on one line
+[1.760s] E     ./kaiaai/config.py:23:3: E111 indentation is not a multiple of 4
+[1.760s] E     ./kaiaai/config.py:27:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:28:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:31:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:33:25: E711 comparison to None should be 'if cond is None:'
+[1.761s] E     ./kaiaai/config.py:35:1: E302 expected 2 blank lines, found 1
+[1.761s] E     ./kaiaai/config.py:36:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:39:1: E302 expected 2 blank lines, found 1
+[1.761s] E     ./kaiaai/config.py:40:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:41:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:43:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:46:1: E302 expected 2 blank lines, found 1
+[1.761s] E     ./kaiaai/config.py:47:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:48:3: E111 indentation is not a multiple of 4
+[1.761s] E     ./kaiaai/config.py:49:3: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:34:1: F811 redefinition of unused 'yaml' from line 17
+[1.762s] E     ./kaiaai/util.py:39:3: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:49:3: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:50:5: E128 continuation line under-indented for visual indent
+[1.762s] E     ./kaiaai/util.py:55:7: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:69:3: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:72:3: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:75:3: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:83:7: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:92:3: E111 indentation is not a multiple of 4
+[1.762s] E     ./kaiaai/util.py:95:14: E711 comparison to None should be 'if cond is None:'
+[1.762s] E     ./kaiaai/util.py:96:7: E111 indentation is not a multiple of 4
+[1.763s] E     ./kaiaai/util.py:97:7: E111 indentation is not a multiple of 4
+[1.763s] E     ./kaiaai/util.py:101:3: E111 indentation is not a multiple of 4
+[1.763s] E     ./kaiaai/util.py:113:3: E111 indentation is not a multiple of 4
+[1.763s] E     ./kaiaai/util.py:117:7: E111 indentation is not a multiple of 4
+[1.763s] E     ./kaiaai/util.py:118:7: E111 indentation is not a multiple of 4
+[1.763s] E     ./kaiaai/util.py:119:5: F841 local variable 'ex' is assigned to but never used
+[1.763s] E     ./kaiaai/util.py:120:7: E114 indentation is not a multiple of 4 (comment)
+[1.764s] E     ./kaiaai/util.py:120:100: E501 line too long (107 > 99 characters)
+[1.764s] E     ./kaiaai/util.py:121:7: E111 indentation is not a multiple of 4
+[1.764s] E     ./kaiaai/util.py:125:3: E111 indentation is not a multiple of 4
+[1.764s] E     ./kaiaai/util.py:129:3: E111 indentation is not a multiple of 4
+[1.764s] E     ./kaiaai/util.py:130:3: E111 indentation is not a multiple of 4
+[1.764s] E     ./kaiaai/util.py:152:3: E111 indentation is not a multiple of 4
+[1.764s] E     ./kaiaai/util.py:153:3: E111 indentation is not a multiple of 4
+[1.764s] E     ./kaiaai/util.py:164:7: E111 indentation is not a multiple of 4
+[1.765s] E     ./kaiaai/util.py:166:7: E111 indentation is not a multiple of 4
+[1.765s] E     ./kaiaai/util.py:176:3: E111 indentation is not a multiple of 4
+[1.765s] E     ./kaiaai/util.py:177:3: E111 indentation is not a multiple of 4
+[1.765s] E     ./kaiaai/util.py:190:3: E111 indentation is not a multiple of 4
+[1.765s] E     ./kaiaai/util.py:203:7: E111 indentation is not a multiple of 4
+[1.765s] E     ./kaiaai/util.py:206:7: E111 indentation is not a multiple of 4
+[1.765s] E     ./kaiaai/util.py:212:3: E111 indentation is not a multiple of 4
+[1.766s] E     ./kaiaai/util.py:213:12: F821 undefined name 'self'
+[1.766s] E     ./kaiaai/util.py:213:53: F821 undefined name 'service_timeout_sec'
+[1.766s] E     ./kaiaai/util.py:215:3: E111 indentation is not a multiple of 4
+[1.766s] E     ./kaiaai/util.py:216:12: F821 undefined name 'self'
+[1.766s] E     ./kaiaai/util.py:216:53: F821 undefined name 'service_timeout_sec'
+[1.766s] E     ./kaiaai/util.py:218:3: E111 indentation is not a multiple of 4
+[1.766s] E     ./kaiaai/util.py:220:7: E111 indentation is not a multiple of 4
+[1.766s] E     ./kaiaai/util.py:228:3: E111 indentation is not a multiple of 4
+[1.767s] E     ./kaiaai/util.py:230:7: E111 indentation is not a multiple of 4
+[1.767s] E     ./kaiaai/util.py:233:7: E111 indentation is not a multiple of 4
+[1.767s] E     ./kaiaai/util.py:236:7: F841 local variable 'param' is assigned to but never used
+[1.767s] E     ./kaiaai/util.py:236:7: E111 indentation is not a multiple of 4
+[1.767s] E     ./kaiaai/util.py:238:7: E111 indentation is not a multiple of 4
+[1.767s] E     ./kaiaai/util.py:240:7: E111 indentation is not a multiple of 4
+[1.767s] E     ./kaiaai/util.py:242:7: E111 indentation is not a multiple of 4
+[1.768s] E     ./kaiaai/util.py:244:7: E111 indentation is not a multiple of 4
+[1.768s] E     ./kaiaai/util.py:247:7: E111 indentation is not a multiple of 4
+[1.768s] E     ./kaiaai/util.py:253:3: E111 indentation is not a multiple of 4
+[1.768s] E     ./kaiaai/util.py:254:3: E111 indentation is not a multiple of 4
+[1.768s] E     ./kaiaai/util.py:260:7: E111 indentation is not a multiple of 4
+[1.768s] E     ./kaiaai/util.py:262:7: E111 indentation is not a multiple of 4
+[1.768s] E     ./kaiaai/util.py:264:7: E111 indentation is not a multiple of 4
+[1.768s] E     ./kaiaai/util.py:266:7: E111 indentation is not a multiple of 4
+[1.769s] E     ./kaiaai/util.py:268:7: E111 indentation is not a multiple of 4
+[1.769s] E     ./kaiaai/util.py:275:3: E111 indentation is not a multiple of 4
+[1.769s] E     ./kaiaai/util.py:281:3: E111 indentation is not a multiple of 4
+[1.769s] E     ./kaiaai/util.py:284:3: E111 indentation is not a multiple of 4
+[1.769s] E     ./kaiaai/util.py:285:3: E111 indentation is not a multiple of 4
+[1.769s] E     ./kaiaai/util.py:290:5: E115 expected an indented block (comment)
+[1.769s] E     ./kaiaai/util.py:291:7: E111 indentation is not a multiple of 4
+[1.769s] E     ./kaiaai/util.py:321:3: E111 indentation is not a multiple of 4
+[1.770s] E     ./kaiaai/util.py:328:15: E251 unexpected spaces around keyword / parameter equals
+[1.770s] E     ./kaiaai/util.py:328:17: E251 unexpected spaces around keyword / parameter equals
+[1.770s] E     ./kaiaai/util.py:329:17: E251 unexpected spaces around keyword / parameter equals
+[1.770s] E     ./kaiaai/util.py:329:19: E251 unexpected spaces around keyword / parameter equals
+[1.770s] E     ./kaiaai/util.py:330:13: E251 unexpected spaces around keyword / parameter equals
+[1.770s] E     ./kaiaai/util.py:330:15: E251 unexpected spaces around keyword / parameter equals
+[1.770s] E     ./kaiaai/util.py:331:17: E251 unexpected spaces around keyword / parameter equals
+[1.770s] E     ./kaiaai/util.py:331:19: E251 unexpected spaces around keyword / parameter equals
+[1.771s] E     ./kaiaai/util.py:332:12: E251 unexpected spaces around keyword / parameter equals
+[1.771s] E     ./kaiaai/util.py:332:14: E251 unexpected spaces around keyword / parameter equals
+[1.771s] E     ./kaiaai/util.py:333:12: E251 unexpected spaces around keyword / parameter equals
+[1.771s] E     ./kaiaai/util.py:333:14: E251 unexpected spaces around keyword / parameter equals
+[1.771s] E     ./kaiaai/util.py:337:20: E251 unexpected spaces around keyword / parameter equals
+[1.771s] E     ./kaiaai/util.py:337:22: E251 unexpected spaces around keyword / parameter equals
+[1.771s] E     ./kaiaai/util.py:338:12: E251 unexpected spaces around keyword / parameter equals
+[1.771s] E     ./kaiaai/util.py:338:14: E251 unexpected spaces around keyword / parameter equals
+[1.772s] E     ./kaiaai/util.py:339:12: E251 unexpected spaces around keyword / parameter equals
+[1.772s] E     ./kaiaai/util.py:339:14: E251 unexpected spaces around keyword / parameter equals
+[1.772s] E     ./kaiaai/util.py:340:12: E251 unexpected spaces around keyword / parameter equals
+[1.772s] E     ./kaiaai/util.py:340:14: E251 unexpected spaces around keyword / parameter equals
+[1.772s] E     ./kaiaai/util.py:341:12: E251 unexpected spaces around keyword / parameter equals
+[1.772s] E     ./kaiaai/util.py:341:14: E251 unexpected spaces around keyword / parameter equals
+[1.772s] E     ./kaiaai/util.py:348:7: E111 indentation is not a multiple of 4
+[1.773s] E     ./kaiaai/util.py:348:31: E261 at least two spaces before inline comment
+[1.773s] E     ./kaiaai/util.py:350:3: E111 indentation is not a multiple of 4
+[1.773s] E     ./kaiaai/util.py:353:3: E111 indentation is not a multiple of 4
+[1.773s] E     ./kaiaai/util.py:356:3: E111 indentation is not a multiple of 4
+[1.773s] E     ./kaiaai/util.py:359:3: E111 indentation is not a multiple of 4
+[1.773s] E     ./kaiaai/util.py:362:3: E111 indentation is not a multiple of 4
+[1.773s] E     ./kaiaai/util.py:365:3: E111 indentation is not a multiple of 4
+[1.773s] E     ./kaiaai/util.py:368:3: E111 indentation is not a multiple of 4
+[1.773s] E     ./kaiaai/util.py:371:3: E111 indentation is not a multiple of 4
+[1.774s] E     ./kaiaai/util.py:374:3: E111 indentation is not a multiple of 4
+[1.774s] E     ./kaiaai/util.py:378:3: E111 indentation is not a multiple of 4
+[1.774s] E     ./kaiaai/util.py:384:3: E111 indentation is not a multiple of 4
+[1.774s] E     ./kaiaai/util.py:386:7: E111 indentation is not a multiple of 4
+[1.774s] E     ./kaiaai/util.py:392:7: E111 indentation is not a multiple of 4
+[1.774s] E     ./kaiaai/util.py:396:3: E111 indentation is not a multiple of 4
+[1.774s] E     ./kaiaai/util.py:406:1: W293 blank line contains whitespace
+[1.774s] E     ./kaiaai/util.py:423:50: W292 no newline at end of file
+[1.775s] E     ./kaiaai/cli.py:19:1: E302 expected 2 blank lines, found 1
+[1.775s] E     ./kaiaai/cli.py:20:3: E111 indentation is not a multiple of 4
+[1.775s] E     ./kaiaai/cli.py:21:3: E111 indentation is not a multiple of 4
+[1.775s] E     ./kaiaai/cli.py:22:3: E111 indentation is not a multiple of 4
+[1.775s] E     ./kaiaai/cli.py:24:3: E111 indentation is not a multiple of 4
+[1.775s] E     ./kaiaai/cli.py:27:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.775s] E     ./kaiaai/cli.py:28:3: E111 indentation is not a multiple of 4
+[1.776s] E     ./kaiaai/explore/wfd.py:2:1: F401 'sys' imported but unused
+[1.776s] E     ./kaiaai/explore/wfd.py:3:1: F401 'time' imported but unused
+[1.776s] E     ./kaiaai/explore/wfd.py:4:1: F401 'enum.Enum' imported but unused
+[1.776s] E     ./kaiaai/explore/wfd.py:11:3: E111 indentation is not a multiple of 4
+[1.776s] E     ./kaiaai/explore/wfd.py:13:3: E111 indentation is not a multiple of 4
+[1.776s] E     ./kaiaai/explore/wfd.py:17:7: E111 indentation is not a multiple of 4
+[1.776s] E     ./kaiaai/explore/wfd.py:22:3: E111 indentation is not a multiple of 4
+[1.776s] E     ./kaiaai/explore/wfd.py:25:3: E111 indentation is not a multiple of 4
+[1.777s] E     ./kaiaai/explore/wfd.py:28:1: E302 expected 2 blank lines, found 1
+[1.777s] E     ./kaiaai/explore/wfd.py:29:3: E111 indentation is not a multiple of 4
+[1.777s] E     ./kaiaai/explore/wfd.py:36:3: E111 indentation is not a multiple of 4
+[1.777s] E     ./kaiaai/explore/wfd.py:37:3: E111 indentation is not a multiple of 4
+[1.777s] E     ./kaiaai/explore/wfd.py:38:3: E111 indentation is not a multiple of 4
+[1.777s] E     ./kaiaai/explore/wfd.py:39:3: E111 indentation is not a multiple of 4
+[1.777s] E     ./kaiaai/explore/wfd.py:41:3: E111 indentation is not a multiple of 4
+[1.777s] E     ./kaiaai/explore/wfd.py:42:3: E111 indentation is not a multiple of 4
+[1.778s] E     ./kaiaai/explore/wfd.py:44:3: E111 indentation is not a multiple of 4
+[1.778s] E     ./kaiaai/explore/wfd.py:45:3: E111 indentation is not a multiple of 4
+[1.778s] E     ./kaiaai/explore/wfd.py:48:3: E111 indentation is not a multiple of 4
+[1.778s] E     ./kaiaai/explore/wfd.py:49:3: E111 indentation is not a multiple of 4
+[1.778s] E     ./kaiaai/explore/wfd.py:52:7: E111 indentation is not a multiple of 4
+[1.778s] E     ./kaiaai/explore/wfd.py:57:7: E111 indentation is not a multiple of 4
+[1.778s] E     ./kaiaai/explore/wfd.py:58:7: E111 indentation is not a multiple of 4
+[1.778s] E     ./kaiaai/explore/wfd.py:58:9: E271 multiple spaces after keyword
+[1.779s] E     ./kaiaai/explore/wfd.py:63:3: E111 indentation is not a multiple of 4
+[1.779s] E     ./kaiaai/explore/wfd.py:64:3: E111 indentation is not a multiple of 4
+[1.779s] E     ./kaiaai/explore/wfd.py:79:7: E111 indentation is not a multiple of 4
+[1.779s] E     ./kaiaai/explore/wfd.py:81:7: E111 indentation is not a multiple of 4
+[1.779s] E     ./kaiaai/explore/wfd.py:84:7: E111 indentation is not a multiple of 4
+[1.779s] E     ./kaiaai/explore/wfd.py:90:11: E111 indentation is not a multiple of 4
+[1.779s] E     ./kaiaai/explore/wfd.py:92:11: E111 indentation is not a multiple of 4
+[1.780s] E     ./kaiaai/explore/wfd.py:92:100: E501 line too long (130 > 99 characters)
+[1.780s] E     ./kaiaai/explore/wfd.py:95:11: E111 indentation is not a multiple of 4
+[1.780s] E     ./kaiaai/explore/wfd.py:98:15: E111 indentation is not a multiple of 4
+[1.780s] E     ./kaiaai/explore/wfd.py:98:100: E501 line too long (181 > 99 characters)
+[1.780s] E     ./kaiaai/explore/wfd.py:102:11: E111 indentation is not a multiple of 4
+[1.780s] E     ./kaiaai/explore/wfd.py:103:1: W293 blank line contains whitespace
+[1.780s] E     ./kaiaai/explore/wfd.py:106:11: E111 indentation is not a multiple of 4
+[1.780s] E     ./kaiaai/explore/wfd.py:107:11: E111 indentation is not a multiple of 4
+[1.781s] E     ./kaiaai/explore/wfd.py:110:11: E111 indentation is not a multiple of 4
+[1.781s] E     ./kaiaai/explore/wfd.py:112:7: E111 indentation is not a multiple of 4
+[1.781s] E     ./kaiaai/explore/wfd.py:113:100: E501 line too long (121 > 99 characters)
+[1.781s] E     ./kaiaai/explore/wfd.py:114:11: E111 indentation is not a multiple of 4
+[1.781s] E     ./kaiaai/explore/wfd.py:114:100: E501 line too long (130 > 99 characters)
+[1.781s] E     ./kaiaai/explore/wfd.py:114:101: F821 undefined name 'getNeighbors'
+[1.781s] E     ./kaiaai/explore/wfd.py:118:7: E111 indentation is not a multiple of 4
+[1.781s] E     ./kaiaai/explore/wfd.py:122:3: E111 indentation is not a multiple of 4
+[1.782s] E     ./kaiaai/explore/wfd.py:123:3: E111 indentation is not a multiple of 4
+[1.782s] E     ./kaiaai/explore/wfd.py:125:7: E111 indentation is not a multiple of 4
+[1.782s] E     ./kaiaai/explore/wfd.py:129:7: E111 indentation is not a multiple of 4
+[1.782s] E     ./kaiaai/explore/wfd.py:131:7: E111 indentation is not a multiple of 4
+[1.782s] E     ./kaiaai/explore/wfd.py:134:7: E111 indentation is not a multiple of 4
+[1.782s] E     ./kaiaai/explore/wfd.py:139:3: E111 indentation is not a multiple of 4
+[1.782s] E     ./kaiaai/explore/wfd.py:140:3: E111 indentation is not a multiple of 4
+[1.783s] E     ./kaiaai/explore/wfd.py:146:7: E111 indentation is not a multiple of 4
+[1.783s] E     ./kaiaai/explore/wfd.py:148:7: E111 indentation is not a multiple of 4
+[1.783s] E     ./kaiaai/explore/wfd.py:151:7: E111 indentation is not a multiple of 4
+[1.783s] E     ./kaiaai/explore/wfd.py:153:11: E111 indentation is not a multiple of 4
+[1.783s] E     ./kaiaai/explore/wfd.py:154:11: E111 indentation is not a multiple of 4
+[1.784s] E     ./kaiaai/explore/wfd.py:158:3: E111 indentation is not a multiple of 4
+[1.784s] E     ./kaiaai/explore/wfd.py:159:3: E111 indentation is not a multiple of 4
+[1.784s] E     ./kaiaai/explore/wfd.py:166:3: E111 indentation is not a multiple of 4
+[1.784s] E     ./kaiaai/explore/wfd.py:167:3: E111 indentation is not a multiple of 4
+[1.784s] E     ./kaiaai/explore/wfd.py:171:7: E111 indentation is not a multiple of 4
+[1.784s] E     ./kaiaai/explore/wfd.py:173:11: E111 indentation is not a multiple of 4
+[1.784s] E   assert 1 == 0
+[1.785s] ----------------------------- Captured stdout call -----------------------------
+[1.785s] 
+[1.785s] ./kaiaai/config.py:16:12: E401 multiple imports on one line
+[1.785s] import yaml, os
+[1.785s]            ^
+[1.785s] 
+[1.785s] ./kaiaai/config.py:23:3: E111 indentation is not a multiple of 4
+[1.785s]   return Path.home() / CONFIG_FILE_NAME
+[1.785s]   ^
+[1.785s] 
+[1.786s] ./kaiaai/config.py:27:3: E111 indentation is not a multiple of 4
+[1.786s]   path = get_config_path()
+[1.786s]   ^
+[1.786s] 
+[1.786s] ./kaiaai/config.py:28:3: E111 indentation is not a multiple of 4
+[1.786s]   if not os.path.exists(path):
+[1.786s]   ^
+[1.786s] 
+[1.786s] ./kaiaai/config.py:31:3: E111 indentation is not a multiple of 4
+[1.787s]   with open(path, 'r') as file:
+[1.787s]   ^
+[1.787s] 
+[1.787s] ./kaiaai/config.py:33:25: E711 comparison to None should be 'if cond is None:'
+[1.787s]     return {} if config == None else config
+[1.787s]                         ^
+[1.788s] 
+[1.788s] ./kaiaai/config.py:35:1: E302 expected 2 blank lines, found 1
+[1.788s] def save(config):
+[1.788s] ^
+[1.788s] 
+[1.788s] ./kaiaai/config.py:36:3: E111 indentation is not a multiple of 4
+[1.788s]   with open(get_config_path(), 'w') as file:
+[1.788s]   ^
+[1.789s] 
+[1.789s] ./kaiaai/config.py:39:1: E302 expected 2 blank lines, found 1
+[1.789s] def get_var(var_name):
+[1.789s] ^
+[1.789s] 
+[1.789s] ./kaiaai/config.py:40:3: E111 indentation is not a multiple of 4
+[1.789s]   config = load()
+[1.789s]   ^
+[1.789s] 
+[1.789s] ./kaiaai/config.py:41:3: E111 indentation is not a multiple of 4
+[1.790s]   if var_name in config.keys():
+[1.790s]   ^
+[1.790s] 
+[1.790s] ./kaiaai/config.py:43:3: E111 indentation is not a multiple of 4
+[1.790s]   else:
+[1.790s]   ^
+[1.790s] 
+[1.790s] ./kaiaai/config.py:46:1: E302 expected 2 blank lines, found 1
+[1.790s] def set_var(var_name, var_value):
+[1.790s] ^
+[1.790s] 
+[1.790s] ./kaiaai/config.py:47:3: E111 indentation is not a multiple of 4
+[1.791s]   config = load()
+[1.791s]   ^
+[1.791s] 
+[1.791s] ./kaiaai/config.py:48:3: E111 indentation is not a multiple of 4
+[1.791s]   config[var_name] = var_value
+[1.791s]   ^
+[1.791s] 
+[1.791s] ./kaiaai/config.py:49:3: E111 indentation is not a multiple of 4
+[1.791s]   save(config)
+[1.791s]   ^
+[1.791s] 
+[1.791s] ./kaiaai/util.py:34:1: F811 redefinition of unused 'yaml' from line 17
+[1.791s] import yaml
+[1.791s] ^
+[1.792s] 
+[1.792s] ./kaiaai/util.py:39:3: E111 indentation is not a multiple of 4
+[1.792s]   def __init__(self, global_frame_id='map', base_frame_id='base_footprint'):
+[1.792s]   ^
+[1.792s] 
+[1.792s] ./kaiaai/util.py:49:3: E111 indentation is not a multiple of 4
+[1.792s]   def saveMap(self, map_filepath='my_map', map_topic='map', image_format='pgm',
+[1.792s]   ^
+[1.792s] 
+[1.792s] ./kaiaai/util.py:50:5: E128 continuation line under-indented for visual indent
+[1.792s]     map_mode='trinary', free_thresh=0.25, occupied_thresh=0.65):
+[1.792s]     ^
+[1.792s] 
+[1.792s] ./kaiaai/util.py:55:7: E111 indentation is not a multiple of 4
+[1.793s]       self.info('map_saver/save_map service not available, waiting...')
+[1.793s]       ^
+[1.793s] 
+[1.793s] ./kaiaai/util.py:69:3: E111 indentation is not a multiple of 4
+[1.793s]   def mapCallback(self, msg):
+[1.793s]   ^
+[1.793s] 
+[1.793s] ./kaiaai/util.py:72:3: E111 indentation is not a multiple of 4
+[1.793s]   def getMap(self):
+[1.793s]   ^
+[1.793s] 
+[1.793s] ./kaiaai/util.py:75:3: E111 indentation is not a multiple of 4
+[1.793s]   def getCurrentMap(self):
+[1.793s]   ^
+[1.794s] 
+[1.794s] ./kaiaai/util.py:83:7: E111 indentation is not a multiple of 4
+[1.794s]       self.info('slam_toolbox/get_map service not available, waiting...')
+[1.794s]       ^
+[1.794s] 
+[1.794s] ./kaiaai/util.py:92:3: E111 indentation is not a multiple of 4
+[1.794s]   def getMapPos(self):
+[1.794s]   ^
+[1.794s] 
+[1.794s] ./kaiaai/util.py:95:14: E711 comparison to None should be 'if cond is None:'
+[1.794s]     while tf == None:
+[1.794s]              ^
+[1.794s] 
+[1.794s] ./kaiaai/util.py:96:7: E111 indentation is not a multiple of 4
+[1.795s]       tf = self.tryGetMapPos()
+[1.795s]       ^
+[1.795s] 
+[1.795s] ./kaiaai/util.py:97:7: E111 indentation is not a multiple of 4
+[1.795s]       rclpy.spin_once(self)
+[1.795s]       ^
+[1.795s] 
+[1.795s] ./kaiaai/util.py:101:3: E111 indentation is not a multiple of 4
+[1.795s]   def getMapPos2d(self):
+[1.795s]   ^
+[1.795s] 
+[1.795s] ./kaiaai/util.py:113:3: E111 indentation is not a multiple of 4
+[1.795s]   def tryGetMapPos(self):
+[1.795s]   ^
+[1.796s] 
+[1.796s] ./kaiaai/util.py:117:7: E111 indentation is not a multiple of 4
+[1.796s]       now = rclpy.time.Time()
+[1.796s]       ^
+[1.796s] 
+[1.796s] ./kaiaai/util.py:118:7: E111 indentation is not a multiple of 4
+[1.796s]       tf = self.tf_buffer.lookup_transform(self.global_frame_id, self.base_frame_id, now)
+[1.796s]       ^
+[1.796s] 
+[1.796s] ./kaiaai/util.py:119:5: F841 local variable 'ex' is assigned to but never used
+[1.796s]     except TransformException as ex:
+[1.797s]     ^
+[1.797s] 
+[1.797s] ./kaiaai/util.py:120:7: E114 indentation is not a multiple of 4 (comment)
+[1.797s]       # self.get_logger().info(f'Could not transform {self.base_frame_id} to {self.global_frame_id}: {ex}')
+[1.797s]       ^
+[1.797s] 
+[1.797s] ./kaiaai/util.py:120:100: E501 line too long (107 > 99 characters)
+[1.797s]       # self.get_logger().info(f'Could not transform {self.base_frame_id} to {self.global_frame_id}: {ex}')
+[1.797s]                                                                                                    ^
+[1.797s] 
+[1.797s] ./kaiaai/util.py:121:7: E111 indentation is not a multiple of 4
+[1.797s]       return None
+[1.798s]       ^
+[1.798s] 
+[1.798s] ./kaiaai/util.py:125:3: E111 indentation is not a multiple of 4
+[1.798s]   def info(self, msg):
+[1.798s]   ^
+[1.798s] 
+[1.798s] ./kaiaai/util.py:129:3: E111 indentation is not a multiple of 4
+[1.798s]   @staticmethod
+[1.798s]   ^
+[1.798s] 
+[1.798s] ./kaiaai/util.py:130:3: E111 indentation is not a multiple of 4
+[1.798s]   def euler_from_quaternion(r):
+[1.798s]   ^
+[1.798s] 
+[1.799s] ./kaiaai/util.py:152:3: E111 indentation is not a multiple of 4
+[1.799s]   @staticmethod
+[1.799s]   ^
+[1.799s] 
+[1.799s] ./kaiaai/util.py:153:3: E111 indentation is not a multiple of 4
+[1.799s]   def getModelParams():
+[1.799s]   ^
+[1.799s] 
+[1.799s] ./kaiaai/util.py:164:7: E111 indentation is not a multiple of 4
+[1.799s]       try:
+[1.799s]       ^
+[1.799s] 
+[1.799s] ./kaiaai/util.py:166:7: E111 indentation is not a multiple of 4
+[1.800s]       except yaml.YAMLError as exc:
+[1.800s]       ^
+[1.800s] 
+[1.800s] ./kaiaai/util.py:176:3: E111 indentation is not a multiple of 4
+[1.800s]   @staticmethod
+[1.800s]   ^
+[1.800s] 
+[1.800s] ./kaiaai/util.py:177:3: E111 indentation is not a multiple of 4
+[1.800s]   def taskResultToText(result: TaskResult):
+[1.800s]   ^
+[1.800s] 
+[1.800s] ./kaiaai/util.py:190:3: E111 indentation is not a multiple of 4
+[1.801s]   def __init__(self, node_name, wait_for_service=True):
+[1.801s]   ^
+[1.801s] 
+[1.801s] ./kaiaai/util.py:203:7: E111 indentation is not a multiple of 4
+[1.801s]       while not self.getter.wait_for_service(timeout_sec=service_timeout_sec):
+[1.801s]       ^
+[1.801s] 
+[1.801s] ./kaiaai/util.py:206:7: E111 indentation is not a multiple of 4
+[1.801s]       while not self.setter.wait_for_service(timeout_sec=service_timeout_sec):
+[1.801s]       ^
+[1.801s] 
+[1.801s] ./kaiaai/util.py:212:3: E111 indentation is not a multiple of 4
+[1.801s]   def wait_get_service(timeout_sec=0.001):
+[1.802s]   ^
+[1.802s] 
+[1.802s] ./kaiaai/util.py:213:12: F821 undefined name 'self'
+[1.802s]     return self.getter.wait_for_service(timeout_sec=service_timeout_sec)
+[1.802s]            ^
+[1.802s] 
+[1.802s] ./kaiaai/util.py:213:53: F821 undefined name 'service_timeout_sec'
+[1.802s]     return self.getter.wait_for_service(timeout_sec=service_timeout_sec)
+[1.802s]                                                     ^
+[1.802s] 
+[1.802s] ./kaiaai/util.py:215:3: E111 indentation is not a multiple of 4
+[1.802s]   def wait_set_service(timeout_sec=0.001):
+[1.802s]   ^
+[1.803s] 
+[1.803s] ./kaiaai/util.py:216:12: F821 undefined name 'self'
+[1.803s]     return self.setter.wait_for_service(timeout_sec=service_timeout_sec)
+[1.803s]            ^
+[1.803s] 
+[1.803s] ./kaiaai/util.py:216:53: F821 undefined name 'service_timeout_sec'
+[1.803s]     return self.setter.wait_for_service(timeout_sec=service_timeout_sec)
+[1.803s]                                                     ^
+[1.803s] 
+[1.803s] ./kaiaai/util.py:218:3: E111 indentation is not a multiple of 4
+[1.803s]   def get(self, param_name):
+[1.803s]   ^
+[1.803s] 
+[1.804s] ./kaiaai/util.py:220:7: E111 indentation is not a multiple of 4
+[1.804s]       param_name = [param_name]
+[1.804s]       ^
+[1.804s] 
+[1.804s] ./kaiaai/util.py:228:3: E111 indentation is not a multiple of 4
+[1.804s]   def set(self, param_name, param_value):
+[1.804s]   ^
+[1.804s] 
+[1.804s] ./kaiaai/util.py:230:7: E111 indentation is not a multiple of 4
+[1.804s]       param_name = [param_name]
+[1.804s]       ^
+[1.804s] 
+[1.804s] ./kaiaai/util.py:233:7: E111 indentation is not a multiple of 4
+[1.804s]       param_value = [param_value]
+[1.805s]       ^
+[1.805s] 
+[1.805s] ./kaiaai/util.py:236:7: F841 local variable 'param' is assigned to but never used
+[1.805s]       param = Parameter()
+[1.805s]       ^
+[1.805s] 
+[1.805s] ./kaiaai/util.py:236:7: E111 indentation is not a multiple of 4
+[1.805s]       param = Parameter()
+[1.805s]       ^
+[1.805s] 
+[1.805s] ./kaiaai/util.py:238:7: E111 indentation is not a multiple of 4
+[1.805s]       if isinstance(value, float):
+[1.805s]       ^
+[1.805s] 
+[1.806s] ./kaiaai/util.py:240:7: E111 indentation is not a multiple of 4
+[1.806s]       elif isinstance(value, int):
+[1.806s]       ^
+[1.806s] 
+[1.806s] ./kaiaai/util.py:242:7: E111 indentation is not a multiple of 4
+[1.806s]       elif isinstance(value, str):
+[1.806s]       ^
+[1.806s] 
+[1.806s] ./kaiaai/util.py:244:7: E111 indentation is not a multiple of 4
+[1.806s]       elif isinstance(value, bool):
+[1.806s]       ^
+[1.806s] 
+[1.806s] ./kaiaai/util.py:247:7: E111 indentation is not a multiple of 4
+[1.806s]       self.set_req.parameters.append(Parameter(name=name, value=val))
+[1.807s]       ^
+[1.807s] 
+[1.807s] ./kaiaai/util.py:253:3: E111 indentation is not a multiple of 4
+[1.807s]   @staticmethod
+[1.807s]   ^
+[1.807s] 
+[1.807s] ./kaiaai/util.py:254:3: E111 indentation is not a multiple of 4
+[1.807s]   def to_value(response):
+[1.807s]   ^
+[1.807s] 
+[1.807s] ./kaiaai/util.py:260:7: E111 indentation is not a multiple of 4
+[1.807s]       if value.type == ParameterType.PARAMETER_DOUBLE:
+[1.807s]       ^
+[1.808s] 
+[1.808s] ./kaiaai/util.py:262:7: E111 indentation is not a multiple of 4
+[1.808s]       elif value.type == ParameterType.PARAMETER_INTEGER:
+[1.808s]       ^
+[1.808s] 
+[1.808s] ./kaiaai/util.py:264:7: E111 indentation is not a multiple of 4
+[1.808s]       elif value.type == ParameterType.PARAMETER_STRING:
+[1.808s]       ^
+[1.808s] 
+[1.808s] ./kaiaai/util.py:266:7: E111 indentation is not a multiple of 4
+[1.809s]       elif value.type == ParameterType.PARAMETER_BOOL:
+[1.809s]       ^
+[1.809s] 
+[1.809s] ./kaiaai/util.py:268:7: E111 indentation is not a multiple of 4
+[1.809s]       else:
+[1.809s]       ^
+[1.809s] 
+[1.809s] ./kaiaai/util.py:275:3: E111 indentation is not a multiple of 4
+[1.809s]   class CostValues(Enum):
+[1.809s]   ^
+[1.810s] 
+[1.810s] ./kaiaai/util.py:281:3: E111 indentation is not a multiple of 4
+[1.810s]   def __init__(self, map):
+[1.810s]   ^
+[1.810s] 
+[1.810s] ./kaiaai/util.py:284:3: E111 indentation is not a multiple of 4
+[1.810s]   @staticmethod
+[1.810s]   ^
+[1.810s] 
+[1.810s] ./kaiaai/util.py:285:3: E111 indentation is not a multiple of 4
+[1.811s]   def load(image_pathname='map.png'):
+[1.811s]   ^
+[1.811s] 
+[1.811s] ./kaiaai/util.py:290:5: E115 expected an indented block (comment)
+[1.811s]     # try:
+[1.811s]     ^
+[1.811s] 
+[1.811s] ./kaiaai/util.py:291:7: E111 indentation is not a multiple of 4
+[1.811s]       props = yaml.safe_load(stream)
+[1.812s]       ^
+[1.812s] 
+[1.812s] ./kaiaai/util.py:321:3: E111 indentation is not a multiple of 4
+[1.812s]   def save(self, image_pathname='map.png'):
+[1.812s]   ^
+[1.812s] 
+[1.812s] ./kaiaai/util.py:328:15: E251 unexpected spaces around keyword / parameter equals
+[1.812s]       frame_id = self.map.header.frame_id,
+[1.812s]               ^
+[1.812s] 
+[1.813s] ./kaiaai/util.py:328:17: E251 unexpected spaces around keyword / parameter equals
+[1.813s]       frame_id = self.map.header.frame_id,
+[1.813s]                 ^
+[1.813s] 
+[1.813s] ./kaiaai/util.py:329:17: E251 unexpected spaces around keyword / parameter equals
+[1.813s]       resolution = self.getResolution(),
+[1.813s]                 ^
+[1.813s] 
+[1.813s] ./kaiaai/util.py:329:19: E251 unexpected spaces around keyword / parameter equals
+[1.813s]       resolution = self.getResolution(),
+[1.814s]                   ^
+[1.814s] 
+[1.814s] ./kaiaai/util.py:330:13: E251 unexpected spaces around keyword / parameter equals
+[1.814s]       origin = dict(
+[1.814s]             ^
+[1.814s] 
+[1.814s] ./kaiaai/util.py:330:15: E251 unexpected spaces around keyword / parameter equals
+[1.814s]       origin = dict(
+[1.814s]               ^
+[1.814s] 
+[1.815s] ./kaiaai/util.py:331:17: E251 unexpected spaces around keyword / parameter equals
+[1.815s]         position = dict(
+[1.815s]                 ^
+[1.815s] 
+[1.815s] ./kaiaai/util.py:331:19: E251 unexpected spaces around keyword / parameter equals
+[1.815s]         position = dict(
+[1.815s]                   ^
+[1.815s] 
+[1.815s] ./kaiaai/util.py:332:12: E251 unexpected spaces around keyword / parameter equals
+[1.816s]           x = self.getOriginX(),
+[1.816s]            ^
+[1.816s] 
+[1.816s] ./kaiaai/util.py:332:14: E251 unexpected spaces around keyword / parameter equals
+[1.816s]           x = self.getOriginX(),
+[1.816s]              ^
+[1.816s] 
+[1.816s] ./kaiaai/util.py:333:12: E251 unexpected spaces around keyword / parameter equals
+[1.816s]           y = self.getOriginY(),
+[1.816s]            ^
+[1.817s] 
+[1.817s] ./kaiaai/util.py:333:14: E251 unexpected spaces around keyword / parameter equals
+[1.817s]           y = self.getOriginY(),
+[1.817s]              ^
+[1.817s] 
+[1.817s] ./kaiaai/util.py:337:20: E251 unexpected spaces around keyword / parameter equals
+[1.817s]         orientation = dict(
+[1.817s]                    ^
+[1.817s] 
+[1.817s] ./kaiaai/util.py:337:22: E251 unexpected spaces around keyword / parameter equals
+[1.818s]         orientation = dict(
+[1.818s]                      ^
+[1.818s] 
+[1.818s] ./kaiaai/util.py:338:12: E251 unexpected spaces around keyword / parameter equals
+[1.818s]           x = orientation.x,
+[1.818s]            ^
+[1.818s] 
+[1.818s] ./kaiaai/util.py:338:14: E251 unexpected spaces around keyword / parameter equals
+[1.818s]           x = orientation.x,
+[1.818s]              ^
+[1.819s] 
+[1.819s] ./kaiaai/util.py:339:12: E251 unexpected spaces around keyword / parameter equals
+[1.819s]           y = orientation.y,
+[1.819s]            ^
+[1.819s] 
+[1.819s] ./kaiaai/util.py:339:14: E251 unexpected spaces around keyword / parameter equals
+[1.819s]           y = orientation.y,
+[1.819s]              ^
+[1.819s] 
+[1.820s] ./kaiaai/util.py:340:12: E251 unexpected spaces around keyword / parameter equals
+[1.820s]           z = orientation.z,
+[1.820s]            ^
+[1.820s] 
+[1.820s] ./kaiaai/util.py:340:14: E251 unexpected spaces around keyword / parameter equals
+[1.820s]           z = orientation.z,
+[1.820s]              ^
+[1.820s] 
+[1.820s] ./kaiaai/util.py:341:12: E251 unexpected spaces around keyword / parameter equals
+[1.820s]           w = orientation.w,
+[1.820s]            ^
+[1.821s] 
+[1.821s] ./kaiaai/util.py:341:14: E251 unexpected spaces around keyword / parameter equals
+[1.821s]           w = orientation.w,
+[1.821s]              ^
+[1.821s] 
+[1.821s] ./kaiaai/util.py:348:7: E111 indentation is not a multiple of 4
+[1.821s]       yaml.dump(data, outfile) # default_flow_style=False
+[1.821s]       ^
+[1.821s] 
+[1.821s] ./kaiaai/util.py:348:31: E261 at least two spaces before inline comment
+[1.822s]       yaml.dump(data, outfile) # default_flow_style=False
+[1.822s]                               ^
+[1.822s] 
+[1.822s] ./kaiaai/util.py:350:3: E111 indentation is not a multiple of 4
+[1.822s]   def getOrientation(self):
+[1.822s]   ^
+[1.822s] 
+[1.822s] ./kaiaai/util.py:353:3: E111 indentation is not a multiple of 4
+[1.822s]   def getCost(self, mx, my):
+[1.822s]   ^
+[1.823s] 
+[1.823s] ./kaiaai/util.py:356:3: E111 indentation is not a multiple of 4
+[1.823s]   def getSize(self):
+[1.823s]   ^
+[1.823s] 
+[1.823s] ./kaiaai/util.py:359:3: E111 indentation is not a multiple of 4
+[1.823s]   def getSizeX(self):
+[1.823s]   ^
+[1.823s] 
+[1.824s] ./kaiaai/util.py:362:3: E111 indentation is not a multiple of 4
+[1.824s]   def getSizeY(self):
+[1.824s]   ^
+[1.824s] 
+[1.824s] ./kaiaai/util.py:365:3: E111 indentation is not a multiple of 4
+[1.824s]   def getResolution(self):
+[1.824s]   ^
+[1.824s] 
+[1.824s] ./kaiaai/util.py:368:3: E111 indentation is not a multiple of 4
+[1.824s]   def getOriginX(self):
+[1.825s]   ^
+[1.825s] 
+[1.825s] ./kaiaai/util.py:371:3: E111 indentation is not a multiple of 4
+[1.825s]   def getOriginY(self):
+[1.825s]   ^
+[1.825s] 
+[1.825s] ./kaiaai/util.py:374:3: E111 indentation is not a multiple of 4
+[1.825s]   def getOriginYaw(self):
+[1.825s]   ^
+[1.825s] 
+[1.826s] ./kaiaai/util.py:378:3: E111 indentation is not a multiple of 4
+[1.826s]   def mapToWorld(self, mx, my):
+[1.826s]   ^
+[1.826s] 
+[1.826s] ./kaiaai/util.py:384:3: E111 indentation is not a multiple of 4
+[1.826s]   def worldToMap(self, wx, wy):
+[1.826s]   ^
+[1.826s] 
+[1.826s] ./kaiaai/util.py:386:7: E111 indentation is not a multiple of 4
+[1.826s]       raise Exception("World coordinates out of bounds")
+[1.827s]       ^
+[1.827s] 
+[1.827s] ./kaiaai/util.py:392:7: E111 indentation is not a multiple of 4
+[1.827s]       raise Exception("Out of bounds")
+[1.827s]       ^
+[1.827s] 
+[1.827s] ./kaiaai/util.py:396:3: E111 indentation is not a multiple of 4
+[1.827s]   def __getIndex(self, mx, my):
+[1.827s]   ^
+[1.827s] 
+[1.828s] ./kaiaai/util.py:406:1: W293 blank line contains whitespace
+[1.828s]     
+[1.828s] ^
+[1.828s] 
+[1.828s] ./kaiaai/util.py:423:50: W292 no newline at end of file
+[1.828s]         return my * self.map.metadata.size_x + mx                                                 ^
+[1.828s] 
+[1.828s] ./kaiaai/cli.py:19:1: E302 expected 2 blank lines, found 1
+[1.828s] def main():
+[1.829s] ^
+[1.829s] 
+[1.829s] ./kaiaai/cli.py:20:3: E111 indentation is not a multiple of 4
+[1.829s]   argv = sys.argv[1:]
+[1.829s]   ^
+[1.829s] 
+[1.829s] ./kaiaai/cli.py:21:3: E111 indentation is not a multiple of 4
+[1.829s]   count = len(argv)
+[1.829s]   ^
+[1.829s] 
+[1.830s] ./kaiaai/cli.py:22:3: E111 indentation is not a multiple of 4
+[1.830s]   if count == 3 and argv[0] == "config":
+[1.830s]   ^
+[1.830s] 
+[1.830s] ./kaiaai/cli.py:24:3: E111 indentation is not a multiple of 4
+[1.830s]   elif count == 0:
+[1.830s]   ^
+[1.830s] 
+[1.830s] ./kaiaai/cli.py:27:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.830s] if __name__ == '__main__':
+[1.831s] ^
+[1.831s] 
+[1.831s] ./kaiaai/cli.py:28:3: E111 indentation is not a multiple of 4
+[1.831s]   main()
+[1.831s]   ^
+[1.831s] 
+[1.831s] ./kaiaai/explore/wfd.py:2:1: F401 'sys' imported but unused
+[1.831s] import sys
+[1.831s] ^
+[1.831s] 
+[1.832s] ./kaiaai/explore/wfd.py:3:1: F401 'time' imported but unused
+[1.832s] import time
+[1.832s] ^
+[1.832s] 
+[1.832s] ./kaiaai/explore/wfd.py:4:1: F401 'enum.Enum' imported but unused
+[1.832s] from enum import Enum
+[1.832s] ^
+[1.832s] 
+[1.832s] ./kaiaai/explore/wfd.py:11:3: E111 indentation is not a multiple of 4
+[1.832s]   cache = {}
+[1.833s]   ^
+[1.833s] 
+[1.833s] ./kaiaai/explore/wfd.py:13:3: E111 indentation is not a multiple of 4
+[1.833s]   def getPoint(self, x, y):
+[1.833s]   ^
+[1.833s] 
+[1.833s] ./kaiaai/explore/wfd.py:17:7: E111 indentation is not a multiple of 4
+[1.833s]       return self.cache[idx]
+[1.833s]       ^
+[1.833s] 
+[1.834s] ./kaiaai/explore/wfd.py:22:3: E111 indentation is not a multiple of 4
+[1.834s]   def __cantorHash(self, x, y):
+[1.834s]   ^
+[1.834s] 
+[1.834s] ./kaiaai/explore/wfd.py:25:3: E111 indentation is not a multiple of 4
+[1.834s]   def clear(self):
+[1.834s]   ^
+[1.834s] 
+[1.834s] ./kaiaai/explore/wfd.py:28:1: E302 expected 2 blank lines, found 1
+[1.834s] class FrontierPoint():
+[1.835s] ^
+[1.835s] 
+[1.835s] ./kaiaai/explore/wfd.py:29:3: E111 indentation is not a multiple of 4
+[1.835s]   def __init__(self, x, y):
+[1.835s]   ^
+[1.835s] 
+[1.835s] ./kaiaai/explore/wfd.py:36:3: E111 indentation is not a multiple of 4
+[1.835s]   MapOpen = 1
+[1.835s]   ^
+[1.835s] 
+[1.835s] ./kaiaai/explore/wfd.py:37:3: E111 indentation is not a multiple of 4
+[1.836s]   MapClosed = 2
+[1.836s]   ^
+[1.836s] 
+[1.836s] ./kaiaai/explore/wfd.py:38:3: E111 indentation is not a multiple of 4
+[1.836s]   FrontierOpen = 4
+[1.836s]   ^
+[1.836s] 
+[1.836s] ./kaiaai/explore/wfd.py:39:3: E111 indentation is not a multiple of 4
+[1.836s]   FrontierClosed = 8
+[1.836s]   ^
+[1.837s] 
+[1.837s] ./kaiaai/explore/wfd.py:41:3: E111 indentation is not a multiple of 4
+[1.837s]   OCC_THRESHOLD = 10
+[1.837s]   ^
+[1.837s] 
+[1.837s] ./kaiaai/explore/wfd.py:42:3: E111 indentation is not a multiple of 4
+[1.837s]   MIN_FRONTIER_SIZE = 5
+[1.837s]   ^
+[1.837s] 
+[1.837s] ./kaiaai/explore/wfd.py:44:3: E111 indentation is not a multiple of 4
+[1.838s]   @staticmethod
+[1.838s]   ^
+[1.838s] 
+[1.838s] ./kaiaai/explore/wfd.py:45:3: E111 indentation is not a multiple of 4
+[1.838s]   def getGoals(pose, map: OccupancyGrid2d):
+[1.838s]   ^
+[1.838s] 
+[1.838s] ./kaiaai/explore/wfd.py:48:3: E111 indentation is not a multiple of 4
+[1.838s]   @staticmethod
+[1.838s]   ^
+[1.838s] 
+[1.839s] ./kaiaai/explore/wfd.py:49:3: E111 indentation is not a multiple of 4
+[1.839s]   def getNextGoal(pose, map: OccupancyGrid2d):
+[1.839s]   ^
+[1.839s] 
+[1.839s] ./kaiaai/explore/wfd.py:52:7: E111 indentation is not a multiple of 4
+[1.839s]       return None
+[1.839s]       ^
+[1.839s] 
+[1.839s] ./kaiaai/explore/wfd.py:57:7: E111 indentation is not a multiple of 4
+[1.839s]       dist = math.sqrt(((f[0] - pose.position.x)**2) + ((f[1] - pose.position.y)**2))
+[1.840s]       ^
+[1.840s] 
+[1.840s] ./kaiaai/explore/wfd.py:58:7: E111 indentation is not a multiple of 4
+[1.840s]       if  dist > largestDist:
+[1.840s]       ^
+[1.840s] 
+[1.840s] ./kaiaai/explore/wfd.py:58:9: E271 multiple spaces after keyword
+[1.840s]       if  dist > largestDist:
+[1.840s]         ^
+[1.840s] 
+[1.841s] ./kaiaai/explore/wfd.py:63:3: E111 indentation is not a multiple of 4
+[1.841s]   @staticmethod
+[1.841s]   ^
+[1.841s] 
+[1.841s] ./kaiaai/explore/wfd.py:64:3: E111 indentation is not a multiple of 4
+[1.841s]   def getFrontier(pose, map: OccupancyGrid2d):
+[1.841s]   ^
+[1.841s] 
+[1.841s] ./kaiaai/explore/wfd.py:79:7: E111 indentation is not a multiple of 4
+[1.842s]       p = mapPointQueue.pop(0)
+[1.842s]       ^
+[1.842s] 
+[1.842s] ./kaiaai/explore/wfd.py:81:7: E111 indentation is not a multiple of 4
+[1.842s]       if p.classification & WavefrontFrontierDetector.MapClosed.value != 0:
+[1.842s]       ^
+[1.842s] 
+[1.842s] ./kaiaai/explore/wfd.py:84:7: E111 indentation is not a multiple of 4
+[1.842s]       if WavefrontFrontierDetector.isFrontierPoint(p, map, fCache):
+[1.843s]       ^
+[1.843s] 
+[1.843s] ./kaiaai/explore/wfd.py:90:11: E111 indentation is not a multiple of 4
+[1.843s]           q = frontierQueue.pop(0)
+[1.843s]           ^
+[1.843s] 
+[1.843s] ./kaiaai/explore/wfd.py:92:11: E111 indentation is not a multiple of 4
+[1.843s]           if q.classification & (WavefrontFrontierDetector.MapClosed.value | WavefrontFrontierDetector.FrontierClosed.value) != 0:
+[1.843s]           ^
+[1.843s] 
+[1.844s] ./kaiaai/explore/wfd.py:92:100: E501 line too long (130 > 99 characters)
+[1.844s]           if q.classification & (WavefrontFrontierDetector.MapClosed.value | WavefrontFrontierDetector.FrontierClosed.value) != 0:
+[1.844s]                                                                                                    ^
+[1.844s] 
+[1.844s] ./kaiaai/explore/wfd.py:95:11: E111 indentation is not a multiple of 4
+[1.844s]           if WavefrontFrontierDetector.isFrontierPoint(q, map, fCache):
+[1.844s]           ^
+[1.844s] 
+[1.844s] ./kaiaai/explore/wfd.py:98:15: E111 indentation is not a multiple of 4
+[1.844s]               if w.classification & (WavefrontFrontierDetector.FrontierOpen.value | WavefrontFrontierDetector.FrontierClosed.value | WavefrontFrontierDetector.MapClosed.value) == 0:
+[1.845s]               ^
+[1.845s] 
+[1.845s] ./kaiaai/explore/wfd.py:98:100: E501 line too long (181 > 99 characters)
+[1.845s]               if w.classification & (WavefrontFrontierDetector.FrontierOpen.value | WavefrontFrontierDetector.FrontierClosed.value | WavefrontFrontierDetector.MapClosed.value) == 0:
+[1.845s]                                                                                                    ^
+[1.845s] 
+[1.845s] ./kaiaai/explore/wfd.py:102:11: E111 indentation is not a multiple of 4
+[1.845s]           q.classification = q.classification | WavefrontFrontierDetector.FrontierClosed.value
+[1.845s]           ^
+[1.846s] 
+[1.846s] ./kaiaai/explore/wfd.py:103:1: W293 blank line contains whitespace
+[1.846s]         
+[1.846s] ^
+[1.846s] 
+[1.846s] ./kaiaai/explore/wfd.py:106:11: E111 indentation is not a multiple of 4
+[1.846s]           x.classification = x.classification | WavefrontFrontierDetector.MapClosed.value
+[1.846s]           ^
+[1.846s] 
+[1.846s] ./kaiaai/explore/wfd.py:107:11: E111 indentation is not a multiple of 4
+[1.846s]           newFrontierCords.append(map.mapToWorld(x.mapX, x.mapY))
+[1.847s]           ^
+[1.847s] 
+[1.847s] ./kaiaai/explore/wfd.py:110:11: E111 indentation is not a multiple of 4
+[1.847s]           frontiers.append(WavefrontFrontierDetector.centroid(newFrontierCords))
+[1.847s]           ^
+[1.847s] 
+[1.847s] ./kaiaai/explore/wfd.py:112:7: E111 indentation is not a multiple of 4
+[1.847s]       for v in WavefrontFrontierDetector.getNeighbors(p, map, fCache):
+[1.847s]       ^
+[1.847s] 
+[1.848s] ./kaiaai/explore/wfd.py:113:100: E501 line too long (121 > 99 characters)
+[1.848s]         if v.classification & (WavefrontFrontierDetector.MapOpen.value | WavefrontFrontierDetector.MapClosed.value) == 0:
+[1.848s]                                                                                                    ^
+[1.848s] 
+[1.848s] ./kaiaai/explore/wfd.py:114:11: E111 indentation is not a multiple of 4
+[1.848s]           if any(map.getCost(x.mapX, x.mapY) == OccupancyGrid2d.CostValues.FreeSpace.value for x in getNeighbors(v, map, fCache)):
+[1.848s]           ^
+[1.848s] 
+[1.848s] ./kaiaai/explore/wfd.py:114:100: E501 line too long (130 > 99 characters)
+[1.849s]           if any(map.getCost(x.mapX, x.mapY) == OccupancyGrid2d.CostValues.FreeSpace.value for x in getNeighbors(v, map, fCache)):
+[1.849s]                                                                                                    ^
+[1.849s] 
+[1.849s] ./kaiaai/explore/wfd.py:114:101: F821 undefined name 'getNeighbors'
+[1.849s]           if any(map.getCost(x.mapX, x.mapY) == OccupancyGrid2d.CostValues.FreeSpace.value for x in getNeighbors(v, map, fCache)):
+[1.849s]                                                                                                     ^
+[1.849s] 
+[1.849s] ./kaiaai/explore/wfd.py:118:7: E111 indentation is not a multiple of 4
+[1.849s]       p.classification = p.classification | WavefrontFrontierDetector.MapClosed.value
+[1.849s]       ^
+[1.850s] 
+[1.850s] ./kaiaai/explore/wfd.py:122:3: E111 indentation is not a multiple of 4
+[1.850s]   @staticmethod
+[1.850s]   ^
+[1.850s] 
+[1.850s] ./kaiaai/explore/wfd.py:123:3: E111 indentation is not a multiple of 4
+[1.850s]   def isFrontierPoint(point, map: OccupancyGrid2d, fCache):
+[1.850s]   ^
+[1.850s] 
+[1.850s] ./kaiaai/explore/wfd.py:125:7: E111 indentation is not a multiple of 4
+[1.851s]       return False
+[1.851s]       ^
+[1.851s] 
+[1.851s] ./kaiaai/explore/wfd.py:129:7: E111 indentation is not a multiple of 4
+[1.851s]       cost = map.getCost(n.mapX, n.mapY)
+[1.851s]       ^
+[1.851s] 
+[1.851s] ./kaiaai/explore/wfd.py:131:7: E111 indentation is not a multiple of 4
+[1.851s]       if cost > WavefrontFrontierDetector.OCC_THRESHOLD:
+[1.851s]       ^
+[1.852s] 
+[1.852s] ./kaiaai/explore/wfd.py:134:7: E111 indentation is not a multiple of 4
+[1.852s]       if cost == OccupancyGrid2d.CostValues.FreeSpace.value:
+[1.852s]       ^
+[1.852s] 
+[1.852s] ./kaiaai/explore/wfd.py:139:3: E111 indentation is not a multiple of 4
+[1.852s]   @staticmethod
+[1.852s]   ^
+[1.852s] 
+[1.852s] ./kaiaai/explore/wfd.py:140:3: E111 indentation is not a multiple of 4
+[1.853s]   def findFree(mx, my, map: OccupancyGrid2d):
+[1.853s]   ^
+[1.853s] 
+[1.853s] ./kaiaai/explore/wfd.py:146:7: E111 indentation is not a multiple of 4
+[1.853s]       loc = bfs.pop(0)
+[1.853s]       ^
+[1.853s] 
+[1.853s] ./kaiaai/explore/wfd.py:148:7: E111 indentation is not a multiple of 4
+[1.853s]       if map.getCost(loc.mapX, loc.mapY) == OccupancyGrid2d.CostValues.FreeSpace.value:
+[1.853s]       ^
+[1.854s] 
+[1.854s] ./kaiaai/explore/wfd.py:151:7: E111 indentation is not a multiple of 4
+[1.854s]       for n in WavefrontFrontierDetector.getNeighbors(loc, map, fCache):
+[1.854s]       ^
+[1.854s] 
+[1.854s] ./kaiaai/explore/wfd.py:153:11: E111 indentation is not a multiple of 4
+[1.854s]           n.classification = n.classification | WavefrontFrontierDetector.MapClosed.value
+[1.854s]           ^
+[1.854s] 
+[1.855s] ./kaiaai/explore/wfd.py:154:11: E111 indentation is not a multiple of 4
+[1.855s]           bfs.append(n)
+[1.855s]           ^
+[1.855s] 
+[1.855s] ./kaiaai/explore/wfd.py:158:3: E111 indentation is not a multiple of 4
+[1.855s]   @staticmethod
+[1.855s]   ^
+[1.855s] 
+[1.855s] ./kaiaai/explore/wfd.py:159:3: E111 indentation is not a multiple of 4
+[1.855s]   def centroid(arr):
+[1.856s]   ^
+[1.856s] 
+[1.856s] ./kaiaai/explore/wfd.py:166:3: E111 indentation is not a multiple of 4
+[1.856s]   @staticmethod
+[1.856s]   ^
+[1.856s] 
+[1.856s] ./kaiaai/explore/wfd.py:167:3: E111 indentation is not a multiple of 4
+[1.856s]   def getNeighbors(point, map: OccupancyGrid2d, fCache):
+[1.856s]   ^
+[1.856s] 
+[1.857s] ./kaiaai/explore/wfd.py:171:7: E111 indentation is not a multiple of 4
+[1.857s]       for y in range(point.mapY - 1, point.mapY + 2):
+[1.857s]       ^
+[1.857s] 
+[1.857s] ./kaiaai/explore/wfd.py:173:11: E111 indentation is not a multiple of 4
+[1.857s]           neighbors.append(fCache.getPoint(x, y))
+[1.857s]           ^
+[1.857s] 
+[1.857s] 138   E111 indentation is not a multiple of 4
+[1.857s] 1     E114 indentation is not a multiple of 4 (comment)
+[1.858s] 1     E115 expected an indented block (comment)
+[1.858s] 1     E128 continuation line under-indented for visual indent
+[1.858s] 22    E251 unexpected spaces around keyword / parameter equals
+[1.858s] 1     E261 at least two spaces before inline comment
+[1.858s] 1     E271 multiple spaces after keyword
+[1.858s] 5     E302 expected 2 blank lines, found 1
+[1.858s] 1     E305 expected 2 blank lines after class or function definition, found 1
+[1.858s] 1     E401 multiple imports on one line
+[1.858s] 5     E501 line too long (130 > 99 characters)
+[1.858s] 2     E711 comparison to None should be 'if cond is None:'
+[1.859s] 3     F401 'sys' imported but unused
+[1.859s] 1     F811 redefinition of unused 'yaml' from line 17
+[1.859s] 5     F821 undefined name 'getNeighbors'
+[1.859s] 2     F841 local variable 'ex' is assigned to but never used
+[1.859s] 1     W292 no newline at end of file
+[1.859s] 2     W293 blank line contains whitespace
+[1.859s] 
+[1.859s] 9 files checked
+[1.859s] 193 errors
+[1.859s] 
+[1.860s] 'E'-type errors: 179
+[1.860s] 'F'-type errors: 11
+[1.860s] 'W'-type errors: 3
+[1.860s] 
+[1.860s] Checked files:
+[1.860s] 
+[1.860s] * ./setup.py
+[1.860s] * ./kaiaai/config.py
+[1.860s] * ./kaiaai/util.py
+[1.860s] * ./kaiaai/cli.py
+[1.860s] * ./kaiaai/__init__.py
+[1.861s] * ./kaiaai/explore/wfd.py
+[1.861s] * ./test/test_pep257.py
+[1.861s] * ./test/test_flake8.py
+[1.861s] * ./test/test_copyright.py
+[1.861s] ----------------------------- Captured stderr call -----------------------------
+[1.861s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.861s] _________________________________ test_pep257 __________________________________
+[1.861s] test/test_pep257.py:23: in test_pep257
+[1.861s]     assert rc == 0, 'Found code style errors / warnings'
+[1.861s] E   AssertionError: Found code style errors / warnings
+[1.862s] E   assert 1 == 0
+[1.862s] ----------------------------- Captured stdout call -----------------------------
+[1.862s] checking ./kaiaai/__init__.py
+[1.862s] checking ./kaiaai/cli.py
+[1.862s] checking ./kaiaai/config.py
+[1.862s] checking ./kaiaai/explore/wfd.py
+[1.862s] checking ./kaiaai/util.py
+[1.862s] checking ./setup.py
+[1.862s] checking ./test/test_copyright.py
+[1.862s] checking ./test/test_flake8.py
+[1.863s] checking ./test/test_pep257.py
+[1.863s] checking test/test_copyright.py
+[1.863s] checking test/test_flake8.py
+[1.863s] checking test/test_pep257.py
+[1.863s] ----------------------------- Captured stderr call -----------------------------
+[1.863s] ./kaiaai/util.py:51 in public method `saveMap`: D202: No blank lines allowed after function docstring (found 1)
+[1.863s] ./kaiaai/util.py:51 in public method `saveMap`: D400: First line should end with a period (not 'e')
+[1.863s] ./kaiaai/util.py:51 in public method `saveMap`: D415: First line should end with a period, question mark, or exclamation point (not 'e')
+[1.863s] ./kaiaai/util.py:76 in public method `getCurrentMap`: D400: First line should end with a period (not 'd')
+[1.863s] ./kaiaai/util.py:76 in public method `getCurrentMap`: D415: First line should end with a period, question mark, or exclamation point (not 'd')
+[1.864s] ./kaiaai/util.py:131 in public method `euler_from_quaternion`: D205: 1 blank line required between summary line and description (found 0)
+[1.864s] ./kaiaai/util.py:131 in public method `euler_from_quaternion`: D400: First line should end with a period (not ')')
+[1.864s] ./kaiaai/util.py:131 in public method `euler_from_quaternion`: D415: First line should end with a period, question mark, or exclamation point (not ')')
+[1.864s] 8 errors
+[1.864s] - generated xml file: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/pytest.xml -
+[1.864s] =========================== short test summary info ============================
+[1.864s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 193 code styl...
+[1.864s] FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[1.864s] =================== 2 failed, 1 skipped, 2 warnings in 0.54s ===================
+[2.195s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai' returned '1': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/pytest.xml --junit-prefix=kaiaai -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

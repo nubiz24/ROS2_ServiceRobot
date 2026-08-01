@@ -1,0 +1,10 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/uninstall.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/kaiaai_gazebo_uninstall.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/self_drive_gazebo.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/test.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/edit_cache.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/rebuild_cache.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/list_install_components.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/install.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/install/local.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo/CMakeFiles/install/strip.dir

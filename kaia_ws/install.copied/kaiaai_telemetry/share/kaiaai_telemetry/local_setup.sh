@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/kaiaai_telemetry/ament_cmake_environment_hooks/local_setup.sh

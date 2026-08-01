@@ -1,0 +1,34 @@
+[2.908s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_apps': PYTHONPATH=/home/duong/kaia_ws/build/kaiaai_apps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/kaia_ws/build/kaiaai_apps/build --no-deps symlink_data
+[3.581s] running develop
+[3.989s] running egg_info
+[3.990s] creating kaiaai_apps.egg-info
+[3.990s] writing kaiaai_apps.egg-info/PKG-INFO
+[3.990s] writing dependency_links to kaiaai_apps.egg-info/dependency_links.txt
+[3.990s] writing entry points to kaiaai_apps.egg-info/entry_points.txt
+[3.990s] writing requirements to kaiaai_apps.egg-info/requires.txt
+[3.990s] writing top-level names to kaiaai_apps.egg-info/top_level.txt
+[3.990s] writing manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+[3.990s] reading manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+[3.991s] writing manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+[3.991s] running build_ext
+[3.991s] Creating /home/duong/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages/kaiaai-apps.egg-link (link to .)
+[3.993s] Installing explore_wfe script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.993s] Installing get_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.994s] Installing get_map_pos script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.994s] Installing get_model_params script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.994s] Installing load_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.994s] Installing multi_waypoints script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.994s] Installing nav_params script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.994s] Installing nav_to_pose script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.995s] Installing param_client script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.995s] Installing param_client_old script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.995s] Installing save_map script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.995s] Installing single_goal_nav script to /home/duong/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[3.995s] 
+[3.996s] Installed /home/duong/kaia_ws/build/kaiaai_apps
+[3.996s] running symlink_data
+[3.996s] creating /home/duong/kaia_ws/install/kaiaai_apps/share/ament_index
+[3.996s] creating /home/duong/kaia_ws/install/kaiaai_apps/share/ament_index/resource_index
+[3.996s] creating /home/duong/kaia_ws/install/kaiaai_apps/share/ament_index/resource_index/packages
+[3.997s] symbolically linking /home/duong/kaia_ws/build/kaiaai_apps/resource/kaiaai_apps -> /home/duong/kaia_ws/install/kaiaai_apps/share/ament_index/resource_index/packages
+[3.997s] symbolically linking /home/duong/kaia_ws/build/kaiaai_apps/package.xml -> /home/duong/kaia_ws/install/kaiaai_apps/share/kaiaai_apps

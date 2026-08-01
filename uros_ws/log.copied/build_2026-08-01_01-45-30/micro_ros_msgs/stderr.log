@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/ament_cmake_python/micro_ros_msgs/micro_ros_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs] Lỗi 1
+gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/all] Lỗi 2
+gmake[1]: *** Đang đợi những công việc chưa hoàn tất…
+gmake: *** [Makefile:146: all] Lỗi 2

@@ -1,0 +1,282 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd/.pytest_cache
+rootdir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/nav2_wfe
+plugins: launch-testing-ros-0.24.2, ament-flake8-0.14.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-copyright-0.14.4, ament-lint-0.14.4, launch-testing-2.0.4, cov-3.0.0, colcon-core-0.20.1
+collected 3 items
+
+test/test_copyright.py F                                                 [ 33%]
+test/test_flake8.py F                                                    [ 66%]
+test/test_pep257.py .                                                    [100%]
+
+=================================== FAILURES ===================================
+________________________________ test_copyright ________________________________
+test/test_copyright.py:23: in test_copyright
+    assert rc == 0, 'Found errors'
+E   AssertionError: Found errors
+E   assert 1 == 0
+----------------------------- Captured stderr call -----------------------------
+CONTRIBUTING.md: file not found
+1 errors, checked 7 files
+_________________________________ test_flake8 __________________________________
+test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 42 code style errors / warnings:
+E     ./setup.py:23:9: W191 indentation contains tabs
+E     ./setup.py:23:9: E101 indentation contains mixed spaces and tabs
+E     ./nav2_wfd/wavefront_frontier.py:25:1: F401 'nav2_msgs.msg.Costmap' imported but unused
+E     ./nav2_wfd/wavefront_frontier.py:26:18: E272 multiple spaces before keyword
+E     ./nav2_wfd/wavefront_frontier.py:44:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:50:1: W293 blank line contains whitespace
+E     ./nav2_wfd/wavefront_frontier.py:69:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:103:1: W293 blank line contains whitespace
+E     ./nav2_wfd/wavefront_frontier.py:104:11: E271 multiple spaces after keyword
+E     ./nav2_wfd/wavefront_frontier.py:112:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:130:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:136:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:143:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:161:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:189:100: E501 line too long (124 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:196:100: E501 line too long (173 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:197:100: E501 line too long (104 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:202:1: W293 blank line contains whitespace
+E     ./nav2_wfd/wavefront_frontier.py:203:13: E303 too many blank lines (2)
+E     ./nav2_wfd/wavefront_frontier.py:212:100: E501 line too long (113 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:213:100: E501 line too long (144 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:220:1: W293 blank line contains whitespace
+E     ./nav2_wfd/wavefront_frontier.py:232:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:248:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:254:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:281:11: E128 continuation line under-indented for visual indent
+E     ./nav2_wfd/wavefront_frontier.py:281:42: E261 at least two spaces before inline comment
+E     ./nav2_wfd/wavefront_frontier.py:283:100: E501 line too long (126 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:284:100: E501 line too long (113 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:302:100: E501 line too long (115 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:303:15: E271 multiple spaces after keyword
+E     ./nav2_wfd/wavefront_frontier.py:305:31: W291 trailing whitespace
+E     ./nav2_wfd/wavefront_frontier.py:307:9: E265 block comment should start with '# '
+E     ./nav2_wfd/wavefront_frontier.py:336:13: F841 local variable 'status' is assigned to but never used
+E     ./nav2_wfd/wavefront_frontier.py:337:13: F841 local variable 'result' is assigned to but never used
+E     ./nav2_wfd/wavefront_frontier.py:341:9: E265 block comment should start with '# '
+E     ./nav2_wfd/wavefront_frontier.py:354:100: E501 line too long (104 > 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:373:11: E111 indentation is not a multiple of 4
+E     ./nav2_wfd/wavefront_frontier.py:378:5: E303 too many blank lines (2)
+E     ./nav2_wfd/wavefront_frontier.py:500:5: E265 block comment should start with '# '
+E     ./nav2_wfd/wavefront_frontier.py:506:5: E265 block comment should start with '# '
+E     ./nav2_wfd/wavefront_frontier.py:518:24: E711 comparison to None should be 'if cond is None:'
+E   assert 1 == 0
+----------------------------- Captured stdout call -----------------------------
+=============================== warnings summary ===============================
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+
+./setup.py:23:9: W191 indentation contains tabs
+        	'explore = nav2_wfd.wavefront_frontier:main',
+        ^
+
+./setup.py:23:9: E101 indentation contains mixed spaces and tabs
+        	'explore = nav2_wfd.wavefront_frontier:main',
+        ^
+
+./nav2_wfd/wavefront_frontier.py:25:1: F401 'nav2_msgs.msg.Costmap' imported but unused
+from nav2_msgs.msg import Costmap
+^
+
+./nav2_wfd/wavefront_frontier.py:26:18: E272 multiple spaces before keyword
+from nav_msgs.msg  import OccupancyGrid
+                 ^
+
+./nav2_wfd/wavefront_frontier.py:44:1: E302 expected 2 blank lines, found 1
+class Costmap2d():
+^
+
+./nav2_wfd/wavefront_frontier.py:50:1: W293 blank line contains whitespace
+    
+^
+
+./nav2_wfd/wavefront_frontier.py:69:1: E302 expected 2 blank lines, found 1
+class OccupancyGrid2d():
+^
+
+./nav2_wfd/wavefront_frontier.py:103:1: W293 blank line contains whitespace
+        
+^
+
+./nav2_wfd/wavefront_frontier.py:104:11: E271 multiple spaces after keyword
+        if  (my > self.map.info.height or mx > self.map.info.width):
+          ^
+
+./nav2_wfd/wavefront_frontier.py:112:1: E302 expected 2 blank lines, found 1
+class FrontierCache():
+^
+
+./nav2_wfd/wavefront_frontier.py:130:1: E302 expected 2 blank lines, found 1
+class FrontierPoint():
+^
+
+./nav2_wfd/wavefront_frontier.py:136:1: E302 expected 2 blank lines, found 1
+def centroid(arr):
+^
+
+./nav2_wfd/wavefront_frontier.py:143:1: E302 expected 2 blank lines, found 1
+def findFree(mx, my, costmap):
+^
+
+./nav2_wfd/wavefront_frontier.py:161:1: E302 expected 2 blank lines, found 1
+def getFrontier(pose, costmap, logger):
+^
+
+./nav2_wfd/wavefront_frontier.py:189:100: E501 line too long (124 > 99 characters)
+                if q.classification & (PointClassification.MapClosed.value | PointClassification.FrontierClosed.value) != 0:
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:196:100: E501 line too long (173 > 99 characters)
+                        if w.classification & (PointClassification.FrontierOpen.value | PointClassification.FrontierClosed.value | PointClassification.MapClosed.value) == 0:
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:197:100: E501 line too long (104 > 99 characters)
+                            w.classification = w.classification | PointClassification.FrontierOpen.value
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:202:1: W293 blank line contains whitespace
+            
+^
+
+./nav2_wfd/wavefront_frontier.py:203:13: E303 too many blank lines (2)
+            newFrontierCords = []
+            ^
+
+./nav2_wfd/wavefront_frontier.py:212:100: E501 line too long (113 > 99 characters)
+            if v.classification & (PointClassification.MapOpen.value | PointClassification.MapClosed.value) == 0:
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:213:100: E501 line too long (144 > 99 characters)
+                if any(costmap.getCost(x.mapX, x.mapY) == OccupancyGrid2d.CostValues.FreeSpace.value for x in getNeighbors(v, costmap, fCache)):
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:220:1: W293 blank line contains whitespace
+        
+^
+
+./nav2_wfd/wavefront_frontier.py:232:1: E302 expected 2 blank lines, found 1
+def isFrontierPoint(point, costmap, fCache):
+^
+
+./nav2_wfd/wavefront_frontier.py:248:1: E302 expected 2 blank lines, found 1
+class PointClassification(Enum):
+^
+
+./nav2_wfd/wavefront_frontier.py:254:1: E302 expected 2 blank lines, found 1
+class WaypointFollowerTest(Node):
+^
+
+./nav2_wfd/wavefront_frontier.py:281:11: E128 continuation line under-indented for visual indent
+          '/odom', self.poseCallback, 10) # pose_qos)
+          ^
+
+./nav2_wfd/wavefront_frontier.py:281:42: E261 at least two spaces before inline comment
+          '/odom', self.poseCallback, 10) # pose_qos)
+                                         ^
+
+./nav2_wfd/wavefront_frontier.py:283:100: E501 line too long (126 > 99 characters)
+        # self.costmapSub = self.create_subscription(Costmap(), '/global_costmap/costmap_raw', self.costmapCallback, pose_qos)
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:284:100: E501 line too long (113 > 99 characters)
+        self.costmapSub = self.create_subscription(OccupancyGrid(), '/map', self.occupancyGridCallback, pose_qos)
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:302:100: E501 line too long (115 > 99 characters)
+            dist = math.sqrt(((f[0] - self.currentPose.position.x)**2) + ((f[1] - self.currentPose.position.y)**2))
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:303:15: E271 multiple spaces after keyword
+            if  dist > largestDist:
+              ^
+
+./nav2_wfd/wavefront_frontier.py:305:31: W291 trailing whitespace
+                location = [f] 
+                              ^
+
+./nav2_wfd/wavefront_frontier.py:307:9: E265 block comment should start with '# '
+        #worldFrontiers = [self.costmap.mapToWorld(f[0], f[1]) for f in frontiers]
+        ^
+
+./nav2_wfd/wavefront_frontier.py:336:13: F841 local variable 'status' is assigned to but never used
+            status = get_result_future.result().status
+            ^
+
+./nav2_wfd/wavefront_frontier.py:337:13: F841 local variable 'result' is assigned to but never used
+            result = get_result_future.result().result
+            ^
+
+./nav2_wfd/wavefront_frontier.py:341:9: E265 block comment should start with '# '
+        #self.currentPose = self.waypoints[len(self.waypoints) - 1].pose
+        ^
+
+./nav2_wfd/wavefront_frontier.py:354:100: E501 line too long (104 > 99 characters)
+        self.get_logger().info(f'Got Costmap {len(getFrontier(None, self.costmap, self.get_logger()))}')
+                                                                                                   ^
+
+./nav2_wfd/wavefront_frontier.py:373:11: E111 indentation is not a multiple of 4
+          self.info_msg('Received amcl_pose')
+          ^
+
+./nav2_wfd/wavefront_frontier.py:378:5: E303 too many blank lines (2)
+    def setWaypoints(self, waypoints):
+    ^
+
+./nav2_wfd/wavefront_frontier.py:500:5: E265 block comment should start with '# '
+    #time.sleep(10)
+    ^
+
+./nav2_wfd/wavefront_frontier.py:506:5: E265 block comment should start with '# '
+    #test.dumpCostmap()
+    ^
+
+./nav2_wfd/wavefront_frontier.py:518:24: E711 comparison to None should be 'if cond is None:'
+    while test.costmap == None:
+                       ^
+
+1     E101 indentation contains mixed spaces and tabs
+1     E111 indentation is not a multiple of 4
+1     E128 continuation line under-indented for visual indent
+1     E261 at least two spaces before inline comment
+4     E265 block comment should start with '# '
+2     E271 multiple spaces after keyword
+1     E272 multiple spaces before keyword
+10    E302 expected 2 blank lines, found 1
+2     E303 too many blank lines (2)
+9     E501 line too long (124 > 99 characters)
+1     E711 comparison to None should be 'if cond is None:'
+1     F401 'nav2_msgs.msg.Costmap' imported but unused
+2     F841 local variable 'status' is assigned to but never used
+1     W191 indentation contains tabs
+1     W291 trailing whitespace
+4     W293 blank line contains whitespace
+
+6 files checked
+42 errors
+
+'E'-type errors: 33
+'F'-type errors: 3
+'W'-type errors: 6
+
+Checked files:
+
+* ./setup.py
+* ./nav2_wfd/__init__.py
+* ./nav2_wfd/wavefront_frontier.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+- generated xml file: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_copyright.py::test_copyright - AssertionError: Found errors
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 42 code style...
+=================== 2 failed, 1 passed, 2 warnings in 0.87s ====================

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="drive_base_msgs.flake8_rosidl_generated_py"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.188"
+>
+  <testcase
+    name="flake8"
+    classname="drive_base_msgs.flake8_rosidl_generated_py"/>
+  <system-out>Checked files:
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/__init__.py
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_status.py
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_header.py
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_trv_command.py
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_base_info.py
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/__init__.py</system-out>
+</testsuite>

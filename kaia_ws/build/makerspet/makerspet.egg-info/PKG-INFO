@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: makerspet
+Version: 0.0.0
+Summary: ROS2 Python wrapper for Makers Pet robots
+Home-page: UNKNOWN
+Author: Ilia O.
+Author-email: iliao@makerspet.com
+Maintainer: Ilia O.
+Maintainer-email: iliao@makerspet.com
+License: Apache-2.0
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

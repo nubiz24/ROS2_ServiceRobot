@@ -1,0 +1,27 @@
+[2.878s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_web': PYTHONPATH=/home/duong/kaia_ws/build/kaiaai_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/kaia_ws/build/kaiaai_web/build --no-deps symlink_data
+[3.567s] running develop
+[3.966s] running egg_info
+[3.971s] creating kaiaai_web.egg-info
+[3.971s] writing kaiaai_web.egg-info/PKG-INFO
+[3.971s] writing dependency_links to kaiaai_web.egg-info/dependency_links.txt
+[3.971s] writing entry points to kaiaai_web.egg-info/entry_points.txt
+[3.971s] writing requirements to kaiaai_web.egg-info/requires.txt
+[3.971s] writing top-level names to kaiaai_web.egg-info/top_level.txt
+[3.971s] writing manifest file 'kaiaai_web.egg-info/SOURCES.txt'
+[3.982s] reading manifest file 'kaiaai_web.egg-info/SOURCES.txt'
+[3.982s] writing manifest file 'kaiaai_web.egg-info/SOURCES.txt'
+[3.982s] running build_ext
+[3.982s] Creating /home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages/kaiaai-web.egg-link (link to .)
+[3.982s] Installing web_server script to /home/duong/kaia_ws/install/kaiaai_web/lib/kaiaai_web
+[3.982s] 
+[3.982s] Installed /home/duong/kaia_ws/build/kaiaai_web
+[3.982s] running symlink_data
+[3.982s] creating /home/duong/kaia_ws/install/kaiaai_web/share/ament_index
+[3.983s] creating /home/duong/kaia_ws/install/kaiaai_web/share/ament_index/resource_index
+[3.983s] creating /home/duong/kaia_ws/install/kaiaai_web/share/ament_index/resource_index/packages
+[3.983s] symbolically linking /home/duong/kaia_ws/build/kaiaai_web/resource/kaiaai_web -> /home/duong/kaia_ws/install/kaiaai_web/share/ament_index/resource_index/packages
+[3.983s] symbolically linking /home/duong/kaia_ws/build/kaiaai_web/package.xml -> /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web
+[3.983s] creating /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web/launch
+[3.983s] symbolically linking /home/duong/kaia_ws/build/kaiaai_web/launch/web_server.launch.py -> /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web/launch
+[3.983s] creating /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web/config
+[3.983s] symbolically linking /home/duong/kaia_ws/build/kaiaai_web/config/web_server.yaml -> /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web/config

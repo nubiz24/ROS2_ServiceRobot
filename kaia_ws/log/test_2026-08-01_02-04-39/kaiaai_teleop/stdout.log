@@ -1,0 +1,63 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/.pytest_cache
+rootdir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_teleop
+plugins: launch-testing-ros-0.24.2, ament-flake8-0.14.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-copyright-0.14.4, ament-lint-0.14.4, launch-testing-2.0.4, cov-3.0.0, colcon-core-0.20.1
+collected 3 items
+
+test/test_copyright.py s                                                 [ 33%]
+test/test_flake8.py F                                                    [ 66%]
+test/test_pep257.py .                                                    [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_flake8 __________________________________
+test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 4 code style errors / warnings:
+E     ./kaiaai_teleop/teleop_keyboard.py:20:1: F401 're' imported but unused
+E     ./kaiaai_teleop/teleop_keyboard.py:22:1: F401 'rclpy.parameter.Parameter' imported but unused
+E     ./kaiaai_teleop/teleop_keyboard.py:84:5: E303 too many blank lines (2)
+E     ./kaiaai_teleop/teleop_keyboard.py:226:1: E305 expected 2 blank lines after class or function definition, found 1
+E   assert 1 == 0
+----------------------------- Captured stdout call -----------------------------
+
+./kaiaai_teleop/teleop_keyboard.py:20:1: F401 're' imported but unused
+import re
+^
+
+./kaiaai_teleop/teleop_keyboard.py:22:1: F401 'rclpy.parameter.Parameter' imported but unused
+from rclpy.parameter import Parameter
+^
+
+./kaiaai_teleop/teleop_keyboard.py:84:5: E303 too many blank lines (2)
+    def get_key(self):
+    ^
+
+./kaiaai_teleop/teleop_keyboard.py:226:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+1     E303 too many blank lines (2)
+1     E305 expected 2 blank lines after class or function definition, found 1
+2     F401 're' imported but unused
+
+6 files checked
+4 errors
+
+'E'-type errors: 2
+'F'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./kaiaai_teleop/__init__.py
+* ./kaiaai_teleop/teleop_keyboard.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+- generated xml file: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 4 code style ...
+============== 1 failed, 1 passed, 1 skipped, 2 warnings in 0.41s ==============

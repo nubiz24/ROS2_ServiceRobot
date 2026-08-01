@@ -1,0 +1,261 @@
+[0.033s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.379s] -- Detecting C compiler ABI info - done
+[0.391s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.392s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.554s] -- Detecting CXX compile features
+[0.555s] -- Detecting CXX compile features - done
+[0.564s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.917s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.037s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.158s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[1.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.396s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[1.409s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.077s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[2.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.956s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.967s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[3.029s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.029s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.029s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.029s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.074s] -- Found PythonExtra: .so  
+[3.171s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.187s] -- Added test 'lint_cmake' to check CMake code style
+[3.197s] -- Added test 'xmllint' to check XML markup files
+[3.212s] -- Configuring done
+[3.278s] -- Generating done
+[3.295s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs
+[3.304s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs
+[3.306s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs -- -j12 -l12
+[3.415s] [  1%] Generating type hashes for ROS interfaces
+[3.429s] [  1%] Built target ament_cmake_python_symlink_micro_ros_msgs
+[3.825s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[3.848s] running egg_info
+[3.852s] creating micro_ros_msgs.egg-info
+[3.852s] writing micro_ros_msgs.egg-info/PKG-INFO
+[3.853s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[3.853s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[3.853s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[3.858s] [  3%] Generating C code for ROS interfaces
+[3.858s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[3.859s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[3.872s] [  5%] Generating C++ code for ROS interfaces
+[3.955s] [  5%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[4.450s] [  5%] Built target micro_ros_msgs__cpp
+[4.596s] [  7%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o
+[4.596s] [  9%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__description.c.o
+[4.599s] [ 12%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__type_support.c.o
+[4.599s] [ 12%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__description.c.o
+[4.599s] [ 14%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__type_support.c.o
+[4.599s] [ 16%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o
+[4.602s] [ 18%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__description.c.o
+[4.602s] [ 20%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__type_support.c.o
+[4.604s] [ 22%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o
+[4.693s] [ 24%] Linking C shared library libmicro_ros_msgs__rosidl_generator_c.so
+[4.762s] [ 24%] Built target micro_ros_msgs__rosidl_generator_c
+[4.783s] [ 25%] Generating C type support for eProsima Fast-RTPS
+[4.785s] [ 27%] Generating C introspection for ROS interfaces
+[4.785s] [ 29%] Generating C++ type support for eProsima Fast-RTPS
+[4.786s] [ 31%] Generating C++ type support dispatch for ROS interfaces
+[4.786s] [ 33%] Generating C++ introspection for ROS interfaces
+[4.787s] [ 35%] Generating C type support dispatch for ROS interfaces
+[5.276s] [ 37%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o
+[5.276s] [ 38%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o
+[5.279s] [ 40%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o
+[5.321s] [ 42%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o
+[5.333s] [ 44%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o
+[5.334s] [ 46%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o
+[5.380s] [ 48%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o
+[5.382s] [ 50%] Linking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so
+[5.389s] [ 51%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o
+[5.394s] [ 53%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o
+[5.426s] [ 55%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o
+[5.430s] [ 57%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o
+[5.437s] [ 59%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o
+[5.556s] [ 59%] Built target micro_ros_msgs__rosidl_typesupport_c
+[5.668s] [ 61%] Building C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o
+[5.693s] [ 62%] Building C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o
+[5.778s] [ 64%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o
+[5.806s] [ 66%] Building C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o
+[5.862s] [ 68%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o
+[5.995s] [ 70%] Linking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[6.158s] [ 72%] Building CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o
+[6.171s] [ 72%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[6.273s] [ 74%] Linking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[6.424s] [ 74%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[6.610s] [ 75%] Linking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[6.777s] [ 77%] Linking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.796s] [ 77%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[6.808s] [ 79%] Linking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[6.971s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[7.024s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[7.062s] [ 79%] Built target micro_ros_msgs
+[7.099s] [ 81%] Generating Python code for ROS interfaces
+[7.869s] [ 81%] Built target micro_ros_msgs__py
+[7.905s] [ 85%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o
+[7.905s] [ 85%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o
+[7.906s] [ 87%] Building C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o
+[8.104s] [ 88%] Linking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[8.218s] [ 88%] Built target micro_ros_msgs__rosidl_generator_py
+[8.277s] [ 90%] Building C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[8.285s] [ 92%] Building C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o
+[8.286s] [ 94%] Building C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[8.478s] [ 96%] Linking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.505s] [ 98%] Linking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.581s] [100%] Linking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.591s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.622s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[8.723s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[8.840s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs -- -j12 -l12
+[8.841s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs
+[8.857s] -- Install configuration: ""
+[8.857s] -- Execute custom install script
+[8.857s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[8.874s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json
+[8.894s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json
+[8.917s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json
+[8.948s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[8.992s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[9.031s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[9.055s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[9.084s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[9.112s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[9.138s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[9.163s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[9.186s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[9.209s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[9.227s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[9.244s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[9.261s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.279s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[9.297s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[9.317s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[9.331s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[9.350s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[9.366s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.385s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[9.407s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[9.425s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[9.443s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.460s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[9.473s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[9.485s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[9.498s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[9.510s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[9.522s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[9.533s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[9.553s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[9.573s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[9.592s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[9.614s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[9.624s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[9.635s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[9.645s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[9.665s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[9.685s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.696s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[9.707s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[9.729s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[9.741s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[9.762s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[9.773s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.1-py3.10.egg-info/PKG-INFO
+[9.784s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.1-py3.10.egg-info/SOURCES.txt
+[9.795s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.1-py3.10.egg-info/dependency_links.txt
+[9.805s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.1-py3.10.egg-info/top_level.txt
+[9.823s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/__init__.py
+[9.835s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[9.846s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.862s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.872s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[9.882s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.893s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.903s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.924s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/__init__.py
+[9.934s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity.py
+[9.945s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity_s.c
+[9.955s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph.py
+[9.976s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph_s.c
+[9.986s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node.py
+[10.006s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node_s.c
+[10.027s] -- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.028s] -- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.029s] -- Up-to-date symlink: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.029s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[10.049s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[10.070s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[10.081s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[10.093s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[10.103s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[10.123s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[10.143s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[10.154s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[10.165s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[10.175s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[10.186s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[10.206s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[10.227s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[10.245s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[10.255s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[10.275s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[10.286s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[10.306s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[10.327s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.338s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.349s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.360s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.371s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.391s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.412s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[10.423s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[10.434s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[10.445s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[10.446s] -- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""
+[10.446s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[10.448s] -- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.448s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[10.449s] -- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.449s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[10.450s] -- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""
+[10.450s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.452s] -- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.452s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[10.454s] -- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.454s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[10.456s] -- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[10.507s] Listing '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs'...
+[10.508s] Compiling '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/__init__.py'...
+[10.508s] Listing '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg'...
+[10.508s] Compiling '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/__init__.py'...
+[10.508s] Compiling '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity.py'...
+[10.508s] Compiling '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph.py'...
+[10.508s] Compiling '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node.py'...
+[10.513s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[10.514s] -- Set runtime path of "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""
+[10.515s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[10.515s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.515s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.516s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.516s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.517s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.517s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[10.517s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.518s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[10.518s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.519s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.519s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.519s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.520s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[10.520s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.520s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[10.521s] -- Installing: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.844s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs

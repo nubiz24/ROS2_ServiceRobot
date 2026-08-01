@@ -1,0 +1,102 @@
+[0.848s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/auto_mapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper
+[1.996s] -- The C compiler identification is GNU 11.4.0
+[1.996s] -- The CXX compiler identification is GNU 11.4.0
+[1.996s] -- Detecting C compiler ABI info
+[1.996s] -- Detecting C compiler ABI info - done
+[1.996s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.996s] -- Detecting C compile features
+[1.997s] -- Detecting C compile features - done
+[1.997s] -- Detecting CXX compiler ABI info
+[1.997s] -- Detecting CXX compiler ABI info - done
+[1.997s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.997s] -- Detecting CXX compile features
+[1.997s] -- Detecting CXX compile features - done
+[1.997s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.997s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.997s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.464s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[2.464s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.464s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.546s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.554s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.886s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.958s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.070s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.505s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[4.160s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[4.957s] -- Found nav2_msgs: 1.2.10 (/opt/ros/iron/share/nav2_msgs/cmake)
+[5.667s] -- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)
+[5.704s] -- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+[6.358s] -- Found nav2_costmap_2d: 1.2.10 (/opt/ros/iron/share/nav2_costmap_2d/cmake)
+[6.837s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.838s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.852s] -- Found nav2_map_server: 1.2.10 (/opt/ros/iron/share/nav2_map_server/cmake)
+[10.752s] -- Found slam_toolbox: 2.7.4 (/opt/ros/iron/share/slam_toolbox/cmake)
+[11.309s] -- Setting assimp_DIR to: '/opt/ros/iron/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[11.319s] -- Setting OGRE_DIR to: '/opt/ros/iron/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[11.321s] -- Found OGRE
+[11.321s] --   static     : OFF
+[11.321s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[11.321s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[11.321s] --   media      : /opt/ros/iron/opt/rviz_ogre_vendor/share/OGRE/Media
+[11.322s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[11.322s] -- OGRE_LIBRARY_DIRS: /opt/ros/iron/opt/rviz_ogre_vendor/lib
+[11.322s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[11.322s] -- OGRE_PLUGIN_DIR: /opt/ros/iron/opt/rviz_ogre_vendor/lib/OGRE
+[11.322s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[11.322s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[11.322s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[11.322s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[11.347s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[11.355s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[11.525s] -- Found X11: /usr/include   
+[11.525s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[11.638s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[11.638s] -- Looking for gethostbyname
+[11.750s] -- Looking for gethostbyname - found
+[11.750s] -- Looking for connect
+[11.855s] -- Looking for connect - found
+[11.855s] -- Looking for remove
+[12.004s] -- Looking for remove - found
+[12.004s] -- Looking for shmat
+[12.205s] -- Looking for shmat - found
+[12.205s] -- Looking for IceConnectionNumber in ICE
+[12.400s] -- Looking for IceConnectionNumber in ICE - found
+[12.592s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[16.960s] -- Configuring done
+[17.067s] -- Generating done
+[17.083s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper
+[17.109s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/auto_mapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper
+[17.110s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper -- -j12 -l12
+[17.218s] [ 50%] Building CXX object CMakeFiles/auto_mapper.dir/src/auto_mapper.cpp.o
+[33.079s] [100%] Linking CXX executable auto_mapper
+[35.381s] [100%] Built target auto_mapper
+[35.397s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper -- -j12 -l12
+[35.400s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper
+[35.420s] -- Install configuration: ""
+[35.421s] -- Execute custom install script
+[35.421s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/lib/auto_mapper/auto_mapper
+[35.442s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/config/mapper_params_online_async.yaml
+[35.453s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/config/nav2_params.yaml
+[35.463s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/launch/auto_mapper.launch.py
+[35.486s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/launch/bringup_launch.py
+[35.508s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/launch/online_async_launch.py
+[35.519s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/rviz/config.rviz
+[35.540s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/ament_index/resource_index/package_run_dependencies/auto_mapper
+[35.552s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/ament_index/resource_index/parent_prefix_path/auto_mapper
+[35.571s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/environment/ament_prefix_path.sh
+[35.582s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/environment/ament_prefix_path.dsv
+[35.604s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/environment/path.sh
+[35.615s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/environment/path.dsv
+[35.626s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/local_setup.bash
+[35.637s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/local_setup.sh
+[35.648s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/local_setup.zsh
+[35.660s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/local_setup.dsv
+[35.671s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/package.dsv
+[35.692s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/ament_index/resource_index/packages/auto_mapper
+[35.704s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/cmake/auto_mapperConfig.cmake
+[35.716s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/cmake/auto_mapperConfig-version.cmake
+[35.727s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper/share/auto_mapper/package.xml
+[35.744s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper

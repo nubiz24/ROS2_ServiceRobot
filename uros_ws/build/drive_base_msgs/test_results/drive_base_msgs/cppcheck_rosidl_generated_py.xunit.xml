@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="drive_base_msgs.cppcheck_rosidl_generated_py"
+  tests="7"
+  errors="0"
+  failures="0"
+  time="0.001"
+  skipped="7"
+>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c"
+    classname="drive_base_msgs.cppcheck_rosidl_generated_py"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+    classname="drive_base_msgs.cppcheck_rosidl_generated_py"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+    classname="drive_base_msgs.cppcheck_rosidl_generated_py"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_base_info_s.c"
+    classname="drive_base_msgs.cppcheck_rosidl_generated_py"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_header_s.c"
+    classname="drive_base_msgs.cppcheck_rosidl_generated_py"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_status_s.c"
+    classname="drive_base_msgs.cppcheck_rosidl_generated_py"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_trv_command_s.c"
+    classname="drive_base_msgs.cppcheck_rosidl_generated_py"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

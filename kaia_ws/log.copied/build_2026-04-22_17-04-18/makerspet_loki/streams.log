@@ -1,0 +1,63 @@
+[0.554s] Invoking command in '/home/duong/kaia_ws/build/makerspet_loki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/kaia_ws/src/makerspet_loki -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/kaia_ws/install/makerspet_loki
+[1.980s] -- The C compiler identification is GNU 11.4.0
+[1.981s] -- The CXX compiler identification is GNU 11.4.0
+[1.981s] -- Detecting C compiler ABI info
+[1.981s] -- Detecting C compiler ABI info - done
+[1.981s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.981s] -- Detecting C compile features
+[1.981s] -- Detecting C compile features - done
+[1.981s] -- Detecting CXX compiler ABI info
+[1.981s] -- Detecting CXX compiler ABI info - done
+[1.982s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.982s] -- Detecting CXX compile features
+[1.982s] -- Detecting CXX compile features - done
+[1.982s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.982s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.982s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.982s] -- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+[1.982s] -- Configuring done
+[1.982s] -- Generating done
+[1.983s] -- Build files have been written to: /home/duong/kaia_ws/build/makerspet_loki
+[2.004s] Invoked command in '/home/duong/kaia_ws/build/makerspet_loki' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/kaia_ws/src/makerspet_loki -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/kaia_ws/install/makerspet_loki
+[2.005s] Invoking command in '/home/duong/kaia_ws/build/makerspet_loki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_loki -- -j12 -l12
+[2.074s] Invoked command in '/home/duong/kaia_ws/build/makerspet_loki' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_loki -- -j12 -l12
+[2.097s] Invoking command in '/home/duong/kaia_ws/build/makerspet_loki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_loki
+[2.120s] -- Install configuration: ""
+[2.120s] -- Execute custom install script
+[2.121s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/cartographer.rviz
+[2.143s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/gazebo.rviz
+[2.170s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/inspect_urdf.rviz
+[2.194s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/monitor_robot.rviz
+[2.216s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/monitor_robot_old.rviz
+[2.237s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/navigation.rviz
+[2.260s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/urdf/README.md
+[2.299s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/urdf/robot.urdf.xacro
+[2.323s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/sdf/makerspet_loki/mesh/head.stl
+[2.346s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/sdf/makerspet_loki/model.config
+[2.371s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/sdf/makerspet_loki/model.sdf
+[2.407s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/README.md
+[2.438s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/cartographer_lds_2d.lua
+[2.479s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/etc/navigation_humble.yaml
+[2.516s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/etc/navigation_iron.yaml
+[2.542s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/explore_lite.yaml
+[2.565s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/navigation.yaml
+[2.587s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/self_drive_gazebo.yaml
+[2.609s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/telem.yaml
+[2.639s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/teleop_keyboard.yaml
+[2.661s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/mesh/head.stl
+[2.684s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/ament_index/resource_index/package_run_dependencies/makerspet_loki
+[2.708s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/ament_index/resource_index/parent_prefix_path/makerspet_loki
+[2.735s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/environment/ament_prefix_path.sh
+[2.753s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/environment/ament_prefix_path.dsv
+[2.777s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/environment/path.sh
+[2.809s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/environment/path.dsv
+[2.835s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/local_setup.bash
+[2.876s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/local_setup.sh
+[2.913s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/local_setup.zsh
+[2.930s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/local_setup.dsv
+[2.949s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/package.dsv
+[2.973s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/ament_index/resource_index/packages/makerspet_loki
+[2.998s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/cmake/makerspet_lokiConfig.cmake
+[3.029s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/cmake/makerspet_lokiConfig-version.cmake
+[3.055s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/package.xml
+[3.090s] Invoked command in '/home/duong/kaia_ws/build/makerspet_loki' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_loki

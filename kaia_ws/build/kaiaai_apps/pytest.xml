@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.500" timestamp="2026-08-01T02:04:41.545111" hostname="work"><testcase classname="kaiaai_apps.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_apps/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="kaiaai_apps.test.test_flake8" name="test_flake8" time="0.251"><failure message="AssertionError: Found 159 code style errors / warnings:&#10;  ./kaiaai_apps/demo/get_map_pos.py:7:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map_pos.py:9:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map_pos.py:10:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map_pos.py:11:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map_pos.py:13:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map_pos.py:15:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./kaiaai_apps/demo/get_map_pos.py:16:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:27:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:29:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:31:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:32:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:33:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:34:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:35:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:36:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:37:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:38:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:40:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:40:58: E261 at least two spaces before inline comment&#10;  ./kaiaai_apps/demo/single_goal_nav.py:42:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:43:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:45:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:46:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:47:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:48:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:50:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:51:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:52:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:53:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:54:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:55:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:56:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:58:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:59:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/single_goal_nav.py:61:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:63:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:64:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:68:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:73:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:75:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:76:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:77:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:78:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:79:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:80:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:81:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:82:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:83:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:87:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/single_goal_nav.py:91:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/save_map.py:7:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/save_map.py:9:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/save_map.py:11:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/save_map.py:12:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/save_map.py:14:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/save_map.py:16:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/save_map.py:18:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./kaiaai_apps/demo/save_map.py:19:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:8:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:10:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:11:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:11:12: F821 undefined name 'AsyncParameterClient'&#10;  ./kaiaai_apps/demo/param_client.py:13:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/param_client.py:14:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:18:3: F821 undefined name 'self'&#10;  ./kaiaai_apps/demo/param_client.py:18:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:19:3: F841 local variable 'results' is assigned to but never used&#10;  ./kaiaai_apps/demo/param_client.py:19:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:21:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:22:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client.py:26:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:18:1: F401 'nav2_simple_commander.robot_navigator.TaskResult' imported but unused&#10;  ./kaiaai_apps/demo/explore_wfe.py:25:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:27:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:28:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:29:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:29:58: E261 at least two spaces before inline comment&#10;  ./kaiaai_apps/demo/explore_wfe.py:31:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:33:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:43:13: E711 comparison to None should be 'if cond is None:'&#10;  ./kaiaai_apps/demo/explore_wfe.py:44:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:45:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:61:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:62:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:63:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:67:7: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/explore_wfe.py:68:7: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:76:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/explore_wfe.py:80:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map.py:3:1: F401 'kaiaai.util.OccupancyGrid2d' imported but unused&#10;  ./kaiaai_apps/demo/get_map.py:7:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map.py:9:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map.py:11:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map.py:12:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map.py:14:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map.py:16:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_map.py:18:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./kaiaai_apps/demo/get_map.py:19:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/multi_waypoints.py:40:10: E201 whitespace after '['&#10;  ./kaiaai_apps/demo/multi_waypoints.py:52:38: E222 multiple spaces after operator&#10;  ./kaiaai_apps/demo/multi_waypoints.py:104:11: W292 no newline at end of file&#10;  ./kaiaai_apps/demo/get_model_params.py:2:1: F401 'rclpy' imported but unused&#10;  ./kaiaai_apps/demo/get_model_params.py:3:1: F401 'kaiaai.util.NavUtils' imported but unused&#10;  ./kaiaai_apps/demo/get_model_params.py:8:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_model_params.py:8:18: F821 undefined name 'ModelParams'&#10;  ./kaiaai_apps/demo/get_model_params.py:9:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_model_params.py:11:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_model_params.py:12:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/get_model_params.py:16:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:8:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:10:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:12:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/nav_params.py:13:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/nav_params.py:14:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/nav_params.py:15:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/nav_params.py:16:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:18:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:19:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:21:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:22:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/nav_params.py:23:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/nav_params.py:25:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:26:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:28:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:29:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:32:3: E303 too many blank lines (2)&#10;  ./kaiaai_apps/demo/nav_params.py:32:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:33:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:34:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:35:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/nav_params.py:36:3: E114 indentation is not a multiple of 4 (comment)&#10;  ./kaiaai_apps/demo/nav_params.py:38:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:39:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:41:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:42:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:45:3: E303 too many blank lines (2)&#10;  ./kaiaai_apps/demo/nav_params.py:45:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:46:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/nav_params.py:50:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/load_map.py:2:1: F401 'rclpy' imported but unused&#10;  ./kaiaai_apps/demo/load_map.py:3:1: F401 'kaiaai.util.NavUtils' imported but unused&#10;  ./kaiaai_apps/demo/load_map.py:8:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/load_map.py:9:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/load_map.py:11:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./kaiaai_apps/demo/load_map.py:12:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:7:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:9:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:10:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:12:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:14:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:15:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:16:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:18:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:20:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:21:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:23:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:24:3: E111 indentation is not a multiple of 4&#10;  ./kaiaai_apps/demo/param_client_old.py:26:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./kaiaai_apps/demo/param_client_old.py:27:3: E111 indentation is not a multiple of 4&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 159 code style errors / warnings:
+E     ./kaiaai_apps/demo/get_map_pos.py:7:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map_pos.py:9:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map_pos.py:10:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map_pos.py:11:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map_pos.py:13:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map_pos.py:15:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./kaiaai_apps/demo/get_map_pos.py:16:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:27:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:29:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:31:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:32:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:33:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:34:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:35:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:36:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:37:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:38:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:40:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:40:58: E261 at least two spaces before inline comment
+E     ./kaiaai_apps/demo/single_goal_nav.py:42:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:43:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:45:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:46:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:47:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:48:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:50:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:51:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:52:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:53:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:54:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:55:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:56:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:58:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:59:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/single_goal_nav.py:61:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:63:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:64:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:68:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:73:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:75:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:76:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:77:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:78:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:79:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:80:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:81:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:82:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:83:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:87:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/single_goal_nav.py:91:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/save_map.py:7:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/save_map.py:9:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/save_map.py:11:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/save_map.py:12:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/save_map.py:14:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/save_map.py:16:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/save_map.py:18:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./kaiaai_apps/demo/save_map.py:19:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:8:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:10:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:11:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:11:12: F821 undefined name 'AsyncParameterClient'
+E     ./kaiaai_apps/demo/param_client.py:13:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/param_client.py:14:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:18:3: F821 undefined name 'self'
+E     ./kaiaai_apps/demo/param_client.py:18:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:19:3: F841 local variable 'results' is assigned to but never used
+E     ./kaiaai_apps/demo/param_client.py:19:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:21:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:22:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client.py:26:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:18:1: F401 'nav2_simple_commander.robot_navigator.TaskResult' imported but unused
+E     ./kaiaai_apps/demo/explore_wfe.py:25:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:27:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:28:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:29:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:29:58: E261 at least two spaces before inline comment
+E     ./kaiaai_apps/demo/explore_wfe.py:31:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:33:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:43:13: E711 comparison to None should be 'if cond is None:'
+E     ./kaiaai_apps/demo/explore_wfe.py:44:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:45:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:61:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:62:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:63:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:67:7: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/explore_wfe.py:68:7: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:76:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/explore_wfe.py:80:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map.py:3:1: F401 'kaiaai.util.OccupancyGrid2d' imported but unused
+E     ./kaiaai_apps/demo/get_map.py:7:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map.py:9:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map.py:11:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map.py:12:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map.py:14:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map.py:16:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_map.py:18:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./kaiaai_apps/demo/get_map.py:19:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/multi_waypoints.py:40:10: E201 whitespace after '['
+E     ./kaiaai_apps/demo/multi_waypoints.py:52:38: E222 multiple spaces after operator
+E     ./kaiaai_apps/demo/multi_waypoints.py:104:11: W292 no newline at end of file
+E     ./kaiaai_apps/demo/get_model_params.py:2:1: F401 'rclpy' imported but unused
+E     ./kaiaai_apps/demo/get_model_params.py:3:1: F401 'kaiaai.util.NavUtils' imported but unused
+E     ./kaiaai_apps/demo/get_model_params.py:8:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_model_params.py:8:18: F821 undefined name 'ModelParams'
+E     ./kaiaai_apps/demo/get_model_params.py:9:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_model_params.py:11:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_model_params.py:12:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/get_model_params.py:16:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:8:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:10:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:12:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/nav_params.py:13:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/nav_params.py:14:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/nav_params.py:15:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/nav_params.py:16:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:18:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:19:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:21:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:22:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/nav_params.py:23:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/nav_params.py:25:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:26:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:28:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:29:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:32:3: E303 too many blank lines (2)
+E     ./kaiaai_apps/demo/nav_params.py:32:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:33:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:34:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:35:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/nav_params.py:36:3: E114 indentation is not a multiple of 4 (comment)
+E     ./kaiaai_apps/demo/nav_params.py:38:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:39:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:41:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:42:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:45:3: E303 too many blank lines (2)
+E     ./kaiaai_apps/demo/nav_params.py:45:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:46:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/nav_params.py:50:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/load_map.py:2:1: F401 'rclpy' imported but unused
+E     ./kaiaai_apps/demo/load_map.py:3:1: F401 'kaiaai.util.NavUtils' imported but unused
+E     ./kaiaai_apps/demo/load_map.py:8:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/load_map.py:9:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/load_map.py:11:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./kaiaai_apps/demo/load_map.py:12:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:7:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:9:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:10:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:12:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:14:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:15:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:16:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:18:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:20:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:21:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:23:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:24:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_apps/demo/param_client_old.py:26:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./kaiaai_apps/demo/param_client_old.py:27:3: E111 indentation is not a multiple of 4
+E   assert 1 == 0</failure></testcase><testcase classname="kaiaai_apps.test.test_pep257" name="test_pep257" time="0.063" /></testsuite></testsuites>

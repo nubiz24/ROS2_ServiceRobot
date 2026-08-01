@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper/ament_cmake_environment_hooks/local_setup.sh

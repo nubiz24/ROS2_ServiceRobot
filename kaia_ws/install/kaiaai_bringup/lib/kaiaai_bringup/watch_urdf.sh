@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_bringup/script/watch_urdf.sh

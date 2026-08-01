@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_typesupport_fastrtps_c/kaiaai_msgs/msg/detail/wifi_state__rosidl_typesupport_fastrtps_c.h

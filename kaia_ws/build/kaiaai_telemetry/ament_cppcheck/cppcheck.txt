@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_telemetry':
+ - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry/test_results/kaiaai_telemetry/cppcheck.xunit.xml
+
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry/test_results/kaiaai_telemetry/cppcheck.xunit.xml'

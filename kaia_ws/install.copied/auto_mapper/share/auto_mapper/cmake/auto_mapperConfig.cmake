@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/auto_mapper/ament_cmake_core/auto_mapperConfig.cmake

@@ -1,0 +1,4 @@
+source;share/makerspet_fido/local_setup.bash
+source;share/makerspet_fido/local_setup.dsv
+source;share/makerspet_fido/local_setup.sh
+source;share/makerspet_fido/local_setup.zsh

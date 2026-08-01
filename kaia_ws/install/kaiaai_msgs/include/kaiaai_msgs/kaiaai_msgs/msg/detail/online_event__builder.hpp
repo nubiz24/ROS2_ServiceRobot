@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_generator_cpp/kaiaai_msgs/msg/detail/online_event__builder.hpp

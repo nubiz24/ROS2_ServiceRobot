@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="micro_ros_setup.flake8"
+  tests="2"
+  errors="0"
+  failures="2"
+  time="0.095"
+>
+  <testcase
+    name="F401 (./scripts/yaml_filter.py:7:1)"
+    classname="micro_ros_setup.flake8"
+  >
+      <failure message="'copy' imported but unused:&#10;import copy&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./scripts/yaml_filter.py:14:1)"
+    classname="micro_ros_setup.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;    &#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* ./scripts/yaml_filter.py</system-out>
+</testsuite>

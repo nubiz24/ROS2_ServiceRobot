@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/kaiaai_msgs/rosidl_generator_c/kaiaai_msgs/msg/detail/wifi_state__struct.h

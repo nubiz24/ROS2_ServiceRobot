@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="micro_ros_setup.xmllint"
+  tests="13"
+  errors="0"
+  failures="13"
+  time="0.081"
+>
+  <testcase
+    name="package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.
+WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/android/generic/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/freertos/crazyflie21/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/freertos/esp32/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/freertos/nucleo_f446re/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/freertos/nucleo_f446ze/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/freertos/nucleo_f746zg/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/freertos/nucleo_f767zi/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/freertos/olimex-stm32-e407/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/generate_lib/generic/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/host/generic/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/mbed/generic/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="config/zephyr/generic/package.xml"
+    classname="micro_ros_setup.xmllint"
+  >
+      <failure message="Diff with 295 lines"><![CDATA[warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* package.xml
+* config/android/generic/package.xml
+* config/freertos/crazyflie21/package.xml
+* config/freertos/esp32/package.xml
+* config/freertos/nucleo_f446re/package.xml
+* config/freertos/nucleo_f446ze/package.xml
+* config/freertos/nucleo_f746zg/package.xml
+* config/freertos/nucleo_f767zi/package.xml
+* config/freertos/olimex-stm32-e407/package.xml
+* config/generate_lib/generic/package.xml
+* config/host/generic/package.xml
+* config/mbed/generic/package.xml
+* config/zephyr/generic/package.xml</system-out>
+</testsuite>

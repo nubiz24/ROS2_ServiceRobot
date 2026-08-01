@@ -1,0 +1,79 @@
+[0.851s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_snoopy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy
+[2.001s] -- The C compiler identification is GNU 11.4.0
+[2.001s] -- The CXX compiler identification is GNU 11.4.0
+[2.001s] -- Detecting C compiler ABI info
+[2.001s] -- Detecting C compiler ABI info - done
+[2.001s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.001s] -- Detecting C compile features
+[2.001s] -- Detecting C compile features - done
+[2.001s] -- Detecting CXX compiler ABI info
+[2.002s] -- Detecting CXX compiler ABI info - done
+[2.002s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.002s] -- Detecting CXX compile features
+[2.002s] -- Detecting CXX compile features - done
+[2.002s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.002s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.002s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.002s] -- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+[2.476s] -- Configuring done
+[2.476s] -- Generating done
+[2.476s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy
+[2.501s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_snoopy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy
+[2.502s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy -- -j12 -l12
+[2.613s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy -- -j12 -l12
+[2.638s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy
+[2.665s] -- Install configuration: ""
+[2.665s] -- Execute custom install script
+[2.665s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/cartographer.rviz
+[2.687s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/gazebo.rviz
+[2.716s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/inspect_urdf.rviz
+[2.750s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/monitor_robot.rviz
+[2.784s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/navigation.rviz
+[2.807s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/urdf/README.md
+[2.834s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/urdf/robot.urdf.xacro
+[2.863s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/half_sphere.stl
+[2.887s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/head.stl
+[2.913s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere.stl
+[2.942s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_100mm.stl
+[2.969s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_150mm.stl
+[2.997s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_200mm.stl
+[3.021s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_250mm.stl
+[3.053s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_270mm.stl
+[3.075s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_300mm.stl
+[3.101s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_350mm.stl
+[3.131s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/model.config
+[3.159s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/model.sdf
+[3.186s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/README.md
+[3.217s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/cartographer_lds_2d.lua
+[3.246s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/etc/navigation_humble.yaml
+[3.274s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/etc/navigation_iron.yaml
+[3.319s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/navigation.yaml
+[3.328s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/self_drive_gazebo.yaml
+[3.355s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/telem.yaml
+[3.379s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/teleop_keyboard.yaml
+[3.414s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/half_sphere.stl
+[3.439s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/head.stl
+[3.465s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere.stl
+[3.497s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_100mm.stl
+[3.518s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_150mm.stl
+[3.542s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_200mm.stl
+[3.587s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_250mm.stl
+[3.612s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_270mm.stl
+[3.642s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_300mm.stl
+[3.726s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_350mm.stl
+[3.726s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/package_run_dependencies/makerspet_snoopy
+[3.773s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/parent_prefix_path/makerspet_snoopy
+[3.774s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/ament_prefix_path.sh
+[3.782s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/ament_prefix_path.dsv
+[3.805s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/path.sh
+[3.830s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/path.dsv
+[3.852s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.bash
+[3.879s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.sh
+[3.908s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.zsh
+[3.931s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.dsv
+[3.982s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/package.dsv
+[4.015s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/packages/makerspet_snoopy
+[4.039s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/cmake/makerspet_snoopyConfig.cmake
+[4.068s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/cmake/makerspet_snoopyConfig-version.cmake
+[4.093s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/package.xml
+[4.121s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy

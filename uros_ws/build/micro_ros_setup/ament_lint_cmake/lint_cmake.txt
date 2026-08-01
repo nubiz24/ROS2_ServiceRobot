@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':
+ - /opt/ros/iron/bin/ament_lint_cmake --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/lint_cmake.xunit.xml'

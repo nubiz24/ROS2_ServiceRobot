@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="0.873" timestamp="2026-08-01T02:04:42.519222" hostname="work"><testcase classname="nav2_wfd.test.test_copyright" name="test_copyright" time="0.294"><failure message="AssertionError: Found errors&#10;assert 1 == 0">test/test_copyright.py:23: in test_copyright
+    assert rc == 0, 'Found errors'
+E   AssertionError: Found errors
+E   assert 1 == 0</failure></testcase><testcase classname="nav2_wfd.test.test_flake8" name="test_flake8" time="0.308"><failure message="AssertionError: Found 42 code style errors / warnings:&#10;  ./setup.py:23:9: W191 indentation contains tabs&#10;  ./setup.py:23:9: E101 indentation contains mixed spaces and tabs&#10;  ./nav2_wfd/wavefront_frontier.py:25:1: F401 'nav2_msgs.msg.Costmap' imported but unused&#10;  ./nav2_wfd/wavefront_frontier.py:26:18: E272 multiple spaces before keyword&#10;  ./nav2_wfd/wavefront_frontier.py:44:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:50:1: W293 blank line contains whitespace&#10;  ./nav2_wfd/wavefront_frontier.py:69:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:103:1: W293 blank line contains whitespace&#10;  ./nav2_wfd/wavefront_frontier.py:104:11: E271 multiple spaces after keyword&#10;  ./nav2_wfd/wavefront_frontier.py:112:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:130:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:136:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:143:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:161:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:189:100: E501 line too long (124 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:196:100: E501 line too long (173 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:197:100: E501 line too long (104 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:202:1: W293 blank line contains whitespace&#10;  ./nav2_wfd/wavefront_frontier.py:203:13: E303 too many blank lines (2)&#10;  ./nav2_wfd/wavefront_frontier.py:212:100: E501 line too long (113 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:213:100: E501 line too long (144 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:220:1: W293 blank line contains whitespace&#10;  ./nav2_wfd/wavefront_frontier.py:232:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:248:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:254:1: E302 expected 2 blank lines, found 1&#10;  ./nav2_wfd/wavefront_frontier.py:281:11: E128 continuation line under-indented for visual indent&#10;  ./nav2_wfd/wavefront_frontier.py:281:42: E261 at least two spaces before inline comment&#10;  ./nav2_wfd/wavefront_frontier.py:283:100: E501 line too long (126 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:284:100: E501 line too long (113 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:302:100: E501 line too long (115 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:303:15: E271 multiple spaces after keyword&#10;  ./nav2_wfd/wavefront_frontier.py:305:31: W291 trailing whitespace&#10;  ./nav2_wfd/wavefront_frontier.py:307:9: E265 block comment should start with '# '&#10;  ./nav2_wfd/wavefront_frontier.py:336:13: F841 local variable 'status' is assigned to but never used&#10;  ./nav2_wfd/wavefront_frontier.py:337:13: F841 local variable 'result' is assigned to but never used&#10;  ./nav2_wfd/wavefront_frontier.py:341:9: E265 block comment should start with '# '&#10;  ./nav2_wfd/wavefront_frontier.py:354:100: E501 line too long (104 &gt; 99 characters)&#10;  ./nav2_wfd/wavefront_frontier.py:373:11: E111 indentation is not a multiple of 4&#10;  ./nav2_wfd/wavefront_frontier.py:378:5: E303 too many blank lines (2)&#10;  ./nav2_wfd/wavefront_frontier.py:500:5: E265 block comment should start with '# '&#10;  ./nav2_wfd/wavefront_frontier.py:506:5: E265 block comment should start with '# '&#10;  ./nav2_wfd/wavefront_frontier.py:518:24: E711 comparison to None should be 'if cond is None:'&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 42 code style errors / warnings:
+E     ./setup.py:23:9: W191 indentation contains tabs
+E     ./setup.py:23:9: E101 indentation contains mixed spaces and tabs
+E     ./nav2_wfd/wavefront_frontier.py:25:1: F401 'nav2_msgs.msg.Costmap' imported but unused
+E     ./nav2_wfd/wavefront_frontier.py:26:18: E272 multiple spaces before keyword
+E     ./nav2_wfd/wavefront_frontier.py:44:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:50:1: W293 blank line contains whitespace
+E     ./nav2_wfd/wavefront_frontier.py:69:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:103:1: W293 blank line contains whitespace
+E     ./nav2_wfd/wavefront_frontier.py:104:11: E271 multiple spaces after keyword
+E     ./nav2_wfd/wavefront_frontier.py:112:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:130:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:136:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:143:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:161:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:189:100: E501 line too long (124 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:196:100: E501 line too long (173 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:197:100: E501 line too long (104 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:202:1: W293 blank line contains whitespace
+E     ./nav2_wfd/wavefront_frontier.py:203:13: E303 too many blank lines (2)
+E     ./nav2_wfd/wavefront_frontier.py:212:100: E501 line too long (113 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:213:100: E501 line too long (144 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:220:1: W293 blank line contains whitespace
+E     ./nav2_wfd/wavefront_frontier.py:232:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:248:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:254:1: E302 expected 2 blank lines, found 1
+E     ./nav2_wfd/wavefront_frontier.py:281:11: E128 continuation line under-indented for visual indent
+E     ./nav2_wfd/wavefront_frontier.py:281:42: E261 at least two spaces before inline comment
+E     ./nav2_wfd/wavefront_frontier.py:283:100: E501 line too long (126 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:284:100: E501 line too long (113 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:302:100: E501 line too long (115 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:303:15: E271 multiple spaces after keyword
+E     ./nav2_wfd/wavefront_frontier.py:305:31: W291 trailing whitespace
+E     ./nav2_wfd/wavefront_frontier.py:307:9: E265 block comment should start with '# '
+E     ./nav2_wfd/wavefront_frontier.py:336:13: F841 local variable 'status' is assigned to but never used
+E     ./nav2_wfd/wavefront_frontier.py:337:13: F841 local variable 'result' is assigned to but never used
+E     ./nav2_wfd/wavefront_frontier.py:341:9: E265 block comment should start with '# '
+E     ./nav2_wfd/wavefront_frontier.py:354:100: E501 line too long (104 &gt; 99 characters)
+E     ./nav2_wfd/wavefront_frontier.py:373:11: E111 indentation is not a multiple of 4
+E     ./nav2_wfd/wavefront_frontier.py:378:5: E303 too many blank lines (2)
+E     ./nav2_wfd/wavefront_frontier.py:500:5: E265 block comment should start with '# '
+E     ./nav2_wfd/wavefront_frontier.py:506:5: E265 block comment should start with '# '
+E     ./nav2_wfd/wavefront_frontier.py:518:24: E711 comparison to None should be 'if cond is None:'
+E   assert 1 == 0</failure></testcase><testcase classname="nav2_wfd.test.test_pep257" name="test_pep257" time="0.068" /></testsuite></testsuites>

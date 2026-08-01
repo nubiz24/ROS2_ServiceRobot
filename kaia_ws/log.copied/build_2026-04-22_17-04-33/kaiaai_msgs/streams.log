@@ -1,0 +1,279 @@
+[0.060s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/kaiaai_msgs -- -j12 -l12
+[0.741s] [  1%] Generating type hashes for ROS interfaces
+[0.741s] [  1%] Built target ament_cmake_python_symlink_kaiaai_msgs
+[0.741s] running egg_info
+[0.741s] creating kaiaai_msgs.egg-info
+[0.741s] writing kaiaai_msgs.egg-info/PKG-INFO
+[0.742s] writing dependency_links to kaiaai_msgs.egg-info/dependency_links.txt
+[0.742s] writing top-level names to kaiaai_msgs.egg-info/top_level.txt
+[0.742s] writing manifest file 'kaiaai_msgs.egg-info/SOURCES.txt'
+[0.742s] reading manifest file 'kaiaai_msgs.egg-info/SOURCES.txt'
+[0.742s] writing manifest file 'kaiaai_msgs.egg-info/SOURCES.txt'
+[0.742s] [  1%] Built target ament_cmake_python_build_kaiaai_msgs_egg
+[0.742s] [  1%] Built target kaiaai_msgs__rosidl_generator_type_description
+[0.742s] [  2%] Generating C code for ROS interfaces
+[0.743s] [  4%] Generating C++ code for ROS interfaces
+[1.410s] [  4%] Built target kaiaai_msgs__cpp
+[1.571s] [  5%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/kaiaai_telemetry__description.c.o
+[1.571s] [  6%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/kaiaai_telemetry__functions.c.o
+[1.574s] [  8%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/joint_pos_vel__type_support.c.o
+[1.574s] [  9%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/wifi_state__functions.c.o
+[1.577s] [ 10%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/joint_pos_vel__functions.c.o
+[1.577s] [ 13%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/kaiaai_telemetry2__description.c.o
+[1.579s] [ 12%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/kaiaai_telemetry__type_support.c.o
+[1.580s] [ 14%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/wifi_state__description.c.o
+[1.583s] [ 16%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/wifi_state__type_support.c.o
+[1.583s] [ 18%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/kaiaai_telemetry2__functions.c.o
+[1.583s] [ 18%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/joint_pos_vel__description.c.o
+[1.587s] [ 20%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/kaiaai_telemetry2__type_support.c.o
+[1.673s] [ 21%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/online_event__description.c.o
+[1.675s] [ 22%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/online_event__type_support.c.o
+[1.677s] [ 24%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_c.dir/rosidl_generator_c/kaiaai_msgs/msg/detail/online_event__functions.c.o
+[1.755s] [ 25%] Linking C shared library libkaiaai_msgs__rosidl_generator_c.so
+[1.825s] [ 25%] Built target kaiaai_msgs__rosidl_generator_c
+[1.846s] [ 27%] Generating C type support for eProsima Fast-RTPS
+[1.846s] [ 28%] Generating C++ type support for eProsima Fast-RTPS
+[1.847s] [ 29%] Generating C introspection for ROS interfaces
+[1.849s] [ 31%] Generating C++ type support dispatch for ROS interfaces
+[1.851s] [ 32%] Generating C type support dispatch for ROS interfaces
+[1.852s] [ 33%] Generating C++ introspection for ROS interfaces
+[2.474s] [ 35%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kaiaai_msgs/msg/kaiaai_telemetry__type_support.cpp.o
+[2.476s] [ 36%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kaiaai_msgs/msg/wifi_state__type_support.cpp.o
+[2.476s] [ 40%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kaiaai_msgs/msg/online_event__type_support.cpp.o
+[2.476s] [ 40%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kaiaai_msgs/msg/joint_pos_vel__type_support.cpp.o
+[2.476s] [ 40%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kaiaai_msgs/msg/kaiaai_telemetry2__type_support.cpp.o
+[2.624s] [ 41%] Building C object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kaiaai_msgs/msg/detail/kaiaai_telemetry__type_support.c.o
+[2.624s] [ 43%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kaiaai_msgs/msg/kaiaai_telemetry__type_support.cpp.o
+[2.624s] [ 44%] Building C object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kaiaai_msgs/msg/detail/wifi_state__type_support.c.o
+[2.627s] [ 45%] Building C object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kaiaai_msgs/msg/detail/joint_pos_vel__type_support.c.o
+[2.727s] [ 47%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kaiaai_msgs/msg/wifi_state__type_support.cpp.o
+[2.727s] [ 50%] Building C object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kaiaai_msgs/msg/detail/kaiaai_telemetry2__type_support.c.o
+[2.727s] [ 50%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kaiaai_msgs/msg/joint_pos_vel__type_support.cpp.o
+[2.789s] [ 51%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kaiaai_msgs/msg/kaiaai_telemetry2__type_support.cpp.o
+[2.834s] [ 52%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kaiaai_msgs/msg/online_event__type_support.cpp.o
+[2.836s] [ 54%] Building C object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kaiaai_msgs/msg/detail/online_event__type_support.c.o
+[2.859s] [ 55%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry__type_support.cpp.o
+[2.863s] [ 56%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/wifi_state__type_support.cpp.o
+[2.915s] [ 58%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/joint_pos_vel__type_support.cpp.o
+[2.935s] [ 59%] Linking C shared library libkaiaai_msgs__rosidl_typesupport_introspection_c.so
+[2.945s] [ 60%] Linking CXX shared library libkaiaai_msgs__rosidl_typesupport_c.so
+[3.048s] [ 60%] Built target kaiaai_msgs__rosidl_typesupport_introspection_c
+[3.073s] [ 60%] Built target kaiaai_msgs__rosidl_typesupport_c
+[3.114s] [ 62%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/kaiaai_telemetry2__type_support.cpp.o
+[3.115s] [ 63%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kaiaai_msgs/msg/detail/online_event__type_support.cpp.o
+[3.208s] [ 64%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kaiaai_msgs/msg/detail/kaiaai_telemetry__type_support_c.cpp.o
+[3.224s] [ 66%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kaiaai_msgs/msg/detail/dds_fastrtps/kaiaai_telemetry__type_support.cpp.o
+[3.370s] [ 67%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kaiaai_msgs/msg/detail/wifi_state__type_support_c.cpp.o
+[3.410s] [ 68%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kaiaai_msgs/msg/detail/dds_fastrtps/wifi_state__type_support.cpp.o
+[3.464s] [ 70%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kaiaai_msgs/msg/detail/dds_fastrtps/joint_pos_vel__type_support.cpp.o
+[3.474s] [ 71%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kaiaai_msgs/msg/detail/joint_pos_vel__type_support_c.cpp.o
+[3.506s] [ 72%] Linking CXX shared library libkaiaai_msgs__rosidl_typesupport_cpp.so
+[3.654s] [ 72%] Built target kaiaai_msgs__rosidl_typesupport_cpp
+[3.685s] [ 74%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kaiaai_msgs/msg/detail/kaiaai_telemetry2__type_support_c.cpp.o
+[3.798s] [ 75%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kaiaai_msgs/msg/detail/dds_fastrtps/kaiaai_telemetry2__type_support.cpp.o
+[3.825s] [ 77%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kaiaai_msgs/msg/detail/online_event__type_support_c.cpp.o
+[4.010s] [ 78%] Building CXX object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kaiaai_msgs/msg/detail/dds_fastrtps/online_event__type_support.cpp.o
+[4.349s] [ 79%] Linking CXX shared library libkaiaai_msgs__rosidl_typesupport_introspection_cpp.so
+[4.530s] [ 79%] Built target kaiaai_msgs__rosidl_typesupport_introspection_cpp
+[4.576s] [ 81%] Linking CXX shared library libkaiaai_msgs__rosidl_typesupport_fastrtps_c.so
+[4.715s] [ 81%] Built target kaiaai_msgs__rosidl_typesupport_fastrtps_c
+[4.908s] [ 82%] Linking CXX shared library libkaiaai_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.039s] [ 82%] Built target kaiaai_msgs__rosidl_typesupport_fastrtps_cpp
+[5.079s] [ 82%] Built target kaiaai_msgs
+[5.116s] [ 83%] Generating Python code for ROS interfaces
+[5.854s] [ 83%] Built target kaiaai_msgs__py
+[5.878s] [ 85%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_py.dir/rosidl_generator_py/kaiaai_msgs/msg/_wifi_state_s.c.o
+[5.878s] [ 86%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_py.dir/rosidl_generator_py/kaiaai_msgs/msg/_joint_pos_vel_s.c.o
+[5.879s] [ 89%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_py.dir/rosidl_generator_py/kaiaai_msgs/msg/_kaiaai_telemetry2_s.c.o
+[5.879s] [ 89%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_py.dir/rosidl_generator_py/kaiaai_msgs/msg/_kaiaai_telemetry_s.c.o
+[5.881s] [ 90%] Building C object CMakeFiles/kaiaai_msgs__rosidl_generator_py.dir/rosidl_generator_py/kaiaai_msgs/msg/_online_event_s.c.o
+[6.087s] [ 91%] Linking C shared library rosidl_generator_py/kaiaai_msgs/libkaiaai_msgs__rosidl_generator_py.so
+[6.148s] [ 91%] Built target kaiaai_msgs__rosidl_generator_py
+[6.172s] [ 93%] Building C object CMakeFiles/kaiaai_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/kaiaai_msgs/_kaiaai_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[6.175s] [ 94%] Building C object CMakeFiles/kaiaai_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/kaiaai_msgs/_kaiaai_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[6.191s] [ 95%] Building C object CMakeFiles/kaiaai_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/kaiaai_msgs/_kaiaai_msgs_s.ep.rosidl_typesupport_c.c.o
+[6.313s] [ 97%] Linking C shared library rosidl_generator_py/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.327s] [ 98%] Linking C shared library rosidl_generator_py/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.354s] [100%] Linking C shared library rosidl_generator_py/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.386s] [100%] Built target kaiaai_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.393s] [100%] Built target kaiaai_msgs__rosidl_typesupport_introspection_c__pyext
+[6.418s] [100%] Built target kaiaai_msgs__rosidl_typesupport_c__pyext
+[6.435s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/kaiaai_msgs -- -j12 -l12
+[6.436s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/kaiaai_msgs
+[6.454s] -- Install configuration: ""
+[6.455s] -- Execute custom install script
+[6.455s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/ament_index/resource_index/rosidl_interfaces/kaiaai_msgs
+[6.466s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/KaiaaiTelemetry.json
+[6.476s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/WifiState.json
+[6.486s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/JointPosVel.json
+[6.497s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/KaiaaiTelemetry2.json
+[6.506s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/OnlineEvent.json
+[6.519s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__functions.h
+[6.529s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__struct.h
+[6.539s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__type_support.h
+[6.550s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__functions.h
+[6.565s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__struct.h
+[6.576s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__type_support.h
+[6.587s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__functions.h
+[6.596s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__struct.h
+[6.606s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__type_support.h
+[6.616s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__functions.h
+[6.626s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__struct.h
+[6.636s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__type_support.h
+[6.658s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__functions.h
+[6.676s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__struct.h
+[6.697s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__type_support.h
+[6.718s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/joint_pos_vel.h
+[6.728s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/kaiaai_telemetry.h
+[6.739s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/kaiaai_telemetry2.h
+[6.749s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/online_event.h
+[6.759s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.780s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/wifi_state.h
+[6.798s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/environment/library_path.sh
+[6.816s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/environment/library_path.dsv
+[6.825s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__rosidl_typesupport_fastrtps_c.h
+[6.834s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__rosidl_typesupport_fastrtps_c.h
+[6.854s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__rosidl_typesupport_fastrtps_c.h
+[6.873s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__rosidl_typesupport_fastrtps_c.h
+[6.883s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__rosidl_typesupport_fastrtps_c.h
+[6.903s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.913s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__builder.hpp
+[6.923s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__struct.hpp
+[6.933s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__traits.hpp
+[6.942s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__builder.hpp
+[6.962s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__struct.hpp
+[6.983s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__traits.hpp
+[7.003s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__builder.hpp
+[7.014s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__struct.hpp
+[7.025s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__traits.hpp
+[7.035s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__builder.hpp
+[7.045s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__struct.hpp
+[7.055s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__traits.hpp
+[7.066s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__builder.hpp
+[7.087s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__struct.hpp
+[7.108s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__traits.hpp
+[7.129s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/joint_pos_vel.hpp
+[7.140s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/kaiaai_telemetry.hpp
+[7.150s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/kaiaai_telemetry2.hpp
+[7.160s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/online_event.hpp
+[7.171s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/wifi_state.hpp
+[7.183s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[7.205s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__rosidl_typesupport_fastrtps_cpp.hpp
+[7.215s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__rosidl_typesupport_fastrtps_cpp.hpp
+[7.226s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__rosidl_typesupport_fastrtps_cpp.hpp
+[7.237s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__rosidl_typesupport_fastrtps_cpp.hpp
+[7.247s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.257s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__rosidl_typesupport_introspection_c.h
+[7.268s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__rosidl_typesupport_introspection_c.h
+[7.279s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__rosidl_typesupport_introspection_c.h
+[7.290s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__rosidl_typesupport_introspection_c.h
+[7.301s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__rosidl_typesupport_introspection_c.h
+[7.312s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.323s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/joint_pos_vel__rosidl_typesupport_introspection_cpp.hpp
+[7.334s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry2__rosidl_typesupport_introspection_cpp.hpp
+[7.345s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/kaiaai_telemetry__rosidl_typesupport_introspection_cpp.hpp
+[7.366s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/online_event__rosidl_typesupport_introspection_cpp.hpp
+[7.377s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/include/kaiaai_msgs/kaiaai_msgs/msg/detail/wifi_state__rosidl_typesupport_introspection_cpp.hpp
+[7.388s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/environment/pythonpath.sh
+[7.399s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/environment/pythonpath.dsv
+[7.411s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs-0.3.0-py3.10.egg-info/PKG-INFO
+[7.421s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs-0.3.0-py3.10.egg-info/SOURCES.txt
+[7.432s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs-0.3.0-py3.10.egg-info/dependency_links.txt
+[7.442s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs-0.3.0-py3.10.egg-info/top_level.txt
+[7.454s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/__init__.py
+[7.464s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/_kaiaai_msgs_s.ep.rosidl_typesupport_c.c
+[7.474s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/_kaiaai_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.485s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/_kaiaai_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.495s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.505s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.516s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.527s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/libkaiaai_msgs__rosidl_generator_py.so
+[7.547s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/__init__.py
+[7.567s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_joint_pos_vel.py
+[7.583s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_joint_pos_vel_s.c
+[7.602s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_kaiaai_telemetry.py
+[7.613s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_kaiaai_telemetry2.py
+[7.623s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_kaiaai_telemetry2_s.c
+[7.633s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_kaiaai_telemetry_s.c
+[7.643s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_online_event.py
+[7.663s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_online_event_s.c
+[7.673s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_wifi_state.py
+[7.683s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_wifi_state_s.c
+[7.694s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.695s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.695s] -- Up-to-date symlink: /home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/kaiaai_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.695s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/KaiaaiTelemetry.idl
+[7.706s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/WifiState.idl
+[7.716s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/JointPosVel.idl
+[7.727s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/KaiaaiTelemetry2.idl
+[7.738s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/OnlineEvent.idl
+[7.748s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/KaiaaiTelemetry.msg
+[7.769s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/WifiState.msg
+[7.778s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/JointPosVel.msg
+[7.798s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/KaiaaiTelemetry2.msg
+[7.809s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/msg/OnlineEvent.msg
+[7.819s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/ament_index/resource_index/package_run_dependencies/kaiaai_msgs
+[7.829s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/ament_index/resource_index/parent_prefix_path/kaiaai_msgs
+[7.838s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/environment/ament_prefix_path.sh
+[7.848s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/environment/ament_prefix_path.dsv
+[7.857s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/environment/path.sh
+[7.866s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/environment/path.dsv
+[7.876s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/local_setup.bash
+[7.885s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/local_setup.sh
+[7.894s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/local_setup.zsh
+[7.905s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/local_setup.dsv
+[7.916s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/package.dsv
+[7.926s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/ament_index/resource_index/packages/kaiaai_msgs
+[7.937s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/rosidl_cmake-extras.cmake
+[7.948s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.966s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.976s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.987s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.998s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.009s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.020s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgsConfig.cmake
+[8.030s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgsConfig-version.cmake
+[8.051s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/package.xml
+[8.068s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_generator_c.so
+[8.068s] -- Set runtime path of "/home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_generator_c.so" to ""
+[8.068s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_fastrtps_c.so
+[8.069s] -- Set runtime path of "/home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.069s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.070s] -- Set runtime path of "/home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.070s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_introspection_c.so
+[8.071s] -- Set runtime path of "/home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.071s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_c.so
+[8.071s] -- Set runtime path of "/home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_c.so" to ""
+[8.071s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_introspection_cpp.so
+[8.073s] -- Set runtime path of "/home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.073s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_cpp.so
+[8.073s] -- Set runtime path of "/home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_typesupport_cpp.so" to ""
+[8.122s] Listing '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs'...
+[8.122s] Compiling '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/__init__.py'...
+[8.122s] Listing '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg'...
+[8.123s] Compiling '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/__init__.py'...
+[8.123s] Compiling '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_joint_pos_vel.py'...
+[8.123s] Compiling '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_kaiaai_telemetry.py'...
+[8.123s] Compiling '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_kaiaai_telemetry2.py'...
+[8.123s] Compiling '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_online_event.py'...
+[8.123s] Compiling '/home/duong/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages/kaiaai_msgs/msg/_wifi_state.py'...
+[8.127s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_generator_py.so
+[8.128s] -- Set runtime path of "/home/duong/kaia_ws/install/kaiaai_msgs/lib/libkaiaai_msgs__rosidl_generator_py.so" to ""
+[8.128s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_generator_cExport.cmake
+[8.129s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.129s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.129s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.130s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_generator_cppExport.cmake
+[8.130s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.131s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.131s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.132s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.132s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgs__rosidl_typesupport_cExport.cmake
+[8.133s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.133s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.134s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.134s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgs__rosidl_typesupport_cppExport.cmake
+[8.134s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/kaiaai_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.135s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_generator_pyExport.cmake
+[8.135s] -- Installing: /home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake/export_kaiaai_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.140s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/kaiaai_msgs

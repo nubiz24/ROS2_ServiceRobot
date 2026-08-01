@@ -1,0 +1,203 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/.pytest_cache
+rootdir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet
+plugins: launch-testing-ros-0.24.2, ament-flake8-0.14.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-copyright-0.14.4, ament-lint-0.14.4, launch-testing-2.0.4, cov-3.0.0, colcon-core-0.20.1
+collected 3 items
+
+test/test_copyright.py s                                                 [ 33%]
+test/test_flake8.py F                                                    [ 66%]
+=============================== warnings summary ===============================
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+test/test_pep257.py .                                                    [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_flake8 __________________________________
+test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 30 code style errors / warnings:
+E     ./makerspet/param_client.py:5:1: E302 expected 2 blank lines, found 1
+E     ./makerspet/param_client.py:6:3: E111 indentation is not a multiple of 4
+E     ./makerspet/param_client.py:7:3: E111 indentation is not a multiple of 4
+E     ./makerspet/param_client.py:9:3: E114 indentation is not a multiple of 4 (comment)
+E     ./makerspet/param_client.py:10:3: E111 indentation is not a multiple of 4
+E     ./makerspet/param_client.py:11:3: E111 indentation is not a multiple of 4
+E     ./makerspet/param_client.py:14:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./makerspet/param_client.py:15:3: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:8:1: E302 expected 2 blank lines, found 1
+E     ./makerspet/robot.py:10:3: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:17:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:20:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:26:3: E303 too many blank lines (2)
+E     ./makerspet/robot.py:26:3: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:28:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:38:3: E303 too many blank lines (2)
+E     ./makerspet/robot.py:38:3: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:40:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:43:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:46:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:47:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:49:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:50:15: F821 undefined name 'ParameterValue'
+E     ./makerspet/robot.py:51:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:52:15: F821 undefined name 'ParameterValue'
+E     ./makerspet/robot.py:53:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:54:15: F821 undefined name 'ParameterValue'
+E     ./makerspet/robot.py:55:7: E111 indentation is not a multiple of 4
+E     ./makerspet/robot.py:56:15: F821 undefined name 'ParameterValue'
+E     ./makerspet/robot.py:58:7: E111 indentation is not a multiple of 4
+E   assert 1 == 0
+----------------------------- Captured stdout call -----------------------------
+
+./makerspet/param_client.py:5:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./makerspet/param_client.py:6:3: E111 indentation is not a multiple of 4
+  rclpy.init(args=args)
+  ^
+
+./makerspet/param_client.py:7:3: E111 indentation is not a multiple of 4
+  param_client = ParamClient('pet')
+  ^
+
+./makerspet/param_client.py:9:3: E114 indentation is not a multiple of 4 (comment)
+  # rclpy.spin(node)
+  ^
+
+./makerspet/param_client.py:10:3: E111 indentation is not a multiple of 4
+  param_client.destroy_node()
+  ^
+
+./makerspet/param_client.py:11:3: E111 indentation is not a multiple of 4
+  rclpy.shutdown()
+  ^
+
+./makerspet/param_client.py:14:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == "__main__":
+^
+
+./makerspet/param_client.py:15:3: E111 indentation is not a multiple of 4
+  main()
+  ^
+
+./makerspet/robot.py:8:1: E302 expected 2 blank lines, found 1
+class ParamClient(Node):
+^
+
+./makerspet/robot.py:10:3: E111 indentation is not a multiple of 4
+  def __init__(self, param_server_name):
+  ^
+
+./makerspet/robot.py:17:7: E111 indentation is not a multiple of 4
+      self.get_logger().info('Waiting ' + param_server_name + ' set_parameters service ...')
+      ^
+
+./makerspet/robot.py:20:7: E111 indentation is not a multiple of 4
+      self.get_logger().info('Waiting ' + param_server_name + ' get_parameters service ...')
+      ^
+
+./makerspet/robot.py:26:3: E303 too many blank lines (2)
+  def get(self, param_name_list):
+  ^
+
+./makerspet/robot.py:26:3: E111 indentation is not a multiple of 4
+  def get(self, param_name_list):
+  ^
+
+./makerspet/robot.py:28:7: E111 indentation is not a multiple of 4
+      param_name_list = [param_name_list]
+      ^
+
+./makerspet/robot.py:38:3: E303 too many blank lines (2)
+  def set(self, param_tuple_list, param_value=None):
+  ^
+
+./makerspet/robot.py:38:3: E111 indentation is not a multiple of 4
+  def set(self, param_tuple_list, param_value=None):
+  ^
+
+./makerspet/robot.py:40:7: E111 indentation is not a multiple of 4
+      param_tuple_list = [(param_tuple_list, param_value)]
+      ^
+
+./makerspet/robot.py:43:7: E111 indentation is not a multiple of 4
+      param_tuple_list = [param_tuple_list]
+      ^
+
+./makerspet/robot.py:46:7: E111 indentation is not a multiple of 4
+      param_name = param_tuple[0]
+      ^
+
+./makerspet/robot.py:47:7: E111 indentation is not a multiple of 4
+      param_value = param_tuple[1]
+      ^
+
+./makerspet/robot.py:49:7: E111 indentation is not a multiple of 4
+      if isinstance(param_value, float):
+      ^
+
+./makerspet/robot.py:50:15: F821 undefined name 'ParameterValue'
+        val = ParameterValue(double_value=param_value, type=ParameterType.PARAMETER_DOUBLE)
+              ^
+
+./makerspet/robot.py:51:7: E111 indentation is not a multiple of 4
+      elif isinstance(param_value, int):
+      ^
+
+./makerspet/robot.py:52:15: F821 undefined name 'ParameterValue'
+        val = ParameterValue(integer_value=param_value, type=ParameterType.PARAMETER_INTEGER)
+              ^
+
+./makerspet/robot.py:53:7: E111 indentation is not a multiple of 4
+      elif isinstance(param_value, str):
+      ^
+
+./makerspet/robot.py:54:15: F821 undefined name 'ParameterValue'
+        val = ParameterValue(string_value=param_value, type=ParameterType.PARAMETER_STRING)
+              ^
+
+./makerspet/robot.py:55:7: E111 indentation is not a multiple of 4
+      elif isinstance(param_value, bool):
+      ^
+
+./makerspet/robot.py:56:15: F821 undefined name 'ParameterValue'
+        val = ParameterValue(bool_value=param_value, type=ParameterType.PARAMETER_BOOL)
+              ^
+
+./makerspet/robot.py:58:7: E111 indentation is not a multiple of 4
+      self.req.parameters.append(Parameter(name=param_name, value=val))
+      ^
+
+20    E111 indentation is not a multiple of 4
+1     E114 indentation is not a multiple of 4 (comment)
+2     E302 expected 2 blank lines, found 1
+2     E303 too many blank lines (2)
+1     E305 expected 2 blank lines after class or function definition, found 1
+4     F821 undefined name 'ParameterValue'
+
+7 files checked
+30 errors
+
+'E'-type errors: 26
+'F'-type errors: 4
+
+Checked files:
+
+* ./setup.py
+* ./makerspet/param_client.py
+* ./makerspet/robot.py
+* ./makerspet/__init__.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+- generated xml file: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 30 code style...
+============== 1 failed, 1 passed, 1 skipped, 2 warnings in 0.38s ==============

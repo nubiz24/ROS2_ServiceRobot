@@ -1,0 +1,11 @@
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/uninstall.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/kaiaai_telemetry_uninstall.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/telem_test_pub.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/telem.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/test.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/edit_cache.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/rebuild_cache.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/list_install_components.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/install.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/install/local.dir
+/home/duong/kaia_ws/build/kaiaai_telemetry/CMakeFiles/install/strip.dir

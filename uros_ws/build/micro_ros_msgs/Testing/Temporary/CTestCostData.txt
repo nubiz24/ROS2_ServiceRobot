@@ -1,0 +1,6 @@
+copyright 0 0
+lint_cmake 1 0.201991
+xmllint 0 0
+---
+copyright
+xmllint

@@ -1,0 +1,9 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/uninstall.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/robot_serving_bot_uninstall.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/test.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/edit_cache.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/rebuild_cache.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/list_install_components.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/install.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/install/local.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/CMakeFiles/install/strip.dir

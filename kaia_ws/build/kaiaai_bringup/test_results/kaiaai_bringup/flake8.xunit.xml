@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="kaiaai_bringup.flake8"
+  tests="46"
+  errors="0"
+  failures="46"
+  time="0.164"
+>
+  <testcase
+    name="F401 (./launch/inspect_urdf.launch.py:17:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'re' imported but unused:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="E401 (./launch/inspect_urdf.launch.py:17:10)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="multiple imports on one line:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/inspect_urdf.launch.py:32:7)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;      robot_model_str = config.get_var('robot.model')&#10;"/>
+  </testcase>
+  <testcase
+    name="E122 (./launch/inspect_urdf.launch.py:39:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line missing indentation or outdented:&#10;#      robot_model_str + '.urdf.xacro')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/inspect_urdf.launch.py:75:100)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="line too long (104 &gt; 99 characters):&#10;            description='Control joints using GUI, no GUI or don''t launch joint_state_publisher at all'&#10;"/>
+  </testcase>
+  <testcase
+    name="E122 (./launch/inspect_urdf.launch.py:88:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line missing indentation or outdented:&#10;#            condition=UnlessCondition(LaunchConfiguration('gui'))&#10;"/>
+  </testcase>
+  <testcase
+    name="E122 (./launch/inspect_urdf.launch.py:94:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line missing indentation or outdented:&#10;#            condition=IfCondition(LaunchConfiguration('gui'))&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/navigation.launch.py:35:7)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;      robot_model_str = config.get_var('robot.model')&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/navigation.launch.py:75:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/physical.launch.py:18:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'re' imported but unused:&#10;import re&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/physical.launch.py:25:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'launch.conditions.UnlessCondition' imported but unused:&#10;from launch.conditions import UnlessCondition&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/physical.launch.py:36:7)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;      robot_model_str = config.get_var('robot.model')&#10;"/>
+  </testcase>
+  <testcase
+    name="E127 (./launch/physical.launch.py:60:7)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line over-indented for visual indent:&#10;    lidar_model = lidar_model_str if len(lidar_model_str) &gt; 0 else \&#10;      robot_model_str + ' default'&#10;"/>
+  </testcase>
+  <testcase
+    name="E251 (./launch/physical.launch.py:77:23)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="unexpected spaces around keyword / parameter equals:&#10;            parameters = [config_telem_path_name, config_override_path_name,&#10;"/>
+  </testcase>
+  <testcase
+    name="E251 (./launch/physical.launch.py:77:25)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="unexpected spaces around keyword / parameter equals:&#10;            parameters = [config_telem_path_name, config_override_path_name,&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/physical.launch.py:78:15)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              {'laser_scan.lidar_model': lidar_model_str}]&#10;"/>
+  </testcase>
+  <testcase
+    name="E131 (./launch/physical.launch.py:79:15)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line unaligned for hanging indent:&#10;              if len(lidar_model_str) &gt; 0 else&#10;"/>
+  </testcase>
+  <testcase
+    name="E131 (./launch/physical.launch.py:80:15)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line unaligned for hanging indent:&#10;              [config_telem_path_name, config_override_path_name]&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/physical.launch.py:107:15)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '3IROBOTIX-DELTA-2G', 'YDLIDAR-X3-PRO', 'YDLIDAR-X3',&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/physical.launch.py:108:15)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              'NEATO-XV11', 'SLAMTEC-RPLIDAR-A1', '3IROBOTIX-DELTA-2A',&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/physical.launch.py:109:15)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              '3IROBOTIX-DELTA-2B', 'LDROBOT-LD14P', 'CAMSENSE-X1',&#10;"/>
+  </testcase>
+  <testcase
+    name="E128 (./launch/physical.launch.py:110:15)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line under-indented for visual indent:&#10;              'YDLIDAR-SCL', ''],  # 'AUTO'&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/monitor_robot.launch.py:17:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'re' imported but unused:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="E401 (./launch/monitor_robot.launch.py:17:10)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="multiple imports on one line:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/monitor_robot.launch.py:31:7)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;      robot_model_str = config.get_var('robot.model')&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/monitor_robot.launch.py:50:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/publish_urdf.launch.py:17:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'re' imported but unused:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="E401 (./launch/publish_urdf.launch.py:17:10)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="multiple imports on one line:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="F841 (./launch/publish_urdf.launch.py:29:5)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="local variable 'urdf_path_str' is assigned to but never used:&#10;    urdf_path_str = context.perform_substitution(urdf_path)&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/edit_urdf.launch.py:17:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'re' imported but unused:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="E401 (./launch/edit_urdf.launch.py:17:10)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="multiple imports on one line:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/edit_urdf.launch.py:22:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'launch.conditions.IfCondition' imported but unused:&#10;from launch.conditions import IfCondition, UnlessCondition&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/edit_urdf.launch.py:22:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'launch.conditions.UnlessCondition' imported but unused:&#10;from launch.conditions import IfCondition, UnlessCondition&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/edit_urdf.launch.py:23:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'launch.substitutions.Command' imported but unused:&#10;from launch.substitutions import Command, LaunchConfiguration&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/edit_urdf.launch.py:25:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'launch_ros.parameter_descriptions.ParameterValue' imported but unused:&#10;from launch_ros.parameter_descriptions import ParameterValue&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/edit_urdf.launch.py:28:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def make_nodes(context: LaunchContext, robot_model, gui):&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/edit_urdf.launch.py:33:7)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;      robot_model_str = config.get_var('robot.model')&#10;"/>
+  </testcase>
+  <testcase
+    name="E122 (./launch/edit_urdf.launch.py:40:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="continuation line missing indentation or outdented:&#10;#      robot_model_str + '.urdf.xacro')&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/cartographer.launch.py:17:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'re' imported but unused:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="E401 (./launch/cartographer.launch.py:17:10)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="multiple imports on one line:&#10;import os, re&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/cartographer.launch.py:22:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'launch.conditions.IfCondition' imported but unused:&#10;from launch.conditions import IfCondition, UnlessCondition&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/cartographer.launch.py:22:1)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="'launch.conditions.UnlessCondition' imported but unused:&#10;from launch.conditions import IfCondition, UnlessCondition&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/cartographer.launch.py:36:7)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;      robot_model_str = config.get_var('robot.model')&#10;"/>
+  </testcase>
+  <testcase
+    name="E265 (./launch/cartographer.launch.py:40:5)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="block comment should start with '# ':&#10;    #model_name = re.sub(r'_description$', '', description_str)&#10;"/>
+  </testcase>
+  <testcase
+    name="F841 (./launch/cartographer.launch.py:46:5)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="local variable 'robot_description' is assigned to but never used:&#10;    robot_description = ParameterValue(Command(['xacro ', urdf_path_name]), value_type=str)&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/cartographer.launch.py:58:100)"
+    classname="kaiaai_bringup.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;    print('Cartographer config : {}/{}'.format(cartographer_config_path, configuration_basename_str))&#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* ./launch/inspect_urdf.launch.py
+* ./launch/navigation.launch.py
+* ./launch/physical.launch.py
+* ./launch/monitor_robot.launch.py
+* ./launch/publish_urdf.launch.py
+* ./launch/edit_urdf.launch.py
+* ./launch/occupancy_grid.launch.py
+* ./launch/explore.launch.py
+* ./launch/cartographer.launch.py</system-out>
+</testsuite>

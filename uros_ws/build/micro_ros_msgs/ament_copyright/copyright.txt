@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs':
+ - /opt/ros/iron/bin/ament_copyright --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/copyright.xunit.xml
+
+CONTRIBUTING.md: <unknown>
+1 errors, checked 2 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/copyright.xunit.xml'

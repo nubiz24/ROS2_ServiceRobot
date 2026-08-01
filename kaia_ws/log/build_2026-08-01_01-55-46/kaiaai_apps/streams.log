@@ -1,0 +1,35 @@
+[3.325s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps': PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/build --no-deps symlink_data
+[3.957s] running develop
+[4.348s] running egg_info
+[4.348s] creating kaiaai_apps.egg-info
+[4.348s] writing kaiaai_apps.egg-info/PKG-INFO
+[4.348s] writing dependency_links to kaiaai_apps.egg-info/dependency_links.txt
+[4.348s] writing entry points to kaiaai_apps.egg-info/entry_points.txt
+[4.348s] writing requirements to kaiaai_apps.egg-info/requires.txt
+[4.348s] writing top-level names to kaiaai_apps.egg-info/top_level.txt
+[4.348s] writing manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+[4.349s] reading manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+[4.349s] writing manifest file 'kaiaai_apps.egg-info/SOURCES.txt'
+[4.349s] running build_ext
+[4.349s] Creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages/kaiaai-apps.egg-link (link to .)
+[4.349s] Installing explore_wfe script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.349s] Installing get_map script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.349s] Installing get_map_pos script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.349s] Installing get_model_params script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.349s] Installing load_map script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.349s] Installing multi_waypoints script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.351s] Installing nav_params script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.351s] Installing nav_to_pose script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.351s] Installing param_client script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.351s] Installing param_client_old script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.351s] Installing save_map script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.351s] Installing single_goal_nav script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/kaiaai_apps
+[4.352s] 
+[4.352s] Installed /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps
+[4.352s] running symlink_data
+[4.352s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/share/ament_index
+[4.352s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/share/ament_index/resource_index
+[4.352s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/share/ament_index/resource_index/packages
+[4.353s] symbolically linking /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/resource/kaiaai_apps -> /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/share/ament_index/resource_index/packages
+[4.354s] symbolically linking /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/package.xml -> /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/share/kaiaai_apps
+[4.965s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps' returned '0': PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/build --no-deps symlink_data

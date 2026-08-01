@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="micro_ros_setup.pep257"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.032"
+>
+  <testcase
+    name="./scripts/yaml_filter.py"
+    classname="micro_ros_setup.pep257"/>
+  <system-out>Checked files:
+* ./scripts/yaml_filter.py</system-out>
+</testsuite>

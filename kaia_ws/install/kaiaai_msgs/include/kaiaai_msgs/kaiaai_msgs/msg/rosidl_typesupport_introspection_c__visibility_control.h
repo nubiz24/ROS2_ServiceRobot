@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_typesupport_introspection_c/kaiaai_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

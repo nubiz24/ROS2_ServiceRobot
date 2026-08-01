@@ -1,0 +1,74 @@
+[0.807s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_telemetry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry
+[0.909s] -- The C compiler identification is GNU 11.4.0
+[0.999s] -- The CXX compiler identification is GNU 11.4.0
+[1.008s] -- Detecting C compiler ABI info
+[1.120s] -- Detecting C compiler ABI info - done
+[1.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.130s] -- Detecting C compile features
+[1.130s] -- Detecting C compile features - done
+[1.134s] -- Detecting CXX compiler ABI info
+[1.285s] -- Detecting CXX compiler ABI info - done
+[1.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.298s] -- Detecting CXX compile features
+[1.299s] -- Detecting CXX compile features - done
+[1.305s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.584s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.670s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.738s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.821s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.845s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.126s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.131s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.303s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.357s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.659s] -- Found kaiaai_msgs: 0.3.0 (/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake)
+[2.930s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[3.119s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[3.239s] -- Found tf2_msgs: 0.31.8 (/opt/ros/iron/share/tf2_msgs/cmake)
+[3.482s] -- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+[3.771s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.877s] -- Configured cppcheck include dirs: 
+[3.877s] -- Configured cppcheck exclude dirs and/or files: 
+[3.879s] -- Added test 'lint_cmake' to check CMake code style
+[3.885s] -- Added test 'uncrustify' to check C / C++ code style
+[3.886s] -- Configured uncrustify additional arguments: 
+[3.887s] -- Added test 'xmllint' to check XML markup files
+[3.889s] -- Configuring done
+[3.914s] -- Generating done
+[3.921s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry
+[3.937s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry' returned '0': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_telemetry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry
+[3.939s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry -- -j12 -l12
+[4.015s] [ 50%] Building CXX object CMakeFiles/telem.dir/src/telem.cpp.o
+[4.015s] [ 50%] Building CXX object CMakeFiles/telem_test_pub.dir/src/telem_test_pub.cpp.o
+[10.053s] [ 75%] Linking CXX executable telem_test_pub
+[10.420s] [ 75%] Built target telem_test_pub
+[15.548s] [100%] Linking CXX executable telem
+[16.246s] [100%] Built target telem
+[16.261s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry' returned '0': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry -- -j12 -l12
+[16.263s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry
+[16.273s] -- Install configuration: ""
+[16.273s] -- Execute custom install script
+[16.273s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/lib/kaiaai_telemetry/telem_test_pub
+[16.295s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/lib/kaiaai_telemetry/telem
+[16.307s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/config/.telem.yaml.swp
+[16.318s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/config/telem.yaml
+[16.329s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/package_run_dependencies/kaiaai_telemetry
+[16.340s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/parent_prefix_path/kaiaai_telemetry
+[16.351s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/ament_prefix_path.sh
+[16.373s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/ament_prefix_path.dsv
+[16.384s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/path.sh
+[16.395s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/path.dsv
+[16.406s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.bash
+[16.418s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.sh
+[16.429s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.zsh
+[16.440s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.dsv
+[16.451s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.dsv
+[16.462s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/packages/kaiaai_telemetry
+[16.483s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/cmake/kaiaai_telemetryConfig.cmake
+[16.503s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/cmake/kaiaai_telemetryConfig-version.cmake
+[16.514s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.xml
+[16.529s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry' returned '0': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry

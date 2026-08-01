@@ -1,0 +1,22 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':
+ - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_py.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_base_info_s.c'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_header_s.c'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_status_s.c'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_trv_command_s.c'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_py.xunit.xml'

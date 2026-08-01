@@ -1,0 +1,9 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/uninstall.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/makerspet_fido_uninstall.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/test.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/edit_cache.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/rebuild_cache.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/list_install_components.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/install.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/install/local.dir
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido/CMakeFiles/install/strip.dir

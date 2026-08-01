@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+config/web_server.yaml
+kaiaai_web/__init__.py
+kaiaai_web/server.py
+kaiaai_web.egg-info/PKG-INFO
+kaiaai_web.egg-info/SOURCES.txt
+kaiaai_web.egg-info/dependency_links.txt
+kaiaai_web.egg-info/entry_points.txt
+kaiaai_web.egg-info/requires.txt
+kaiaai_web.egg-info/top_level.txt
+kaiaai_web.egg-info/zip-safe
+launch/web_server.launch.py
+resource/kaiaai_web

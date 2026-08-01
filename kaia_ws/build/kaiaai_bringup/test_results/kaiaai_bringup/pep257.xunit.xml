@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="kaiaai_bringup.pep257"
+  tests="9"
+  errors="0"
+  failures="0"
+  time="0.056"
+>
+  <testcase
+    name="./launch/cartographer.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <testcase
+    name="./launch/edit_urdf.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <testcase
+    name="./launch/explore.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <testcase
+    name="./launch/inspect_urdf.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <testcase
+    name="./launch/monitor_robot.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <testcase
+    name="./launch/navigation.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <testcase
+    name="./launch/occupancy_grid.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <testcase
+    name="./launch/physical.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <testcase
+    name="./launch/publish_urdf.launch.py"
+    classname="kaiaai_bringup.pep257"/>
+  <system-out>Checked files:
+* ./launch/cartographer.launch.py
+* ./launch/edit_urdf.launch.py
+* ./launch/explore.launch.py
+* ./launch/inspect_urdf.launch.py
+* ./launch/monitor_robot.launch.py
+* ./launch/navigation.launch.py
+* ./launch/occupancy_grid.launch.py
+* ./launch/physical.launch.py
+* ./launch/publish_urdf.launch.py</system-out>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="micro_ros_setup.lint_cmake"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.003"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="micro_ros_setup.lint_cmake"/>
+  <testcase
+    name="config/generate_lib/generic/demo_toolchain.cmake"
+    classname="micro_ros_setup.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* config/generate_lib/generic/demo_toolchain.cmake</system-out>
+</testsuite>

@@ -1,0 +1,42 @@
+[0.616s] Invoking command in '/home/duong/kaia_ws/build/makerspet_loki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_loki -- -j12 -l12
+[1.588s] Invoked command in '/home/duong/kaia_ws/build/makerspet_loki' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_loki -- -j12 -l12
+[1.589s] Invoking command in '/home/duong/kaia_ws/build/makerspet_loki': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_loki
+[1.634s] -- Install configuration: ""
+[1.634s] -- Execute custom install script
+[1.639s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/cartographer.rviz
+[1.639s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/gazebo.rviz
+[1.640s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/inspect_urdf.rviz
+[1.641s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/monitor_robot.rviz
+[1.641s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/monitor_robot_old.rviz
+[1.641s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/rviz/navigation.rviz
+[1.641s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/urdf/README.md
+[1.641s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/urdf/robot.urdf.xacro
+[1.642s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/sdf/makerspet_loki/mesh/head.stl
+[1.643s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/sdf/makerspet_loki/model.config
+[1.643s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/sdf/makerspet_loki/model.sdf
+[1.643s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/README.md
+[1.643s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/cartographer_lds_2d.lua
+[1.643s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/etc/navigation_humble.yaml
+[1.650s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/etc/navigation_iron.yaml
+[1.651s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/explore_lite.yaml
+[1.651s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/navigation.yaml
+[1.653s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/self_drive_gazebo.yaml
+[1.653s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/telem.yaml
+[1.653s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/config/teleop_keyboard.yaml
+[1.654s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/mesh/head.stl
+[1.655s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/ament_index/resource_index/package_run_dependencies/makerspet_loki
+[1.655s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/ament_index/resource_index/parent_prefix_path/makerspet_loki
+[1.655s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/environment/ament_prefix_path.sh
+[1.656s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/environment/ament_prefix_path.dsv
+[1.656s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/environment/path.sh
+[1.656s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/environment/path.dsv
+[1.657s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/local_setup.bash
+[1.657s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/local_setup.sh
+[1.658s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/local_setup.zsh
+[1.658s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/local_setup.dsv
+[1.658s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/package.dsv
+[1.672s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/ament_index/resource_index/packages/makerspet_loki
+[1.673s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/cmake/makerspet_lokiConfig.cmake
+[1.673s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/cmake/makerspet_lokiConfig-version.cmake
+[1.673s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_loki/share/makerspet_loki/package.xml
+[1.764s] Invoked command in '/home/duong/kaia_ws/build/makerspet_loki' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_loki

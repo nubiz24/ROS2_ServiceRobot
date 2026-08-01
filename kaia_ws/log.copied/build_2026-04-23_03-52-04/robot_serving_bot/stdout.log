@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/duong/kaia_ws/build/robot_serving_bot
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/cartographer.rviz
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/gazebo.rviz
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/inspect_urdf.rviz
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/monitor_robot.rviz
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/monitor_robot_old.rviz
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/navigation.rviz
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/urdf/robot.urdf.xacro
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/mesh/hemisphere.stl
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/model.config
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/model.sdf
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/README.md
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/cartographer_lds_2d.lua
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/etc/navigation_humble.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/etc/navigation_iron.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/explore_lite.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/kaiaai.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation_new.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation_pursuit.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/self_drive_gazebo.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/telem.yaml
+-- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/teleop_keyboard.yaml

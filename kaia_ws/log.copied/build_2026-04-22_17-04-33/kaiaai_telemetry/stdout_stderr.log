@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found kaiaai_msgs: 0.3.0 (/home/duong/kaia_ws/install/kaiaai_msgs/share/kaiaai_msgs/cmake)
+-- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+-- Found tf2_msgs: 0.31.8 (/opt/ros/iron/share/tf2_msgs/cmake)
+-- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/duong/kaia_ws/build/kaiaai_telemetry
+[ 25%] Building CXX object CMakeFiles/telem_test_pub.dir/src/telem_test_pub.cpp.o
+[ 50%] Building CXX object CMakeFiles/telem.dir/src/telem.cpp.o
+[ 75%] Linking CXX executable telem_test_pub
+[ 75%] Built target telem_test_pub
+[100%] Linking CXX executable telem
+[100%] Built target telem
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/lib/kaiaai_telemetry/telem_test_pub
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/lib/kaiaai_telemetry/telem
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/config/telem.yaml
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/package_run_dependencies/kaiaai_telemetry
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/parent_prefix_path/kaiaai_telemetry
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/ament_prefix_path.sh
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/ament_prefix_path.dsv
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/path.sh
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/environment/path.dsv
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.bash
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.sh
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.zsh
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/local_setup.dsv
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.dsv
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/ament_index/resource_index/packages/kaiaai_telemetry
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/cmake/kaiaai_telemetryConfig.cmake
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/cmake/kaiaai_telemetryConfig-version.cmake
+-- Symlinking: /home/duong/kaia_ws/install/kaiaai_telemetry/share/kaiaai_telemetry/package.xml

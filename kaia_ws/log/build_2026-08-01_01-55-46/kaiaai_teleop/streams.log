@@ -1,0 +1,24 @@
+[3.375s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop': PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/build --no-deps symlink_data
+[4.063s] running develop
+[4.468s] running egg_info
+[4.469s] creating kaiaai_teleop.egg-info
+[4.469s] writing kaiaai_teleop.egg-info/PKG-INFO
+[4.469s] writing dependency_links to kaiaai_teleop.egg-info/dependency_links.txt
+[4.478s] writing entry points to kaiaai_teleop.egg-info/entry_points.txt
+[4.479s] writing requirements to kaiaai_teleop.egg-info/requires.txt
+[4.479s] writing top-level names to kaiaai_teleop.egg-info/top_level.txt
+[4.479s] writing manifest file 'kaiaai_teleop.egg-info/SOURCES.txt'
+[4.479s] reading manifest file 'kaiaai_teleop.egg-info/SOURCES.txt'
+[4.479s] writing manifest file 'kaiaai_teleop.egg-info/SOURCES.txt'
+[4.479s] running build_ext
+[4.480s] Creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages/kaiaai-teleop.egg-link (link to .)
+[4.482s] Installing teleop_keyboard script to /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/lib/kaiaai_teleop
+[4.482s] 
+[4.482s] Installed /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop
+[4.483s] running symlink_data
+[4.483s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/share/ament_index
+[4.483s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/share/ament_index/resource_index
+[4.483s] creating /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/share/ament_index/resource_index/packages
+[4.483s] symbolically linking /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/resource/kaiaai_teleop -> /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/share/ament_index/resource_index/packages
+[4.483s] symbolically linking /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/package.xml -> /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/share/kaiaai_teleop
+[5.026s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop' returned '0': PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/build --no-deps symlink_data

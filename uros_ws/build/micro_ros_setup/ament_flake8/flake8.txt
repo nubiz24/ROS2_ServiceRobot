@@ -1,0 +1,28 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':
+ - /opt/ros/iron/bin/ament_flake8 --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/flake8.xunit.xml
+
+import copy
+^
+    
+^
+1     F401 'copy' imported but unused
+1     W293 blank line contains whitespace
+
+./scripts/yaml_filter.py:7:1: F401 'copy' imported but unused
+
+./scripts/yaml_filter.py:14:1: W293 blank line contains whitespace
+
+
+1 files checked
+2 errors
+
+'F'-type errors: 1
+'W'-type errors: 1
+
+Checked files:
+
+* ./scripts/yaml_filter.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/flake8.xunit.xml'

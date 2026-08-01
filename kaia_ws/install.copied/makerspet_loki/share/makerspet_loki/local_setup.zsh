@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/makerspet_loki/ament_cmake_environment_hooks/local_setup.zsh

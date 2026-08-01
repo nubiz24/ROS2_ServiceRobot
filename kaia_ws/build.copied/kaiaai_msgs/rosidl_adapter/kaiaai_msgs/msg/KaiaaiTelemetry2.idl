@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kaiaai_msgs/msg/KaiaaiTelemetry2.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "kaiaai_msgs/msg/JointPosVel.idl"
+
+module kaiaai_msgs {
+  module msg {
+    struct KaiaaiTelemetry2 {
+      builtin_interfaces::msg::Time stamp;
+
+      uint32 seq;
+
+      float odom_pos_x;
+
+      float odom_pos_y;
+
+      float odom_pos_yaw;
+
+      float odom_vel_x;
+
+      float odom_vel_yaw;
+
+      sequence<kaiaai_msgs::msg::JointPosVel, 15> joint;
+
+      int8 wifi_rssi_dbm;
+
+      uint16 battery_mv;
+
+      sequence<uint16, 15> distance_mm;
+
+      sequence<boolean, 15> bumper;
+
+      sequence<boolean, 15> cliff;
+
+      sequence<uint16, 15> touch;
+
+      boolean scan_start_hint;
+
+      sequence<uint8, 511> lds;
+    };
+  };
+};

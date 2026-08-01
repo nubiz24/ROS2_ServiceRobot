@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"
+  tests="8"
+  failures="0"
+  errors="0"
+  time="0.210"
+>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp"
+    classname="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__type_support.cpp"
+    classname="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp"
+    classname="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__type_support.cpp"
+    classname="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp"
+    classname="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__type_support.cpp"
+    classname="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <testcase
+    name="/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__type_support.cpp"
+    classname="drive_base_msgs.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <system-out>Checked files:
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__type_support.cpp
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__type_support.cpp
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__type_support.cpp
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+* /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__type_support.cpp</system-out>
+</testsuite>

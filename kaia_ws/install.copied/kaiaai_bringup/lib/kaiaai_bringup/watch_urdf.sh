@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/src/kaiaai_bringup/script/watch_urdf.sh

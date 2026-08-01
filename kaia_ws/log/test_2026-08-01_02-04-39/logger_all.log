@@ -1,0 +1,499 @@
+[0.251s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', '--log-base', 'log', 'test', '--build-base', 'build', '--install-base', 'install', '--test-result-base', 'build']
+[0.251s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base='log', log_level=None, verb_name='test', build_base='/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build', install_base='/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install', merge_install=False, test_result_base='/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build', retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c2249b6e380>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7c2249b6cc10>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7c2249b6cc10>>, mixin_verb=('test',))
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.531s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build.copied) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build.copied) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build.copied) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install.copied) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install.copied) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install.copied) ignored
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(log.copied) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log.copied) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log.copied) ignored
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_mapper) by extension 'ros'
+[0.559s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_mapper' with type 'ros.ament_cmake' and name 'auto_mapper'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai) by extension 'ros'
+[0.561s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai' with type 'ros.ament_python' and name 'kaiaai'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_apps) by extension 'ros'
+[0.562s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_apps' with type 'ros.ament_python' and name 'kaiaai_apps'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_bringup) by extension 'ros'
+[0.564s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_bringup' with type 'ros.ament_cmake' and name 'kaiaai_bringup'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_gazebo) by extension 'ros'
+[0.566s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_gazebo' with type 'ros.ament_cmake' and name 'kaiaai_gazebo'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_msgs) by extension 'ros'
+[0.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_msgs' with type 'ros.ament_cmake' and name 'kaiaai_msgs'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_telemetry) by extension 'ros'
+[0.570s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_telemetry' with type 'ros.ament_cmake' and name 'kaiaai_telemetry'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_teleop) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_teleop' with type 'ros.ament_python' and name 'kaiaai_teleop'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/kaiaai_web) by extension 'ros'
+[0.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kaiaai_web' with type 'ros.ament_python' and name 'kaiaai_web'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['python_setup_py']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ros'
+[0.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet) by extension 'ros'
+[0.579s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet' with type 'ros.ament_python' and name 'makerspet'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_fido) by extension 'ros'
+[0.580s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet_fido' with type 'ros.ament_cmake' and name 'makerspet_fido'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_loki) by extension 'ros'
+[0.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet_loki' with type 'ros.ament_cmake' and name 'makerspet_loki'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_mini) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet_mini' with type 'ros.ament_cmake' and name 'makerspet_mini'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/makerspet_snoopy) by extension 'ros'
+[0.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makerspet_snoopy' with type 'ros.ament_cmake' and name 'makerspet_snoopy'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_wfe) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_wfe' with type 'ros.ament_python' and name 'nav2_wfd'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_serving_bot) by extension 'ros'
+[0.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_serving_bot' with type 'ros.ament_cmake' and name 'robot_serving_bot'
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper' test argument 'ctest_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper' test argument 'python_testing' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper' test argument 'pytest_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper' test argument 'pytest_with_coverage' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper' test argument 'unittest_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper' test argument 'retest_until_pass' from command line to '0'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'auto_mapper' test argument 'retest_until_fail' from command line to '0'
+[0.596s] DEBUG:colcon.colcon_core.verb.test:Testing package 'auto_mapper' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/auto_mapper', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/auto_mapper', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/auto_mapper', 'unittest_args': None}
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' test argument 'ctest_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' test argument 'python_testing' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' test argument 'pytest_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' test argument 'pytest_with_coverage' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' test argument 'unittest_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' test argument 'retest_until_pass' from command line to '0'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' test argument 'retest_until_fail' from command line to '0'
+[0.597s] DEBUG:colcon.colcon_core.verb.test:Testing package 'explore_lite' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite', 'unittest_args': None}
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'kaiaai' test argument 'ctest_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'kaiaai' test argument 'python_testing' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'kaiaai' test argument 'pytest_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'kaiaai' test argument 'pytest_with_coverage' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'kaiaai' test argument 'unittest_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'kaiaai' test argument 'retest_until_pass' from command line to '0'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'kaiaai' test argument 'retest_until_fail' from command line to '0'
+[0.597s] DEBUG:colcon.colcon_core.verb.test:Testing package 'kaiaai' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai', 'unittest_args': None}
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_apps' test argument 'ctest_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_apps' test argument 'python_testing' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_apps' test argument 'pytest_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_apps' test argument 'pytest_with_coverage' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_apps' test argument 'unittest_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_apps' test argument 'retest_until_pass' from command line to '0'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_apps' test argument 'retest_until_fail' from command line to '0'
+[0.598s] DEBUG:colcon.colcon_core.verb.test:Testing package 'kaiaai_apps' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_apps', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps', 'unittest_args': None}
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_msgs' test argument 'ctest_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_msgs' test argument 'python_testing' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_msgs' test argument 'pytest_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_msgs' test argument 'pytest_with_coverage' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_msgs' test argument 'unittest_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_msgs' test argument 'retest_until_pass' from command line to '0'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_msgs' test argument 'retest_until_fail' from command line to '0'
+[0.599s] DEBUG:colcon.colcon_core.verb.test:Testing package 'kaiaai_msgs' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_msgs', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs', 'unittest_args': None}
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_teleop' test argument 'ctest_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_teleop' test argument 'python_testing' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_teleop' test argument 'pytest_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_teleop' test argument 'pytest_with_coverage' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_teleop' test argument 'unittest_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_teleop' test argument 'retest_until_pass' from command line to '0'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_teleop' test argument 'retest_until_fail' from command line to '0'
+[0.600s] DEBUG:colcon.colcon_core.verb.test:Testing package 'kaiaai_teleop' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_teleop', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop', 'unittest_args': None}
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_web' test argument 'ctest_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_web' test argument 'python_testing' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_web' test argument 'pytest_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_web' test argument 'pytest_with_coverage' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_web' test argument 'unittest_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_web' test argument 'retest_until_pass' from command line to '0'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_web' test argument 'retest_until_fail' from command line to '0'
+[0.600s] DEBUG:colcon.colcon_core.verb.test:Testing package 'kaiaai_web' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web', 'unittest_args': None}
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_fido' test argument 'ctest_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_fido' test argument 'python_testing' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_fido' test argument 'pytest_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_fido' test argument 'pytest_with_coverage' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_fido' test argument 'unittest_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_fido' test argument 'retest_until_pass' from command line to '0'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_fido' test argument 'retest_until_fail' from command line to '0'
+[0.601s] DEBUG:colcon.colcon_core.verb.test:Testing package 'makerspet_fido' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_fido', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_fido', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_fido', 'unittest_args': None}
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_loki' test argument 'ctest_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'makerspet_loki' test argument 'python_testing' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_loki' test argument 'pytest_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_loki' test argument 'pytest_with_coverage' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_loki' test argument 'unittest_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_loki' test argument 'retest_until_pass' from command line to '0'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_loki' test argument 'retest_until_fail' from command line to '0'
+[0.602s] DEBUG:colcon.colcon_core.verb.test:Testing package 'makerspet_loki' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_loki', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_loki', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_loki', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_loki', 'unittest_args': None}
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' test argument 'ctest_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' test argument 'python_testing' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' test argument 'pytest_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' test argument 'pytest_with_coverage' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' test argument 'unittest_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' test argument 'retest_until_pass' from command line to '0'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'makerspet_mini' test argument 'retest_until_fail' from command line to '0'
+[0.602s] DEBUG:colcon.colcon_core.verb.test:Testing package 'makerspet_mini' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_mini', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_mini', 'unittest_args': None}
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'makerspet_snoopy' test argument 'ctest_args' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'makerspet_snoopy' test argument 'python_testing' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'makerspet_snoopy' test argument 'pytest_args' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'makerspet_snoopy' test argument 'pytest_with_coverage' from command line to 'False'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'makerspet_snoopy' test argument 'unittest_args' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'makerspet_snoopy' test argument 'retest_until_pass' from command line to '0'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'makerspet_snoopy' test argument 'retest_until_fail' from command line to '0'
+[0.603s] DEBUG:colcon.colcon_core.verb.test:Testing package 'makerspet_snoopy' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_snoopy', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet_snoopy', 'unittest_args': None}
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'nav2_wfd' test argument 'ctest_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'nav2_wfd' test argument 'python_testing' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'nav2_wfd' test argument 'pytest_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'nav2_wfd' test argument 'pytest_with_coverage' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'nav2_wfd' test argument 'unittest_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'nav2_wfd' test argument 'retest_until_pass' from command line to '0'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'nav2_wfd' test argument 'retest_until_fail' from command line to '0'
+[0.604s] DEBUG:colcon.colcon_core.verb.test:Testing package 'nav2_wfd' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/nav2_wfd', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/nav2_wfe', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd', 'unittest_args': None}
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'robot_serving_bot' test argument 'ctest_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'robot_serving_bot' test argument 'python_testing' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'robot_serving_bot' test argument 'pytest_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'robot_serving_bot' test argument 'pytest_with_coverage' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'robot_serving_bot' test argument 'unittest_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'robot_serving_bot' test argument 'retest_until_pass' from command line to '0'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'robot_serving_bot' test argument 'retest_until_fail' from command line to '0'
+[0.604s] DEBUG:colcon.colcon_core.verb.test:Testing package 'robot_serving_bot' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/robot_serving_bot', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot', 'unittest_args': None}
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_gazebo' test argument 'ctest_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_gazebo' test argument 'python_testing' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_gazebo' test argument 'pytest_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_gazebo' test argument 'pytest_with_coverage' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_gazebo' test argument 'unittest_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_gazebo' test argument 'retest_until_pass' from command line to '0'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_gazebo' test argument 'retest_until_fail' from command line to '0'
+[0.605s] DEBUG:colcon.colcon_core.verb.test:Testing package 'kaiaai_gazebo' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_gazebo', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_gazebo', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_gazebo', 'unittest_args': None}
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' test argument 'ctest_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' test argument 'python_testing' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' test argument 'pytest_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' test argument 'pytest_with_coverage' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' test argument 'unittest_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' test argument 'retest_until_pass' from command line to '0'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_telemetry' test argument 'retest_until_fail' from command line to '0'
+[0.606s] DEBUG:colcon.colcon_core.verb.test:Testing package 'kaiaai_telemetry' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_telemetry', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry', 'unittest_args': None}
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'makerspet' test argument 'ctest_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'makerspet' test argument 'python_testing' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'makerspet' test argument 'pytest_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'makerspet' test argument 'pytest_with_coverage' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'makerspet' test argument 'unittest_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'makerspet' test argument 'retest_until_pass' from command line to '0'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'makerspet' test argument 'retest_until_fail' from command line to '0'
+[0.606s] DEBUG:colcon.colcon_core.verb.test:Testing package 'makerspet' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet', 'unittest_args': None}
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_bringup' test argument 'ctest_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_bringup' test argument 'python_testing' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_bringup' test argument 'pytest_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_bringup' test argument 'pytest_with_coverage' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_bringup' test argument 'unittest_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_bringup' test argument 'retest_until_pass' from command line to '0'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'kaiaai_bringup' test argument 'retest_until_fail' from command line to '0'
+[0.607s] DEBUG:colcon.colcon_core.verb.test:Testing package 'kaiaai_bringup' with the following arguments: {'build_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_bringup', 'ctest_args': None, 'install_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_bringup', 'path': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_bringup', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_bringup', 'unittest_args': None}
+[0.607s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.609s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai' with build type'ament_python'
+[0.609s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai'
+[0.613s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.621s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_msgs' with build type 'ament_cmake'
+[0.621s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_msgs'
+[0.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.627s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_teleop' with build type'ament_python'
+[0.627s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_teleop'
+[0.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.634s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_loki' with build type 'ament_cmake'
+[0.634s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_loki'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.641s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_mini' with build type 'ament_cmake'
+[0.641s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_mini'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.647s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_snoopy' with build type 'ament_cmake'
+[0.647s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_snoopy'
+[0.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.648s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.653s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/auto_mapper' with build type 'ament_cmake'
+[0.653s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/auto_mapper'
+[0.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore' with build type 'ament_cmake'
+[0.660s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore'
+[0.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.666s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_apps' with build type'ament_python'
+[0.666s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_apps'
+[0.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.673s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web' with build type'ament_python'
+[0.674s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web'
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_fido' with build type 'ament_cmake'
+[0.680s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_fido'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/nav2_wfe' with build type'ament_python'
+[0.689s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/nav2_wfe'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.096s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[1.096s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[1.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/pytest.xml --junit-prefix=kaiaai -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.505s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[1.505s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_teleop': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/pytest.xml --junit-prefix=kaiaai_teleop -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.928s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[1.928s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_apps': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/pytest.xml --junit-prefix=kaiaai_apps -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.341s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[2.341s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[2.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/pytest.xml --junit-prefix=kaiaai_web -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.800s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[2.801s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[2.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/nav2_wfe': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/nav2_wfd:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd/pytest.xml --junit-prefix=nav2_wfd -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai' returned '1': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/pytest.xml --junit-prefix=kaiaai -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.807s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_loki'
+[2.807s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_mini'
+[2.807s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_snoopy'
+[2.807s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/auto_mapper'
+[2.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.815s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/robot_serving_bot' with build type 'ament_cmake'
+[2.815s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/robot_serving_bot'
+[2.816s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.816s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.823s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_gazebo' with build type 'ament_cmake'
+[2.824s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_gazebo'
+[2.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.833s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet' with build type'ament_python'
+[2.834s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet'
+[2.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.834s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_teleop' returned '1': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/pytest.xml --junit-prefix=kaiaai_teleop -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.845s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet_fido'
+[3.351s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[3.351s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[3.356s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/robot_serving_bot'
+[3.356s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_gazebo'
+[3.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/pytest.xml --junit-prefix=makerspet -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_apps' returned '1': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/pytest.xml --junit-prefix=kaiaai_apps -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_apps:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_apps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.410s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_telemetry' with build type 'ament_cmake'
+[3.411s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_telemetry'
+[3.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs' returned '8': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[3.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[3.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web' returned '1': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/pytest.xml --junit-prefix=kaiaai_web -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[4.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/nav2_wfe' returned '1': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/nav2_wfd:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd/pytest.xml --junit-prefix=nav2_wfd -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/nav2_wfd:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/nav2_wfd/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[4.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/makerspet' returned '1': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/pytest.xml --junit-prefix=makerspet -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/makerspet:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet/lib/python3.10/site-packages:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[4.838s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_bringup' with build type 'ament_cmake'
+[4.838s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_bringup'
+[4.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry' returned '8': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[4.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite' returned '8': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[4.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_bringup': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_bringup:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_loki:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_bringup:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_loki:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[6.203s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.204s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_bringup' returned '8': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_bringup:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_loki:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_bringup:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_telemetry:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_snoopy:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_mini:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/makerspet_loki:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_teleop:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_teleop/lib/python3.10/site-packages:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_msgs/lib/python3.10/site-packages:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[6.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.213s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.213s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[6.213s] DEBUG:colcon.colcon_core.event_reactor:joined thread

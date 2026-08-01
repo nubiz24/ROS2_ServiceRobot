@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="micro_ros_setup.copyright"
+  tests="4"
+  errors="0"
+  failures="3"
+  time="0.049"
+>
+  <testcase
+    name="CONTRIBUTING.md"
+    classname="micro_ros_setup.copyright"
+  >
+      <failure message="&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="LICENSE"
+    classname="micro_ros_setup.copyright"/>
+  <testcase
+    name="config/generate_lib/generic/demo_toolchain.cmake"
+    classname="micro_ros_setup.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/yaml_filter.py"
+    classname="micro_ros_setup.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* CONTRIBUTING.md
+* LICENSE
+* config/generate_lib/generic/demo_toolchain.cmake
+* scripts/yaml_filter.py</system-out>
+</testsuite>

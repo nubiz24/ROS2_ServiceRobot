@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-99e80bd76a3492a0246a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "micro_ros_msgs__py",
+					"jsonFile" : "directory-micro_ros_msgs__py-98bfafc908633f18edf7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/micro_ros_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "micro_ros_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_micro_ros_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_micro_ros_msgs_egg-26f19e7d3a4db7b4095f.json",
+					"name" : "ament_cmake_python_build_micro_ros_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_micro_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_micro_ros_msgs-dae7e54a09e17d1a7032.json",
+					"name" : "ament_cmake_python_symlink_micro_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs-4951408d5d173d0027a6.json",
+					"name" : "micro_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__cpp-879b4070ea21e83a475f.json",
+					"name" : "micro_ros_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "micro_ros_msgs__py::@066035a0f769e6a643ed",
+					"jsonFile" : "target-micro_ros_msgs__py-a4dccc20acee1e9afb22.json",
+					"name" : "micro_ros_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_generator_c-064d18f3c1faf8479b40.json",
+					"name" : "micro_ros_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_generator_py-a6cfded9c1893ba853a1.json",
+					"name" : "micro_ros_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_generator_type_description-15957c2ce2eb7c0ecf12.json",
+					"name" : "micro_ros_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_c-1f391a3c51996aac8245.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_c__pyext-7fc8ad9de129285f132e.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_cpp-0f057189349512090d89.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_fastrtps_c-547b9793b86a00420f92.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext-f694c1f94a443887c3cc.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_fastrtps_cpp-c05e81dbad307d97910d.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_introspection_c-594b55ebcab86ae74b55.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_introspection_c__pyext-8856571b023e2a32e469.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs__rosidl_typesupport_introspection_cpp-49b2544545a03bae3951.json",
+					"name" : "micro_ros_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "micro_ros_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-micro_ros_msgs_uninstall-41eaf74b2665cf54494c.json",
+					"name" : "micro_ros_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4409b3559586866ddef2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs",
+		"source" : "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

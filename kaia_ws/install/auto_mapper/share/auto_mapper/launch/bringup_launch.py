@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/auto_mapper/launch/bringup_launch.py

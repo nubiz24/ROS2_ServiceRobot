@@ -1,0 +1,104 @@
+[0.844s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite
+[1.991s] -- The C compiler identification is GNU 11.4.0
+[1.991s] -- The CXX compiler identification is GNU 11.4.0
+[1.991s] -- Detecting C compiler ABI info
+[1.991s] -- Detecting C compiler ABI info - done
+[1.991s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.992s] -- Detecting C compile features
+[1.992s] -- Detecting C compile features - done
+[1.992s] -- Detecting CXX compiler ABI info
+[1.992s] -- Detecting CXX compiler ABI info - done
+[1.992s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.992s] -- Detecting CXX compile features
+[1.992s] -- Detecting CXX compile features - done
+[1.992s] -- BuilD for ROS2: iron
+[1.992s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.993s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.993s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.993s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[2.460s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.461s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.495s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.497s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.829s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.901s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.015s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.465s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[3.545s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[4.007s] -- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+[4.958s] -- Found tf2_geometry_msgs: 0.31.8 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[5.038s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[5.038s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.038s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.038s] -- Found nav2_msgs: 1.2.10 (/opt/ros/iron/share/nav2_msgs/cmake)
+[6.288s] -- Found map_msgs: 2.2.0 (/opt/ros/iron/share/map_msgs/cmake)
+[6.595s] -- Found visualization_msgs: 5.0.1 (/opt/ros/iron/share/visualization_msgs/cmake)
+[6.882s] -- Found nav2_costmap_2d: 1.2.10 (/opt/ros/iron/share/nav2_costmap_2d/cmake)
+[8.910s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[9.176s] -- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[9.185s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.202s] -- Looking for pthread.h
+[9.407s] -- Looking for pthread.h - found
+[9.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.588s] -- Found Threads: TRUE  
+[9.612s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.613s] -- Configured cppcheck include dirs: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore/include>
+[9.614s] -- Configured cppcheck exclude dirs and/or files: 
+[9.616s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.617s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.617s] -- Added test 'lint_cmake' to check CMake code style
+[9.618s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.623s] -- Added test 'uncrustify' to check C / C++ code style
+[9.623s] -- Configured uncrustify additional arguments: 
+[9.625s] -- Added test 'xmllint' to check XML markup files
+[9.630s] -- Configuring done
+[9.859s] -- Generating done
+[9.886s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite
+[10.034s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite
+[10.035s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite -- -j12 -l12
+[10.106s] [ 20%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[10.106s] [ 20%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[10.115s] [ 40%] Building CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o
+[10.115s] [ 40%] Building CXX object CMakeFiles/explore.dir/src/explore.cpp.o
+[10.115s] [ 50%] Building CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o
+[11.015s] [ 60%] Linking CXX static library libgtest_main.a
+[11.143s] [ 60%] Built target gtest_main
+[13.773s] [ 70%] Linking CXX static library libgtest.a
+[13.939s] [ 70%] Built target gtest
+[13.981s] [ 80%] Building CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o
+[15.599s] [ 90%] Linking CXX executable test_explore
+[18.851s] [ 90%] Built target test_explore
+[25.633s] [100%] Linking CXX executable explore
+[29.585s] [100%] Built target explore
+[29.601s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite -- -j12 -l12
+[29.604s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite
+[29.621s] -- Install configuration: ""
+[29.622s] -- Execute custom install script
+[29.623s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/include/explore//costmap_client.h
+[29.643s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/include/explore//costmap_tools.h
+[29.663s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/include/explore//explore.h
+[29.675s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/include/explore//frontier_search.h
+[29.687s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[29.700s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[29.714s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[29.732s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/lib/explore_lite/explore
+[29.744s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[29.758s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[29.770s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[29.783s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[29.795s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[29.815s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[29.827s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[29.839s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[29.859s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[29.880s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[29.900s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/package.dsv
+[29.919s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[29.931s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.944s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[29.964s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[29.976s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/explore_lite/share/explore_lite/package.xml
+[31.698s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/explore_lite

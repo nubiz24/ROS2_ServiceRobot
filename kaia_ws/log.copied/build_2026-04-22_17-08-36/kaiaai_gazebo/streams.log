@@ -1,0 +1,286 @@
+[0.021s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_gazebo': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/kaiaai_bringup:/opt/ros/iron CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/kaia_ws/src/kaiaai_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/kaia_ws/install/kaiaai_gazebo
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.223s] -- The CXX compiler identification is GNU 11.4.0
+[0.234s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.362s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.497s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.497s] -- Detecting CXX compile features
+[0.497s] -- Detecting CXX compile features - done
+[0.501s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.726s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.806s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.872s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/iron/share/gazebo_ros_pkgs/cmake)
+[0.874s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[0.926s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.943s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.992s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.127s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[1.285s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.425s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.428s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.592s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.629s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.691s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.891s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[2.010s] -- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)
+[2.112s] -- Configuring done
+[2.126s] -- Generating done
+[2.130s] -- Build files have been written to: /home/duong/kaia_ws/build/kaiaai_gazebo
+[2.141s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_gazebo' returned '0': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/kaiaai_bringup:/opt/ros/iron CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/kaia_ws/src/kaiaai_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/kaia_ws/install/kaiaai_gazebo
+[2.143s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_gazebo': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/kaiaai_bringup:/opt/ros/iron CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/kaiaai_gazebo -- -j12 -l12
+[2.222s] [ 50%] [32mBuilding CXX object CMakeFiles/self_drive_gazebo.dir/src/self_drive_gazebo.cpp.o[0m
+[15.934s] [100%] [32m[1mLinking CXX executable self_drive_gazebo[0m
+[16.872s] [100%] Built target self_drive_gazebo
+[16.901s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_gazebo' returned '0': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/kaiaai_bringup:/opt/ros/iron CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/kaiaai_gazebo -- -j12 -l12
+[16.904s] Invoking command in '/home/duong/kaia_ws/build/kaiaai_gazebo': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/kaiaai_bringup:/opt/ros/iron CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/kaiaai_gazebo
+[16.925s] -- Install configuration: ""
+[16.926s] -- Execute custom install script
+[16.926s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/lib/kaiaai_gazebo/self_drive_gazebo
+[16.943s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//launch/self_drive_gazebo.launch.py
+[16.966s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//launch/world.launch.py
+[16.986s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/bookshelf_diffuse.jpg
+[17.007s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model-1_2.sdf
+[17.021s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model-1_3.sdf
+[17.046s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model-1_4.sdf
+[17.062s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model.config
+[17.075s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/model.sdf
+[17.099s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/1.png
+[17.113s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/2.png
+[17.129s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/3.png
+[17.144s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/4.png
+[17.159s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Bookshelf/thumbnails/5.png
+[17.173s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model-1_2.sdf
+[17.188s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model-1_3.sdf
+[17.202s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model-1_4.sdf
+[17.216s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model.config
+[17.230s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/model.sdf
+[17.255s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/1.png
+[17.277s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/2.png
+[17.296s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/3.png
+[17.321s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/4.png
+[17.343s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Cabinet/thumbnails/5.png
+[17.367s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair.mtl
+[17.380s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair.obj
+[17.394s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair.png
+[17.407s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair_Diffuse.png
+[17.420s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair_Normal.png
+[17.441s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/meshes/Chair_SpecGloss.png
+[17.455s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/model.config
+[17.468s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/model.sdf
+[17.481s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/1.png
+[17.502s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/2.png
+[17.515s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/3.png
+[17.528s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/4.png
+[17.542s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Chair/thumbnails/5.png
+[17.556s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable.mtl
+[17.577s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable.obj
+[17.601s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable_Diffuse.png
+[17.622s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable_Normal.png
+[17.636s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/meshes/CoffeeTable_SpecGloss.png
+[17.655s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/model.config
+[17.678s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/model.sdf
+[17.693s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/1.png
+[17.715s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/2.png
+[17.729s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/3.png
+[17.743s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/4.png
+[17.757s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/CoffeeTable/thumbnails/5.png
+[17.772s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit.mtl
+[17.791s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit.obj
+[17.812s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit.png
+[17.825s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit_Col.mtl
+[17.837s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/FemaleVisitorSit_Col.obj
+[17.850s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/meshes/HandbagBlack.png
+[17.863s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/model.config
+[17.875s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/model.sdf
+[17.893s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/1.png
+[17.906s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/2.png
+[17.918s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/3.png
+[17.935s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/4.png
+[17.947s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/FemaleVisitorSit/thumbnails/5.png
+[17.965s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand.mtl
+[17.977s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand.obj
+[17.989s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand_Col.mtl
+[18.005s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand_Col.obj
+[18.025s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/meshes/LampAndStand_Diffuse.png
+[18.037s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/model.config
+[18.049s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/model.sdf
+[18.060s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/1.png
+[18.072s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/2.png
+[18.085s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/3.png
+[18.105s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/4.png
+[18.124s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/LampAndStand/thumbnails/5.png
+[18.138s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit.mtl
+[18.152s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit.obj
+[18.164s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit.png
+[18.186s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit_Col.mtl
+[18.200s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/MaleVisitorSit_Col.obj
+[18.212s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/meshes/Phone.png
+[18.226s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/model.config
+[18.239s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/model.sdf
+[18.260s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/1.png
+[18.273s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/2.png
+[18.286s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/3.png
+[18.299s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/4.png
+[18.312s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MaleVisitorSit/thumbnails/5.png
+[18.331s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/meshes/MiniSofa_Diffuse.png
+[18.346s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/meshes/minisofa.mtl
+[18.367s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/meshes/minisofa.obj
+[18.380s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/model.config
+[18.393s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/model.sdf
+[18.406s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/1.png
+[18.419s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/2.png
+[18.432s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/3.png
+[18.454s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/4.png
+[18.474s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/MiniSofa/thumbnails/5.png
+[18.487s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/meshes/Sofa.mtl
+[18.500s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/meshes/Sofa.obj
+[18.514s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/meshes/SofaDiffuse.png
+[18.527s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/model.config
+[18.540s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/model.sdf
+[18.553s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/1.png
+[18.565s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/2.png
+[18.578s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/3.png
+[18.599s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/4.png
+[18.620s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/Sofa/thumbnails/5.png
+[18.633s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand.mtl
+[18.652s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand.obj
+[18.664s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand_Col.mtl
+[18.676s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand_Col.obj
+[18.695s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/meshes/TVStand_Diffuse.png
+[18.708s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/model.config
+[18.727s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/model.sdf
+[18.740s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/1.png
+[18.752s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/2.png
+[18.764s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/3.png
+[18.776s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/4.png
+[18.789s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TVStand/thumbnails/5.png
+[18.801s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/materials/scripts/table_lightmap.material
+[18.814s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/materials/textures/marble.png
+[18.827s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/materials/textures/table_lightmap.png
+[18.839s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/meshes/table_lightmap.dae
+[18.852s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/model-1_4.sdf
+[18.871s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/model.config
+[18.883s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/model.sdf
+[18.896s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/1.png
+[18.915s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/2.png
+[18.928s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/3.png
+[18.944s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/4.png
+[18.964s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/TableMarble/thumbnails/5.png
+[18.983s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/materials/textures/cardboard_box.png
+[18.996s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/meshes/cardboard_box.dae
+[19.015s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/model.config
+[19.027s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/model.sdf
+[19.040s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/thumbnails/0.jpg
+[19.054s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/thumbnails/1.jpg
+[19.066s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cardboard_box/thumbnails/2.jpg
+[19.084s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/materials/textures/texture.png
+[19.105s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/meshes/model.mtl
+[19.117s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/meshes/model.obj
+[19.137s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/metadata.pbtxt
+[19.149s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/model.config
+[19.162s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/model.sdf
+[19.175s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/0.jpg
+[19.187s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/1.jpg
+[19.199s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/2.jpg
+[19.219s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/3.jpg
+[19.231s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/cat_figurines/thumbnails/4.jpg
+[19.244s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/material/script/door_08x2m.material
+[19.257s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/material/textures/door_08x2m.png
+[19.276s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/model.config
+[19.288s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/model.sdf
+[19.300s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/door_08x2m/thumbnails/1.png
+[19.312s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/material/script/kaiaai_poster.material
+[19.324s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/material/textures/kaiaai_logo_450x460.png
+[19.337s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/model.config
+[19.349s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/model.sdf
+[19.369s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/kaiaai_poster/thumbnails/1.png
+[19.382s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/material/script/makerspet_poster.material
+[19.402s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/material/textures/makerspet_logo_600x700.png
+[19.422s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/model.config
+[19.436s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/model.sdf
+[19.456s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/makerspet_poster/thumbnails/1.png
+[19.469s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate/model.config
+[19.481s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate/model.sdf
+[19.501s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate/thumbnails/1.png
+[19.515s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate_wide/model.config
+[19.528s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate_wide/model.sdf
+[19.549s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/pet_gate_wide/thumbnails/1.png
+[19.562s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/materials/textures/texture.png
+[19.585s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/meshes/model.mtl
+[19.599s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/meshes/model.obj
+[19.624s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/metadata.pbtxt
+[19.644s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/model.config
+[19.657s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/model.sdf
+[19.672s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/0.jpg
+[19.685s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/1.jpg
+[19.707s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/2.jpg
+[19.721s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/3.jpg
+[19.735s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/racoon/thumbnails/4.jpg
+[19.748s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/red_ball_10in/model.config
+[19.769s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/red_ball_10in/model.sdf
+[19.789s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/red_ball_10in/thumbnails/1.png
+[19.802s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/material/script/room_wall_2x5m.material
+[19.815s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/material/textures/wall_texture_1404x562.jpg
+[19.828s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/model.config
+[19.841s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/model.sdf
+[19.861s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/room_wall_2x5m/thumbnails/1.jpg
+[19.881s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/material/script/rug_ivory_2m.material
+[19.894s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/material/textures/rug_ivory_469x588.png
+[19.906s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/model.config
+[19.926s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/model.sdf
+[19.947s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/rug_ivory_2m/thumbnails/1.png
+[19.960s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/materials/textures/texture.png
+[19.979s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/meshes/model.mtl
+[19.993s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/meshes/model.obj
+[20.015s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/metadata.pbtxt
+[20.029s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/model.config
+[20.043s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/model.sdf
+[20.063s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/0.jpg
+[20.085s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/1.jpg
+[20.106s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/2.jpg
+[20.119s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/3.jpg
+[20.132s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/squirrel/thumbnails/4.jpg
+[20.147s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/material/script/tv_emissive.material
+[20.172s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/material/textures/tv_65in_maldives_909x541.jpg
+[20.195s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/model.config
+[20.217s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/model.sdf
+[20.240s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/tv_65in_emissive/thumbnails/1.png
+[20.253s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/material/script/window_curtains.material
+[20.268s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/material/textures/window_curtains.png
+[20.291s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/model.config
+[20.314s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/model.sdf
+[20.327s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//models/window_curtains/thumbnails/1.png
+[20.345s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/empty_world.world
+[20.365s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room.world
+[20.378s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room2.world
+[20.391s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room3.world
+[20.403s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room4.world
+[20.416s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//worlds/living_room_gated.world
+[20.430s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//map/living_room.pgm
+[20.451s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo//map/living_room.yaml
+[20.470s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/include//kaiaai_gazebo/self_drive_gazebo.hpp
+[20.482s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/lib/kaiaai_gazebo/urdf2sdf.sh
+[20.495s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/ament_index/resource_index/package_run_dependencies/kaiaai_gazebo
+[20.516s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/ament_index/resource_index/parent_prefix_path/kaiaai_gazebo
+[20.529s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/environment/ament_prefix_path.sh
+[20.549s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/environment/ament_prefix_path.dsv
+[20.561s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/environment/path.sh
+[20.574s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/environment/path.dsv
+[20.586s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/local_setup.bash
+[20.602s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/local_setup.sh
+[20.622s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/local_setup.zsh
+[20.634s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/local_setup.dsv
+[20.647s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/package.dsv
+[20.660s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/ament_index/resource_index/packages/kaiaai_gazebo
+[20.681s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.692s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.705s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/cmake/kaiaai_gazeboConfig.cmake
+[20.717s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/cmake/kaiaai_gazeboConfig-version.cmake
+[20.730s] -- Symlinking: /home/duong/kaia_ws/install/kaiaai_gazebo/share/kaiaai_gazebo/package.xml
+[20.752s] Invoked command in '/home/duong/kaia_ws/build/kaiaai_gazebo' returned '0': AMENT_PREFIX_PATH=/home/duong/kaia_ws/install/kaiaai:/home/duong/kaia_ws/install/kaiaai_bringup:/opt/ros/iron CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/kaiaai_gazebo

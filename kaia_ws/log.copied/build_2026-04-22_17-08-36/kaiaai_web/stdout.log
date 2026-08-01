@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing kaiaai_web.egg-info/PKG-INFO
+writing dependency_links to kaiaai_web.egg-info/dependency_links.txt
+writing entry points to kaiaai_web.egg-info/entry_points.txt
+writing requirements to kaiaai_web.egg-info/requires.txt
+writing top-level names to kaiaai_web.egg-info/top_level.txt
+reading manifest file 'kaiaai_web.egg-info/SOURCES.txt'
+writing manifest file 'kaiaai_web.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages/kaiaai-web.egg-link (link to .)
+Installing web_server script to /home/duong/kaia_ws/install/kaiaai_web/lib/kaiaai_web
+
+Installed /home/duong/kaia_ws/build/kaiaai_web
+running symlink_data

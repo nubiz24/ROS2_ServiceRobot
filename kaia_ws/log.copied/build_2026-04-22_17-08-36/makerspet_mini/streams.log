@@ -1,0 +1,44 @@
+[0.617s] Invoking command in '/home/duong/kaia_ws/build/makerspet_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_mini -- -j12 -l12
+[1.566s] Invoked command in '/home/duong/kaia_ws/build/makerspet_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/makerspet_mini -- -j12 -l12
+[1.580s] Invoking command in '/home/duong/kaia_ws/build/makerspet_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_mini
+[1.603s] -- Install configuration: ""
+[1.603s] -- Execute custom install script
+[1.603s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/cartographer.rviz
+[1.604s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/gazebo.rviz
+[1.606s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/inspect_urdf.rviz
+[1.606s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/monitor_robot.rviz
+[1.607s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/monitor_robot_old.rviz
+[1.608s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/rviz/navigation.rviz
+[1.609s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/urdf/robot.urdf.xacro
+[1.609s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/sdf/makerspet_mini/mesh/hemisphere.stl
+[1.612s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/sdf/makerspet_mini/model.config
+[1.612s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/sdf/makerspet_mini/model.sdf
+[1.613s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/README.md
+[1.613s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/cartographer_lds_2d.lua
+[1.615s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/etc/navigation_humble.yaml
+[1.618s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/etc/navigation_iron.yaml
+[1.618s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/explore_lite.yaml
+[1.618s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/kaiaai.yaml
+[1.619s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/navigation.yaml
+[1.619s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/navigation_new.yaml
+[1.619s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/navigation_pursuit.yaml
+[1.619s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/self_drive_gazebo.yaml
+[1.620s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/telem.yaml
+[1.620s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/config/teleop_keyboard.yaml
+[1.620s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/mesh/hemisphere.stl
+[1.620s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/ament_index/resource_index/package_run_dependencies/makerspet_mini
+[1.621s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/ament_index/resource_index/parent_prefix_path/makerspet_mini
+[1.621s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/environment/ament_prefix_path.sh
+[1.624s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/environment/ament_prefix_path.dsv
+[1.624s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/environment/path.sh
+[1.624s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/environment/path.dsv
+[1.629s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/local_setup.bash
+[1.629s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/local_setup.sh
+[1.635s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/local_setup.zsh
+[1.635s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/local_setup.dsv
+[1.635s] -- Symlinking: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.dsv
+[1.662s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/ament_index/resource_index/packages/makerspet_mini
+[1.662s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/cmake/makerspet_miniConfig.cmake
+[1.663s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/cmake/makerspet_miniConfig-version.cmake
+[1.663s] -- Up-to-date symlink: /home/duong/kaia_ws/install/makerspet_mini/share/makerspet_mini/package.xml
+[1.722s] Invoked command in '/home/duong/kaia_ws/build/makerspet_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/makerspet_mini

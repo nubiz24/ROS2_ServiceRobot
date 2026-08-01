@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup/scripts/create_firmware_ws.sh

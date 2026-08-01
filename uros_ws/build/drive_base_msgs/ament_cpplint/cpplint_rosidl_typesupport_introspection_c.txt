@@ -1,0 +1,28 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':
+ - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs
+
+Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c' argument
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/base_info__type_support.c
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_header__type_support.c
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_status__type_support.c
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/trv_command__type_support.c
+
+Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml'

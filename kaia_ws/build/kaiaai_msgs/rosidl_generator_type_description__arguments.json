@@ -1,0 +1,17 @@
+{
+  "package_name": "kaiaai_msgs",
+  "output_dir": "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_generator_type_description/kaiaai_msgs",
+  "idl_tuples": [
+    "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/KaiaaiTelemetry.idl",
+    "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/WifiState.idl",
+    "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/JointPosVel.idl",
+    "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/KaiaaiTelemetry2.idl",
+    "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_adapter/kaiaai_msgs:msg/OnlineEvent.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "diagnostic_msgs:/opt/ros/iron/share/diagnostic_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

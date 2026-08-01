@@ -1,0 +1,9 @@
+copyright 0 0
+flake8 0 0
+lint_cmake 1 0.208187
+pep257 1 0.314624
+xmllint 0 0
+---
+copyright
+flake8
+xmllint

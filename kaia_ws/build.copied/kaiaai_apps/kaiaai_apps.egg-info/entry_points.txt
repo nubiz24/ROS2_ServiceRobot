@@ -1,0 +1,14 @@
+[console_scripts]
+explore_wfe = kaiaai_apps.demo.nav_params:main
+get_map = kaiaai_apps.demo.get_map:main
+get_map_pos = kaiaai_apps.demo.get_map_pos:main
+get_model_params = kaiaai_apps.demo.get_model_params:main
+load_map = kaiaai_apps.demo.load_map:main
+multi_waypoints = kaiaai_apps.demo.multi_waypoints:main
+nav_params = kaiaai_apps.demo.nav_params:main
+nav_to_pose = kaiaai_apps.demo.nav_to_pose:main
+param_client = kaiaai_apps.demo.param_client:main
+param_client_old = kaiaai_apps.demo.param_client_old:main
+save_map = kaiaai_apps.demo.save_map:main
+single_goal_nav = kaiaai_apps.demo.single_goal_nav:main
+

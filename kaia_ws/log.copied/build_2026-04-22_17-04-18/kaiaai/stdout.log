@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating kaiaai.egg-info
+writing kaiaai.egg-info/PKG-INFO
+writing dependency_links to kaiaai.egg-info/dependency_links.txt
+writing entry points to kaiaai.egg-info/entry_points.txt
+writing requirements to kaiaai.egg-info/requires.txt
+writing top-level names to kaiaai.egg-info/top_level.txt
+writing manifest file 'kaiaai.egg-info/SOURCES.txt'
+reading manifest file 'kaiaai.egg-info/SOURCES.txt'
+writing manifest file 'kaiaai.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages/kaiaai.egg-link (link to .)
+Installing cli script to /home/duong/kaia_ws/install/kaiaai/lib/kaiaai
+
+Installed /home/duong/kaia_ws/build/kaiaai
+running symlink_data
+creating /home/duong/kaia_ws/install/kaiaai/share/ament_index
+creating /home/duong/kaia_ws/install/kaiaai/share/ament_index/resource_index
+creating /home/duong/kaia_ws/install/kaiaai/share/ament_index/resource_index/packages
+symbolically linking /home/duong/kaia_ws/build/kaiaai/resource/kaiaai -> /home/duong/kaia_ws/install/kaiaai/share/ament_index/resource_index/packages
+symbolically linking /home/duong/kaia_ws/build/kaiaai/package.xml -> /home/duong/kaia_ws/install/kaiaai/share/kaiaai

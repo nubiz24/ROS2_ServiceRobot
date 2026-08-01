@@ -1,0 +1,68 @@
+[0.061s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/robot_serving_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot
+[0.276s] -- The C compiler identification is GNU 11.4.0
+[0.442s] -- The CXX compiler identification is GNU 11.4.0
+[0.459s] -- Detecting C compiler ABI info
+[0.660s] -- Detecting C compiler ABI info - done
+[0.678s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.679s] -- Detecting C compile features
+[0.727s] -- Detecting C compile features - done
+[0.727s] -- Detecting CXX compiler ABI info
+[1.252s] -- Detecting CXX compiler ABI info - done
+[1.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.253s] -- Detecting CXX compile features
+[1.253s] -- Detecting CXX compile features - done
+[1.253s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.254s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.363s] -- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+[1.675s] -- Configuring done
+[1.683s] -- Generating done
+[1.686s] -- Build files have been written to: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot
+[1.772s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/robot_serving_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot
+[1.773s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot -- -j12 -l12
+[1.851s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot -- -j12 -l12
+[1.853s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot
+[1.870s] -- Install configuration: ""
+[1.871s] -- Execute custom install script
+[1.873s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/cartographer.rviz
+[1.893s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/gazebo.rviz
+[1.915s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/inspect_urdf.rviz
+[1.936s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/monitor_robot.rviz
+[1.960s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/monitor_robot_old.rviz
+[1.973s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/navigation.rviz
+[1.989s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/urdf/robot.urdf.xacro
+[2.005s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/mesh/hemisphere.stl
+[2.022s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/model.config
+[2.038s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/model.sdf
+[2.054s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/README.md
+[2.070s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/cartographer_lds_2d.lua
+[2.086s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/etc/navigation_humble.yaml
+[2.102s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/etc/navigation_iron.yaml
+[2.118s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/explore_lite.yaml
+[2.135s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/kaiaai.yaml
+[2.151s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation.yaml
+[2.167s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation_new.yaml
+[2.183s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation_pursuit.yaml
+[2.199s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/self_drive_gazebo.yaml
+[2.215s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/telem.yaml
+[2.231s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/teleop_keyboard.yaml
+[2.248s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/meshes/base.stl
+[2.268s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/meshes/left_wheel.stl
+[2.285s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/meshes/lidar.stl
+[2.301s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/meshes/right_wheel.stl
+[2.318s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/ament_index/resource_index/package_run_dependencies/robot_serving_bot
+[2.336s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/ament_index/resource_index/parent_prefix_path/robot_serving_bot
+[2.352s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/environment/ament_prefix_path.sh
+[2.370s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/environment/ament_prefix_path.dsv
+[2.389s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/environment/path.sh
+[2.406s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/environment/path.dsv
+[2.426s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/local_setup.bash
+[2.441s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/local_setup.sh
+[2.461s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/local_setup.zsh
+[2.483s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/local_setup.dsv
+[2.504s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/package.dsv
+[2.525s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/ament_index/resource_index/packages/robot_serving_bot
+[2.545s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/cmake/robot_serving_botConfig.cmake
+[2.565s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/cmake/robot_serving_botConfig-version.cmake
+[2.585s] -- Symlinking: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/package.xml
+[2.623s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot

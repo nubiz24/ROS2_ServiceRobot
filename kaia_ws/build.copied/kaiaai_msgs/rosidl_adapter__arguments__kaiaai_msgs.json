@@ -1,0 +1,10 @@
+{
+  "package_name": "kaiaai_msgs",
+  "non_idl_tuples": [
+    "/home/duong/kaia_ws/src/kaiaai_msgs:msg/KaiaaiTelemetry.msg",
+    "/home/duong/kaia_ws/src/kaiaai_msgs:msg/WifiState.msg",
+    "/home/duong/kaia_ws/src/kaiaai_msgs:msg/JointPosVel.msg",
+    "/home/duong/kaia_ws/src/kaiaai_msgs:msg/KaiaaiTelemetry2.msg",
+    "/home/duong/kaia_ws/src/kaiaai_msgs:msg/OnlineEvent.msg"
+  ]
+}

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kaiaai_msgs/msg/OnlineEvent.msg
+// generated code does not contain a copyright notice
+
+#include "diagnostic_msgs/msg/DiagnosticArray.idl"
+
+module kaiaai_msgs {
+  module msg {
+    module OnlineEvent_Constants {
+      const octet EVENT_ONLINE = 0;
+      const octet EVENT_OFFLINE = 1;
+    };
+    @verbatim (language="comment", text=
+      "Message signals event(s) when a robot comes online or goes offline")
+    struct OnlineEvent {
+      @verbatim (language="comment", text=
+        "byte EVENT_DOCKED=2" "\n"
+        "Online event")
+      octet event;
+
+      @verbatim (language="comment", text=
+        "Human-readable explanation of what happened")
+      string comment;
+
+      @verbatim (language="comment", text=
+        "A copy of robot's diagnostic message with additional info")
+      diagnostic_msgs::msg::DiagnosticArray diag;
+    };
+  };
+};

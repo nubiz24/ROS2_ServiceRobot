@@ -1,0 +1,24 @@
+[2.893s] Invoking command in '/home/duong/kaia_ws/build/kaiaai': PYTHONPATH=/home/duong/kaia_ws/build/kaiaai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/kaia_ws/build/kaiaai/build --no-deps symlink_data
+[3.509s] running develop
+[3.849s] running egg_info
+[3.849s] creating kaiaai.egg-info
+[3.849s] writing kaiaai.egg-info/PKG-INFO
+[3.850s] writing dependency_links to kaiaai.egg-info/dependency_links.txt
+[3.851s] writing entry points to kaiaai.egg-info/entry_points.txt
+[3.851s] writing requirements to kaiaai.egg-info/requires.txt
+[3.851s] writing top-level names to kaiaai.egg-info/top_level.txt
+[3.851s] writing manifest file 'kaiaai.egg-info/SOURCES.txt'
+[3.853s] reading manifest file 'kaiaai.egg-info/SOURCES.txt'
+[3.854s] writing manifest file 'kaiaai.egg-info/SOURCES.txt'
+[3.858s] running build_ext
+[3.858s] Creating /home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages/kaiaai.egg-link (link to .)
+[3.859s] Installing cli script to /home/duong/kaia_ws/install/kaiaai/lib/kaiaai
+[3.860s] 
+[3.860s] Installed /home/duong/kaia_ws/build/kaiaai
+[3.861s] running symlink_data
+[3.861s] creating /home/duong/kaia_ws/install/kaiaai/share/ament_index
+[3.861s] creating /home/duong/kaia_ws/install/kaiaai/share/ament_index/resource_index
+[3.861s] creating /home/duong/kaia_ws/install/kaiaai/share/ament_index/resource_index/packages
+[3.861s] symbolically linking /home/duong/kaia_ws/build/kaiaai/resource/kaiaai -> /home/duong/kaia_ws/install/kaiaai/share/ament_index/resource_index/packages
+[3.861s] symbolically linking /home/duong/kaia_ws/build/kaiaai/package.xml -> /home/duong/kaia_ws/install/kaiaai/share/kaiaai
+[3.981s] Invoked command in '/home/duong/kaia_ws/build/kaiaai' returned '0': PYTHONPATH=/home/duong/kaia_ws/build/kaiaai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duong/kaia_ws/install/kaiaai/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/duong/kaia_ws/build/kaiaai/build --no-deps symlink_data

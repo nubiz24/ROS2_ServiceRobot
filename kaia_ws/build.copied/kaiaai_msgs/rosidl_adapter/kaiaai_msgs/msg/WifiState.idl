@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kaiaai_msgs/msg/WifiState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module kaiaai_msgs {
+  module msg {
+    struct WifiState {
+      builtin_interfaces::msg::Time stamp;
+
+      float rssi_dbm;
+    };
+  };
+};

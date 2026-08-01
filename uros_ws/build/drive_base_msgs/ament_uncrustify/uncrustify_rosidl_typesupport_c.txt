@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':
+ - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_c.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/base_info__type_support.cpp'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/command_header__type_support.cpp'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/command_status__type_support.cpp'
+
+No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/trv_command__type_support.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_c.xunit.xml'

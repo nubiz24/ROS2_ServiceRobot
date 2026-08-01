@@ -1,0 +1,73 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/duong/kaia_ws/build/makerspet_snoopy
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/cartographer.rviz
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/gazebo.rviz
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/inspect_urdf.rviz
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/monitor_robot.rviz
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/rviz/navigation.rviz
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/urdf/README.md
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/urdf/robot.urdf.xacro
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/half_sphere.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/head.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_100mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_150mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_200mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_250mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_270mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_300mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/mesh/quarter_sphere_350mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/model.config
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/sdf/makerspet_snoopy/model.sdf
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/README.md
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/cartographer_lds_2d.lua
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/etc/navigation_humble.yaml
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/etc/navigation_iron.yaml
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/navigation.yaml
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/self_drive_gazebo.yaml
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/telem.yaml
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/config/teleop_keyboard.yaml
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/half_sphere.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/head.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_100mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_150mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_200mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_250mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_270mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_300mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/mesh/quarter_sphere_350mm.stl
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/package_run_dependencies/makerspet_snoopy
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/parent_prefix_path/makerspet_snoopy
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/ament_prefix_path.sh
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/ament_prefix_path.dsv
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/path.sh
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/environment/path.dsv
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.bash
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.sh
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.zsh
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/local_setup.dsv
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/package.dsv
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/ament_index/resource_index/packages/makerspet_snoopy
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/cmake/makerspet_snoopyConfig.cmake
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/cmake/makerspet_snoopyConfig-version.cmake
+-- Symlinking: /home/duong/kaia_ws/install/makerspet_snoopy/share/makerspet_snoopy/package.xml

@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/rosidl_generator_c/micro_ros_msgs/msg/entity.h

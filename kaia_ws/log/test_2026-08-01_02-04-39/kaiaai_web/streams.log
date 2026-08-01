@@ -1,0 +1,202 @@
+[1.671s] Invoking command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/pytest.xml --junit-prefix=kaiaai_web -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.690s] ============================= test session starts ==============================
+[2.690s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[2.690s] cachedir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/.pytest_cache
+[2.691s] rootdir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web
+[2.691s] plugins: launch-testing-ros-0.24.2, ament-flake8-0.14.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-copyright-0.14.4, ament-lint-0.14.4, launch-testing-2.0.4, cov-3.0.0, colcon-core-0.20.1
+[2.691s] collected 3 items
+[2.691s] 
+[2.691s] test/test_copyright.py s                                                 [ 33%]
+[2.691s] test/test_flake8.py F                                                    [ 66%]
+[2.751s] test/test_pep257.py F                                                    [100%]
+[2.751s] 
+[2.751s] =================================== FAILURES ===================================
+[2.752s] _________________________________ test_flake8 __________________________________
+[2.752s] test/test_flake8.py:23: in test_flake8
+[2.752s]     assert rc == 0, \
+[2.752s] E   AssertionError: Found 24 code style errors / warnings:
+[2.752s] E     ./setup.py:15:100: E501 line too long (101 > 99 characters)
+[2.752s] E     ./launch/web_server.launch.py:17:1: F401 're' imported but unused
+[2.752s] E     ./launch/web_server.launch.py:17:10: E401 multiple imports on one line
+[2.752s] E     ./launch/web_server.launch.py:37:23: E251 unexpected spaces around keyword / parameter equals
+[2.752s] E     ./launch/web_server.launch.py:37:25: E251 unexpected spaces around keyword / parameter equals
+[2.752s] E     ./launch/web_server.launch.py:42:1: E302 expected 2 blank lines, found 1
+[2.753s] E     ./kaiaai_web/server.py:1:1: F401 'argparse' imported but unused
+[2.753s] E     ./kaiaai_web/server.py:20:1: F401 'OpenSSL.SSL' imported but unused
+[2.753s] E     ./kaiaai_web/server.py:38:7: E128 continuation line under-indented for visual indent
+[2.753s] E     ./kaiaai_web/server.py:38:100: E501 line too long (100 > 99 characters)
+[2.753s] E     ./kaiaai_web/server.py:39:7: E128 continuation line under-indented for visual indent
+[2.753s] E     ./kaiaai_web/server.py:40:7: E128 continuation line under-indented for visual indent
+[2.753s] E     ./kaiaai_web/server.py:41:7: E128 continuation line under-indented for visual indent
+[2.753s] E     ./kaiaai_web/server.py:45:1: E302 expected 2 blank lines, found 1
+[2.753s] E     ./kaiaai_web/server.py:46:3: E111 indentation is not a multiple of 4
+[2.754s] E     ./kaiaai_web/server.py:47:3: E111 indentation is not a multiple of 4
+[2.754s] E     ./kaiaai_web/server.py:47:9: E711 comparison to None should be 'if cond is not None:'
+[2.754s] E     ./kaiaai_web/server.py:160:9: E306 expected 1 blank line before a nested definition, found 0
+[2.755s] E     ./kaiaai_web/server.py:275:6: E111 indentation is not a multiple of 4
+[2.756s] E     ./kaiaai_web/server.py:275:6: E117 over-indented
+[2.756s] E     ./kaiaai_web/server.py:288:5: E125 continuation line with same indent as next logical line
+[2.756s] E     ./kaiaai_web/server.py:289:5: E265 block comment should start with '# '
+[2.756s] E     ./kaiaai_web/server.py:290:5: E265 block comment should start with '# '
+[2.756s] E     ./kaiaai_web/server.py:297:24: E741 ambiguous variable name 'O'
+[2.757s] E   assert 1 == 0
+[2.757s] ----------------------------- Captured stdout call -----------------------------
+[2.757s] 
+[2.757s] ./setup.py:15:100: E501 line too long (101 > 99 characters)
+[2.757s]         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.launch.py'))),
+[2.757s]                                                                                                    ^
+[2.757s] 
+[2.757s] ./launch/web_server.launch.py:17:1: F401 're' imported but unused
+[2.757s] import os, re
+[2.758s] ^
+[2.758s] 
+[2.758s] ./launch/web_server.launch.py:17:10: E401 multiple imports on one line
+[2.758s] import os, re
+[2.758s]          ^
+[2.758s] 
+[2.758s] ./launch/web_server.launch.py:37:23: E251 unexpected spaces around keyword / parameter equals
+[2.758s]             parameters = [web_server_config_path],
+[2.758s]                       ^
+[2.759s] 
+[2.759s] ./launch/web_server.launch.py:37:25: E251 unexpected spaces around keyword / parameter equals
+[2.759s]             parameters = [web_server_config_path],
+[2.759s]                         ^
+[2.759s] 
+[2.759s] ./launch/web_server.launch.py:42:1: E302 expected 2 blank lines, found 1
+[2.759s] def generate_launch_description():
+[2.759s] ^
+[2.759s] 
+[2.760s] ./kaiaai_web/server.py:1:1: F401 'argparse' imported but unused
+[2.760s] import argparse
+[2.760s] ^
+[2.760s] 
+[2.760s] ./kaiaai_web/server.py:20:1: F401 'OpenSSL.SSL' imported but unused
+[2.760s] from OpenSSL import crypto, SSL
+[2.760s] ^
+[2.760s] 
+[2.760s] ./kaiaai_web/server.py:38:7: E128 continuation line under-indented for visual indent
+[2.761s]       "default", "determined", "embarrased", "evil", "excited", "exhausted", "flustered", "furious",
+[2.761s]       ^
+[2.761s] 
+[2.761s] ./kaiaai_web/server.py:38:100: E501 line too long (100 > 99 characters)
+[2.761s]       "default", "determined", "embarrased", "evil", "excited", "exhausted", "flustered", "furious",
+[2.761s]                                                                                                    ^
+[2.761s] 
+[2.761s] ./kaiaai_web/server.py:39:7: E128 continuation line under-indented for visual indent
+[2.761s]       "giggle", "happy", "in-love", "mischievous", "realized-something", "sad", "sassy", "scared",
+[2.761s]       ^
+[2.762s] 
+[2.762s] ./kaiaai_web/server.py:40:7: E128 continuation line under-indented for visual indent
+[2.762s]       "shocked", "snoozing", "starstruck", "stuck-up", "thinking", "tired", "upset", "winking",
+[2.762s]       ^
+[2.762s] 
+[2.762s] ./kaiaai_web/server.py:41:7: E128 continuation line under-indented for visual indent
+[2.762s]       "wow"]
+[2.762s]       ^
+[2.763s] 
+[2.763s] ./kaiaai_web/server.py:45:1: E302 expected 2 blank lines, found 1
+[2.763s] async def send_webrtc_message(msg):
+[2.763s] ^
+[2.763s] 
+[2.763s] ./kaiaai_web/server.py:46:3: E111 indentation is not a multiple of 4
+[2.763s]   global dc
+[2.764s]   ^
+[2.764s] 
+[2.764s] ./kaiaai_web/server.py:47:3: E111 indentation is not a multiple of 4
+[2.765s]   if dc != None:
+[2.765s]   ^
+[2.765s] 
+[2.765s] ./kaiaai_web/server.py:47:9: E711 comparison to None should be 'if cond is not None:'
+[2.765s]   if dc != None:
+[2.766s]         ^
+[2.766s] 
+[2.766s] ./kaiaai_web/server.py:160:9: E306 expected 1 blank line before a nested definition, found 0
+[2.766s]         @channel.on("message")
+[2.766s]         ^
+[2.766s] 
+[2.767s] ./kaiaai_web/server.py:275:6: E111 indentation is not a multiple of 4
+[2.769s]      rclpy.spin(ros2_bridge_node)
+[2.770s]      ^
+[2.770s] 
+[2.770s] ./kaiaai_web/server.py:275:6: E117 over-indented
+[2.770s]      rclpy.spin(ros2_bridge_node)
+[2.770s]      ^
+[2.770s] 
+[2.770s] ./kaiaai_web/server.py:288:5: E125 continuation line with same indent as next logical line
+[2.771s]     validityEndInSeconds=10*365*24*60*60):
+[2.771s]     ^
+[2.771s] 
+[2.771s] ./kaiaai_web/server.py:289:5: E265 block comment should start with '# '
+[2.771s]     #can look at generated file using openssl:
+[2.771s]     ^
+[2.771s] 
+[2.771s] ./kaiaai_web/server.py:290:5: E265 block comment should start with '# '
+[2.771s]     #openssl x509 -inform pem -in selfsigned.crt -noout -text
+[2.772s]     ^
+[2.772s] 
+[2.772s] ./kaiaai_web/server.py:297:24: E741 ambiguous variable name 'O'
+[2.772s]     cert.get_subject().O = organizationName
+[2.772s]                        ^
+[2.772s] 
+[2.772s] 3     E111 indentation is not a multiple of 4
+[2.772s] 1     E117 over-indented
+[2.773s] 1     E125 continuation line with same indent as next logical line
+[2.773s] 4     E128 continuation line under-indented for visual indent
+[2.773s] 2     E251 unexpected spaces around keyword / parameter equals
+[2.773s] 2     E265 block comment should start with '# '
+[2.773s] 2     E302 expected 2 blank lines, found 1
+[2.773s] 1     E306 expected 1 blank line before a nested definition, found 0
+[2.773s] 1     E401 multiple imports on one line
+[2.773s] 2     E501 line too long (100 > 99 characters)
+[2.774s] 1     E711 comparison to None should be 'if cond is not None:'
+[2.774s] 1     E741 ambiguous variable name 'O'
+[2.774s] 3     F401 'argparse' imported but unused
+[2.774s] 
+[2.774s] 7 files checked
+[2.774s] 24 errors
+[2.774s] 
+[2.774s] 'E'-type errors: 21
+[2.774s] 'F'-type errors: 3
+[2.775s] 
+[2.775s] Checked files:
+[2.775s] 
+[2.775s] * ./setup.py
+[2.775s] * ./launch/web_server.launch.py
+[2.775s] * ./kaiaai_web/server.py
+[2.775s] * ./kaiaai_web/__init__.py
+[2.775s] * ./test/test_pep257.py
+[2.775s] * ./test/test_flake8.py
+[2.776s] * ./test/test_copyright.py
+[2.776s] ----------------------------- Captured stderr call -----------------------------
+[2.776s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[2.776s] _________________________________ test_pep257 __________________________________
+[2.776s] test/test_pep257.py:23: in test_pep257
+[2.776s]     assert rc == 0, 'Found code style errors / warnings'
+[2.777s] E   AssertionError: Found code style errors / warnings
+[2.777s] E   assert 1 == 0
+[2.777s] ----------------------------- Captured stdout call -----------------------------
+[2.777s] checking ./kaiaai_web/__init__.py
+[2.777s] checking ./kaiaai_web/server.py
+[2.777s] checking ./launch/web_server.launch.py
+[2.777s] checking ./setup.py
+[2.777s] checking ./test/test_copyright.py
+[2.777s] checking ./test/test_flake8.py
+[2.778s] checking ./test/test_pep257.py
+[2.778s] checking test/test_copyright.py
+[2.778s] checking test/test_flake8.py
+[2.778s] checking test/test_pep257.py
+[2.778s] ----------------------------- Captured stderr call -----------------------------
+[2.778s] ./kaiaai_web/server.py:52 in public class `VideoTransformTrack`: D200: One-line docstring should fit on one line with quotes (found 3)
+[2.778s] 1 errors
+[2.778s] - generated xml file: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/pytest.xml -
+[2.778s] =========================== short test summary info ============================
+[2.779s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 24 code style...
+[2.779s] FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[2.779s] =================== 2 failed, 1 skipped, 2 warnings in 0.59s ===================
+[2.779s] =============================== warnings summary ===============================
+[2.779s] test/test_flake8.py::test_flake8
+[2.779s] test/test_flake8.py::test_flake8
+[2.779s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[2.779s] 
+[2.779s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[2.901s] Invoked command in '/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web' returned '1': AMENT_PREFIX_PATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/pytest.xml --junit-prefix=kaiaai_web -o cache_dir=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web:/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

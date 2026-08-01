@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/kaiaai_msgs/rosidl_typesupport_fastrtps_c/kaiaai_msgs/msg/detail/kaiaai_telemetry2__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry/ament_cmake_core/kaiaai_telemetryConfig-version.cmake

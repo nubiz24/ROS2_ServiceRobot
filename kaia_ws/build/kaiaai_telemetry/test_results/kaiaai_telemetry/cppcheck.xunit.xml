@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="kaiaai_telemetry.cppcheck"
+  tests="17"
+  errors="0"
+  failures="0"
+  time="0.001"
+  skipped="17"
+>
+  <testcase
+    name="src/lds.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_camsense_x1.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_delta_2a.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_delta_2b.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_delta_2g.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_ldrobot_ld14p.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_ldrobot_ld19.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_lds02rr.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_neato_xv11.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_rplidar_a1.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_ydlidar_scl.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_ydlidar_x2_x2l.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_ydlidar_x3.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_ydlidar_x3_pro.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lds_ydlidar_x4.h"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/telem.cpp"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/telem_test_pub.cpp"
+    classname="kaiaai_telemetry.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

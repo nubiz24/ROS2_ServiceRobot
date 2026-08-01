@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-294b17d7901863e3545b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kaiaai_telemetry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kaiaai_telemetry_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kaiaai_telemetry_uninstall-22157d399d61de9282db.json",
+					"name" : "kaiaai_telemetry_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "telem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-telem-6874c71f7e4bd9102cbf.json",
+					"name" : "telem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "telem_test_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-telem_test_pub-a604b42e0d6442c08ae0.json",
+					"name" : "telem_test_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7e3c9756f1745fbe971f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_telemetry",
+		"source" : "/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_telemetry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

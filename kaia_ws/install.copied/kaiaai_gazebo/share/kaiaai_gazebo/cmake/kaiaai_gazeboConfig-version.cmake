@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/kaiaai_gazebo/ament_cmake_core/kaiaai_gazeboConfig-version.cmake

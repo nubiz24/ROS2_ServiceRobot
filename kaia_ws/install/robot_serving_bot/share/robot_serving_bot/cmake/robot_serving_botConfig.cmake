@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/robot_serving_bot/ament_cmake_core/robot_serving_botConfig.cmake

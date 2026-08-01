@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating kaiaai_web.egg-info
+writing kaiaai_web.egg-info/PKG-INFO
+writing dependency_links to kaiaai_web.egg-info/dependency_links.txt
+writing entry points to kaiaai_web.egg-info/entry_points.txt
+writing requirements to kaiaai_web.egg-info/requires.txt
+writing top-level names to kaiaai_web.egg-info/top_level.txt
+writing manifest file 'kaiaai_web.egg-info/SOURCES.txt'
+reading manifest file 'kaiaai_web.egg-info/SOURCES.txt'
+writing manifest file 'kaiaai_web.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/duong/kaia_ws/install/kaiaai_web/lib/python3.10/site-packages/kaiaai-web.egg-link (link to .)
+Installing web_server script to /home/duong/kaia_ws/install/kaiaai_web/lib/kaiaai_web
+
+Installed /home/duong/kaia_ws/build/kaiaai_web
+running symlink_data
+creating /home/duong/kaia_ws/install/kaiaai_web/share/ament_index
+creating /home/duong/kaia_ws/install/kaiaai_web/share/ament_index/resource_index
+creating /home/duong/kaia_ws/install/kaiaai_web/share/ament_index/resource_index/packages
+symbolically linking /home/duong/kaia_ws/build/kaiaai_web/resource/kaiaai_web -> /home/duong/kaia_ws/install/kaiaai_web/share/ament_index/resource_index/packages
+symbolically linking /home/duong/kaia_ws/build/kaiaai_web/package.xml -> /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web
+creating /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web/launch
+symbolically linking /home/duong/kaia_ws/build/kaiaai_web/launch/web_server.launch.py -> /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web/launch
+creating /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web/config
+symbolically linking /home/duong/kaia_ws/build/kaiaai_web/config/web_server.yaml -> /home/duong/kaia_ws/install/kaiaai_web/share/kaiaai_web/config

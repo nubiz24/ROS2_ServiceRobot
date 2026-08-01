@@ -1,0 +1,1145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (drive_base_msgs) JobQueued: {'identifier': 'drive_base_msgs', 'dependencies': OrderedDict([('drive_base_msgs', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs')])}
+[0.000333] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs')])}
+[0.000379] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict([('micro_ros_setup', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup')])}
+[0.000419] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs'), ('micro_ros_agent', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_agent')])}
+[0.000585] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.010391] (drive_base_msgs) JobStarted: {'identifier': 'drive_base_msgs'}
+[0.016218] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.055270] (micro_ros_setup) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/tmp'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/bin:/usr/bin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_setup')]), 'shell': False}
+[0.058206] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/tmp'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/bin:/usr/bin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/micro_ros_msgs')]), 'shell': False}
+[0.061638] (drive_base_msgs) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/tmp'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/bin:/usr/bin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/install/drive_base_msgs')]), 'shell': False}
+[0.070655] (micro_ros_msgs) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/CTestConfiguration.ini\n'}
+[0.071462] (micro_ros_msgs) StdoutLine: {'line': b'Parse Config file:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/CTestConfiguration.ini\n'}
+[0.071715] (micro_ros_msgs) StdoutLine: {'line': b'   Site: work\n'}
+[0.071890] (micro_ros_msgs) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.072055] (micro_ros_msgs) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.072224] (micro_ros_msgs) StdoutLine: {'line': b'Create new tag: 20260731-1904 - Experimental\n'}
+[0.072391] (micro_ros_msgs) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/CTestConfiguration.ini\n'}
+[0.072582] (micro_ros_msgs) StdoutLine: {'line': b'Parse Config file:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/CTestConfiguration.ini\n'}
+[0.072771] (micro_ros_msgs) StdoutLine: {'line': b'Test project /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs\n'}
+[0.073856] (micro_ros_msgs) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.073965] (micro_ros_msgs) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.074059] (micro_ros_msgs) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.074150] (micro_ros_msgs) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.074240] (micro_ros_msgs) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.074331] (micro_ros_msgs) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.074422] (micro_ros_msgs) StdoutLine: {'line': b'test 1\n'}
+[0.074545] (micro_ros_msgs) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.074948] (micro_ros_msgs) StdoutLine: {'line': b'\n'}
+[0.075189] (micro_ros_msgs) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/copyright.xunit.xml" "--package-name" "micro_ros_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/ament_copyright/copyright.txt" "--command" "/opt/ros/iron/bin/ament_copyright" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/copyright.xunit.xml"\n'}
+[0.075311] (micro_ros_msgs) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
+[0.075420] (drive_base_msgs) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/CTestConfiguration.ini\n'}
+[0.075796] (drive_base_msgs) StdoutLine: {'line': b'Parse Config file:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/CTestConfiguration.ini\n'}
+[0.075930] (drive_base_msgs) StdoutLine: {'line': b'   Site: work\n'}
+[0.076037] (drive_base_msgs) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.076139] (drive_base_msgs) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.076253] (drive_base_msgs) StdoutLine: {'line': b'Create new tag: 20260731-1904 - Experimental\n'}
+[0.076361] (drive_base_msgs) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/CTestConfiguration.ini\n'}
+[0.076735] (drive_base_msgs) StdoutLine: {'line': b'Parse Config file:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/CTestConfiguration.ini\n'}
+[0.076852] (drive_base_msgs) StdoutLine: {'line': b'Test project /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs\n'}
+[0.076951] (drive_base_msgs) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.077047] (micro_ros_setup) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/CTestConfiguration.ini\n'}
+[0.077207] (micro_ros_setup) StdoutLine: {'line': b'Parse Config file:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/CTestConfiguration.ini\n'}
+[0.077313] (micro_ros_setup) StdoutLine: {'line': b'   Site: work\n'}
+[0.077504] (micro_ros_setup) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.077822] (micro_ros_setup) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.077950] (micro_ros_setup) StdoutLine: {'line': b'Create new tag: 20260731-1904 - Experimental\n'}
+[0.078063] (micro_ros_setup) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/CTestConfiguration.ini\n'}
+[0.078183] (micro_ros_setup) StdoutLine: {'line': b'Parse Config file:/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/CTestConfiguration.ini\n'}
+[0.078302] (micro_ros_setup) StdoutLine: {'line': b'Test project /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup\n'}
+[0.078418] (micro_ros_setup) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.078736] (micro_ros_setup) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.078872] (micro_ros_setup) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.078976] (micro_ros_setup) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.079076] (micro_ros_setup) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.079178] (micro_ros_setup) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.079278] (micro_ros_setup) StdoutLine: {'line': b'test 1\n'}
+[0.079381] (micro_ros_setup) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.079478] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[0.079617] (micro_ros_setup) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/copyright.xunit.xml" "--package-name" "micro_ros_setup" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/ament_copyright/copyright.txt" "--command" "/opt/ros/iron/bin/ament_copyright" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/copyright.xunit.xml"\n'}
+[0.079732] (micro_ros_setup) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
+[0.079831] (drive_base_msgs) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.079954] (drive_base_msgs) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.080060] (drive_base_msgs) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.080167] (drive_base_msgs) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.080276] (drive_base_msgs) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.080374] (drive_base_msgs) StdoutLine: {'line': b'test 1\n'}
+[0.080480] (drive_base_msgs) StdoutLine: {'line': b'      Start  1: cppcheck_rosidl_generated_c\n'}
+[0.080641] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[0.080760] (drive_base_msgs) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_generated_c.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_c.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs"\n'}
+[0.080906] (drive_base_msgs) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.098775] (-) TimerEvent: {}
+[0.166301] (micro_ros_msgs) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs':\n"}
+[0.166490] (micro_ros_msgs) StdoutLine: {'line': b'1:  - /opt/ros/iron/bin/ament_copyright --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/copyright.xunit.xml\n'}
+[0.173709] (micro_ros_setup) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':\n"}
+[0.173896] (micro_ros_setup) StdoutLine: {'line': b'1:  - /opt/ros/iron/bin/ament_copyright --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/copyright.xunit.xml\n'}
+[0.174688] (drive_base_msgs) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[0.174866] (drive_base_msgs) StdoutLine: {'line': b'1:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_c.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs\n'}
+[0.198888] (-) TimerEvent: {}
+[0.293452] (drive_base_msgs) StdoutLine: {'line': b'1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.299016] (-) TimerEvent: {}
+[0.312643] (drive_base_msgs) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.312867] (drive_base_msgs) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_c.xunit.xml'\n"}
+[0.329545] (drive_base_msgs) StdoutLine: {'line': b' 1/29 Test  #1: cppcheck_rosidl_generated_c .......................   Passed    0.25 sec\n'}
+[0.329816] (drive_base_msgs) StdoutLine: {'line': b'test 2\n'}
+[0.329938] (drive_base_msgs) StdoutLine: {'line': b'      Start  2: cpplint_rosidl_generated_c\n'}
+[0.330236] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[0.330352] (drive_base_msgs) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_generated_c.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_c.xunit.xml" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs"\n'}
+[0.330495] (drive_base_msgs) StdoutLine: {'line': b'2: Test timeout computed to be: 120\n'}
+[0.370533] (micro_ros_setup) StdoutLine: {'line': b'1: CONTRIBUTING.md: <unknown>\n'}
+[0.370779] (micro_ros_setup) StdoutLine: {'line': b'1: config/generate_lib/generic/demo_toolchain.cmake: could not find copyright notice\n'}
+[0.370894] (micro_ros_setup) StdoutLine: {'line': b'1: scripts/yaml_filter.py: could not find copyright notice\n'}
+[0.370996] (micro_ros_setup) StdoutLine: {'line': b'1: 3 errors, checked 4 files\n'}
+[0.382591] (micro_ros_msgs) StdoutLine: {'line': b'1: CONTRIBUTING.md: <unknown>\n'}
+[0.382836] (micro_ros_msgs) StdoutLine: {'line': b'1: 1 errors, checked 2 files\n'}
+[0.397662] (micro_ros_setup) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.398117] (micro_ros_setup) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/copyright.xunit.xml'\n"}
+[0.399165] (-) TimerEvent: {}
+[0.407689] (micro_ros_msgs) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.407926] (micro_ros_msgs) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/copyright.xunit.xml'\n"}
+[0.420182] (micro_ros_setup) StdoutLine: {'line': b'1/5 Test #1: copyright ........................***Failed    0.34 sec\n'}
+[0.420437] (micro_ros_setup) StdoutLine: {'line': b'test 2\n'}
+[0.420531] (micro_ros_setup) StdoutLine: {'line': b'    Start 2: flake8\n'}
+[0.420617] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[0.420689] (micro_ros_setup) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/flake8.xunit.xml" "--package-name" "micro_ros_setup" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/ament_flake8/flake8.txt" "--command" "/opt/ros/iron/bin/ament_flake8" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/flake8.xunit.xml"\n'}
+[0.420781] (micro_ros_setup) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.423976] (drive_base_msgs) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[0.424547] (drive_base_msgs) StdoutLine: {'line': b'2:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_c.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs\n'}
+[0.424704] (micro_ros_msgs) StdoutLine: {'line': b'1/3 Test #1: copyright ........................***Failed    0.35 sec\n'}
+[0.424846] (micro_ros_msgs) StdoutLine: {'line': b'test 2\n'}
+[0.424954] (micro_ros_msgs) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.425061] (micro_ros_msgs) StdoutLine: {'line': b'\n'}
+[0.425171] (micro_ros_msgs) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/lint_cmake.xunit.xml" "--package-name" "micro_ros_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/iron/bin/ament_lint_cmake" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/lint_cmake.xunit.xml"\n'}
+[0.425290] (micro_ros_msgs) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.499282] (-) TimerEvent: {}
+[0.504386] (micro_ros_msgs) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs':\n"}
+[0.504657] (micro_ros_msgs) StdoutLine: {'line': b'2:  - /opt/ros/iron/bin/ament_lint_cmake --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/lint_cmake.xunit.xml\n'}
+[0.505095] (micro_ros_setup) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':\n"}
+[0.505263] (micro_ros_setup) StdoutLine: {'line': b'2:  - /opt/ros/iron/bin/ament_flake8 --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/flake8.xunit.xml\n'}
+[0.597370] (micro_ros_msgs) StdoutLine: {'line': b'2: \n'}
+[0.597630] (micro_ros_msgs) StdoutLine: {'line': b'2: No problems found\n'}
+[0.599409] (-) TimerEvent: {}
+[0.613326] (micro_ros_msgs) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.613586] (micro_ros_msgs) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/lint_cmake.xunit.xml'\n"}
+[0.626690] (micro_ros_msgs) StdoutLine: {'line': b'2/3 Test #2: lint_cmake .......................   Passed    0.20 sec\n'}
+[0.626905] (micro_ros_msgs) StdoutLine: {'line': b'test 3\n'}
+[0.626983] (micro_ros_msgs) StdoutLine: {'line': b'    Start 3: xmllint\n'}
+[0.627054] (micro_ros_msgs) StdoutLine: {'line': b'\n'}
+[0.627122] (micro_ros_msgs) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/xmllint.xunit.xml" "--package-name" "micro_ros_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/ament_xmllint/xmllint.txt" "--command" "/opt/ros/iron/bin/ament_xmllint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/xmllint.xunit.xml"\n'}
+[0.627199] (micro_ros_msgs) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.699540] (-) TimerEvent: {}
+[0.706290] (micro_ros_msgs) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/micro_ros_msgs':\n"}
+[0.706540] (micro_ros_msgs) StdoutLine: {'line': b'3:  - /opt/ros/iron/bin/ament_xmllint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/xmllint.xunit.xml\n'}
+[0.727165] (micro_ros_setup) StdoutLine: {'line': b'2: import copy\n'}
+[0.727420] (micro_ros_setup) StdoutLine: {'line': b'2: ^\n'}
+[0.727584] (micro_ros_setup) StdoutLine: {'line': b'2:     \n'}
+[0.727722] (micro_ros_setup) StdoutLine: {'line': b'2: ^\n'}
+[0.727846] (micro_ros_setup) StdoutLine: {'line': b"2: 1     F401 'copy' imported but unused\n"}
+[0.727973] (micro_ros_setup) StdoutLine: {'line': b'2: 1     W293 blank line contains whitespace\n'}
+[0.728097] (micro_ros_setup) StdoutLine: {'line': b'2: \n'}
+[0.728222] (micro_ros_setup) StdoutLine: {'line': b"2: ./scripts/yaml_filter.py:7:1: F401 'copy' imported but unused\n"}
+[0.728368] (micro_ros_setup) StdoutLine: {'line': b'2: \n'}
+[0.728497] (micro_ros_setup) StdoutLine: {'line': b'2: ./scripts/yaml_filter.py:14:1: W293 blank line contains whitespace\n'}
+[0.728653] (micro_ros_setup) StdoutLine: {'line': b'2: \n'}
+[0.728781] (micro_ros_setup) StdoutLine: {'line': b'2: \n'}
+[0.728906] (micro_ros_setup) StdoutLine: {'line': b'2: 1 files checked\n'}
+[0.729032] (micro_ros_setup) StdoutLine: {'line': b'2: 2 errors\n'}
+[0.729154] (micro_ros_setup) StdoutLine: {'line': b'2: \n'}
+[0.729277] (micro_ros_setup) StdoutLine: {'line': b"2: 'F'-type errors: 1\n"}
+[0.729401] (micro_ros_setup) StdoutLine: {'line': b"2: 'W'-type errors: 1\n"}
+[0.729537] (micro_ros_setup) StdoutLine: {'line': b'2: \n'}
+[0.729682] (micro_ros_setup) StdoutLine: {'line': b'2: Checked files:\n'}
+[0.729808] (micro_ros_setup) StdoutLine: {'line': b'2: \n'}
+[0.729930] (micro_ros_setup) StdoutLine: {'line': b'2: * ./scripts/yaml_filter.py\n'}
+[0.755957] (micro_ros_setup) StdoutLine: {'line': b'2: -- run_test.py: return code 1\n'}
+[0.756199] (micro_ros_setup) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/flake8.xunit.xml'\n"}
+[0.770754] (micro_ros_setup) StdoutLine: {'line': b'2/5 Test #2: flake8 ...........................***Failed    0.35 sec\n'}
+[0.771171] (micro_ros_setup) StdoutLine: {'line': b'test 3\n'}
+[0.771287] (micro_ros_setup) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.771392] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[0.771492] (micro_ros_setup) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/lint_cmake.xunit.xml" "--package-name" "micro_ros_setup" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/iron/bin/ament_lint_cmake" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/lint_cmake.xunit.xml"\n'}
+[0.771658] (micro_ros_setup) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.799664] (-) TimerEvent: {}
+[0.818902] (micro_ros_msgs) StdoutLine: {'line': b"3: File 'package.xml' is invalid:\n"}
+[0.819094] (micro_ros_msgs) StdoutLine: {'line': b'3: warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"\n'}
+[0.819179] (micro_ros_msgs) StdoutLine: {'line': b"3: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.\n"}
+[0.819256] (micro_ros_msgs) StdoutLine: {'line': b'3: WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile\n'}
+[0.819330] (micro_ros_msgs) StdoutLine: {'line': b'3: \n'}
+[0.819404] (micro_ros_msgs) StdoutLine: {'line': b'3: 1 files are invalid\n'}
+[0.837173] (micro_ros_msgs) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[0.837365] (micro_ros_msgs) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/test_results/micro_ros_msgs/xmllint.xunit.xml'\n"}
+[0.851833] (micro_ros_msgs) StdoutLine: {'line': b'3/3 Test #3: xmllint ..........................***Failed    0.22 sec\n'}
+[0.852391] (micro_ros_msgs) StdoutLine: {'line': b'\n'}
+[0.852567] (micro_ros_msgs) StdoutLine: {'line': b'33% tests passed, 2 tests failed out of 3\n'}
+[0.852710] (micro_ros_msgs) StdoutLine: {'line': b'\n'}
+[0.852839] (micro_ros_msgs) StdoutLine: {'line': b'Label Time Summary:\n'}
+[0.853002] (micro_ros_msgs) StdoutLine: {'line': b'copyright     =   0.35 sec*proc (1 test)\n'}
+[0.853134] (micro_ros_msgs) StdoutLine: {'line': b'lint_cmake    =   0.20 sec*proc (1 test)\n'}
+[0.853297] (micro_ros_msgs) StdoutLine: {'line': b'linter        =   0.78 sec*proc (3 tests)\n'}
+[0.853435] (micro_ros_msgs) StdoutLine: {'line': b'xmllint       =   0.22 sec*proc (1 test)\n'}
+[0.853583] (micro_ros_msgs) StdoutLine: {'line': b'\n'}
+[0.853713] (micro_ros_msgs) StdoutLine: {'line': b'Total Test time (real) =   0.78 sec\n'}
+[0.853829] (micro_ros_msgs) StdoutLine: {'line': b'\n'}
+[0.853943] (micro_ros_msgs) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[0.854059] (micro_ros_msgs) StdoutLine: {'line': b'\t  1 - copyright (Failed)\n'}
+[0.854174] (micro_ros_msgs) StdoutLine: {'line': b'\t  3 - xmllint (Failed)\n'}
+[0.856575] (micro_ros_msgs) StderrLine: {'line': b'Errors while running CTest\n'}
+[0.857184] (micro_ros_msgs) StderrLine: {'line': b'Output from these tests are in: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_msgs/Testing/Temporary/LastTest.log\n'}
+[0.857394] (micro_ros_msgs) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[0.857600] (micro_ros_setup) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':\n"}
+[0.857793] (micro_ros_setup) StdoutLine: {'line': b'3:  - /opt/ros/iron/bin/ament_lint_cmake --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/lint_cmake.xunit.xml\n'}
+[0.859283] (micro_ros_msgs) CommandEnded: {'returncode': 8}
+[0.860543] (micro_ros_msgs) TestFailure: {'identifier': 'micro_ros_msgs'}
+[0.860606] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[0.861477] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.899774] (-) TimerEvent: {}
+[0.948176] (micro_ros_setup) StdoutLine: {'line': b'3: \n'}
+[0.948677] (micro_ros_setup) StdoutLine: {'line': b'3: No problems found\n'}
+[0.948800] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[0.964727] (micro_ros_setup) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.964904] (micro_ros_setup) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/lint_cmake.xunit.xml'\n"}
+[0.979245] (micro_ros_setup) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.21 sec\n'}
+[0.979683] (micro_ros_setup) StdoutLine: {'line': b'test 4\n'}
+[0.979802] (micro_ros_setup) StdoutLine: {'line': b'    Start 4: pep257\n'}
+[0.979897] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[0.979990] (micro_ros_setup) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/pep257.xunit.xml" "--package-name" "micro_ros_setup" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/ament_pep257/pep257.txt" "--command" "/opt/ros/iron/bin/ament_pep257" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/pep257.xunit.xml"\n'}
+[0.980098] (micro_ros_setup) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.999917] (-) TimerEvent: {}
+[1.056817] (micro_ros_setup) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':\n"}
+[1.057087] (micro_ros_setup) StdoutLine: {'line': b'4:  - /opt/ros/iron/bin/ament_pep257 --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/pep257.xunit.xml\n'}
+[1.100066] (-) TimerEvent: {}
+[1.200290] (-) TimerEvent: {}
+[1.242451] (micro_ros_setup) StdoutLine: {'line': b'4: checking ./scripts/yaml_filter.py\n'}
+[1.242714] (micro_ros_setup) StdoutLine: {'line': b'4: No problems found\n'}
+[1.273598] (micro_ros_setup) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.273822] (micro_ros_setup) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/pep257.xunit.xml'\n"}
+[1.294408] (micro_ros_setup) StdoutLine: {'line': b'4/5 Test #4: pep257 ...........................   Passed    0.31 sec\n'}
+[1.294651] (micro_ros_setup) StdoutLine: {'line': b'test 5\n'}
+[1.294764] (micro_ros_setup) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[1.294865] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[1.294965] (micro_ros_setup) StdoutLine: {'line': b'5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/xmllint.xunit.xml" "--package-name" "micro_ros_setup" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/ament_xmllint/xmllint.txt" "--command" "/opt/ros/iron/bin/ament_xmllint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/xmllint.xunit.xml"\n'}
+[1.295075] (micro_ros_setup) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.300408] (-) TimerEvent: {}
+[1.374782] (micro_ros_setup) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/micro_ros_setup':\n"}
+[1.375053] (micro_ros_setup) StdoutLine: {'line': b'5:  - /opt/ros/iron/bin/ament_xmllint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/xmllint.xunit.xml\n'}
+[1.400529] (-) TimerEvent: {}
+[1.502700] (-) TimerEvent: {}
+[1.545446] (micro_ros_setup) StdoutLine: {'line': b"5: File 'package.xml' is invalid:\n"}
+[1.545710] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"\n'}
+[1.545852] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.\n"}
+[1.545970] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile\n'}
+[1.546088] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.546204] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/android/generic/package.xml' is invalid:\n"}
+[1.546319] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.547210] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.547494] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.547669] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.547794] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/freertos/crazyflie21/package.xml' is invalid:\n"}
+[1.547906] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.548019] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.548138] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.548262] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.548385] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/freertos/esp32/package.xml' is invalid:\n"}
+[1.548559] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.548700] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.548817] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.548926] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.549188] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/freertos/nucleo_f446re/package.xml' is invalid:\n"}
+[1.549303] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.549418] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.549543] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.549676] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.549786] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/freertos/nucleo_f446ze/package.xml' is invalid:\n"}
+[1.549896] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.550009] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.550125] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.550424] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.550839] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/freertos/nucleo_f746zg/package.xml' is invalid:\n"}
+[1.551006] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.551210] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.551346] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.551464] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.551613] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/freertos/nucleo_f767zi/package.xml' is invalid:\n"}
+[1.551727] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.551834] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.551945] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.552048] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.552155] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/freertos/olimex-stm32-e407/package.xml' is invalid:\n"}
+[1.552267] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.552381] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.552498] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.552664] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.552771] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/generate_lib/generic/package.xml' is invalid:\n"}
+[1.552880] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.552998] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.553285] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.553407] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.553536] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/host/generic/package.xml' is invalid:\n"}
+[1.553678] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.553793] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.553903] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.554015] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.554126] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/mbed/generic/package.xml' is invalid:\n"}
+[1.554241] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.554357] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.554475] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.554630] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.554749] (micro_ros_setup) StdoutLine: {'line': b"5: File 'config/zephyr/generic/package.xml' is invalid:\n"}
+[1.554854] (micro_ros_setup) StdoutLine: {'line': b'5: warning: failed to load external entity "http://download.ros.org/schema/package_format2.xsd"\n'}
+[1.554963] (micro_ros_setup) StdoutLine: {'line': b"5: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.\n"}
+[1.555102] (micro_ros_setup) StdoutLine: {'line': b'5: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile\n'}
+[1.555217] (micro_ros_setup) StdoutLine: {'line': b'5: \n'}
+[1.555330] (micro_ros_setup) StdoutLine: {'line': b'5: 13 files are invalid\n'}
+[1.568879] (micro_ros_setup) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[1.569140] (micro_ros_setup) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/test_results/micro_ros_setup/xmllint.xunit.xml'\n"}
+[1.583212] (micro_ros_setup) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................***Failed    0.29 sec\n'}
+[1.583820] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[1.584016] (micro_ros_setup) StdoutLine: {'line': b'40% tests passed, 3 tests failed out of 5\n'}
+[1.584140] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[1.584260] (micro_ros_setup) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.584382] (micro_ros_setup) StdoutLine: {'line': b'copyright     =   0.34 sec*proc (1 test)\n'}
+[1.584502] (micro_ros_setup) StdoutLine: {'line': b'flake8        =   0.35 sec*proc (1 test)\n'}
+[1.584669] (micro_ros_setup) StdoutLine: {'line': b'lint_cmake    =   0.21 sec*proc (1 test)\n'}
+[1.584813] (micro_ros_setup) StdoutLine: {'line': b'linter        =   1.51 sec*proc (5 tests)\n'}
+[1.584923] (micro_ros_setup) StdoutLine: {'line': b'pep257        =   0.31 sec*proc (1 test)\n'}
+[1.585029] (micro_ros_setup) StdoutLine: {'line': b'xmllint       =   0.29 sec*proc (1 test)\n'}
+[1.585139] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[1.585256] (micro_ros_setup) StdoutLine: {'line': b'Total Test time (real) =   1.51 sec\n'}
+[1.585375] (micro_ros_setup) StdoutLine: {'line': b'\n'}
+[1.585495] (micro_ros_setup) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[1.585661] (micro_ros_setup) StdoutLine: {'line': b'\t  1 - copyright (Failed)\n'}
+[1.585780] (micro_ros_setup) StdoutLine: {'line': b'\t  2 - flake8 (Failed)\n'}
+[1.585889] (micro_ros_setup) StdoutLine: {'line': b'\t  5 - xmllint (Failed)\n'}
+[1.587282] (micro_ros_setup) StderrLine: {'line': b'Errors while running CTest\n'}
+[1.587541] (micro_ros_setup) StderrLine: {'line': b'Output from these tests are in: /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/micro_ros_setup/Testing/Temporary/LastTest.log\n'}
+[1.587682] (micro_ros_setup) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[1.590200] (micro_ros_setup) CommandEnded: {'returncode': 8}
+[1.590661] (micro_ros_setup) TestFailure: {'identifier': 'micro_ros_setup'}
+[1.590710] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[1.602807] (-) TimerEvent: {}
+[1.703056] (-) TimerEvent: {}
+[1.803314] (-) TimerEvent: {}
+[1.822062] (drive_base_msgs) StdoutLine: {'line': b"2: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c' argument\n"}
+[1.822455] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.822618] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/base_info.h\n'}
+[1.822744] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.822858] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/command_header.h\n'}
+[1.822975] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.823088] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/command_status.h\n'}
+[1.823201] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.823312] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__description.c\n'}
+[1.823444] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.823582] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__functions.c\n'}
+[1.823707] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.823820] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__functions.h\n'}
+[1.823937] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.824050] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__struct.h\n'}
+[1.824164] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.824276] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__type_support.c\n'}
+[1.824389] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.824501] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__type_support.h\n'}
+[1.824648] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.824759] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__description.c\n'}
+[1.824873] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.824985] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__functions.c\n'}
+[1.825098] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.825209] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__functions.h\n'}
+[1.825322] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.825434] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__struct.h\n'}
+[1.825572] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.825698] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__type_support.c\n'}
+[1.825818] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.825936] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__type_support.h\n'}
+[1.826054] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.826171] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__description.c\n'}
+[1.826290] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.826404] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__functions.c\n'}
+[1.826533] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.826667] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__functions.h\n'}
+[1.826803] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.826916] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__struct.h\n'}
+[1.827040] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.827154] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__type_support.c\n'}
+[1.827267] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.827380] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__type_support.h\n'}
+[1.827498] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.827645] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__description.c\n'}
+[1.827765] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.827881] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__functions.c\n'}
+[1.827998] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.828113] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__functions.h\n'}
+[1.828228] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.828339] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__struct.h\n'}
+[1.828453] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.828595] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__type_support.c\n'}
+[1.828748] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.828860] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__type_support.h\n'}
+[1.828974] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.829086] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.829199] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.829310] (drive_base_msgs) StdoutLine: {'line': b'2: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/trv_command.h\n'}
+[1.829423] (drive_base_msgs) StdoutLine: {'line': b'2: \n'}
+[1.829552] (drive_base_msgs) StdoutLine: {'line': b'2: No problems found\n'}
+[1.848455] (drive_base_msgs) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.848672] (drive_base_msgs) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_c.xunit.xml'\n"}
+[1.874224] (drive_base_msgs) StdoutLine: {'line': b' 2/29 Test  #2: cpplint_rosidl_generated_c ........................   Passed    1.54 sec\n'}
+[1.874494] (drive_base_msgs) StdoutLine: {'line': b'test 3\n'}
+[1.874655] (drive_base_msgs) StdoutLine: {'line': b'      Start  3: uncrustify_rosidl_generated_c\n'}
+[1.874797] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[1.874925] (drive_base_msgs) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_generated_c.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_c.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs"\n'}
+[1.875082] (drive_base_msgs) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[1.903456] (-) TimerEvent: {}
+[1.960501] (drive_base_msgs) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[1.960757] (drive_base_msgs) StdoutLine: {'line': b'3:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_c.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs\n'}
+[2.003582] (-) TimerEvent: {}
+[2.103821] (-) TimerEvent: {}
+[2.204055] (-) TimerEvent: {}
+[2.215323] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/base_info.h'\n"}
+[2.215614] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.215740] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/command_header.h'\n"}
+[2.215862] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.215961] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/command_status.h'\n"}
+[2.216060] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.216156] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__description.c'\n"}
+[2.216255] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.216352] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__functions.c'\n"}
+[2.216446] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.216576] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__functions.h'\n"}
+[2.216686] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.216784] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__struct.h'\n"}
+[2.216880] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.216977] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__type_support.c'\n"}
+[2.217076] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.217172] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__type_support.h'\n"}
+[2.217269] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.217366] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__description.c'\n"}
+[2.217464] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.217605] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__functions.c'\n"}
+[2.217756] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.217852] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__functions.h'\n"}
+[2.217950] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.218046] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__struct.h'\n"}
+[2.218146] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.218243] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__type_support.c'\n"}
+[2.218343] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.218439] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__type_support.h'\n"}
+[2.218567] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.218676] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__description.c'\n"}
+[2.218775] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.218869] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__functions.c'\n"}
+[2.218964] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.219058] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__functions.h'\n"}
+[2.219157] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.219254] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__struct.h'\n"}
+[2.219351] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.219442] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__type_support.c'\n"}
+[2.219573] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.219677] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__type_support.h'\n"}
+[2.219773] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.219867] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__description.c'\n"}
+[2.219958] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.220048] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__functions.c'\n"}
+[2.220157] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.220247] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__functions.h'\n"}
+[2.220342] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.220447] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__struct.h'\n"}
+[2.220571] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.220676] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__type_support.c'\n"}
+[2.220771] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.220863] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__type_support.h'\n"}
+[2.220959] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.221055] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h'\n"}
+[2.221154] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.221246] (drive_base_msgs) StdoutLine: {'line': b"3: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/trv_command.h'\n"}
+[2.221342] (drive_base_msgs) StdoutLine: {'line': b'3: \n'}
+[2.221435] (drive_base_msgs) StdoutLine: {'line': b'3: No problems found\n'}
+[2.238885] (drive_base_msgs) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[2.239118] (drive_base_msgs) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_c.xunit.xml'\n"}
+[2.265239] (drive_base_msgs) StdoutLine: {'line': b' 3/29 Test  #3: uncrustify_rosidl_generated_c .....................   Passed    0.39 sec\n'}
+[2.265478] (drive_base_msgs) StdoutLine: {'line': b'test 4\n'}
+[2.265592] (drive_base_msgs) StdoutLine: {'line': b'      Start  4: cppcheck_rosidl_typesupport_fastrtps_c\n'}
+[2.265685] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[2.265777] (drive_base_msgs) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp"\n'}
+[2.265924] (drive_base_msgs) StdoutLine: {'line': b'4: Test timeout computed to be: 300\n'}
+[2.312610] (-) TimerEvent: {}
+[2.377030] (drive_base_msgs) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[2.377269] (drive_base_msgs) StdoutLine: {'line': b'4:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp\n'}
+[2.412736] (-) TimerEvent: {}
+[2.491498] (drive_base_msgs) StdoutLine: {'line': b'4: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[2.512856] (-) TimerEvent: {}
+[2.516880] (drive_base_msgs) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[2.517114] (drive_base_msgs) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml'\n"}
+[2.538848] (drive_base_msgs) StdoutLine: {'line': b' 4/29 Test  #4: cppcheck_rosidl_typesupport_fastrtps_c ............   Passed    0.27 sec\n'}
+[2.539105] (drive_base_msgs) StdoutLine: {'line': b'test 5\n'}
+[2.539221] (drive_base_msgs) StdoutLine: {'line': b'      Start  5: cpplint_rosidl_typesupport_fastrtps_c\n'}
+[2.539334] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[2.539443] (drive_base_msgs) StdoutLine: {'line': b'5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp"\n'}
+[2.539640] (drive_base_msgs) StdoutLine: {'line': b'5: Test timeout computed to be: 120\n'}
+[2.613598] (-) TimerEvent: {}
+[2.658033] (drive_base_msgs) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[2.658386] (drive_base_msgs) StdoutLine: {'line': b'5:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp\n'}
+[2.713718] (-) TimerEvent: {}
+[2.813941] (-) TimerEvent: {}
+[2.914157] (-) TimerEvent: {}
+[3.014576] (-) TimerEvent: {}
+[3.114806] (-) TimerEvent: {}
+[3.215050] (-) TimerEvent: {}
+[3.318608] (-) TimerEvent: {}
+[3.368070] (drive_base_msgs) StdoutLine: {'line': b"5: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c' argument\n"}
+[3.368347] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.368463] (drive_base_msgs) StdoutLine: {'line': b'5: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h\n'}
+[3.368624] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.368724] (drive_base_msgs) StdoutLine: {'line': b'5: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp\n'}
+[3.368827] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.368956] (drive_base_msgs) StdoutLine: {'line': b'5: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h\n'}
+[3.369076] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.369177] (drive_base_msgs) StdoutLine: {'line': b'5: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp\n'}
+[3.369277] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.369636] (drive_base_msgs) StdoutLine: {'line': b'5: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.369800] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.369902] (drive_base_msgs) StdoutLine: {'line': b'5: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp\n'}
+[3.370003] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.370104] (drive_base_msgs) StdoutLine: {'line': b'5: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h\n'}
+[3.370203] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.370462] (drive_base_msgs) StdoutLine: {'line': b'5: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp\n'}
+[3.370618] (drive_base_msgs) StdoutLine: {'line': b'5: \n'}
+[3.370714] (drive_base_msgs) StdoutLine: {'line': b'5: No problems found\n'}
+[3.391025] (drive_base_msgs) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[3.391417] (drive_base_msgs) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml'\n"}
+[3.414285] (drive_base_msgs) StdoutLine: {'line': b' 5/29 Test  #5: cpplint_rosidl_typesupport_fastrtps_c .............   Passed    0.88 sec\n'}
+[3.414469] (drive_base_msgs) StdoutLine: {'line': b'test 6\n'}
+[3.414571] (drive_base_msgs) StdoutLine: {'line': b'      Start  6: uncrustify_rosidl_typesupport_fastrtps_c\n'}
+[3.414648] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[3.414718] (drive_base_msgs) StdoutLine: {'line': b'6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp"\n'}
+[3.414824] (drive_base_msgs) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[3.418713] (-) TimerEvent: {}
+[3.492218] (drive_base_msgs) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[3.492427] (drive_base_msgs) StdoutLine: {'line': b'6:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp\n'}
+[3.518851] (-) TimerEvent: {}
+[3.619110] (-) TimerEvent: {}
+[3.661107] (drive_base_msgs) StdoutLine: {'line': b"6: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h'\n"}
+[3.661386] (drive_base_msgs) StdoutLine: {'line': b'6: \n'}
+[3.661550] (drive_base_msgs) StdoutLine: {'line': b"6: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp'\n"}
+[3.661724] (drive_base_msgs) StdoutLine: {'line': b'6: \n'}
+[3.661846] (drive_base_msgs) StdoutLine: {'line': b"6: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h'\n"}
+[3.661968] (drive_base_msgs) StdoutLine: {'line': b'6: \n'}
+[3.662084] (drive_base_msgs) StdoutLine: {'line': b"6: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp'\n"}
+[3.662205] (drive_base_msgs) StdoutLine: {'line': b'6: \n'}
+[3.662321] (drive_base_msgs) StdoutLine: {'line': b"6: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h'\n"}
+[3.662439] (drive_base_msgs) StdoutLine: {'line': b'6: \n'}
+[3.662630] (drive_base_msgs) StdoutLine: {'line': b"6: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp'\n"}
+[3.662755] (drive_base_msgs) StdoutLine: {'line': b'6: \n'}
+[3.662871] (drive_base_msgs) StdoutLine: {'line': b"6: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h'\n"}
+[3.662988] (drive_base_msgs) StdoutLine: {'line': b'6: \n'}
+[3.663104] (drive_base_msgs) StdoutLine: {'line': b"6: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp'\n"}
+[3.663223] (drive_base_msgs) StdoutLine: {'line': b'6: \n'}
+[3.663340] (drive_base_msgs) StdoutLine: {'line': b'6: No problems found\n'}
+[3.679310] (drive_base_msgs) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[3.679485] (drive_base_msgs) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml'\n"}
+[3.698504] (drive_base_msgs) StdoutLine: {'line': b' 6/29 Test  #6: uncrustify_rosidl_typesupport_fastrtps_c ..........   Passed    0.28 sec\n'}
+[3.698986] (drive_base_msgs) StdoutLine: {'line': b'test 7\n'}
+[3.699119] (drive_base_msgs) StdoutLine: {'line': b'      Start  7: cppcheck_rosidl_generated_cpp\n'}
+[3.699243] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[3.699360] (drive_base_msgs) StdoutLine: {'line': b'7: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_generated_cpp.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_cpp.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs"\n'}
+[3.699487] (drive_base_msgs) StdoutLine: {'line': b'7: Test timeout computed to be: 300\n'}
+[3.719229] (-) TimerEvent: {}
+[3.788965] (drive_base_msgs) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[3.789226] (drive_base_msgs) StdoutLine: {'line': b'7:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_cpp.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs\n'}
+[3.819376] (-) TimerEvent: {}
+[3.904017] (drive_base_msgs) StdoutLine: {'line': b'7: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[3.919541] (-) TimerEvent: {}
+[3.928284] (drive_base_msgs) StdoutLine: {'line': b'7: -- run_test.py: return code 0\n'}
+[3.928533] (drive_base_msgs) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_cpp.xunit.xml'\n"}
+[3.945472] (drive_base_msgs) StdoutLine: {'line': b' 7/29 Test  #7: cppcheck_rosidl_generated_cpp .....................   Passed    0.25 sec\n'}
+[3.945985] (drive_base_msgs) StdoutLine: {'line': b'test 8\n'}
+[3.946142] (drive_base_msgs) StdoutLine: {'line': b'      Start  8: cpplint_rosidl_generated_cpp\n'}
+[3.946314] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[3.946431] (drive_base_msgs) StdoutLine: {'line': b'8: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_generated_cpp.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_cpp.xunit.xml" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs"\n'}
+[3.946612] (drive_base_msgs) StdoutLine: {'line': b'8: Test timeout computed to be: 120\n'}
+[4.019614] (-) TimerEvent: {}
+[4.034112] (drive_base_msgs) StdoutLine: {'line': b"8: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[4.034389] (drive_base_msgs) StdoutLine: {'line': b'8:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_cpp.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs\n'}
+[4.119734] (-) TimerEvent: {}
+[4.220613] (-) TimerEvent: {}
+[4.321026] (-) TimerEvent: {}
+[4.421223] (-) TimerEvent: {}
+[4.521426] (-) TimerEvent: {}
+[4.621637] (-) TimerEvent: {}
+[4.721832] (-) TimerEvent: {}
+[4.822026] (-) TimerEvent: {}
+[4.922219] (-) TimerEvent: {}
+[5.022457] (-) TimerEvent: {}
+[5.122693] (-) TimerEvent: {}
+[5.222905] (-) TimerEvent: {}
+[5.323122] (-) TimerEvent: {}
+[5.325498] (drive_base_msgs) StdoutLine: {'line': b"8: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp' argument\n"}
+[5.326171] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.326322] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/base_info.hpp\n'}
+[5.326448] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.326601] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/command_header.hpp\n'}
+[5.326729] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.326846] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/command_status.hpp\n'}
+[5.326964] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.327081] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__builder.hpp\n'}
+[5.327199] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.327315] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__struct.hpp\n'}
+[5.327433] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.327598] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__traits.hpp\n'}
+[5.327730] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.327846] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__builder.hpp\n'}
+[5.327994] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.328110] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__struct.hpp\n'}
+[5.328250] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.328399] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__traits.hpp\n'}
+[5.328538] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.328681] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__builder.hpp\n'}
+[5.328800] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.328917] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__struct.hpp\n'}
+[5.329035] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.329150] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__traits.hpp\n'}
+[5.329299] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.329416] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__builder.hpp\n'}
+[5.329553] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.329696] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__struct.hpp\n'}
+[5.329817] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.329932] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__traits.hpp\n'}
+[5.330050] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.330165] (drive_base_msgs) StdoutLine: {'line': b'8: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/trv_command.hpp\n'}
+[5.330283] (drive_base_msgs) StdoutLine: {'line': b'8: \n'}
+[5.330398] (drive_base_msgs) StdoutLine: {'line': b'8: No problems found\n'}
+[5.346066] (drive_base_msgs) StdoutLine: {'line': b'8: -- run_test.py: return code 0\n'}
+[5.346327] (drive_base_msgs) StdoutLine: {'line': b"8: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_cpp.xunit.xml'\n"}
+[5.361957] (drive_base_msgs) StdoutLine: {'line': b' 8/29 Test  #8: cpplint_rosidl_generated_cpp ......................   Passed    1.42 sec\n'}
+[5.362395] (drive_base_msgs) StdoutLine: {'line': b'test 9\n'}
+[5.362606] (drive_base_msgs) StdoutLine: {'line': b'      Start  9: uncrustify_rosidl_generated_cpp\n'}
+[5.362786] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[5.362944] (drive_base_msgs) StdoutLine: {'line': b'9: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_generated_cpp.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_cpp.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs"\n'}
+[5.363143] (drive_base_msgs) StdoutLine: {'line': b'9: Test timeout computed to be: 60\n'}
+[5.423278] (-) TimerEvent: {}
+[5.443694] (drive_base_msgs) StdoutLine: {'line': b"9: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[5.443911] (drive_base_msgs) StdoutLine: {'line': b'9:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_cpp.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs\n'}
+[5.523381] (-) TimerEvent: {}
+[5.623605] (-) TimerEvent: {}
+[5.628114] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/base_info.hpp'\n"}
+[5.628370] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.628489] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/command_header.hpp'\n"}
+[5.628642] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.628753] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/command_status.hpp'\n"}
+[5.628868] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.628973] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__builder.hpp'\n"}
+[5.629082] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.629192] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__struct.hpp'\n"}
+[5.629303] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.629412] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/base_info__traits.hpp'\n"}
+[5.629541] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.629682] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__builder.hpp'\n"}
+[5.629793] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.629903] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__struct.hpp'\n"}
+[5.630018] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.630130] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_header__traits.hpp'\n"}
+[5.630249] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.630350] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__builder.hpp'\n"}
+[5.630472] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.630610] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__struct.hpp'\n"}
+[5.630706] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.630802] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/command_status__traits.hpp'\n"}
+[5.630915] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.631021] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__builder.hpp'\n"}
+[5.631144] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.631253] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__struct.hpp'\n"}
+[5.631359] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.631463] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/detail/trv_command__traits.hpp'\n"}
+[5.631614] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.631722] (drive_base_msgs) StdoutLine: {'line': b"9: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_cpp/drive_base_msgs/msg/trv_command.hpp'\n"}
+[5.631836] (drive_base_msgs) StdoutLine: {'line': b'9: \n'}
+[5.631944] (drive_base_msgs) StdoutLine: {'line': b'9: No problems found\n'}
+[5.666910] (drive_base_msgs) StdoutLine: {'line': b'9: -- run_test.py: return code 0\n'}
+[5.667164] (drive_base_msgs) StdoutLine: {'line': b"9: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_cpp.xunit.xml'\n"}
+[5.684988] (drive_base_msgs) StdoutLine: {'line': b' 9/29 Test  #9: uncrustify_rosidl_generated_cpp ...................   Passed    0.32 sec\n'}
+[5.685194] (drive_base_msgs) StdoutLine: {'line': b'test 10\n'}
+[5.685296] (drive_base_msgs) StdoutLine: {'line': b'      Start 10: cppcheck_rosidl_typesupport_fastrtps_cpp\n'}
+[5.685399] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[5.685499] (drive_base_msgs) StdoutLine: {'line': b'10: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp"\n'}
+[5.685666] (drive_base_msgs) StdoutLine: {'line': b'10: Test timeout computed to be: 300\n'}
+[5.723736] (-) TimerEvent: {}
+[5.786606] (drive_base_msgs) StdoutLine: {'line': b"10: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[5.786956] (drive_base_msgs) StdoutLine: {'line': b'10:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.823849] (-) TimerEvent: {}
+[5.906110] (drive_base_msgs) StdoutLine: {'line': b'10: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[5.924027] (-) TimerEvent: {}
+[5.942761] (drive_base_msgs) StdoutLine: {'line': b'10: -- run_test.py: return code 0\n'}
+[5.943332] (drive_base_msgs) StdoutLine: {'line': b"10: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml'\n"}
+[5.972817] (drive_base_msgs) StdoutLine: {'line': b'10/29 Test #10: cppcheck_rosidl_typesupport_fastrtps_cpp ..........   Passed    0.29 sec\n'}
+[5.973135] (drive_base_msgs) StdoutLine: {'line': b'test 11\n'}
+[5.973264] (drive_base_msgs) StdoutLine: {'line': b'      Start 11: cpplint_rosidl_typesupport_fastrtps_cpp\n'}
+[5.973389] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[5.973506] (drive_base_msgs) StdoutLine: {'line': b'11: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp"\n'}
+[5.973717] (drive_base_msgs) StdoutLine: {'line': b'11: Test timeout computed to be: 120\n'}
+[6.024130] (-) TimerEvent: {}
+[6.075483] (drive_base_msgs) StdoutLine: {'line': b"11: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[6.075766] (drive_base_msgs) StdoutLine: {'line': b'11:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.124272] (-) TimerEvent: {}
+[6.224554] (-) TimerEvent: {}
+[6.324811] (-) TimerEvent: {}
+[6.425065] (-) TimerEvent: {}
+[6.525323] (-) TimerEvent: {}
+[6.625605] (-) TimerEvent: {}
+[6.725883] (-) TimerEvent: {}
+[6.748919] (drive_base_msgs) StdoutLine: {'line': b"11: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp' argument\n"}
+[6.749177] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.749293] (drive_base_msgs) StdoutLine: {'line': b'11: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.749407] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.749557] (drive_base_msgs) StdoutLine: {'line': b'11: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.749678] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.749784] (drive_base_msgs) StdoutLine: {'line': b'11: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.749889] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.749996] (drive_base_msgs) StdoutLine: {'line': b'11: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp\n'}
+[6.750105] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.750208] (drive_base_msgs) StdoutLine: {'line': b'11: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp\n'}
+[6.750312] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.750412] (drive_base_msgs) StdoutLine: {'line': b'11: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp\n'}
+[6.750528] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.750652] (drive_base_msgs) StdoutLine: {'line': b'11: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp\n'}
+[6.750753] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.750851] (drive_base_msgs) StdoutLine: {'line': b'11: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.750949] (drive_base_msgs) StdoutLine: {'line': b'11: \n'}
+[6.751047] (drive_base_msgs) StdoutLine: {'line': b'11: No problems found\n'}
+[6.771242] (drive_base_msgs) StdoutLine: {'line': b'11: -- run_test.py: return code 0\n'}
+[6.771469] (drive_base_msgs) StdoutLine: {'line': b"11: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml'\n"}
+[6.787487] (drive_base_msgs) StdoutLine: {'line': b'11/29 Test #11: cpplint_rosidl_typesupport_fastrtps_cpp ...........   Passed    0.81 sec\n'}
+[6.787747] (drive_base_msgs) StdoutLine: {'line': b'test 12\n'}
+[6.787866] (drive_base_msgs) StdoutLine: {'line': b'      Start 12: uncrustify_rosidl_typesupport_fastrtps_cpp\n'}
+[6.787981] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[6.788094] (drive_base_msgs) StdoutLine: {'line': b'12: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp"\n'}
+[6.788277] (drive_base_msgs) StdoutLine: {'line': b'12: Test timeout computed to be: 60\n'}
+[6.826003] (-) TimerEvent: {}
+[6.866899] (drive_base_msgs) StdoutLine: {'line': b"12: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[6.867177] (drive_base_msgs) StdoutLine: {'line': b'12:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.926172] (-) TimerEvent: {}
+[7.026485] (-) TimerEvent: {}
+[7.042823] (drive_base_msgs) StdoutLine: {'line': b"12: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp'\n"}
+[7.043134] (drive_base_msgs) StdoutLine: {'line': b'12: \n'}
+[7.043262] (drive_base_msgs) StdoutLine: {'line': b"12: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp'\n"}
+[7.043381] (drive_base_msgs) StdoutLine: {'line': b'12: \n'}
+[7.043494] (drive_base_msgs) StdoutLine: {'line': b"12: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp'\n"}
+[7.043703] (drive_base_msgs) StdoutLine: {'line': b'12: \n'}
+[7.043824] (drive_base_msgs) StdoutLine: {'line': b"12: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp'\n"}
+[7.043949] (drive_base_msgs) StdoutLine: {'line': b'12: \n'}
+[7.044059] (drive_base_msgs) StdoutLine: {'line': b"12: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp'\n"}
+[7.044171] (drive_base_msgs) StdoutLine: {'line': b'12: \n'}
+[7.044281] (drive_base_msgs) StdoutLine: {'line': b"12: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp'\n"}
+[7.044393] (drive_base_msgs) StdoutLine: {'line': b'12: \n'}
+[7.044503] (drive_base_msgs) StdoutLine: {'line': b"12: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp'\n"}
+[7.044649] (drive_base_msgs) StdoutLine: {'line': b'12: \n'}
+[7.044767] (drive_base_msgs) StdoutLine: {'line': b"12: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp'\n"}
+[7.044880] (drive_base_msgs) StdoutLine: {'line': b'12: \n'}
+[7.044991] (drive_base_msgs) StdoutLine: {'line': b'12: No problems found\n'}
+[7.061095] (drive_base_msgs) StdoutLine: {'line': b'12: -- run_test.py: return code 0\n'}
+[7.061487] (drive_base_msgs) StdoutLine: {'line': b"12: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml'\n"}
+[7.078731] (drive_base_msgs) StdoutLine: {'line': b'12/29 Test #12: uncrustify_rosidl_typesupport_fastrtps_cpp ........   Passed    0.29 sec\n'}
+[7.079016] (drive_base_msgs) StdoutLine: {'line': b'test 13\n'}
+[7.079448] (drive_base_msgs) StdoutLine: {'line': b'      Start 13: cppcheck_rosidl_typesupport_introspection_c\n'}
+[7.079624] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[7.079742] (drive_base_msgs) StdoutLine: {'line': b'13: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_introspection_c.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs"\n'}
+[7.079861] (drive_base_msgs) StdoutLine: {'line': b'13: Test timeout computed to be: 300\n'}
+[7.126602] (-) TimerEvent: {}
+[7.171153] (drive_base_msgs) StdoutLine: {'line': b"13: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[7.171380] (drive_base_msgs) StdoutLine: {'line': b'13:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_introspection_c.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs\n'}
+[7.226723] (-) TimerEvent: {}
+[7.289856] (drive_base_msgs) StdoutLine: {'line': b'13: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[7.310657] (drive_base_msgs) StdoutLine: {'line': b'13: -- run_test.py: return code 0\n'}
+[7.311006] (drive_base_msgs) StdoutLine: {'line': b"13: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_introspection_c.xunit.xml'\n"}
+[7.326848] (-) TimerEvent: {}
+[7.327536] (drive_base_msgs) StdoutLine: {'line': b'13/29 Test #13: cppcheck_rosidl_typesupport_introspection_c .......   Passed    0.25 sec\n'}
+[7.327715] (drive_base_msgs) StdoutLine: {'line': b'test 14\n'}
+[7.327794] (drive_base_msgs) StdoutLine: {'line': b'      Start 14: cpplint_rosidl_typesupport_introspection_c\n'}
+[7.327883] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[7.327995] (drive_base_msgs) StdoutLine: {'line': b'14: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs"\n'}
+[7.328138] (drive_base_msgs) StdoutLine: {'line': b'14: Test timeout computed to be: 120\n'}
+[7.426967] (-) TimerEvent: {}
+[7.443344] (drive_base_msgs) StdoutLine: {'line': b"14: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[7.443556] (drive_base_msgs) StdoutLine: {'line': b'14:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs\n'}
+[7.527095] (-) TimerEvent: {}
+[7.627372] (-) TimerEvent: {}
+[7.727640] (-) TimerEvent: {}
+[7.827921] (-) TimerEvent: {}
+[7.917003] (drive_base_msgs) StdoutLine: {'line': b"14: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c' argument\n"}
+[7.917308] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.917443] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h\n'}
+[7.917613] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.917749] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/base_info__type_support.c\n'}
+[7.917871] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.917990] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h\n'}
+[7.918112] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.918231] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_header__type_support.c\n'}
+[7.918373] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.918490] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h\n'}
+[7.918644] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.918767] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_status__type_support.c\n'}
+[7.918886] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.919004] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h\n'}
+[7.919124] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.919242] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/trv_command__type_support.c\n'}
+[7.919361] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.919477] (drive_base_msgs) StdoutLine: {'line': b'14: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.919634] (drive_base_msgs) StdoutLine: {'line': b'14: \n'}
+[7.919758] (drive_base_msgs) StdoutLine: {'line': b'14: No problems found\n'}
+[7.928089] (-) TimerEvent: {}
+[7.933903] (drive_base_msgs) StdoutLine: {'line': b'14: -- run_test.py: return code 0\n'}
+[7.934187] (drive_base_msgs) StdoutLine: {'line': b"14: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_c.xunit.xml'\n"}
+[7.948693] (drive_base_msgs) StdoutLine: {'line': b'14/29 Test #14: cpplint_rosidl_typesupport_introspection_c ........   Passed    0.62 sec\n'}
+[7.948980] (drive_base_msgs) StdoutLine: {'line': b'test 15\n'}
+[7.949114] (drive_base_msgs) StdoutLine: {'line': b'      Start 15: uncrustify_rosidl_typesupport_introspection_c\n'}
+[7.949237] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[7.949356] (drive_base_msgs) StdoutLine: {'line': b'15: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_introspection_c.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs"\n'}
+[7.949526] (drive_base_msgs) StdoutLine: {'line': b'15: Test timeout computed to be: 60\n'}
+[8.028228] (-) TimerEvent: {}
+[8.034736] (drive_base_msgs) StdoutLine: {'line': b"15: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[8.035049] (drive_base_msgs) StdoutLine: {'line': b'15:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_introspection_c.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs\n'}
+[8.128380] (-) TimerEvent: {}
+[8.166343] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h'\n"}
+[8.166730] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.166869] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/base_info__type_support.c'\n"}
+[8.166990] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.167104] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h'\n"}
+[8.167220] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.167332] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_header__type_support.c'\n"}
+[8.167447] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.167591] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h'\n"}
+[8.167716] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.167829] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_status__type_support.c'\n"}
+[8.167942] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.168056] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h'\n"}
+[8.168176] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.168295] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/trv_command__type_support.c'\n"}
+[8.168414] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.168548] (drive_base_msgs) StdoutLine: {'line': b"15: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_c/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h'\n"}
+[8.168695] (drive_base_msgs) StdoutLine: {'line': b'15: \n'}
+[8.168814] (drive_base_msgs) StdoutLine: {'line': b'15: No problems found\n'}
+[8.180677] (drive_base_msgs) StdoutLine: {'line': b'15: -- run_test.py: return code 0\n'}
+[8.181020] (drive_base_msgs) StdoutLine: {'line': b"15: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_introspection_c.xunit.xml'\n"}
+[8.193101] (drive_base_msgs) StdoutLine: {'line': b'15/29 Test #15: uncrustify_rosidl_typesupport_introspection_c .....   Passed    0.24 sec\n'}
+[8.193615] (drive_base_msgs) StdoutLine: {'line': b'test 16\n'}
+[8.193778] (drive_base_msgs) StdoutLine: {'line': b'      Start 16: cppcheck_rosidl_typesupport_c\n'}
+[8.193904] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[8.194030] (drive_base_msgs) StdoutLine: {'line': b'16: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_c.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_c.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs"\n'}
+[8.194198] (drive_base_msgs) StdoutLine: {'line': b'16: Test timeout computed to be: 300\n'}
+[8.228538] (-) TimerEvent: {}
+[8.273560] (drive_base_msgs) StdoutLine: {'line': b"16: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[8.273826] (drive_base_msgs) StdoutLine: {'line': b'16:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_c.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs\n'}
+[8.328635] (-) TimerEvent: {}
+[8.376879] (drive_base_msgs) StdoutLine: {'line': b'16: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[8.392475] (drive_base_msgs) StdoutLine: {'line': b'16: -- run_test.py: return code 0\n'}
+[8.392684] (drive_base_msgs) StdoutLine: {'line': b"16: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_c.xunit.xml'\n"}
+[8.405207] (drive_base_msgs) StdoutLine: {'line': b'16/29 Test #16: cppcheck_rosidl_typesupport_c .....................   Passed    0.21 sec\n'}
+[8.405645] (drive_base_msgs) StdoutLine: {'line': b'test 17\n'}
+[8.405800] (drive_base_msgs) StdoutLine: {'line': b'      Start 17: cpplint_rosidl_typesupport_c\n'}
+[8.405927] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[8.406050] (drive_base_msgs) StdoutLine: {'line': b'17: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_typesupport_c.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_c.xunit.xml" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs"\n'}
+[8.406191] (drive_base_msgs) StdoutLine: {'line': b'17: Test timeout computed to be: 120\n'}
+[8.428745] (-) TimerEvent: {}
+[8.489077] (drive_base_msgs) StdoutLine: {'line': b"17: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[8.489377] (drive_base_msgs) StdoutLine: {'line': b'17:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_c.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs\n'}
+[8.528905] (-) TimerEvent: {}
+[8.629202] (-) TimerEvent: {}
+[8.694668] (drive_base_msgs) StdoutLine: {'line': b"17: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c' argument\n"}
+[8.694962] (drive_base_msgs) StdoutLine: {'line': b'17: \n'}
+[8.695111] (drive_base_msgs) StdoutLine: {'line': b'17: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/base_info__type_support.cpp\n'}
+[8.695325] (drive_base_msgs) StdoutLine: {'line': b'17: \n'}
+[8.695446] (drive_base_msgs) StdoutLine: {'line': b'17: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/command_header__type_support.cpp\n'}
+[8.695597] (drive_base_msgs) StdoutLine: {'line': b'17: \n'}
+[8.695725] (drive_base_msgs) StdoutLine: {'line': b'17: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/command_status__type_support.cpp\n'}
+[8.695848] (drive_base_msgs) StdoutLine: {'line': b'17: \n'}
+[8.695997] (drive_base_msgs) StdoutLine: {'line': b'17: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/trv_command__type_support.cpp\n'}
+[8.696207] (drive_base_msgs) StdoutLine: {'line': b'17: \n'}
+[8.696400] (drive_base_msgs) StdoutLine: {'line': b'17: No problems found\n'}
+[8.707609] (drive_base_msgs) StdoutLine: {'line': b'17: -- run_test.py: return code 0\n'}
+[8.708095] (drive_base_msgs) StdoutLine: {'line': b"17: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_c.xunit.xml'\n"}
+[8.719700] (drive_base_msgs) StdoutLine: {'line': b'17/29 Test #17: cpplint_rosidl_typesupport_c ......................   Passed    0.31 sec\n'}
+[8.719952] (drive_base_msgs) StdoutLine: {'line': b'test 18\n'}
+[8.720072] (drive_base_msgs) StdoutLine: {'line': b'      Start 18: uncrustify_rosidl_typesupport_c\n'}
+[8.720188] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[8.720308] (drive_base_msgs) StdoutLine: {'line': b'18: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_c.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_c.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_c.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs"\n'}
+[8.720464] (drive_base_msgs) StdoutLine: {'line': b'18: Test timeout computed to be: 60\n'}
+[8.729354] (-) TimerEvent: {}
+[8.777841] (drive_base_msgs) StdoutLine: {'line': b"18: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[8.778128] (drive_base_msgs) StdoutLine: {'line': b'18:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_c.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs\n'}
+[8.829455] (-) TimerEvent: {}
+[8.880131] (drive_base_msgs) StdoutLine: {'line': b"18: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/base_info__type_support.cpp'\n"}
+[8.880366] (drive_base_msgs) StdoutLine: {'line': b'18: \n'}
+[8.880479] (drive_base_msgs) StdoutLine: {'line': b"18: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/command_header__type_support.cpp'\n"}
+[8.880620] (drive_base_msgs) StdoutLine: {'line': b'18: \n'}
+[8.880726] (drive_base_msgs) StdoutLine: {'line': b"18: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/command_status__type_support.cpp'\n"}
+[8.880827] (drive_base_msgs) StdoutLine: {'line': b'18: \n'}
+[8.880953] (drive_base_msgs) StdoutLine: {'line': b"18: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_c/drive_base_msgs/msg/trv_command__type_support.cpp'\n"}
+[8.881053] (drive_base_msgs) StdoutLine: {'line': b'18: \n'}
+[8.881154] (drive_base_msgs) StdoutLine: {'line': b'18: No problems found\n'}
+[8.893473] (drive_base_msgs) StdoutLine: {'line': b'18: -- run_test.py: return code 0\n'}
+[8.893721] (drive_base_msgs) StdoutLine: {'line': b"18: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_c.xunit.xml'\n"}
+[8.905169] (drive_base_msgs) StdoutLine: {'line': b'18/29 Test #18: uncrustify_rosidl_typesupport_c ...................   Passed    0.19 sec\n'}
+[8.905400] (drive_base_msgs) StdoutLine: {'line': b'test 19\n'}
+[8.905605] (drive_base_msgs) StdoutLine: {'line': b'      Start 19: cppcheck_rosidl_typesupport_introspection_cpp\n'}
+[8.905729] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[8.905830] (drive_base_msgs) StdoutLine: {'line': b'19: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs"\n'}
+[8.905943] (drive_base_msgs) StdoutLine: {'line': b'19: Test timeout computed to be: 300\n'}
+[8.929604] (-) TimerEvent: {}
+[8.976553] (drive_base_msgs) StdoutLine: {'line': b"19: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[8.976852] (drive_base_msgs) StdoutLine: {'line': b'19:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs\n'}
+[9.029737] (-) TimerEvent: {}
+[9.044651] (drive_base_msgs) StdoutLine: {'line': b'19: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[9.057309] (drive_base_msgs) StdoutLine: {'line': b'19: -- run_test.py: return code 0\n'}
+[9.057637] (drive_base_msgs) StdoutLine: {'line': b"19: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml'\n"}
+[9.067656] (drive_base_msgs) StdoutLine: {'line': b'19/29 Test #19: cppcheck_rosidl_typesupport_introspection_cpp .....   Passed    0.16 sec\n'}
+[9.067939] (drive_base_msgs) StdoutLine: {'line': b'test 20\n'}
+[9.068072] (drive_base_msgs) StdoutLine: {'line': b'      Start 20: cpplint_rosidl_typesupport_introspection_cpp\n'}
+[9.068194] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[9.068341] (drive_base_msgs) StdoutLine: {'line': b'20: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs"\n'}
+[9.068594] (drive_base_msgs) StdoutLine: {'line': b'20: Test timeout computed to be: 120\n'}
+[9.117947] (drive_base_msgs) StdoutLine: {'line': b"20: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[9.118299] (drive_base_msgs) StdoutLine: {'line': b'20:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs\n'}
+[9.129884] (-) TimerEvent: {}
+[9.230199] (-) TimerEvent: {}
+[9.330483] (-) TimerEvent: {}
+[9.405935] (drive_base_msgs) StdoutLine: {'line': b"20: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp' argument\n"}
+[9.406231] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.406367] (drive_base_msgs) StdoutLine: {'line': b'20: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.406500] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.406653] (drive_base_msgs) StdoutLine: {'line': b'20: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__type_support.cpp\n'}
+[9.406776] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.406893] (drive_base_msgs) StdoutLine: {'line': b'20: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.407015] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.407132] (drive_base_msgs) StdoutLine: {'line': b'20: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__type_support.cpp\n'}
+[9.407252] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.407369] (drive_base_msgs) StdoutLine: {'line': b'20: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.407489] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.407647] (drive_base_msgs) StdoutLine: {'line': b'20: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__type_support.cpp\n'}
+[9.407773] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.407891] (drive_base_msgs) StdoutLine: {'line': b'20: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.408012] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.408130] (drive_base_msgs) StdoutLine: {'line': b'20: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__type_support.cpp\n'}
+[9.408250] (drive_base_msgs) StdoutLine: {'line': b'20: \n'}
+[9.408390] (drive_base_msgs) StdoutLine: {'line': b'20: No problems found\n'}
+[9.420872] (drive_base_msgs) StdoutLine: {'line': b'20: -- run_test.py: return code 0\n'}
+[9.421233] (drive_base_msgs) StdoutLine: {'line': b"20: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml'\n"}
+[9.430644] (-) TimerEvent: {}
+[9.432544] (drive_base_msgs) StdoutLine: {'line': b'20/29 Test #20: cpplint_rosidl_typesupport_introspection_cpp ......   Passed    0.36 sec\n'}
+[9.432908] (drive_base_msgs) StdoutLine: {'line': b'test 21\n'}
+[9.433046] (drive_base_msgs) StdoutLine: {'line': b'      Start 21: uncrustify_rosidl_typesupport_introspection_cpp\n'}
+[9.433170] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[9.433291] (drive_base_msgs) StdoutLine: {'line': b'21: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs"\n'}
+[9.433425] (drive_base_msgs) StdoutLine: {'line': b'21: Test timeout computed to be: 60\n'}
+[9.495916] (drive_base_msgs) StdoutLine: {'line': b"21: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[9.496158] (drive_base_msgs) StdoutLine: {'line': b'21:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs\n'}
+[9.530800] (-) TimerEvent: {}
+[9.605890] (drive_base_msgs) StdoutLine: {'line': b"21: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp'\n"}
+[9.606367] (drive_base_msgs) StdoutLine: {'line': b'21: \n'}
+[9.606592] (drive_base_msgs) StdoutLine: {'line': b"21: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__type_support.cpp'\n"}
+[9.606790] (drive_base_msgs) StdoutLine: {'line': b'21: \n'}
+[9.606964] (drive_base_msgs) StdoutLine: {'line': b"21: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp'\n"}
+[9.607138] (drive_base_msgs) StdoutLine: {'line': b'21: \n'}
+[9.607309] (drive_base_msgs) StdoutLine: {'line': b"21: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__type_support.cpp'\n"}
+[9.607487] (drive_base_msgs) StdoutLine: {'line': b'21: \n'}
+[9.607693] (drive_base_msgs) StdoutLine: {'line': b"21: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp'\n"}
+[9.607874] (drive_base_msgs) StdoutLine: {'line': b'21: \n'}
+[9.608066] (drive_base_msgs) StdoutLine: {'line': b"21: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__type_support.cpp'\n"}
+[9.608235] (drive_base_msgs) StdoutLine: {'line': b'21: \n'}
+[9.608403] (drive_base_msgs) StdoutLine: {'line': b"21: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp'\n"}
+[9.608602] (drive_base_msgs) StdoutLine: {'line': b'21: \n'}
+[9.608790] (drive_base_msgs) StdoutLine: {'line': b"21: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__type_support.cpp'\n"}
+[9.608963] (drive_base_msgs) StdoutLine: {'line': b'21: \n'}
+[9.609131] (drive_base_msgs) StdoutLine: {'line': b'21: No problems found\n'}
+[9.618393] (drive_base_msgs) StdoutLine: {'line': b'21: -- run_test.py: return code 0\n'}
+[9.618745] (drive_base_msgs) StdoutLine: {'line': b"21: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml'\n"}
+[9.628176] (drive_base_msgs) StdoutLine: {'line': b'21/29 Test #21: uncrustify_rosidl_typesupport_introspection_cpp ...   Passed    0.20 sec\n'}
+[9.628667] (drive_base_msgs) StdoutLine: {'line': b'test 22\n'}
+[9.628894] (drive_base_msgs) StdoutLine: {'line': b'      Start 22: cppcheck_rosidl_typesupport_cpp\n'}
+[9.629078] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[9.629250] (drive_base_msgs) StdoutLine: {'line': b'22: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_cpp.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs"\n'}
+[9.629476] (drive_base_msgs) StdoutLine: {'line': b'22: Test timeout computed to be: 300\n'}
+[9.630919] (-) TimerEvent: {}
+[9.683878] (drive_base_msgs) StdoutLine: {'line': b"22: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[9.684162] (drive_base_msgs) StdoutLine: {'line': b'22:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_cpp.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs\n'}
+[9.731071] (-) TimerEvent: {}
+[9.760246] (drive_base_msgs) StdoutLine: {'line': b'22: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[9.773747] (drive_base_msgs) StdoutLine: {'line': b'22: -- run_test.py: return code 0\n'}
+[9.773957] (drive_base_msgs) StdoutLine: {'line': b"22: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_typesupport_cpp.xunit.xml'\n"}
+[9.783271] (drive_base_msgs) StdoutLine: {'line': b'22/29 Test #22: cppcheck_rosidl_typesupport_cpp ...................   Passed    0.16 sec\n'}
+[9.783561] (drive_base_msgs) StdoutLine: {'line': b'test 23\n'}
+[9.783679] (drive_base_msgs) StdoutLine: {'line': b'      Start 23: cpplint_rosidl_typesupport_cpp\n'}
+[9.783791] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[9.783884] (drive_base_msgs) StdoutLine: {'line': b'23: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs"\n'}
+[9.784013] (drive_base_msgs) StdoutLine: {'line': b'23: Test timeout computed to be: 120\n'}
+[9.831207] (-) TimerEvent: {}
+[9.847583] (drive_base_msgs) StdoutLine: {'line': b"23: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[9.847861] (drive_base_msgs) StdoutLine: {'line': b'23:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs\n'}
+[9.931357] (-) TimerEvent: {}
+[10.028868] (drive_base_msgs) StdoutLine: {'line': b"23: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp' argument\n"}
+[10.029165] (drive_base_msgs) StdoutLine: {'line': b'23: \n'}
+[10.029307] (drive_base_msgs) StdoutLine: {'line': b'23: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs/msg/base_info__type_support.cpp\n'}
+[10.029432] (drive_base_msgs) StdoutLine: {'line': b'23: \n'}
+[10.029583] (drive_base_msgs) StdoutLine: {'line': b'23: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs/msg/command_header__type_support.cpp\n'}
+[10.029785] (drive_base_msgs) StdoutLine: {'line': b'23: \n'}
+[10.029970] (drive_base_msgs) StdoutLine: {'line': b'23: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs/msg/command_status__type_support.cpp\n'}
+[10.030152] (drive_base_msgs) StdoutLine: {'line': b'23: \n'}
+[10.030281] (drive_base_msgs) StdoutLine: {'line': b'23: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs/msg/trv_command__type_support.cpp\n'}
+[10.030459] (drive_base_msgs) StdoutLine: {'line': b'23: \n'}
+[10.030673] (drive_base_msgs) StdoutLine: {'line': b'23: No problems found\n'}
+[10.031477] (-) TimerEvent: {}
+[10.040684] (drive_base_msgs) StdoutLine: {'line': b'23: -- run_test.py: return code 0\n'}
+[10.040972] (drive_base_msgs) StdoutLine: {'line': b"23: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml'\n"}
+[10.051323] (drive_base_msgs) StdoutLine: {'line': b'23/29 Test #23: cpplint_rosidl_typesupport_cpp ....................   Passed    0.27 sec\n'}
+[10.051635] (drive_base_msgs) StdoutLine: {'line': b'test 24\n'}
+[10.051781] (drive_base_msgs) StdoutLine: {'line': b'      Start 24: uncrustify_rosidl_typesupport_cpp\n'}
+[10.051905] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[10.052023] (drive_base_msgs) StdoutLine: {'line': b'24: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_cpp.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_cpp.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs"\n'}
+[10.052177] (drive_base_msgs) StdoutLine: {'line': b'24: Test timeout computed to be: 60\n'}
+[10.102833] (drive_base_msgs) StdoutLine: {'line': b"24: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[10.102963] (drive_base_msgs) StdoutLine: {'line': b'24:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_cpp.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs\n'}
+[10.131589] (-) TimerEvent: {}
+[10.190262] (drive_base_msgs) StdoutLine: {'line': b"24: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs/msg/base_info__type_support.cpp'\n"}
+[10.190573] (drive_base_msgs) StdoutLine: {'line': b'24: \n'}
+[10.190729] (drive_base_msgs) StdoutLine: {'line': b"24: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs/msg/command_header__type_support.cpp'\n"}
+[10.190857] (drive_base_msgs) StdoutLine: {'line': b'24: \n'}
+[10.190976] (drive_base_msgs) StdoutLine: {'line': b"24: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs/msg/command_status__type_support.cpp'\n"}
+[10.191116] (drive_base_msgs) StdoutLine: {'line': b'24: \n'}
+[10.191281] (drive_base_msgs) StdoutLine: {'line': b"24: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_typesupport_cpp/drive_base_msgs/msg/trv_command__type_support.cpp'\n"}
+[10.191485] (drive_base_msgs) StdoutLine: {'line': b'24: \n'}
+[10.191718] (drive_base_msgs) StdoutLine: {'line': b'24: No problems found\n'}
+[10.202745] (drive_base_msgs) StdoutLine: {'line': b'24: -- run_test.py: return code 0\n'}
+[10.203117] (drive_base_msgs) StdoutLine: {'line': b"24: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_typesupport_cpp.xunit.xml'\n"}
+[10.213292] (drive_base_msgs) StdoutLine: {'line': b'24/29 Test #24: uncrustify_rosidl_typesupport_cpp .................   Passed    0.16 sec\n'}
+[10.213946] (drive_base_msgs) StdoutLine: {'line': b'test 25\n'}
+[10.214163] (drive_base_msgs) StdoutLine: {'line': b'      Start 25: cppcheck_rosidl_generated_py\n'}
+[10.214361] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[10.214574] (drive_base_msgs) StdoutLine: {'line': b'25: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_py.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cppcheck/cppcheck_rosidl_generated_py.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_py.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs"\n'}
+[10.214756] (drive_base_msgs) StdoutLine: {'line': b'25: Test timeout computed to be: 300\n'}
+[10.231749] (-) TimerEvent: {}
+[10.274562] (drive_base_msgs) StdoutLine: {'line': b"25: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[10.274866] (drive_base_msgs) StdoutLine: {'line': b'25:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_py.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs\n'}
+[10.331882] (-) TimerEvent: {}
+[10.342021] (drive_base_msgs) StdoutLine: {'line': b'25: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[10.355809] (drive_base_msgs) StdoutLine: {'line': b'25: -- run_test.py: return code 0\n'}
+[10.356090] (drive_base_msgs) StdoutLine: {'line': b"25: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cppcheck_rosidl_generated_py.xunit.xml'\n"}
+[10.366907] (drive_base_msgs) StdoutLine: {'line': b'25/29 Test #25: cppcheck_rosidl_generated_py ......................   Passed    0.15 sec\n'}
+[10.367061] (drive_base_msgs) StdoutLine: {'line': b'test 26\n'}
+[10.367108] (drive_base_msgs) StdoutLine: {'line': b'      Start 26: cpplint_rosidl_generated_py\n'}
+[10.367152] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[10.367193] (drive_base_msgs) StdoutLine: {'line': b'26: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_py.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_cpplint/cpplint_rosidl_generated_py.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_py.xunit.xml" "--filters=-readability/fn_size" "--linelength" "999" "--root" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs"\n'}
+[10.367243] (drive_base_msgs) StdoutLine: {'line': b'26: Test timeout computed to be: 120\n'}
+[10.423104] (drive_base_msgs) StdoutLine: {'line': b"26: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[10.423335] (drive_base_msgs) StdoutLine: {'line': b'26:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_py.xunit.xml --filters=-readability/fn_size --linelength 999 --root /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs\n'}
+[10.432005] (-) TimerEvent: {}
+[10.532275] (-) TimerEvent: {}
+[10.632594] (-) TimerEvent: {}
+[10.732883] (-) TimerEvent: {}
+[10.833174] (-) TimerEvent: {}
+[10.910767] (drive_base_msgs) StdoutLine: {'line': b"26: Using '--root=/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py' argument\n"}
+[10.911082] (drive_base_msgs) StdoutLine: {'line': b'26: \n'}
+[10.911277] (drive_base_msgs) StdoutLine: {'line': b'26: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[10.911407] (drive_base_msgs) StdoutLine: {'line': b'26: \n'}
+[10.911594] (drive_base_msgs) StdoutLine: {'line': b'26: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.911824] (drive_base_msgs) StdoutLine: {'line': b'26: \n'}
+[10.911947] (drive_base_msgs) StdoutLine: {'line': b'26: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.912191] (drive_base_msgs) StdoutLine: {'line': b'26: \n'}
+[10.912370] (drive_base_msgs) StdoutLine: {'line': b'26: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_base_info_s.c\n'}
+[10.912497] (drive_base_msgs) StdoutLine: {'line': b'26: \n'}
+[10.912768] (drive_base_msgs) StdoutLine: {'line': b'26: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_header_s.c\n'}
+[10.912966] (drive_base_msgs) StdoutLine: {'line': b'26: \n'}
+[10.913147] (drive_base_msgs) StdoutLine: {'line': b'26: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_status_s.c\n'}
+[10.913318] (drive_base_msgs) StdoutLine: {'line': b'26: \n'}
+[10.913498] (drive_base_msgs) StdoutLine: {'line': b'26: Done processing /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_trv_command_s.c\n'}
+[10.913677] (drive_base_msgs) StdoutLine: {'line': b'26: \n'}
+[10.913795] (drive_base_msgs) StdoutLine: {'line': b'26: No problems found\n'}
+[10.924455] (drive_base_msgs) StdoutLine: {'line': b'26: -- run_test.py: return code 0\n'}
+[10.924757] (drive_base_msgs) StdoutLine: {'line': b"26: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/cpplint_rosidl_generated_py.xunit.xml'\n"}
+[10.933318] (-) TimerEvent: {}
+[10.944119] (drive_base_msgs) StdoutLine: {'line': b'26/29 Test #26: cpplint_rosidl_generated_py .......................   Passed    0.58 sec\n'}
+[10.944763] (drive_base_msgs) StdoutLine: {'line': b'test 27\n'}
+[10.944975] (drive_base_msgs) StdoutLine: {'line': b'      Start 27: flake8_rosidl_generated_py\n'}
+[10.945182] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[10.945437] (drive_base_msgs) StdoutLine: {'line': b'27: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/flake8_rosidl_generated_py.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_flake8/flake8_rosidl_generated_py.txt" "--command" "/opt/ros/iron/bin/ament_flake8" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/flake8_rosidl_generated_py.xunit.xml" "--linelength" "999" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs"\n'}
+[10.945714] (drive_base_msgs) StdoutLine: {'line': b'27: Test timeout computed to be: 60\n'}
+[11.004275] (drive_base_msgs) StdoutLine: {'line': b"27: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[11.004444] (drive_base_msgs) StdoutLine: {'line': b'27:  - /opt/ros/iron/bin/ament_flake8 --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/flake8_rosidl_generated_py.xunit.xml --linelength 999 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs\n'}
+[11.033455] (-) TimerEvent: {}
+[11.133760] (-) TimerEvent: {}
+[11.234037] (-) TimerEvent: {}
+[11.294431] (drive_base_msgs) StdoutLine: {'line': b'27: \n'}
+[11.294600] (drive_base_msgs) StdoutLine: {'line': b'27: 6 files checked\n'}
+[11.294666] (drive_base_msgs) StdoutLine: {'line': b'27: No problems found\n'}
+[11.294737] (drive_base_msgs) StdoutLine: {'line': b'27: \n'}
+[11.294795] (drive_base_msgs) StdoutLine: {'line': b'27: Checked files:\n'}
+[11.294853] (drive_base_msgs) StdoutLine: {'line': b'27: \n'}
+[11.294910] (drive_base_msgs) StdoutLine: {'line': b'27: * /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/__init__.py\n'}
+[11.294970] (drive_base_msgs) StdoutLine: {'line': b'27: * /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_status.py\n'}
+[11.295029] (drive_base_msgs) StdoutLine: {'line': b'27: * /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_header.py\n'}
+[11.295086] (drive_base_msgs) StdoutLine: {'line': b'27: * /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_trv_command.py\n'}
+[11.295144] (drive_base_msgs) StdoutLine: {'line': b'27: * /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_base_info.py\n'}
+[11.295202] (drive_base_msgs) StdoutLine: {'line': b'27: * /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/__init__.py\n'}
+[11.334195] (-) TimerEvent: {}
+[11.339665] (drive_base_msgs) StdoutLine: {'line': b'27: -- run_test.py: return code 0\n'}
+[11.339799] (drive_base_msgs) StdoutLine: {'line': b"27: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/flake8_rosidl_generated_py.xunit.xml'\n"}
+[11.358330] (drive_base_msgs) StdoutLine: {'line': b'27/29 Test #27: flake8_rosidl_generated_py ........................   Passed    0.41 sec\n'}
+[11.358641] (drive_base_msgs) StdoutLine: {'line': b'test 28\n'}
+[11.358792] (drive_base_msgs) StdoutLine: {'line': b'      Start 28: pep257_rosidl_generated_py\n'}
+[11.358928] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[11.359068] (drive_base_msgs) StdoutLine: {'line': b'28: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/pep257_rosidl_generated_py.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_pep257/pep257_rosidl_generated_py.txt" "--command" "/opt/ros/iron/bin/ament_pep257" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/pep257_rosidl_generated_py.xunit.xml" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs"\n'}
+[11.359232] (drive_base_msgs) StdoutLine: {'line': b'28: Test timeout computed to be: 60\n'}
+[11.423112] (drive_base_msgs) StdoutLine: {'line': b"28: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[11.423399] (drive_base_msgs) StdoutLine: {'line': b'28:  - /opt/ros/iron/bin/ament_pep257 --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/pep257_rosidl_generated_py.xunit.xml /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs\n'}
+[11.434345] (-) TimerEvent: {}
+[11.534621] (-) TimerEvent: {}
+[11.586738] (drive_base_msgs) StdoutLine: {'line': b'28: checking /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/__init__.py\n'}
+[11.586914] (drive_base_msgs) StdoutLine: {'line': b'28: checking /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/__init__.py\n'}
+[11.586981] (drive_base_msgs) StdoutLine: {'line': b'28: checking /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_base_info.py\n'}
+[11.587069] (drive_base_msgs) StdoutLine: {'line': b'28: checking /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_header.py\n'}
+[11.587137] (drive_base_msgs) StdoutLine: {'line': b'28: checking /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_status.py\n'}
+[11.587204] (drive_base_msgs) StdoutLine: {'line': b'28: checking /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_trv_command.py\n'}
+[11.587263] (drive_base_msgs) StdoutLine: {'line': b'28: No problems found\n'}
+[11.610678] (drive_base_msgs) StdoutLine: {'line': b'28: -- run_test.py: return code 0\n'}
+[11.610832] (drive_base_msgs) StdoutLine: {'line': b"28: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/pep257_rosidl_generated_py.xunit.xml'\n"}
+[11.622378] (drive_base_msgs) StdoutLine: {'line': b'28/29 Test #28: pep257_rosidl_generated_py ........................   Passed    0.26 sec\n'}
+[11.622720] (drive_base_msgs) StdoutLine: {'line': b'test 29\n'}
+[11.622824] (drive_base_msgs) StdoutLine: {'line': b'      Start 29: uncrustify_rosidl_generated_py\n'}
+[11.622916] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[11.623005] (drive_base_msgs) StdoutLine: {'line': b'29: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_py.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_generated_py.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_py.xunit.xml" "--linelength" "0" "/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs"\n'}
+[11.623106] (drive_base_msgs) StdoutLine: {'line': b'29: Test timeout computed to be: 60\n'}
+[11.634770] (-) TimerEvent: {}
+[11.677331] (drive_base_msgs) StdoutLine: {'line': b"29: -- run_test.py: invoking following command in '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/src/uros/drive_base/drive_base_msgs':\n"}
+[11.677646] (drive_base_msgs) StdoutLine: {'line': b'29:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_py.xunit.xml --linelength 0 /home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs\n'}
+[11.734900] (-) TimerEvent: {}
+[11.798030] (drive_base_msgs) StdoutLine: {'line': b"29: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c'\n"}
+[11.798332] (drive_base_msgs) StdoutLine: {'line': b'29: \n'}
+[11.798469] (drive_base_msgs) StdoutLine: {'line': b"29: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c'\n"}
+[11.798644] (drive_base_msgs) StdoutLine: {'line': b'29: \n'}
+[11.798768] (drive_base_msgs) StdoutLine: {'line': b"29: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c'\n"}
+[11.798889] (drive_base_msgs) StdoutLine: {'line': b'29: \n'}
+[11.799005] (drive_base_msgs) StdoutLine: {'line': b"29: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_base_info_s.c'\n"}
+[11.799126] (drive_base_msgs) StdoutLine: {'line': b'29: \n'}
+[11.799267] (drive_base_msgs) StdoutLine: {'line': b"29: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_header_s.c'\n"}
+[11.799384] (drive_base_msgs) StdoutLine: {'line': b'29: \n'}
+[11.799499] (drive_base_msgs) StdoutLine: {'line': b"29: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_command_status_s.c'\n"}
+[11.799690] (drive_base_msgs) StdoutLine: {'line': b'29: \n'}
+[11.799810] (drive_base_msgs) StdoutLine: {'line': b"29: No code style divergence in file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/msg/_trv_command_s.c'\n"}
+[11.799929] (drive_base_msgs) StdoutLine: {'line': b'29: \n'}
+[11.800044] (drive_base_msgs) StdoutLine: {'line': b'29: No problems found\n'}
+[11.815556] (drive_base_msgs) StdoutLine: {'line': b'29: -- run_test.py: return code 0\n'}
+[11.815876] (drive_base_msgs) StdoutLine: {'line': b"29: -- run_test.py: verify result file '/home/duong/Arduino/ROS2_ServiceRobot/uros_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_py.xunit.xml'\n"}
+[11.826520] (drive_base_msgs) StdoutLine: {'line': b'29/29 Test #29: uncrustify_rosidl_generated_py ....................   Passed    0.20 sec\n'}
+[11.827241] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[11.827321] (drive_base_msgs) StdoutLine: {'line': b'100% tests passed, 0 tests failed out of 29\n'}
+[11.827367] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[11.827409] (drive_base_msgs) StdoutLine: {'line': b'Label Time Summary:\n'}
+[11.827450] (drive_base_msgs) StdoutLine: {'line': b'cppcheck      =   1.99 sec*proc (9 tests)\n'}
+[11.827498] (drive_base_msgs) StdoutLine: {'line': b'cpplint       =   6.79 sec*proc (9 tests)\n'}
+[11.827562] (drive_base_msgs) StdoutLine: {'line': b'flake8        =   0.41 sec*proc (1 test)\n'}
+[11.827605] (drive_base_msgs) StdoutLine: {'line': b'linter        =  11.74 sec*proc (29 tests)\n'}
+[11.827645] (drive_base_msgs) StdoutLine: {'line': b'pep257        =   0.26 sec*proc (1 test)\n'}
+[11.827686] (drive_base_msgs) StdoutLine: {'line': b'uncrustify    =   2.28 sec*proc (9 tests)\n'}
+[11.827726] (drive_base_msgs) StdoutLine: {'line': b'\n'}
+[11.827767] (drive_base_msgs) StdoutLine: {'line': b'Total Test time (real) =  11.75 sec\n'}
+[11.835008] (-) TimerEvent: {}
+[11.847679] (drive_base_msgs) CommandEnded: {'returncode': 0}
+[11.848164] (drive_base_msgs) JobEnded: {'identifier': 'drive_base_msgs', 'rc': 0}
+[11.848745] (-) EventReactorShutdown: {}

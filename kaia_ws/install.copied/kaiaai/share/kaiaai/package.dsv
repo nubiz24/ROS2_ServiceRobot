@@ -1,0 +1,9 @@
+source;share/kaiaai/hook/pythonpath.ps1
+source;share/kaiaai/hook/pythonpath.dsv
+source;share/kaiaai/hook/pythonpath.sh
+source;share/kaiaai/hook/ament_prefix_path.ps1
+source;share/kaiaai/hook/ament_prefix_path.dsv
+source;share/kaiaai/hook/ament_prefix_path.sh
+source;../../build/kaiaai/share/kaiaai/hook/pythonpath_develop.ps1
+source;../../build/kaiaai/share/kaiaai/hook/pythonpath_develop.dsv
+source;../../build/kaiaai/share/kaiaai/hook/pythonpath_develop.sh

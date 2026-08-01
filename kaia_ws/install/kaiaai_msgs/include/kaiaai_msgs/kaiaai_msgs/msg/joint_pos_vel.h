@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/rosidl_generator_c/kaiaai_msgs/msg/joint_pos_vel.h

@@ -1,0 +1,1 @@
+/home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

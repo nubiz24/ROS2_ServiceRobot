@@ -1,0 +1,1 @@
+/home/duong/kaia_ws/build/makerspet_mini/ament_cmake_core/makerspet_miniConfig-version.cmake

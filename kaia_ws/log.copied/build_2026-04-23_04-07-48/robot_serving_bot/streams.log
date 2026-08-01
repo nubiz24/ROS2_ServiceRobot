@@ -1,0 +1,68 @@
+[0.024s] Invoking command in '/home/duong/kaia_ws/build/robot_serving_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/kaia_ws/src/robot_serving_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/kaia_ws/install/robot_serving_bot
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.287s] -- Detecting C compiler ABI info
+[0.439s] -- Detecting C compiler ABI info - done
+[0.451s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.451s] -- Detecting C compile features
+[0.452s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.638s] -- Detecting CXX compiler ABI info - done
+[0.649s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.650s] -- Detecting CXX compile features
+[0.650s] -- Detecting CXX compile features - done
+[0.658s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.029s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.277s] -- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+[1.532s] -- Configuring done
+[1.537s] -- Generating done
+[1.540s] -- Build files have been written to: /home/duong/kaia_ws/build/robot_serving_bot
+[1.551s] Invoked command in '/home/duong/kaia_ws/build/robot_serving_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake /home/duong/kaia_ws/src/robot_serving_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/duong/kaia_ws/install/robot_serving_bot
+[1.556s] Invoking command in '/home/duong/kaia_ws/build/robot_serving_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/robot_serving_bot -- -j12 -l12
+[1.628s] Invoked command in '/home/duong/kaia_ws/build/robot_serving_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --build /home/duong/kaia_ws/build/robot_serving_bot -- -j12 -l12
+[1.653s] Invoking command in '/home/duong/kaia_ws/build/robot_serving_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/robot_serving_bot
+[1.670s] -- Install configuration: ""
+[1.671s] -- Execute custom install script
+[1.671s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/cartographer.rviz
+[1.672s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/gazebo.rviz
+[1.672s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/inspect_urdf.rviz
+[1.672s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/monitor_robot.rviz
+[1.672s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/monitor_robot_old.rviz
+[1.672s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/rviz/navigation.rviz
+[1.672s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/urdf/robot.urdf.xacro
+[1.673s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/mesh/hemisphere.stl
+[1.673s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/model.config
+[1.673s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/sdf/makerspet_mini/model.sdf
+[1.674s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/README.md
+[1.674s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/cartographer_lds_2d.lua
+[1.674s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/etc/navigation_humble.yaml
+[1.674s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/etc/navigation_iron.yaml
+[1.674s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/explore_lite.yaml
+[1.675s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/kaiaai.yaml
+[1.675s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation.yaml
+[1.675s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation_new.yaml
+[1.675s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/navigation_pursuit.yaml
+[1.675s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/self_drive_gazebo.yaml
+[1.676s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/telem.yaml
+[1.676s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/config/teleop_keyboard.yaml
+[1.676s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/meshes/base.stl
+[1.676s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/meshes/left_wheel.stl
+[1.676s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/meshes/lidar.stl
+[1.676s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/meshes/right_wheel.stl
+[1.677s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/ament_index/resource_index/package_run_dependencies/robot_serving_bot
+[1.677s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/ament_index/resource_index/parent_prefix_path/robot_serving_bot
+[1.677s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/environment/ament_prefix_path.sh
+[1.677s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/environment/ament_prefix_path.dsv
+[1.677s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/environment/path.sh
+[1.678s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/environment/path.dsv
+[1.678s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/local_setup.bash
+[1.678s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/local_setup.sh
+[1.678s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/local_setup.zsh
+[1.679s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/local_setup.dsv
+[1.679s] -- Symlinking: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/package.dsv
+[1.698s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/ament_index/resource_index/packages/robot_serving_bot
+[1.698s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/cmake/robot_serving_botConfig.cmake
+[1.698s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/cmake/robot_serving_botConfig-version.cmake
+[1.698s] -- Up-to-date symlink: /home/duong/kaia_ws/install/robot_serving_bot/share/robot_serving_bot/package.xml
+[1.702s] Invoked command in '/home/duong/kaia_ws/build/robot_serving_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duong/kaia_ws/install/nav2_wfd:/home/duong/kaia_ws/install/makerspet:/home/duong/kaia_ws/install/kaiaai_web:/home/duong/kaia_ws/install/kaiaai_teleop:/home/duong/kaia_ws/install/kaiaai_apps:/home/duong/kaia_ws/install/kaiaai:/opt/ros/iron /usr/bin/cmake --install /home/duong/kaia_ws/build/robot_serving_bot

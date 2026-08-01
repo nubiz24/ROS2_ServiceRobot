@@ -1,0 +1,194 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/.pytest_cache
+rootdir: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/src/kaiaai_web
+plugins: launch-testing-ros-0.24.2, ament-flake8-0.14.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-copyright-0.14.4, ament-lint-0.14.4, launch-testing-2.0.4, cov-3.0.0, colcon-core-0.20.1
+collected 3 items
+
+test/test_copyright.py s                                                 [ 33%]
+test/test_flake8.py F                                                    [ 66%]
+test/test_pep257.py F                                                    [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_flake8 __________________________________
+test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 24 code style errors / warnings:
+E     ./setup.py:15:100: E501 line too long (101 > 99 characters)
+E     ./launch/web_server.launch.py:17:1: F401 're' imported but unused
+E     ./launch/web_server.launch.py:17:10: E401 multiple imports on one line
+E     ./launch/web_server.launch.py:37:23: E251 unexpected spaces around keyword / parameter equals
+E     ./launch/web_server.launch.py:37:25: E251 unexpected spaces around keyword / parameter equals
+E     ./launch/web_server.launch.py:42:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai_web/server.py:1:1: F401 'argparse' imported but unused
+E     ./kaiaai_web/server.py:20:1: F401 'OpenSSL.SSL' imported but unused
+E     ./kaiaai_web/server.py:38:7: E128 continuation line under-indented for visual indent
+E     ./kaiaai_web/server.py:38:100: E501 line too long (100 > 99 characters)
+E     ./kaiaai_web/server.py:39:7: E128 continuation line under-indented for visual indent
+E     ./kaiaai_web/server.py:40:7: E128 continuation line under-indented for visual indent
+E     ./kaiaai_web/server.py:41:7: E128 continuation line under-indented for visual indent
+E     ./kaiaai_web/server.py:45:1: E302 expected 2 blank lines, found 1
+E     ./kaiaai_web/server.py:46:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_web/server.py:47:3: E111 indentation is not a multiple of 4
+E     ./kaiaai_web/server.py:47:9: E711 comparison to None should be 'if cond is not None:'
+E     ./kaiaai_web/server.py:160:9: E306 expected 1 blank line before a nested definition, found 0
+E     ./kaiaai_web/server.py:275:6: E111 indentation is not a multiple of 4
+E     ./kaiaai_web/server.py:275:6: E117 over-indented
+E     ./kaiaai_web/server.py:288:5: E125 continuation line with same indent as next logical line
+E     ./kaiaai_web/server.py:289:5: E265 block comment should start with '# '
+E     ./kaiaai_web/server.py:290:5: E265 block comment should start with '# '
+E     ./kaiaai_web/server.py:297:24: E741 ambiguous variable name 'O'
+E   assert 1 == 0
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:15:100: E501 line too long (101 > 99 characters)
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.launch.py'))),
+                                                                                                   ^
+
+./launch/web_server.launch.py:17:1: F401 're' imported but unused
+import os, re
+^
+
+./launch/web_server.launch.py:17:10: E401 multiple imports on one line
+import os, re
+         ^
+
+./launch/web_server.launch.py:37:23: E251 unexpected spaces around keyword / parameter equals
+            parameters = [web_server_config_path],
+                      ^
+
+./launch/web_server.launch.py:37:25: E251 unexpected spaces around keyword / parameter equals
+            parameters = [web_server_config_path],
+                        ^
+
+./launch/web_server.launch.py:42:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./kaiaai_web/server.py:1:1: F401 'argparse' imported but unused
+import argparse
+^
+
+./kaiaai_web/server.py:20:1: F401 'OpenSSL.SSL' imported but unused
+from OpenSSL import crypto, SSL
+^
+
+./kaiaai_web/server.py:38:7: E128 continuation line under-indented for visual indent
+      "default", "determined", "embarrased", "evil", "excited", "exhausted", "flustered", "furious",
+      ^
+
+./kaiaai_web/server.py:38:100: E501 line too long (100 > 99 characters)
+      "default", "determined", "embarrased", "evil", "excited", "exhausted", "flustered", "furious",
+                                                                                                   ^
+
+./kaiaai_web/server.py:39:7: E128 continuation line under-indented for visual indent
+      "giggle", "happy", "in-love", "mischievous", "realized-something", "sad", "sassy", "scared",
+      ^
+
+./kaiaai_web/server.py:40:7: E128 continuation line under-indented for visual indent
+      "shocked", "snoozing", "starstruck", "stuck-up", "thinking", "tired", "upset", "winking",
+      ^
+
+./kaiaai_web/server.py:41:7: E128 continuation line under-indented for visual indent
+      "wow"]
+      ^
+
+./kaiaai_web/server.py:45:1: E302 expected 2 blank lines, found 1
+async def send_webrtc_message(msg):
+^
+
+./kaiaai_web/server.py:46:3: E111 indentation is not a multiple of 4
+  global dc
+  ^
+
+./kaiaai_web/server.py:47:3: E111 indentation is not a multiple of 4
+  if dc != None:
+  ^
+
+./kaiaai_web/server.py:47:9: E711 comparison to None should be 'if cond is not None:'
+  if dc != None:
+        ^
+
+./kaiaai_web/server.py:160:9: E306 expected 1 blank line before a nested definition, found 0
+        @channel.on("message")
+        ^
+
+./kaiaai_web/server.py:275:6: E111 indentation is not a multiple of 4
+     rclpy.spin(ros2_bridge_node)
+     ^
+
+./kaiaai_web/server.py:275:6: E117 over-indented
+     rclpy.spin(ros2_bridge_node)
+     ^
+
+./kaiaai_web/server.py:288:5: E125 continuation line with same indent as next logical line
+    validityEndInSeconds=10*365*24*60*60):
+    ^
+
+./kaiaai_web/server.py:289:5: E265 block comment should start with '# '
+    #can look at generated file using openssl:
+    ^
+
+./kaiaai_web/server.py:290:5: E265 block comment should start with '# '
+    #openssl x509 -inform pem -in selfsigned.crt -noout -text
+    ^
+
+./kaiaai_web/server.py:297:24: E741 ambiguous variable name 'O'
+    cert.get_subject().O = organizationName
+                       ^
+
+3     E111 indentation is not a multiple of 4
+1     E117 over-indented
+1     E125 continuation line with same indent as next logical line
+4     E128 continuation line under-indented for visual indent
+2     E251 unexpected spaces around keyword / parameter equals
+2     E265 block comment should start with '# '
+2     E302 expected 2 blank lines, found 1
+1     E306 expected 1 blank line before a nested definition, found 0
+1     E401 multiple imports on one line
+2     E501 line too long (100 > 99 characters)
+1     E711 comparison to None should be 'if cond is not None:'
+1     E741 ambiguous variable name 'O'
+3     F401 'argparse' imported but unused
+
+7 files checked
+24 errors
+
+'E'-type errors: 21
+'F'-type errors: 3
+
+Checked files:
+
+* ./setup.py
+* ./launch/web_server.launch.py
+* ./kaiaai_web/server.py
+* ./kaiaai_web/__init__.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+_________________________________ test_pep257 __________________________________
+test/test_pep257.py:23: in test_pep257
+    assert rc == 0, 'Found code style errors / warnings'
+E   AssertionError: Found code style errors / warnings
+E   assert 1 == 0
+----------------------------- Captured stdout call -----------------------------
+checking ./kaiaai_web/__init__.py
+checking ./kaiaai_web/server.py
+checking ./launch/web_server.launch.py
+checking ./setup.py
+checking ./test/test_copyright.py
+checking ./test/test_flake8.py
+checking ./test/test_pep257.py
+checking test/test_copyright.py
+checking test/test_flake8.py
+checking test/test_pep257.py
+----------------------------- Captured stderr call -----------------------------
+./kaiaai_web/server.py:52 in public class `VideoTransformTrack`: D200: One-line docstring should fit on one line with quotes (found 3)
+1 errors
+- generated xml file: /home/duong/Arduino/ROS2_ServiceRobot/kaia_ws/build/kaiaai_web/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 24 code style...
+FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+=================== 2 failed, 1 skipped, 2 warnings in 0.59s ===================

@@ -1,0 +1,8 @@
+source;share/kaiaai_telemetry/hook/cmake_prefix_path.ps1
+source;share/kaiaai_telemetry/hook/cmake_prefix_path.dsv
+source;share/kaiaai_telemetry/hook/cmake_prefix_path.sh
+source;share/kaiaai_telemetry/local_setup.bash
+source;share/kaiaai_telemetry/local_setup.dsv
+source;share/kaiaai_telemetry/local_setup.ps1
+source;share/kaiaai_telemetry/local_setup.sh
+source;share/kaiaai_telemetry/local_setup.zsh

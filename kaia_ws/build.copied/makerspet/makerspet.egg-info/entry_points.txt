@@ -1,0 +1,3 @@
+[console_scripts]
+param_client = makerspet.param_client:main
+
